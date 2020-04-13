@@ -1,0 +1,7356 @@
+[
+	{
+		"ALL": {
+			"actorId": 0,
+			"overlaySize": 0,
+			"instanceSize": 2704,
+			"allocType": 0,
+			"name": "Player"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 1,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 2,
+			"overlaySize": 22704,
+			"instanceSize": 2328,
+			"allocType": 0,
+			"name": "En_Test"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 3,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 4,
+			"overlaySize": 10528,
+			"instanceSize": 452,
+			"allocType": 0,
+			"name": "En_GirlA"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 5,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 6,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 7,
+			"overlaySize": 5648,
+			"instanceSize": 332,
+			"allocType": 0,
+			"name": "En_Part"
+		},
+		"GC": {
+			"actorId": 7,
+			"overlaySize": 5728,
+			"instanceSize": 332,
+			"allocType": 0,
+			"name": "En_Part"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 8,
+			"overlaySize": 3568,
+			"instanceSize": 340,
+			"allocType": 0,
+			"name": "En_Light"
+		},
+		"GC": {
+			"actorId": 8,
+			"overlaySize": 3584,
+			"instanceSize": 340,
+			"allocType": 0,
+			"name": "En_Light"
+		}
+	},
+	{
+		"N-1.0": {
+			"actorId": 9,
+			"overlaySize": 3632,
+			"instanceSize": 456,
+			"allocType": 2,
+			"name": "En_Door"
+		},
+		"N-1.1": {
+			"actorId": 9,
+			"overlaySize": 3648,
+			"instanceSize": 456,
+			"allocType": 2,
+			"name": "En_Door"
+		},
+		"P-1.0": {
+			"actorId": 9,
+			"overlaySize": 3648,
+			"instanceSize": 456,
+			"allocType": 2,
+			"name": "En_Door"
+		},
+		"N-1.2": {
+			"actorId": 9,
+			"overlaySize": 3648,
+			"instanceSize": 456,
+			"allocType": 2,
+			"name": "En_Door"
+		},
+		"P-1.1": {
+			"actorId": 9,
+			"overlaySize": 3648,
+			"instanceSize": 456,
+			"allocType": 2,
+			"name": "En_Door"
+		},
+		"J-GC-MQDisc": {
+			"actorId": 9,
+			"overlaySize": 3648,
+			"instanceSize": 456,
+			"allocType": 2,
+			"name": "En_Door"
+		},
+		"J-MQ": {
+			"actorId": 9,
+			"overlaySize": 3648,
+			"instanceSize": 456,
+			"allocType": 2,
+			"name": "En_Door"
+		},
+		"U-GC": {
+			"actorId": 9,
+			"overlaySize": 3648,
+			"instanceSize": 456,
+			"allocType": 2,
+			"name": "En_Door"
+		},
+		"U-MQ": {
+			"actorId": 9,
+			"overlaySize": 3648,
+			"instanceSize": 456,
+			"allocType": 2,
+			"name": "En_Door"
+		},
+		"P-GC": {
+			"actorId": 9,
+			"overlaySize": 3648,
+			"instanceSize": 456,
+			"allocType": 2,
+			"name": "En_Door"
+		},
+		"P-MQ": {
+			"actorId": 9,
+			"overlaySize": 3648,
+			"instanceSize": 456,
+			"allocType": 2,
+			"name": "En_Door"
+		},
+		"J-GC-CEDisc": {
+			"actorId": 9,
+			"overlaySize": 3648,
+			"instanceSize": 456,
+			"allocType": 2,
+			"name": "En_Door"
+		},
+		"iQue": {
+			"actorId": 9,
+			"overlaySize": 3648,
+			"instanceSize": 456,
+			"allocType": 2,
+			"name": "En_Door"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 10,
+			"overlaySize": 6976,
+			"instanceSize": 492,
+			"allocType": 0,
+			"name": "En_Box"
+		},
+		"GC": {
+			"actorId": 10,
+			"overlaySize": 7008,
+			"instanceSize": 492,
+			"allocType": 0,
+			"name": "En_Box"
+		}
+	},
+	{
+		"N-1.0": {
+			"actorId": 11,
+			"overlaySize": 11600,
+			"instanceSize": 14500,
+			"allocType": 0,
+			"name": "Bg_Dy_Yoseizo"
+		},
+		"N-1.1": {
+			"actorId": 11,
+			"overlaySize": 11776,
+			"instanceSize": 14500,
+			"allocType": 0,
+			"name": "Bg_Dy_Yoseizo"
+		},
+		"P-1.0": {
+			"actorId": 11,
+			"overlaySize": 11776,
+			"instanceSize": 14500,
+			"allocType": 0,
+			"name": "Bg_Dy_Yoseizo"
+		},
+		"N-1.2": {
+			"actorId": 11,
+			"overlaySize": 11776,
+			"instanceSize": 14500,
+			"allocType": 0,
+			"name": "Bg_Dy_Yoseizo"
+		},
+		"P-1.1": {
+			"actorId": 11,
+			"overlaySize": 11776,
+			"instanceSize": 14500,
+			"allocType": 0,
+			"name": "Bg_Dy_Yoseizo"
+		},
+		"J-GC-MQDisc": {
+			"actorId": 11,
+			"overlaySize": 11760,
+			"instanceSize": 14500,
+			"allocType": 0,
+			"name": "Bg_Dy_Yoseizo"
+		},
+		"J-MQ": {
+			"actorId": 11,
+			"overlaySize": 11760,
+			"instanceSize": 14500,
+			"allocType": 0,
+			"name": "Bg_Dy_Yoseizo"
+		},
+		"U-GC": {
+			"actorId": 11,
+			"overlaySize": 11760,
+			"instanceSize": 14500,
+			"allocType": 0,
+			"name": "Bg_Dy_Yoseizo"
+		},
+		"U-MQ": {
+			"actorId": 11,
+			"overlaySize": 11760,
+			"instanceSize": 14500,
+			"allocType": 0,
+			"name": "Bg_Dy_Yoseizo"
+		},
+		"P-GC": {
+			"actorId": 11,
+			"overlaySize": 11760,
+			"instanceSize": 14500,
+			"allocType": 0,
+			"name": "Bg_Dy_Yoseizo"
+		},
+		"P-MQ": {
+			"actorId": 11,
+			"overlaySize": 11760,
+			"instanceSize": 14500,
+			"allocType": 0,
+			"name": "Bg_Dy_Yoseizo"
+		},
+		"J-GC-CEDisc": {
+			"actorId": 11,
+			"overlaySize": 11760,
+			"instanceSize": 14500,
+			"allocType": 0,
+			"name": "Bg_Dy_Yoseizo"
+		},
+		"iQue": {
+			"actorId": 11,
+			"overlaySize": 11760,
+			"instanceSize": 14500,
+			"allocType": 0,
+			"name": "Bg_Dy_Yoseizo"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 12,
+			"overlaySize": 1888,
+			"instanceSize": 400,
+			"allocType": 0,
+			"name": "Bg_Hidan_Firewall"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 13,
+			"overlaySize": 16784,
+			"instanceSize": 920,
+			"allocType": 0,
+			"name": "En_Poh"
+		},
+		"GC": {
+			"actorId": 13,
+			"overlaySize": 16880,
+			"instanceSize": 920,
+			"allocType": 0,
+			"name": "En_Poh"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 14,
+			"overlaySize": 9696,
+			"instanceSize": 940,
+			"allocType": 0,
+			"name": "En_Okuta"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 15,
+			"overlaySize": 6000,
+			"instanceSize": 568,
+			"allocType": 0,
+			"name": "Bg_Ydan_Sp"
+		},
+		"GC": {
+			"actorId": 15,
+			"overlaySize": 5920,
+			"instanceSize": 568,
+			"allocType": 0,
+			"name": "Bg_Ydan_Sp"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 16,
+			"overlaySize": 3792,
+			"instanceSize": 504,
+			"allocType": 2,
+			"name": "En_Bom"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 17,
+			"overlaySize": 6672,
+			"instanceSize": 772,
+			"allocType": 0,
+			"name": "En_Wallmas"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 18,
+			"overlaySize": 11680,
+			"instanceSize": 1816,
+			"allocType": 0,
+			"name": "En_Dodongo"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 19,
+			"overlaySize": 8560,
+			"instanceSize": 868,
+			"allocType": 0,
+			"name": "En_Firefly"
+		}
+	},
+	{
+		"N-1.0": {
+			"actorId": 20,
+			"overlaySize": 49696,
+			"instanceSize": 1004,
+			"allocType": 0,
+			"name": "En_Horse"
+		},
+		"N-1.1": {
+			"actorId": 20,
+			"overlaySize": 49696,
+			"instanceSize": 1004,
+			"allocType": 0,
+			"name": "En_Horse"
+		},
+		"P-1.0": {
+			"actorId": 20,
+			"overlaySize": 49760,
+			"instanceSize": 1004,
+			"allocType": 0,
+			"name": "En_Horse"
+		},
+		"N-1.2": {
+			"actorId": 20,
+			"overlaySize": 49760,
+			"instanceSize": 1004,
+			"allocType": 0,
+			"name": "En_Horse"
+		},
+		"P-1.1": {
+			"actorId": 20,
+			"overlaySize": 49760,
+			"instanceSize": 1004,
+			"allocType": 0,
+			"name": "En_Horse"
+		},
+		"J-GC-MQDisc": {
+			"actorId": 20,
+			"overlaySize": 49760,
+			"instanceSize": 1004,
+			"allocType": 0,
+			"name": "En_Horse"
+		},
+		"J-MQ": {
+			"actorId": 20,
+			"overlaySize": 49760,
+			"instanceSize": 1004,
+			"allocType": 0,
+			"name": "En_Horse"
+		},
+		"U-GC": {
+			"actorId": 20,
+			"overlaySize": 49760,
+			"instanceSize": 1004,
+			"allocType": 0,
+			"name": "En_Horse"
+		},
+		"U-MQ": {
+			"actorId": 20,
+			"overlaySize": 49760,
+			"instanceSize": 1004,
+			"allocType": 0,
+			"name": "En_Horse"
+		},
+		"P-GC": {
+			"actorId": 20,
+			"overlaySize": 49760,
+			"instanceSize": 1004,
+			"allocType": 0,
+			"name": "En_Horse"
+		},
+		"P-MQ": {
+			"actorId": 20,
+			"overlaySize": 49760,
+			"instanceSize": 1004,
+			"allocType": 0,
+			"name": "En_Horse"
+		},
+		"J-GC-CEDisc": {
+			"actorId": 20,
+			"overlaySize": 49760,
+			"instanceSize": 1004,
+			"allocType": 0,
+			"name": "En_Horse"
+		},
+		"iQue": {
+			"actorId": 20,
+			"overlaySize": 49760,
+			"instanceSize": 1004,
+			"allocType": 0,
+			"name": "En_Horse"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 21,
+			"overlaySize": 0,
+			"instanceSize": 416,
+			"allocType": 0,
+			"name": "En_Item00"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 22,
+			"overlaySize": 5872,
+			"instanceSize": 592,
+			"allocType": 2,
+			"name": "En_Arrow"
+		},
+		"GC": {
+			"actorId": 22,
+			"overlaySize": 5888,
+			"instanceSize": 592,
+			"allocType": 2,
+			"name": "En_Arrow"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 23,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 24,
+			"overlaySize": 18880,
+			"instanceSize": 704,
+			"allocType": 0,
+			"name": "En_Elf"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 25,
+			"overlaySize": 13104,
+			"instanceSize": 1960,
+			"allocType": 0,
+			"name": "En_Niw"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 26,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 27,
+			"overlaySize": 11680,
+			"instanceSize": 872,
+			"allocType": 0,
+			"name": "En_Tite"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 28,
+			"overlaySize": 6768,
+			"instanceSize": 716,
+			"allocType": 0,
+			"name": "En_Reeba"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 29,
+			"overlaySize": 14080,
+			"instanceSize": 1052,
+			"allocType": 0,
+			"name": "En_Peehat"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 30,
+			"overlaySize": 5584,
+			"instanceSize": 600,
+			"allocType": 0,
+			"name": "En_Butte"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 31,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 32,
+			"overlaySize": 9504,
+			"instanceSize": 796,
+			"allocType": 0,
+			"name": "En_Insect"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 33,
+			"overlaySize": 8464,
+			"instanceSize": 580,
+			"allocType": 0,
+			"name": "En_Fish"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 34,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 35,
+			"overlaySize": 4048,
+			"instanceSize": 324,
+			"allocType": 2,
+			"name": "En_Holl"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 36,
+			"overlaySize": 304,
+			"instanceSize": 320,
+			"allocType": 0,
+			"name": "En_Scene_Change"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 37,
+			"overlaySize": 27392,
+			"instanceSize": 1368,
+			"allocType": 0,
+			"name": "En_Zf"
+		},
+		"GC": {
+			"actorId": 37,
+			"overlaySize": 27376,
+			"instanceSize": 1368,
+			"allocType": 0,
+			"name": "En_Zf"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 38,
+			"overlaySize": 1424,
+			"instanceSize": 620,
+			"allocType": 0,
+			"name": "En_Hata"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 39,
+			"overlaySize": 39648,
+			"instanceSize": 6160,
+			"allocType": 0,
+			"name": "Boss_Dodongo"
+		},
+		"GC": {
+			"actorId": 39,
+			"overlaySize": 39680,
+			"instanceSize": 6160,
+			"allocType": 0,
+			"name": "Boss_Dodongo"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 40,
+			"overlaySize": 24448,
+			"instanceSize": 2828,
+			"allocType": 0,
+			"name": "Boss_Goma"
+		},
+		"GC": {
+			"actorId": 40,
+			"overlaySize": 24480,
+			"instanceSize": 2828,
+			"allocType": 0,
+			"name": "Boss_Goma"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 41,
+			"overlaySize": 15872,
+			"instanceSize": 508,
+			"allocType": 0,
+			"name": "En_Zl1"
+		},
+		"GC": {
+			"actorId": 41,
+			"overlaySize": 15888,
+			"instanceSize": 508,
+			"allocType": 0,
+			"name": "En_Zl1"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 42,
+			"overlaySize": 11984,
+			"instanceSize": 1512,
+			"allocType": 0,
+			"name": "En_Viewer"
+		},
+		"GC": {
+			"actorId": 42,
+			"overlaySize": 11968,
+			"instanceSize": 1512,
+			"allocType": 0,
+			"name": "En_Viewer"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 43,
+			"overlaySize": 11408,
+			"instanceSize": 916,
+			"allocType": 0,
+			"name": "En_Goma"
+		},
+		"GC": {
+			"actorId": 43,
+			"overlaySize": 11440,
+			"instanceSize": 916,
+			"allocType": 0,
+			"name": "En_Goma"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 44,
+			"overlaySize": 768,
+			"instanceSize": 344,
+			"allocType": 0,
+			"name": "Bg_Pushbox"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 45,
+			"overlaySize": 5152,
+			"instanceSize": 592,
+			"allocType": 0,
+			"name": "En_Bubble"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 46,
+			"overlaySize": 8832,
+			"instanceSize": 360,
+			"allocType": 2,
+			"name": "Door_Shutter"
+		},
+		"GC": {
+			"actorId": 46,
+			"overlaySize": 8896,
+			"instanceSize": 360,
+			"allocType": 2,
+			"name": "Door_Shutter"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 47,
+			"overlaySize": 7840,
+			"instanceSize": 688,
+			"allocType": 0,
+			"name": "En_Dodojr"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 48,
+			"overlaySize": 2960,
+			"instanceSize": 468,
+			"allocType": 0,
+			"name": "En_Bdfire"
+		},
+		"GC": {
+			"actorId": 48,
+			"overlaySize": 2976,
+			"instanceSize": 468,
+			"allocType": 0,
+			"name": "En_Bdfire"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 49,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 50,
+			"overlaySize": 2240,
+			"instanceSize": 492,
+			"allocType": 2,
+			"name": "En_Boom"
+		},
+		"GC": {
+			"actorId": 50,
+			"overlaySize": 2256,
+			"instanceSize": 492,
+			"allocType": 2,
+			"name": "En_Boom"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 51,
+			"overlaySize": 10144,
+			"instanceSize": 2692,
+			"allocType": 0,
+			"name": "En_Torch2"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 52,
+			"overlaySize": 8912,
+			"instanceSize": 528,
+			"allocType": 0,
+			"name": "En_Bili"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 53,
+			"overlaySize": 7760,
+			"instanceSize": 456,
+			"allocType": 0,
+			"name": "En_Tp"
+		},
+		"GC": {
+			"actorId": 53,
+			"overlaySize": 7792,
+			"instanceSize": 456,
+			"allocType": 0,
+			"name": "En_Tp"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 54,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 55,
+			"overlaySize": 11376,
+			"instanceSize": 1388,
+			"allocType": 0,
+			"name": "En_St"
+		}
+	},
+	{
+		"N-1.0": {
+			"actorId": 56,
+			"overlaySize": 13152,
+			"instanceSize": 796,
+			"allocType": 0,
+			"name": "En_Bw"
+		},
+		"N-1.1": {
+			"actorId": 56,
+			"overlaySize": 13152,
+			"instanceSize": 796,
+			"allocType": 0,
+			"name": "En_Bw"
+		},
+		"P-1.0": {
+			"actorId": 56,
+			"overlaySize": 13168,
+			"instanceSize": 796,
+			"allocType": 0,
+			"name": "En_Bw"
+		},
+		"N-1.2": {
+			"actorId": 56,
+			"overlaySize": 13168,
+			"instanceSize": 796,
+			"allocType": 0,
+			"name": "En_Bw"
+		},
+		"P-1.1": {
+			"actorId": 56,
+			"overlaySize": 13168,
+			"instanceSize": 796,
+			"allocType": 0,
+			"name": "En_Bw"
+		},
+		"J-GC-MQDisc": {
+			"actorId": 56,
+			"overlaySize": 13200,
+			"instanceSize": 796,
+			"allocType": 0,
+			"name": "En_Bw"
+		},
+		"J-MQ": {
+			"actorId": 56,
+			"overlaySize": 13200,
+			"instanceSize": 796,
+			"allocType": 0,
+			"name": "En_Bw"
+		},
+		"U-GC": {
+			"actorId": 56,
+			"overlaySize": 13200,
+			"instanceSize": 796,
+			"allocType": 0,
+			"name": "En_Bw"
+		},
+		"U-MQ": {
+			"actorId": 56,
+			"overlaySize": 13200,
+			"instanceSize": 796,
+			"allocType": 0,
+			"name": "En_Bw"
+		},
+		"P-GC": {
+			"actorId": 56,
+			"overlaySize": 13200,
+			"instanceSize": 796,
+			"allocType": 0,
+			"name": "En_Bw"
+		},
+		"P-MQ": {
+			"actorId": 56,
+			"overlaySize": 13200,
+			"instanceSize": 796,
+			"allocType": 0,
+			"name": "En_Bw"
+		},
+		"J-GC-CEDisc": {
+			"actorId": 56,
+			"overlaySize": 13200,
+			"instanceSize": 796,
+			"allocType": 0,
+			"name": "En_Bw"
+		},
+		"iQue": {
+			"actorId": 56,
+			"overlaySize": 13200,
+			"instanceSize": 796,
+			"allocType": 0,
+			"name": "En_Bw"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 57,
+			"overlaySize": 0,
+			"instanceSize": 448,
+			"allocType": 0,
+			"name": "En_A_Obj"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 58,
+			"overlaySize": 7264,
+			"instanceSize": 708,
+			"allocType": 0,
+			"name": "En_Eiyer"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 59,
+			"overlaySize": 2448,
+			"instanceSize": 320,
+			"allocType": 0,
+			"name": "En_River_Sound"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 60,
+			"overlaySize": 9760,
+			"instanceSize": 792,
+			"allocType": 0,
+			"name": "En_Horse_Normal"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 61,
+			"overlaySize": 26080,
+			"instanceSize": 712,
+			"allocType": 0,
+			"name": "En_Ossan"
+		}
+	},
+	{
+		"N-1.0": {
+			"actorId": 62,
+			"overlaySize": 5712,
+			"instanceSize": 352,
+			"allocType": 0,
+			"name": "Bg_Treemouth"
+		},
+		"N-1.1": {
+			"actorId": 62,
+			"overlaySize": 5712,
+			"instanceSize": 352,
+			"allocType": 0,
+			"name": "Bg_Treemouth"
+		},
+		"P-1.0": {
+			"actorId": 62,
+			"overlaySize": 5728,
+			"instanceSize": 352,
+			"allocType": 0,
+			"name": "Bg_Treemouth"
+		},
+		"N-1.2": {
+			"actorId": 62,
+			"overlaySize": 5728,
+			"instanceSize": 352,
+			"allocType": 0,
+			"name": "Bg_Treemouth"
+		},
+		"P-1.1": {
+			"actorId": 62,
+			"overlaySize": 5728,
+			"instanceSize": 352,
+			"allocType": 0,
+			"name": "Bg_Treemouth"
+		},
+		"J-GC-MQDisc": {
+			"actorId": 62,
+			"overlaySize": 5728,
+			"instanceSize": 352,
+			"allocType": 0,
+			"name": "Bg_Treemouth"
+		},
+		"J-MQ": {
+			"actorId": 62,
+			"overlaySize": 5728,
+			"instanceSize": 352,
+			"allocType": 0,
+			"name": "Bg_Treemouth"
+		},
+		"U-GC": {
+			"actorId": 62,
+			"overlaySize": 5728,
+			"instanceSize": 352,
+			"allocType": 0,
+			"name": "Bg_Treemouth"
+		},
+		"U-MQ": {
+			"actorId": 62,
+			"overlaySize": 5728,
+			"instanceSize": 352,
+			"allocType": 0,
+			"name": "Bg_Treemouth"
+		},
+		"P-GC": {
+			"actorId": 62,
+			"overlaySize": 5728,
+			"instanceSize": 352,
+			"allocType": 0,
+			"name": "Bg_Treemouth"
+		},
+		"P-MQ": {
+			"actorId": 62,
+			"overlaySize": 5728,
+			"instanceSize": 352,
+			"allocType": 0,
+			"name": "Bg_Treemouth"
+		},
+		"J-GC-CEDisc": {
+			"actorId": 62,
+			"overlaySize": 5728,
+			"instanceSize": 352,
+			"allocType": 0,
+			"name": "Bg_Treemouth"
+		},
+		"iQue": {
+			"actorId": 62,
+			"overlaySize": 5728,
+			"instanceSize": 352,
+			"allocType": 0,
+			"name": "Bg_Treemouth"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 63,
+			"overlaySize": 3504,
+			"instanceSize": 576,
+			"allocType": 0,
+			"name": "Bg_Dodoago"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 64,
+			"overlaySize": 2128,
+			"instanceSize": 748,
+			"allocType": 0,
+			"name": "Bg_Hidan_Dalm"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 65,
+			"overlaySize": 2096,
+			"instanceSize": 564,
+			"allocType": 0,
+			"name": "Bg_Hidan_Hrock"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 66,
+			"overlaySize": 3456,
+			"instanceSize": 664,
+			"allocType": 0,
+			"name": "En_Horse_Ganon"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 67,
+			"overlaySize": 4336,
+			"instanceSize": 440,
+			"allocType": 0,
+			"name": "Bg_Hidan_Rock"
+		},
+		"GC": {
+			"actorId": 67,
+			"overlaySize": 4352,
+			"instanceSize": 440,
+			"allocType": 0,
+			"name": "Bg_Hidan_Rock"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 68,
+			"overlaySize": 3040,
+			"instanceSize": 760,
+			"allocType": 0,
+			"name": "Bg_Hidan_Rsekizou"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 69,
+			"overlaySize": 5200,
+			"instanceSize": 772,
+			"allocType": 0,
+			"name": "Bg_Hidan_Sekizou"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 70,
+			"overlaySize": 3872,
+			"instanceSize": 508,
+			"allocType": 0,
+			"name": "Bg_Hidan_Sima"
+		},
+		"GC": {
+			"actorId": 70,
+			"overlaySize": 3840,
+			"instanceSize": 508,
+			"allocType": 0,
+			"name": "Bg_Hidan_Sima"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 71,
+			"overlaySize": 1120,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Bg_Hidan_Syoku"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 72,
+			"overlaySize": 26512,
+			"instanceSize": 812,
+			"allocType": 0,
+			"name": "En_Xc"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 73,
+			"overlaySize": 2720,
+			"instanceSize": 404,
+			"allocType": 0,
+			"name": "Bg_Hidan_Curtain"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 74,
+			"overlaySize": 4368,
+			"instanceSize": 368,
+			"allocType": 0,
+			"name": "Bg_Spot00_Hanebasi"
+		}
+	},
+	{
+		"N-1.0": {
+			"actorId": 75,
+			"overlaySize": 16704,
+			"instanceSize": 1276,
+			"allocType": 0,
+			"name": "En_Mb"
+		},
+		"N-1.1": {
+			"actorId": 75,
+			"overlaySize": 16784,
+			"instanceSize": 1276,
+			"allocType": 0,
+			"name": "En_Mb"
+		},
+		"P-1.0": {
+			"actorId": 75,
+			"overlaySize": 16912,
+			"instanceSize": 1276,
+			"allocType": 0,
+			"name": "En_Mb"
+		},
+		"N-1.2": {
+			"actorId": 75,
+			"overlaySize": 16944,
+			"instanceSize": 1276,
+			"allocType": 0,
+			"name": "En_Mb"
+		},
+		"P-1.1": {
+			"actorId": 75,
+			"overlaySize": 16944,
+			"instanceSize": 1276,
+			"allocType": 0,
+			"name": "En_Mb"
+		},
+		"J-GC-MQDisc": {
+			"actorId": 75,
+			"overlaySize": 16944,
+			"instanceSize": 1276,
+			"allocType": 0,
+			"name": "En_Mb"
+		},
+		"J-MQ": {
+			"actorId": 75,
+			"overlaySize": 16944,
+			"instanceSize": 1276,
+			"allocType": 0,
+			"name": "En_Mb"
+		},
+		"U-GC": {
+			"actorId": 75,
+			"overlaySize": 16944,
+			"instanceSize": 1276,
+			"allocType": 0,
+			"name": "En_Mb"
+		},
+		"U-MQ": {
+			"actorId": 75,
+			"overlaySize": 16944,
+			"instanceSize": 1276,
+			"allocType": 0,
+			"name": "En_Mb"
+		},
+		"P-GC": {
+			"actorId": 75,
+			"overlaySize": 16944,
+			"instanceSize": 1276,
+			"allocType": 0,
+			"name": "En_Mb"
+		},
+		"P-MQ": {
+			"actorId": 75,
+			"overlaySize": 16944,
+			"instanceSize": 1276,
+			"allocType": 0,
+			"name": "En_Mb"
+		},
+		"J-GC-CEDisc": {
+			"actorId": 75,
+			"overlaySize": 16944,
+			"instanceSize": 1276,
+			"allocType": 0,
+			"name": "En_Mb"
+		},
+		"iQue": {
+			"actorId": 75,
+			"overlaySize": 16944,
+			"instanceSize": 1276,
+			"allocType": 0,
+			"name": "En_Mb"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 76,
+			"overlaySize": 5232,
+			"instanceSize": 512,
+			"allocType": 0,
+			"name": "En_Bombf"
+		},
+		"GC": {
+			"actorId": 76,
+			"overlaySize": 5264,
+			"instanceSize": 512,
+			"allocType": 0,
+			"name": "En_Bombf"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 77,
+			"overlaySize": 18224,
+			"instanceSize": 624,
+			"allocType": 0,
+			"name": "En_Zl2"
+		},
+		"GC": {
+			"actorId": 77,
+			"overlaySize": 18176,
+			"instanceSize": 624,
+			"allocType": 0,
+			"name": "En_Zl2"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 78,
+			"overlaySize": 1232,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Bg_Hidan_Fslift"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 79,
+			"overlaySize": 224,
+			"instanceSize": 388,
+			"allocType": 0,
+			"name": "En_OE2"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 80,
+			"overlaySize": 1968,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Bg_Ydan_Hasi"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 81,
+			"overlaySize": 1760,
+			"instanceSize": 564,
+			"allocType": 0,
+			"name": "Bg_Ydan_Maruta"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 82,
+			"overlaySize": 19824,
+			"instanceSize": 1384,
+			"allocType": 0,
+			"name": "Boss_Ganondrof"
+		},
+		"GC": {
+			"actorId": 82,
+			"overlaySize": 19856,
+			"instanceSize": 1384,
+			"allocType": 0,
+			"name": "Boss_Ganondrof"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 83,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 84,
+			"overlaySize": 9216,
+			"instanceSize": 892,
+			"allocType": 0,
+			"name": "En_Am"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 85,
+			"overlaySize": 15008,
+			"instanceSize": 1032,
+			"allocType": 0,
+			"name": "En_Dekubaba"
+		},
+		"GC": {
+			"actorId": 85,
+			"overlaySize": 15024,
+			"instanceSize": 1032,
+			"allocType": 0,
+			"name": "En_Dekubaba"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 86,
+			"overlaySize": 416,
+			"instanceSize": 396,
+			"allocType": 2,
+			"name": "En_M_Fire1"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 87,
+			"overlaySize": 5616,
+			"instanceSize": 444,
+			"allocType": 2,
+			"name": "En_M_Thunder"
+		},
+		"GC": {
+			"actorId": 87,
+			"overlaySize": 5632,
+			"instanceSize": 444,
+			"allocType": 2,
+			"name": "En_M_Thunder"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 88,
+			"overlaySize": 1616,
+			"instanceSize": 352,
+			"allocType": 0,
+			"name": "Bg_Ddan_Jd"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 89,
+			"overlaySize": 3696,
+			"instanceSize": 480,
+			"allocType": 0,
+			"name": "Bg_Breakwall"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 90,
+			"overlaySize": 5584,
+			"instanceSize": 772,
+			"allocType": 0,
+			"name": "En_Jj"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 91,
+			"overlaySize": 2800,
+			"instanceSize": 664,
+			"allocType": 0,
+			"name": "En_Horse_Zelda"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 92,
+			"overlaySize": 2288,
+			"instanceSize": 440,
+			"allocType": 0,
+			"name": "Bg_Ddan_Kd"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 93,
+			"overlaySize": 17072,
+			"instanceSize": 480,
+			"allocType": 0,
+			"name": "Door_Warp1"
+		},
+		"GC": {
+			"actorId": 93,
+			"overlaySize": 17168,
+			"instanceSize": 480,
+			"allocType": 0,
+			"name": "Door_Warp1"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 94,
+			"overlaySize": 3136,
+			"instanceSize": 492,
+			"allocType": 0,
+			"name": "Obj_Syokudai"
+		},
+		"GC": {
+			"actorId": 94,
+			"overlaySize": 3152,
+			"instanceSize": 492,
+			"allocType": 0,
+			"name": "Obj_Syokudai"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 95,
+			"overlaySize": 1008,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Item_B_Heart"
+		},
+		"GC": {
+			"actorId": 95,
+			"overlaySize": 1040,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Item_B_Heart"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 96,
+			"overlaySize": 6144,
+			"instanceSize": 772,
+			"allocType": 0,
+			"name": "En_Dekunuts"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 97,
+			"overlaySize": 400,
+			"instanceSize": 340,
+			"allocType": 0,
+			"name": "Bg_Menkuri_Kaiten"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 98,
+			"overlaySize": 1184,
+			"instanceSize": 416,
+			"allocType": 0,
+			"name": "Bg_Menkuri_Eye"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 99,
+			"overlaySize": 9888,
+			"instanceSize": 1080,
+			"allocType": 0,
+			"name": "En_Vali"
+		},
+		"GC": {
+			"actorId": 99,
+			"overlaySize": 9920,
+			"instanceSize": 1080,
+			"allocType": 0,
+			"name": "En_Vali"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 100,
+			"overlaySize": 4512,
+			"instanceSize": 376,
+			"allocType": 0,
+			"name": "Bg_Mizu_Movebg"
+		},
+		"GC": {
+			"actorId": 100,
+			"overlaySize": 4496,
+			"instanceSize": 376,
+			"allocType": 0,
+			"name": "Bg_Mizu_Movebg"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 101,
+			"overlaySize": 3280,
+			"instanceSize": 336,
+			"allocType": 0,
+			"name": "Bg_Mizu_Water"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 102,
+			"overlaySize": 3424,
+			"instanceSize": 520,
+			"allocType": 2,
+			"name": "Arms_Hook"
+		},
+		"GC": {
+			"actorId": 102,
+			"overlaySize": 3440,
+			"instanceSize": 520,
+			"allocType": 2,
+			"name": "Arms_Hook"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 103,
+			"overlaySize": 10544,
+			"instanceSize": 644,
+			"allocType": 0,
+			"name": "En_fHG"
+		}
+	},
+	{
+		"N-1.0": {
+			"actorId": 104,
+			"overlaySize": 3280,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Bg_Mori_Hineri"
+		},
+		"N-1.1": {
+			"actorId": 104,
+			"overlaySize": 3280,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Bg_Mori_Hineri"
+		},
+		"P-1.0": {
+			"actorId": 104,
+			"overlaySize": 3328,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Bg_Mori_Hineri"
+		},
+		"N-1.2": {
+			"actorId": 104,
+			"overlaySize": 3328,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Bg_Mori_Hineri"
+		},
+		"P-1.1": {
+			"actorId": 104,
+			"overlaySize": 3328,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Bg_Mori_Hineri"
+		},
+		"J-GC-MQDisc": {
+			"actorId": 104,
+			"overlaySize": 3408,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Bg_Mori_Hineri"
+		},
+		"J-MQ": {
+			"actorId": 104,
+			"overlaySize": 3408,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Bg_Mori_Hineri"
+		},
+		"U-GC": {
+			"actorId": 104,
+			"overlaySize": 3408,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Bg_Mori_Hineri"
+		},
+		"U-MQ": {
+			"actorId": 104,
+			"overlaySize": 3408,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Bg_Mori_Hineri"
+		},
+		"P-GC": {
+			"actorId": 104,
+			"overlaySize": 3408,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Bg_Mori_Hineri"
+		},
+		"P-MQ": {
+			"actorId": 104,
+			"overlaySize": 3408,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Bg_Mori_Hineri"
+		},
+		"J-GC-CEDisc": {
+			"actorId": 104,
+			"overlaySize": 3408,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Bg_Mori_Hineri"
+		},
+		"iQue": {
+			"actorId": 104,
+			"overlaySize": 3408,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Bg_Mori_Hineri"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 105,
+			"overlaySize": 15568,
+			"instanceSize": 792,
+			"allocType": 0,
+			"name": "En_Bb"
+		},
+		"GC": {
+			"actorId": 105,
+			"overlaySize": 15584,
+			"instanceSize": 792,
+			"allocType": 0,
+			"name": "En_Bb"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 106,
+			"overlaySize": 3488,
+			"instanceSize": 324,
+			"allocType": 0,
+			"name": "Bg_Toki_Hikari"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 107,
+			"overlaySize": 1552,
+			"instanceSize": 400,
+			"allocType": 0,
+			"name": "En_Yukabyun"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 108,
+			"overlaySize": 5712,
+			"instanceSize": 396,
+			"allocType": 0,
+			"name": "Bg_Toki_Swd"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 109,
+			"overlaySize": 9760,
+			"instanceSize": 500,
+			"allocType": 0,
+			"name": "En_Fhg_Fire"
+		},
+		"GC": {
+			"actorId": 109,
+			"overlaySize": 9888,
+			"instanceSize": 500,
+			"allocType": 0,
+			"name": "En_Fhg_Fire"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 110,
+			"overlaySize": 992,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Bg_Mjin"
+		},
+		"GC": {
+			"actorId": 110,
+			"overlaySize": 1008,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Bg_Mjin"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 111,
+			"overlaySize": 1408,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Bg_Hidan_Kousi"
+		},
+		"GC": {
+			"actorId": 111,
+			"overlaySize": 1424,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Bg_Hidan_Kousi"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 112,
+			"overlaySize": 352,
+			"instanceSize": 344,
+			"allocType": 0,
+			"name": "Door_Toki"
+		}
+	},
+	{
+		"N-1.0": {
+			"actorId": 113,
+			"overlaySize": 3728,
+			"instanceSize": 568,
+			"allocType": 0,
+			"name": "Bg_Hidan_Hamstep"
+		},
+		"N-1.1": {
+			"actorId": 113,
+			"overlaySize": 3728,
+			"instanceSize": 568,
+			"allocType": 0,
+			"name": "Bg_Hidan_Hamstep"
+		},
+		"P-1.0": {
+			"actorId": 113,
+			"overlaySize": 3760,
+			"instanceSize": 568,
+			"allocType": 0,
+			"name": "Bg_Hidan_Hamstep"
+		},
+		"N-1.2": {
+			"actorId": 113,
+			"overlaySize": 3760,
+			"instanceSize": 568,
+			"allocType": 0,
+			"name": "Bg_Hidan_Hamstep"
+		},
+		"P-1.1": {
+			"actorId": 113,
+			"overlaySize": 3760,
+			"instanceSize": 568,
+			"allocType": 0,
+			"name": "Bg_Hidan_Hamstep"
+		},
+		"J-GC-MQDisc": {
+			"actorId": 113,
+			"overlaySize": 3760,
+			"instanceSize": 568,
+			"allocType": 0,
+			"name": "Bg_Hidan_Hamstep"
+		},
+		"J-MQ": {
+			"actorId": 113,
+			"overlaySize": 3760,
+			"instanceSize": 568,
+			"allocType": 0,
+			"name": "Bg_Hidan_Hamstep"
+		},
+		"U-GC": {
+			"actorId": 113,
+			"overlaySize": 3760,
+			"instanceSize": 568,
+			"allocType": 0,
+			"name": "Bg_Hidan_Hamstep"
+		},
+		"U-MQ": {
+			"actorId": 113,
+			"overlaySize": 3760,
+			"instanceSize": 568,
+			"allocType": 0,
+			"name": "Bg_Hidan_Hamstep"
+		},
+		"P-GC": {
+			"actorId": 113,
+			"overlaySize": 3760,
+			"instanceSize": 568,
+			"allocType": 0,
+			"name": "Bg_Hidan_Hamstep"
+		},
+		"P-MQ": {
+			"actorId": 113,
+			"overlaySize": 3760,
+			"instanceSize": 568,
+			"allocType": 0,
+			"name": "Bg_Hidan_Hamstep"
+		},
+		"J-GC-CEDisc": {
+			"actorId": 113,
+			"overlaySize": 3760,
+			"instanceSize": 568,
+			"allocType": 0,
+			"name": "Bg_Hidan_Hamstep"
+		},
+		"iQue": {
+			"actorId": 113,
+			"overlaySize": 3760,
+			"instanceSize": 568,
+			"allocType": 0,
+			"name": "Bg_Hidan_Hamstep"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 114,
+			"overlaySize": 1216,
+			"instanceSize": 460,
+			"allocType": 0,
+			"name": "En_Bird"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 115,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 116,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 117,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 118,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 119,
+			"overlaySize": 4576,
+			"instanceSize": 404,
+			"allocType": 0,
+			"name": "En_Wood02"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 120,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 121,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 122,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 123,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 124,
+			"overlaySize": 1152,
+			"instanceSize": 340,
+			"allocType": 0,
+			"name": "En_Lightbox"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 125,
+			"overlaySize": 832,
+			"instanceSize": 344,
+			"allocType": 0,
+			"name": "En_Pu_box"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 126,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 127,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 128,
+			"overlaySize": 4768,
+			"instanceSize": 476,
+			"allocType": 0,
+			"name": "En_Trap"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 129,
+			"overlaySize": 336,
+			"instanceSize": 324,
+			"allocType": 0,
+			"name": "En_Arow_Trap"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 130,
+			"overlaySize": 256,
+			"instanceSize": 316,
+			"allocType": 0,
+			"name": "En_Vase"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 131,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 132,
+			"overlaySize": 14784,
+			"instanceSize": 728,
+			"allocType": 0,
+			"name": "En_Ta"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 133,
+			"overlaySize": 7728,
+			"instanceSize": 1888,
+			"allocType": 0,
+			"name": "En_Tk"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 134,
+			"overlaySize": 2352,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Bg_Mori_Bigst"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 135,
+			"overlaySize": 2800,
+			"instanceSize": 356,
+			"allocType": 0,
+			"name": "Bg_Mori_Elevator"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 136,
+			"overlaySize": 1632,
+			"instanceSize": 376,
+			"allocType": 0,
+			"name": "Bg_Mori_Kaitenkabe"
+		},
+		"GC": {
+			"actorId": 136,
+			"overlaySize": 1648,
+			"instanceSize": 376,
+			"allocType": 0,
+			"name": "Bg_Mori_Kaitenkabe"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 137,
+			"overlaySize": 2416,
+			"instanceSize": 360,
+			"allocType": 0,
+			"name": "Bg_Mori_Rakkatenjo"
+		},
+		"GC": {
+			"actorId": 137,
+			"overlaySize": 2432,
+			"instanceSize": 360,
+			"allocType": 0,
+			"name": "Bg_Mori_Rakkatenjo"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 138,
+			"overlaySize": 6320,
+			"instanceSize": 932,
+			"allocType": 0,
+			"name": "En_Vm"
+		},
+		"GC": {
+			"actorId": 138,
+			"overlaySize": 6336,
+			"instanceSize": 932,
+			"allocType": 0,
+			"name": "En_Vm"
+		}
+	},
+	{
+		"N-1.0": {
+			"actorId": 139,
+			"overlaySize": 23296,
+			"instanceSize": 400,
+			"allocType": 0,
+			"name": "Demo_Effect"
+		},
+		"N-1.1": {
+			"actorId": 139,
+			"overlaySize": 23296,
+			"instanceSize": 400,
+			"allocType": 0,
+			"name": "Demo_Effect"
+		},
+		"P-1.0": {
+			"actorId": 139,
+			"overlaySize": 23296,
+			"instanceSize": 400,
+			"allocType": 0,
+			"name": "Demo_Effect"
+		},
+		"N-1.2": {
+			"actorId": 139,
+			"overlaySize": 23280,
+			"instanceSize": 400,
+			"allocType": 0,
+			"name": "Demo_Effect"
+		},
+		"P-1.1": {
+			"actorId": 139,
+			"overlaySize": 23296,
+			"instanceSize": 400,
+			"allocType": 0,
+			"name": "Demo_Effect"
+		},
+		"J-GC-MQDisc": {
+			"actorId": 139,
+			"overlaySize": 23456,
+			"instanceSize": 400,
+			"allocType": 0,
+			"name": "Demo_Effect"
+		},
+		"J-MQ": {
+			"actorId": 139,
+			"overlaySize": 23456,
+			"instanceSize": 400,
+			"allocType": 0,
+			"name": "Demo_Effect"
+		},
+		"U-GC": {
+			"actorId": 139,
+			"overlaySize": 23456,
+			"instanceSize": 400,
+			"allocType": 0,
+			"name": "Demo_Effect"
+		},
+		"U-MQ": {
+			"actorId": 139,
+			"overlaySize": 23456,
+			"instanceSize": 400,
+			"allocType": 0,
+			"name": "Demo_Effect"
+		},
+		"P-GC": {
+			"actorId": 139,
+			"overlaySize": 23456,
+			"instanceSize": 400,
+			"allocType": 0,
+			"name": "Demo_Effect"
+		},
+		"P-MQ": {
+			"actorId": 139,
+			"overlaySize": 23456,
+			"instanceSize": 400,
+			"allocType": 0,
+			"name": "Demo_Effect"
+		},
+		"J-GC-CEDisc": {
+			"actorId": 139,
+			"overlaySize": 23456,
+			"instanceSize": 400,
+			"allocType": 0,
+			"name": "Demo_Effect"
+		},
+		"iQue": {
+			"actorId": 139,
+			"overlaySize": 23456,
+			"instanceSize": 400,
+			"allocType": 0,
+			"name": "Demo_Effect"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 140,
+			"overlaySize": 15616,
+			"instanceSize": 1524,
+			"allocType": 0,
+			"name": "Demo_Kankyo"
+		},
+		"GC": {
+			"actorId": 140,
+			"overlaySize": 15600,
+			"instanceSize": 1524,
+			"allocType": 0,
+			"name": "Demo_Kankyo"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 141,
+			"overlaySize": 3296,
+			"instanceSize": 400,
+			"allocType": 0,
+			"name": "Bg_Hidan_Fwbig"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 142,
+			"overlaySize": 13280,
+			"instanceSize": 772,
+			"allocType": 0,
+			"name": "En_Floormas"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 143,
+			"overlaySize": 5392,
+			"instanceSize": 668,
+			"allocType": 0,
+			"name": "En_Heishi1"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 144,
+			"overlaySize": 10416,
+			"instanceSize": 860,
+			"allocType": 0,
+			"name": "En_Rd"
+		},
+		"GC": {
+			"actorId": 144,
+			"overlaySize": 10432,
+			"instanceSize": 860,
+			"allocType": 0,
+			"name": "En_Rd"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 145,
+			"overlaySize": 19696,
+			"instanceSize": 808,
+			"allocType": 0,
+			"name": "En_Po_Sisters"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 146,
+			"overlaySize": 6384,
+			"instanceSize": 360,
+			"allocType": 0,
+			"name": "Bg_Heavy_Block"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 147,
+			"overlaySize": 7744,
+			"instanceSize": 568,
+			"allocType": 0,
+			"name": "Bg_Po_Event"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 148,
+			"overlaySize": 4112,
+			"instanceSize": 412,
+			"allocType": 0,
+			"name": "Obj_Mure"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 149,
+			"overlaySize": 14320,
+			"instanceSize": 1224,
+			"allocType": 0,
+			"name": "En_Sw"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 150,
+			"overlaySize": 29488,
+			"instanceSize": 17296,
+			"allocType": 0,
+			"name": "Boss_Fd"
+		},
+		"GC": {
+			"actorId": 150,
+			"overlaySize": 29536,
+			"instanceSize": 17296,
+			"allocType": 0,
+			"name": "Boss_Fd"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 151,
+			"overlaySize": 12832,
+			"instanceSize": 5712,
+			"allocType": 0,
+			"name": "Object_Kankyo"
+		},
+		"GC": {
+			"actorId": 151,
+			"overlaySize": 12928,
+			"instanceSize": 5712,
+			"allocType": 0,
+			"name": "Object_Kankyo"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 152,
+			"overlaySize": 6816,
+			"instanceSize": 524,
+			"allocType": 0,
+			"name": "En_Du"
+		},
+		"GC": {
+			"actorId": 152,
+			"overlaySize": 6800,
+			"instanceSize": 524,
+			"allocType": 0,
+			"name": "En_Du"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 153,
+			"overlaySize": 11456,
+			"instanceSize": 12752,
+			"allocType": 0,
+			"name": "En_Fd"
+		},
+		"GC": {
+			"actorId": 153,
+			"overlaySize": 11424,
+			"instanceSize": 12752,
+			"allocType": 0,
+			"name": "En_Fd"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 154,
+			"overlaySize": 7680,
+			"instanceSize": 660,
+			"allocType": 0,
+			"name": "En_Horse_Link_Child"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 155,
+			"overlaySize": 1648,
+			"instanceSize": 396,
+			"allocType": 0,
+			"name": "Door_Ana"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 156,
+			"overlaySize": 4944,
+			"instanceSize": 356,
+			"allocType": 0,
+			"name": "Bg_Spot02_Objects"
+		},
+		"GC": {
+			"actorId": 156,
+			"overlaySize": 4960,
+			"instanceSize": 356,
+			"allocType": 0,
+			"name": "Bg_Spot02_Objects"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 157,
+			"overlaySize": 1728,
+			"instanceSize": 344,
+			"allocType": 0,
+			"name": "Bg_Haka"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 158,
+			"overlaySize": 7424,
+			"instanceSize": 356,
+			"allocType": 1,
+			"name": "Magic_Wind"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 159,
+			"overlaySize": 8912,
+			"instanceSize": 412,
+			"allocType": 1,
+			"name": "Magic_Fire"
+		},
+		"GC": {
+			"actorId": 159,
+			"overlaySize": 8960,
+			"instanceSize": 412,
+			"allocType": 1,
+			"name": "Magic_Fire"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 160,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 161,
+			"overlaySize": 30368,
+			"instanceSize": 908,
+			"allocType": 0,
+			"name": "En_Ru1"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 162,
+			"overlaySize": 15664,
+			"instanceSize": 5740,
+			"allocType": 0,
+			"name": "Boss_Fd2"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 163,
+			"overlaySize": 3344,
+			"instanceSize": 412,
+			"allocType": 0,
+			"name": "En_Fd_Fire"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 164,
+			"overlaySize": 6864,
+			"instanceSize": 788,
+			"allocType": 0,
+			"name": "En_Dh"
+		},
+		"GC": {
+			"actorId": 164,
+			"overlaySize": 6880,
+			"instanceSize": 788,
+			"allocType": 0,
+			"name": "En_Dh"
+		}
+	},
+	{
+		"N-1.0": {
+			"actorId": 165,
+			"overlaySize": 4048,
+			"instanceSize": 848,
+			"allocType": 0,
+			"name": "En_Dha"
+		},
+		"N-1.1": {
+			"actorId": 165,
+			"overlaySize": 4080,
+			"instanceSize": 848,
+			"allocType": 0,
+			"name": "En_Dha"
+		},
+		"P-1.0": {
+			"actorId": 165,
+			"overlaySize": 4096,
+			"instanceSize": 848,
+			"allocType": 0,
+			"name": "En_Dha"
+		},
+		"N-1.2": {
+			"actorId": 165,
+			"overlaySize": 4096,
+			"instanceSize": 848,
+			"allocType": 0,
+			"name": "En_Dha"
+		},
+		"P-1.1": {
+			"actorId": 165,
+			"overlaySize": 4096,
+			"instanceSize": 848,
+			"allocType": 0,
+			"name": "En_Dha"
+		},
+		"J-GC-MQDisc": {
+			"actorId": 165,
+			"overlaySize": 4096,
+			"instanceSize": 848,
+			"allocType": 0,
+			"name": "En_Dha"
+		},
+		"J-MQ": {
+			"actorId": 165,
+			"overlaySize": 4096,
+			"instanceSize": 848,
+			"allocType": 0,
+			"name": "En_Dha"
+		},
+		"U-GC": {
+			"actorId": 165,
+			"overlaySize": 4096,
+			"instanceSize": 848,
+			"allocType": 0,
+			"name": "En_Dha"
+		},
+		"U-MQ": {
+			"actorId": 165,
+			"overlaySize": 4096,
+			"instanceSize": 848,
+			"allocType": 0,
+			"name": "En_Dha"
+		},
+		"P-GC": {
+			"actorId": 165,
+			"overlaySize": 4096,
+			"instanceSize": 848,
+			"allocType": 0,
+			"name": "En_Dha"
+		},
+		"P-MQ": {
+			"actorId": 165,
+			"overlaySize": 4096,
+			"instanceSize": 848,
+			"allocType": 0,
+			"name": "En_Dha"
+		},
+		"J-GC-CEDisc": {
+			"actorId": 165,
+			"overlaySize": 4096,
+			"instanceSize": 848,
+			"allocType": 0,
+			"name": "En_Dha"
+		},
+		"iQue": {
+			"actorId": 165,
+			"overlaySize": 4096,
+			"instanceSize": 848,
+			"allocType": 0,
+			"name": "En_Dha"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 166,
+			"overlaySize": 3808,
+			"instanceSize": 412,
+			"allocType": 0,
+			"name": "En_Rl"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 167,
+			"overlaySize": 2912,
+			"instanceSize": 352,
+			"allocType": 0,
+			"name": "En_Encount1"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 168,
+			"overlaySize": 14304,
+			"instanceSize": 420,
+			"allocType": 0,
+			"name": "Demo_Du"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 169,
+			"overlaySize": 16240,
+			"instanceSize": 748,
+			"allocType": 0,
+			"name": "Demo_Im"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 170,
+			"overlaySize": 1808,
+			"instanceSize": 364,
+			"allocType": 0,
+			"name": "Demo_Tre_Lgt"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 171,
+			"overlaySize": 6064,
+			"instanceSize": 1776,
+			"allocType": 0,
+			"name": "En_Fw"
+		},
+		"GC": {
+			"actorId": 171,
+			"overlaySize": 6080,
+			"instanceSize": 1776,
+			"allocType": 0,
+			"name": "En_Fw"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 172,
+			"overlaySize": 1808,
+			"instanceSize": 364,
+			"allocType": 0,
+			"name": "Bg_Vb_Sima"
+		},
+		"GC": {
+			"actorId": 172,
+			"overlaySize": 1824,
+			"instanceSize": 364,
+			"allocType": 0,
+			"name": "Bg_Vb_Sima"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 173,
+			"overlaySize": 4512,
+			"instanceSize": 420,
+			"allocType": 0,
+			"name": "En_Vb_Ball"
+		},
+		"GC": {
+			"actorId": 173,
+			"overlaySize": 4528,
+			"instanceSize": 420,
+			"allocType": 0,
+			"name": "En_Vb_Ball"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 174,
+			"overlaySize": 1024,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Bg_Haka_Megane"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 175,
+			"overlaySize": 1728,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Bg_Haka_MeganeBG"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 176,
+			"overlaySize": 2624,
+			"instanceSize": 360,
+			"allocType": 0,
+			"name": "Bg_Haka_Ship"
+		},
+		"GC": {
+			"actorId": 176,
+			"overlaySize": 2640,
+			"instanceSize": 360,
+			"allocType": 0,
+			"name": "Bg_Haka_Ship"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 177,
+			"overlaySize": 3104,
+			"instanceSize": 808,
+			"allocType": 0,
+			"name": "Bg_Haka_Sgami"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 178,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 179,
+			"overlaySize": 8704,
+			"instanceSize": 980,
+			"allocType": 0,
+			"name": "En_Heishi2"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 180,
+			"overlaySize": 4656,
+			"instanceSize": 2576,
+			"allocType": 0,
+			"name": "En_Encount2"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 181,
+			"overlaySize": 4368,
+			"instanceSize": 464,
+			"allocType": 0,
+			"name": "En_Fire_Rock"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 182,
+			"overlaySize": 4336,
+			"instanceSize": 688,
+			"allocType": 0,
+			"name": "En_Brob"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 183,
+			"overlaySize": 6336,
+			"instanceSize": 672,
+			"allocType": 0,
+			"name": "Mir_Ray"
+		},
+		"GC": {
+			"actorId": 183,
+			"overlaySize": 6320,
+			"instanceSize": 672,
+			"allocType": 0,
+			"name": "Mir_Ray"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 184,
+			"overlaySize": 1296,
+			"instanceSize": 344,
+			"allocType": 0,
+			"name": "Bg_Spot09_Obj"
+		},
+		"GC": {
+			"actorId": 184,
+			"overlaySize": 1312,
+			"instanceSize": 344,
+			"allocType": 0,
+			"name": "Bg_Spot09_Obj"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 185,
+			"overlaySize": 2256,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Bg_Spot18_Obj"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 186,
+			"overlaySize": 94704,
+			"instanceSize": 936,
+			"allocType": 0,
+			"name": "Boss_Va"
+		},
+		"GC": {
+			"actorId": 186,
+			"overlaySize": 94864,
+			"instanceSize": 936,
+			"allocType": 0,
+			"name": "Boss_Va"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 187,
+			"overlaySize": 2592,
+			"instanceSize": 500,
+			"allocType": 0,
+			"name": "Bg_Haka_Tubo"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 188,
+			"overlaySize": 5584,
+			"instanceSize": 652,
+			"allocType": 0,
+			"name": "Bg_Haka_Trap"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 189,
+			"overlaySize": 2720,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Bg_Haka_Huta"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 190,
+			"overlaySize": 4592,
+			"instanceSize": 424,
+			"allocType": 0,
+			"name": "Bg_Haka_Zou"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 191,
+			"overlaySize": 592,
+			"instanceSize": 316,
+			"allocType": 0,
+			"name": "Bg_Spot17_Funen"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 192,
+			"overlaySize": 3488,
+			"instanceSize": 456,
+			"allocType": 0,
+			"name": "En_Syateki_Itm"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 193,
+			"overlaySize": 3520,
+			"instanceSize": 540,
+			"allocType": 0,
+			"name": "En_Syateki_Man"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 194,
+			"overlaySize": 672,
+			"instanceSize": 316,
+			"allocType": 0,
+			"name": "En_Tana"
+		},
+		"GC": {
+			"actorId": 194,
+			"overlaySize": 688,
+			"instanceSize": 316,
+			"allocType": 0,
+			"name": "En_Tana"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 195,
+			"overlaySize": 17872,
+			"instanceSize": 792,
+			"allocType": 0,
+			"name": "En_Nb"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 196,
+			"overlaySize": 65712,
+			"instanceSize": 5500,
+			"allocType": 0,
+			"name": "Boss_Mo"
+		},
+		"GC": {
+			"actorId": 196,
+			"overlaySize": 67040,
+			"instanceSize": 5500,
+			"allocType": 0,
+			"name": "Boss_Mo"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 197,
+			"overlaySize": 5184,
+			"instanceSize": 504,
+			"allocType": 0,
+			"name": "En_Sb"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 198,
+			"overlaySize": 11024,
+			"instanceSize": 884,
+			"allocType": 0,
+			"name": "En_Bigokuta"
+		},
+		"GC": {
+			"actorId": 198,
+			"overlaySize": 11008,
+			"instanceSize": 884,
+			"allocType": 0,
+			"name": "En_Bigokuta"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 199,
+			"overlaySize": 6384,
+			"instanceSize": 640,
+			"allocType": 0,
+			"name": "En_Karebaba"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 200,
+			"overlaySize": 4816,
+			"instanceSize": 428,
+			"allocType": 0,
+			"name": "Bg_Bdan_Objects"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 201,
+			"overlaySize": 11040,
+			"instanceSize": 420,
+			"allocType": 0,
+			"name": "Demo_Sa"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 202,
+			"overlaySize": 3424,
+			"instanceSize": 400,
+			"allocType": 0,
+			"name": "Demo_Go"
+		},
+		"GC": {
+			"actorId": 202,
+			"overlaySize": 3408,
+			"instanceSize": 400,
+			"allocType": 0,
+			"name": "Demo_Go"
+		}
+	},
+	{
+		"N-1.0": {
+			"actorId": 203,
+			"overlaySize": 11616,
+			"instanceSize": 920,
+			"allocType": 0,
+			"name": "En_In"
+		},
+		"N-1.1": {
+			"actorId": 203,
+			"overlaySize": 11616,
+			"instanceSize": 920,
+			"allocType": 0,
+			"name": "En_In"
+		},
+		"P-1.0": {
+			"actorId": 203,
+			"overlaySize": 11680,
+			"instanceSize": 920,
+			"allocType": 0,
+			"name": "En_In"
+		},
+		"N-1.2": {
+			"actorId": 203,
+			"overlaySize": 11680,
+			"instanceSize": 920,
+			"allocType": 0,
+			"name": "En_In"
+		},
+		"P-1.1": {
+			"actorId": 203,
+			"overlaySize": 11680,
+			"instanceSize": 920,
+			"allocType": 0,
+			"name": "En_In"
+		},
+		"J-GC-MQDisc": {
+			"actorId": 203,
+			"overlaySize": 11680,
+			"instanceSize": 920,
+			"allocType": 0,
+			"name": "En_In"
+		},
+		"J-MQ": {
+			"actorId": 203,
+			"overlaySize": 11680,
+			"instanceSize": 920,
+			"allocType": 0,
+			"name": "En_In"
+		},
+		"U-GC": {
+			"actorId": 203,
+			"overlaySize": 11680,
+			"instanceSize": 920,
+			"allocType": 0,
+			"name": "En_In"
+		},
+		"U-MQ": {
+			"actorId": 203,
+			"overlaySize": 11680,
+			"instanceSize": 920,
+			"allocType": 0,
+			"name": "En_In"
+		},
+		"P-GC": {
+			"actorId": 203,
+			"overlaySize": 11680,
+			"instanceSize": 920,
+			"allocType": 0,
+			"name": "En_In"
+		},
+		"P-MQ": {
+			"actorId": 203,
+			"overlaySize": 11680,
+			"instanceSize": 920,
+			"allocType": 0,
+			"name": "En_In"
+		},
+		"J-GC-CEDisc": {
+			"actorId": 203,
+			"overlaySize": 11680,
+			"instanceSize": 920,
+			"allocType": 0,
+			"name": "En_In"
+		},
+		"iQue": {
+			"actorId": 203,
+			"overlaySize": 11680,
+			"instanceSize": 920,
+			"allocType": 0,
+			"name": "En_In"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 204,
+			"overlaySize": 6400,
+			"instanceSize": 728,
+			"allocType": 0,
+			"name": "En_Tr"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 205,
+			"overlaySize": 5440,
+			"instanceSize": 520,
+			"allocType": 0,
+			"name": "Bg_Spot16_Bombstone"
+		},
+		"GC": {
+			"actorId": 205,
+			"overlaySize": 5456,
+			"instanceSize": 520,
+			"allocType": 0,
+			"name": "Bg_Spot16_Bombstone"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 206,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 207,
+			"overlaySize": 3792,
+			"instanceSize": 436,
+			"allocType": 0,
+			"name": "Bg_Hidan_Kowarerukabe"
+		},
+		"GC": {
+			"actorId": 207,
+			"overlaySize": 3808,
+			"instanceSize": 436,
+			"allocType": 0,
+			"name": "Bg_Hidan_Kowarerukabe"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 208,
+			"overlaySize": 2240,
+			"instanceSize": 660,
+			"allocType": 0,
+			"name": "Bg_Bombwall"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 209,
+			"overlaySize": 4160,
+			"instanceSize": 396,
+			"allocType": 0,
+			"name": "Bg_Spot08_Iceblock"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 210,
+			"overlaySize": 11648,
+			"instanceSize": 772,
+			"allocType": 0,
+			"name": "En_Ru2"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 211,
+			"overlaySize": 1600,
+			"instanceSize": 404,
+			"allocType": 0,
+			"name": "Obj_Dekujr"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 212,
+			"overlaySize": 464,
+			"instanceSize": 344,
+			"allocType": 0,
+			"name": "Bg_Mizu_Uzu"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 213,
+			"overlaySize": 5136,
+			"instanceSize": 448,
+			"allocType": 0,
+			"name": "Bg_Spot06_Objects"
+		},
+		"GC": {
+			"actorId": 213,
+			"overlaySize": 5120,
+			"instanceSize": 448,
+			"allocType": 0,
+			"name": "Bg_Spot06_Objects"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 214,
+			"overlaySize": 3904,
+			"instanceSize": 356,
+			"allocType": 0,
+			"name": "Bg_Ice_Objects"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 215,
+			"overlaySize": 2016,
+			"instanceSize": 324,
+			"allocType": 0,
+			"name": "Bg_Haka_Water"
+		},
+		"GC": {
+			"actorId": 215,
+			"overlaySize": 2048,
+			"instanceSize": 324,
+			"allocType": 0,
+			"name": "Bg_Haka_Water"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 216,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 217,
+			"overlaySize": 4192,
+			"instanceSize": 628,
+			"allocType": 0,
+			"name": "En_Ma2"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 218,
+			"overlaySize": 5792,
+			"instanceSize": 468,
+			"allocType": 0,
+			"name": "En_Bom_Chu"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 219,
+			"overlaySize": 4304,
+			"instanceSize": 404,
+			"allocType": 0,
+			"name": "En_Horse_Game_Check"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 220,
+			"overlaySize": 88832,
+			"instanceSize": 1700,
+			"allocType": 0,
+			"name": "Boss_Tw"
+		},
+		"GC": {
+			"actorId": 220,
+			"overlaySize": 89040,
+			"instanceSize": 1700,
+			"allocType": 0,
+			"name": "Boss_Tw"
+		}
+	},
+	{
+		"N-1.0": {
+			"actorId": 221,
+			"overlaySize": 9504,
+			"instanceSize": 9140,
+			"allocType": 0,
+			"name": "En_Rr"
+		},
+		"N-1.1": {
+			"actorId": 221,
+			"overlaySize": 9520,
+			"instanceSize": 9140,
+			"allocType": 0,
+			"name": "En_Rr"
+		},
+		"P-1.0": {
+			"actorId": 221,
+			"overlaySize": 9520,
+			"instanceSize": 9140,
+			"allocType": 0,
+			"name": "En_Rr"
+		},
+		"N-1.2": {
+			"actorId": 221,
+			"overlaySize": 9520,
+			"instanceSize": 9140,
+			"allocType": 0,
+			"name": "En_Rr"
+		},
+		"P-1.1": {
+			"actorId": 221,
+			"overlaySize": 9520,
+			"instanceSize": 9140,
+			"allocType": 0,
+			"name": "En_Rr"
+		},
+		"J-GC-MQDisc": {
+			"actorId": 221,
+			"overlaySize": 9520,
+			"instanceSize": 9140,
+			"allocType": 0,
+			"name": "En_Rr"
+		},
+		"J-MQ": {
+			"actorId": 221,
+			"overlaySize": 9520,
+			"instanceSize": 9140,
+			"allocType": 0,
+			"name": "En_Rr"
+		},
+		"U-GC": {
+			"actorId": 221,
+			"overlaySize": 9520,
+			"instanceSize": 9140,
+			"allocType": 0,
+			"name": "En_Rr"
+		},
+		"U-MQ": {
+			"actorId": 221,
+			"overlaySize": 9520,
+			"instanceSize": 9140,
+			"allocType": 0,
+			"name": "En_Rr"
+		},
+		"P-GC": {
+			"actorId": 221,
+			"overlaySize": 9520,
+			"instanceSize": 9140,
+			"allocType": 0,
+			"name": "En_Rr"
+		},
+		"P-MQ": {
+			"actorId": 221,
+			"overlaySize": 9520,
+			"instanceSize": 9140,
+			"allocType": 0,
+			"name": "En_Rr"
+		},
+		"J-GC-CEDisc": {
+			"actorId": 221,
+			"overlaySize": 9520,
+			"instanceSize": 9140,
+			"allocType": 0,
+			"name": "En_Rr"
+		},
+		"iQue": {
+			"actorId": 221,
+			"overlaySize": 9520,
+			"instanceSize": 9140,
+			"allocType": 0,
+			"name": "En_Rr"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 222,
+			"overlaySize": 7888,
+			"instanceSize": 944,
+			"allocType": 0,
+			"name": "En_Ba"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 223,
+			"overlaySize": 2800,
+			"instanceSize": 648,
+			"allocType": 0,
+			"name": "En_Bx"
+		},
+		"GC": {
+			"actorId": 223,
+			"overlaySize": 2816,
+			"instanceSize": 648,
+			"allocType": 0,
+			"name": "En_Bx"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 224,
+			"overlaySize": 4784,
+			"instanceSize": 772,
+			"allocType": 0,
+			"name": "En_Anubice"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 225,
+			"overlaySize": 3520,
+			"instanceSize": 484,
+			"allocType": 0,
+			"name": "En_Anubice_Fire"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 226,
+			"overlaySize": 2240,
+			"instanceSize": 448,
+			"allocType": 0,
+			"name": "Bg_Mori_Hashigo"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 227,
+			"overlaySize": 1424,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Bg_Mori_Hashira4"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 228,
+			"overlaySize": 1600,
+			"instanceSize": 336,
+			"allocType": 0,
+			"name": "Bg_Mori_Idomizu"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 229,
+			"overlaySize": 1456,
+			"instanceSize": 324,
+			"allocType": 0,
+			"name": "Bg_Spot16_Doughnut"
+		},
+		"GC": {
+			"actorId": 229,
+			"overlaySize": 1472,
+			"instanceSize": 324,
+			"allocType": 0,
+			"name": "Bg_Spot16_Doughnut"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 230,
+			"overlaySize": 5168,
+			"instanceSize": 464,
+			"allocType": 0,
+			"name": "Bg_Bdan_Switch"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 231,
+			"overlaySize": 4832,
+			"instanceSize": 512,
+			"allocType": 0,
+			"name": "En_Ma1"
+		}
+	},
+	{
+		"N-1.0": {
+			"actorId": 232,
+			"overlaySize": 155120,
+			"instanceSize": 1804,
+			"allocType": 0,
+			"name": "Boss_Ganon"
+		},
+		"N-1.1": {
+			"actorId": 232,
+			"overlaySize": 155120,
+			"instanceSize": 1804,
+			"allocType": 0,
+			"name": "Boss_Ganon"
+		},
+		"P-1.0": {
+			"actorId": 232,
+			"overlaySize": 155104,
+			"instanceSize": 1804,
+			"allocType": 0,
+			"name": "Boss_Ganon"
+		},
+		"N-1.2": {
+			"actorId": 232,
+			"overlaySize": 155104,
+			"instanceSize": 1804,
+			"allocType": 0,
+			"name": "Boss_Ganon"
+		},
+		"P-1.1": {
+			"actorId": 232,
+			"overlaySize": 155104,
+			"instanceSize": 1804,
+			"allocType": 0,
+			"name": "Boss_Ganon"
+		},
+		"J-GC-MQDisc": {
+			"actorId": 232,
+			"overlaySize": 155184,
+			"instanceSize": 1804,
+			"allocType": 0,
+			"name": "Boss_Ganon"
+		},
+		"J-MQ": {
+			"actorId": 232,
+			"overlaySize": 155184,
+			"instanceSize": 1804,
+			"allocType": 0,
+			"name": "Boss_Ganon"
+		},
+		"U-GC": {
+			"actorId": 232,
+			"overlaySize": 155184,
+			"instanceSize": 1804,
+			"allocType": 0,
+			"name": "Boss_Ganon"
+		},
+		"U-MQ": {
+			"actorId": 232,
+			"overlaySize": 155184,
+			"instanceSize": 1804,
+			"allocType": 0,
+			"name": "Boss_Ganon"
+		},
+		"P-GC": {
+			"actorId": 232,
+			"overlaySize": 155184,
+			"instanceSize": 1804,
+			"allocType": 0,
+			"name": "Boss_Ganon"
+		},
+		"P-MQ": {
+			"actorId": 232,
+			"overlaySize": 155184,
+			"instanceSize": 1804,
+			"allocType": 0,
+			"name": "Boss_Ganon"
+		},
+		"J-GC-CEDisc": {
+			"actorId": 232,
+			"overlaySize": 155184,
+			"instanceSize": 1804,
+			"allocType": 0,
+			"name": "Boss_Ganon"
+		},
+		"iQue": {
+			"actorId": 232,
+			"overlaySize": 155184,
+			"instanceSize": 1804,
+			"allocType": 0,
+			"name": "Boss_Ganon"
+		}
+	},
+	{
+		"N-1.0": {
+			"actorId": 233,
+			"overlaySize": 50528,
+			"instanceSize": 2696,
+			"allocType": 0,
+			"name": "Boss_Sst"
+		},
+		"N-1.1": {
+			"actorId": 233,
+			"overlaySize": 50528,
+			"instanceSize": 2696,
+			"allocType": 0,
+			"name": "Boss_Sst"
+		},
+		"P-1.0": {
+			"actorId": 233,
+			"overlaySize": 50528,
+			"instanceSize": 2696,
+			"allocType": 0,
+			"name": "Boss_Sst"
+		},
+		"N-1.2": {
+			"actorId": 233,
+			"overlaySize": 50624,
+			"instanceSize": 2696,
+			"allocType": 0,
+			"name": "Boss_Sst"
+		},
+		"P-1.1": {
+			"actorId": 233,
+			"overlaySize": 50624,
+			"instanceSize": 2696,
+			"allocType": 0,
+			"name": "Boss_Sst"
+		},
+		"J-GC-MQDisc": {
+			"actorId": 233,
+			"overlaySize": 50640,
+			"instanceSize": 2696,
+			"allocType": 0,
+			"name": "Boss_Sst"
+		},
+		"J-MQ": {
+			"actorId": 233,
+			"overlaySize": 50640,
+			"instanceSize": 2696,
+			"allocType": 0,
+			"name": "Boss_Sst"
+		},
+		"U-GC": {
+			"actorId": 233,
+			"overlaySize": 50640,
+			"instanceSize": 2696,
+			"allocType": 0,
+			"name": "Boss_Sst"
+		},
+		"U-MQ": {
+			"actorId": 233,
+			"overlaySize": 50640,
+			"instanceSize": 2696,
+			"allocType": 0,
+			"name": "Boss_Sst"
+		},
+		"P-GC": {
+			"actorId": 233,
+			"overlaySize": 50640,
+			"instanceSize": 2696,
+			"allocType": 0,
+			"name": "Boss_Sst"
+		},
+		"P-MQ": {
+			"actorId": 233,
+			"overlaySize": 50640,
+			"instanceSize": 2696,
+			"allocType": 0,
+			"name": "Boss_Sst"
+		},
+		"J-GC-CEDisc": {
+			"actorId": 233,
+			"overlaySize": 50640,
+			"instanceSize": 2696,
+			"allocType": 0,
+			"name": "Boss_Sst"
+		},
+		"iQue": {
+			"actorId": 233,
+			"overlaySize": 50640,
+			"instanceSize": 2696,
+			"allocType": 0,
+			"name": "Boss_Sst"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 234,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 235,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 236,
+			"overlaySize": 6448,
+			"instanceSize": 680,
+			"allocType": 0,
+			"name": "En_Ny"
+		},
+		"GC": {
+			"actorId": 236,
+			"overlaySize": 6464,
+			"instanceSize": 680,
+			"allocType": 0,
+			"name": "En_Ny"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 237,
+			"overlaySize": 10896,
+			"instanceSize": 948,
+			"allocType": 0,
+			"name": "En_Fr"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 238,
+			"overlaySize": 2576,
+			"instanceSize": 508,
+			"allocType": 0,
+			"name": "Item_Shield"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 239,
+			"overlaySize": 4656,
+			"instanceSize": 500,
+			"allocType": 0,
+			"name": "Bg_Ice_Shelter"
+		},
+		"GC": {
+			"actorId": 239,
+			"overlaySize": 4672,
+			"instanceSize": 500,
+			"allocType": 0,
+			"name": "Bg_Ice_Shelter"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 240,
+			"overlaySize": 4592,
+			"instanceSize": 428,
+			"allocType": 0,
+			"name": "En_Ice_Hono"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 241,
+			"overlaySize": 2000,
+			"instanceSize": 324,
+			"allocType": 0,
+			"name": "Item_Ocarina"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 242,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 243,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 244,
+			"overlaySize": 6224,
+			"instanceSize": 340,
+			"allocType": 1,
+			"name": "Magic_Dark"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 245,
+			"overlaySize": 11536,
+			"instanceSize": 644,
+			"allocType": 0,
+			"name": "Demo_6K"
+		},
+		"GC": {
+			"actorId": 245,
+			"overlaySize": 11616,
+			"instanceSize": 644,
+			"allocType": 0,
+			"name": "Demo_6K"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 246,
+			"overlaySize": 720,
+			"instanceSize": 328,
+			"allocType": 0,
+			"name": "En_Anubice_Tag"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 247,
+			"overlaySize": 4240,
+			"instanceSize": 356,
+			"allocType": 0,
+			"name": "Bg_Haka_Gate"
+		},
+		"GC": {
+			"actorId": 247,
+			"overlaySize": 4256,
+			"instanceSize": 356,
+			"allocType": 0,
+			"name": "Bg_Haka_Gate"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 248,
+			"overlaySize": 832,
+			"instanceSize": 368,
+			"allocType": 0,
+			"name": "Bg_Spot15_Saku"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 249,
+			"overlaySize": 1920,
+			"instanceSize": 428,
+			"allocType": 0,
+			"name": "Bg_Jya_Goroiwa"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 250,
+			"overlaySize": 1712,
+			"instanceSize": 352,
+			"allocType": 0,
+			"name": "Bg_Jya_Zurerukabe"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 251,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 252,
+			"overlaySize": 7456,
+			"instanceSize": 4500,
+			"allocType": 0,
+			"name": "Bg_Jya_Cobra"
+		},
+		"GC": {
+			"actorId": 252,
+			"overlaySize": 7488,
+			"instanceSize": 4500,
+			"allocType": 0,
+			"name": "Bg_Jya_Cobra"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 253,
+			"overlaySize": 944,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Bg_Jya_Kanaami"
+		}
+	},
+	{
+		"N-1.0": {
+			"actorId": 254,
+			"overlaySize": 109232,
+			"instanceSize": 1344,
+			"allocType": 0,
+			"name": "Fishing"
+		},
+		"N-1.1": {
+			"actorId": 254,
+			"overlaySize": 109232,
+			"instanceSize": 1344,
+			"allocType": 0,
+			"name": "Fishing"
+		},
+		"P-1.0": {
+			"actorId": 254,
+			"overlaySize": 109200,
+			"instanceSize": 1344,
+			"allocType": 0,
+			"name": "Fishing"
+		},
+		"N-1.2": {
+			"actorId": 254,
+			"overlaySize": 109232,
+			"instanceSize": 1344,
+			"allocType": 0,
+			"name": "Fishing"
+		},
+		"P-1.1": {
+			"actorId": 254,
+			"overlaySize": 109200,
+			"instanceSize": 1344,
+			"allocType": 0,
+			"name": "Fishing"
+		},
+		"J-GC-MQDisc": {
+			"actorId": 254,
+			"overlaySize": 109472,
+			"instanceSize": 1344,
+			"allocType": 0,
+			"name": "Fishing"
+		},
+		"J-MQ": {
+			"actorId": 254,
+			"overlaySize": 109472,
+			"instanceSize": 1344,
+			"allocType": 0,
+			"name": "Fishing"
+		},
+		"U-GC": {
+			"actorId": 254,
+			"overlaySize": 109472,
+			"instanceSize": 1344,
+			"allocType": 0,
+			"name": "Fishing"
+		},
+		"U-MQ": {
+			"actorId": 254,
+			"overlaySize": 109472,
+			"instanceSize": 1344,
+			"allocType": 0,
+			"name": "Fishing"
+		},
+		"P-GC": {
+			"actorId": 254,
+			"overlaySize": 109424,
+			"instanceSize": 1344,
+			"allocType": 0,
+			"name": "Fishing"
+		},
+		"P-MQ": {
+			"actorId": 254,
+			"overlaySize": 109424,
+			"instanceSize": 1344,
+			"allocType": 0,
+			"name": "Fishing"
+		},
+		"J-GC-CEDisc": {
+			"actorId": 254,
+			"overlaySize": 109472,
+			"instanceSize": 1344,
+			"allocType": 0,
+			"name": "Fishing"
+		},
+		"iQue": {
+			"actorId": 254,
+			"overlaySize": 103744,
+			"instanceSize": 1344,
+			"allocType": 0,
+			"name": "Fishing"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 255,
+			"overlaySize": 6832,
+			"instanceSize": 452,
+			"allocType": 0,
+			"name": "Obj_Oshihiki"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 256,
+			"overlaySize": 1152,
+			"instanceSize": 364,
+			"allocType": 0,
+			"name": "Bg_Gate_Shutter"
+		},
+		"GC": {
+			"actorId": 256,
+			"overlaySize": 1168,
+			"instanceSize": 364,
+			"allocType": 0,
+			"name": "Bg_Gate_Shutter"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 257,
+			"overlaySize": 5088,
+			"instanceSize": 1368,
+			"allocType": 0,
+			"name": "Eff_Dust"
+		},
+		"GC": {
+			"actorId": 257,
+			"overlaySize": 5072,
+			"instanceSize": 1368,
+			"allocType": 0,
+			"name": "Eff_Dust"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 258,
+			"overlaySize": 672,
+			"instanceSize": 336,
+			"allocType": 0,
+			"name": "Bg_Spot01_Fusya"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 259,
+			"overlaySize": 3072,
+			"instanceSize": 356,
+			"allocType": 0,
+			"name": "Bg_Spot01_Idohashira"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 260,
+			"overlaySize": 784,
+			"instanceSize": 328,
+			"allocType": 0,
+			"name": "Bg_Spot01_Idomizu"
+		},
+		"GC": {
+			"actorId": 260,
+			"overlaySize": 800,
+			"instanceSize": 328,
+			"allocType": 0,
+			"name": "Bg_Spot01_Idomizu"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 261,
+			"overlaySize": 2384,
+			"instanceSize": 416,
+			"allocType": 0,
+			"name": "Bg_Po_Syokudai"
+		},
+		"GC": {
+			"actorId": 261,
+			"overlaySize": 2416,
+			"instanceSize": 416,
+			"allocType": 0,
+			"name": "Bg_Po_Syokudai"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 262,
+			"overlaySize": 9792,
+			"instanceSize": 380,
+			"allocType": 0,
+			"name": "Bg_Ganon_Otyuka"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 263,
+			"overlaySize": 3552,
+			"instanceSize": 372,
+			"allocType": 0,
+			"name": "Bg_Spot15_Rrbox"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 264,
+			"overlaySize": 400,
+			"instanceSize": 340,
+			"allocType": 0,
+			"name": "Bg_Umajump"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 265,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 266,
+			"overlaySize": 7872,
+			"instanceSize": 348,
+			"allocType": 1,
+			"name": "Arrow_Fire"
+		},
+		"GC": {
+			"actorId": 266,
+			"overlaySize": 7904,
+			"instanceSize": 348,
+			"allocType": 1,
+			"name": "Arrow_Fire"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 267,
+			"overlaySize": 7904,
+			"instanceSize": 348,
+			"allocType": 1,
+			"name": "Arrow_Ice"
+		},
+		"GC": {
+			"actorId": 267,
+			"overlaySize": 7936,
+			"instanceSize": 348,
+			"allocType": 1,
+			"name": "Arrow_Ice"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 268,
+			"overlaySize": 7920,
+			"instanceSize": 348,
+			"allocType": 1,
+			"name": "Arrow_Light"
+		},
+		"GC": {
+			"actorId": 268,
+			"overlaySize": 7952,
+			"instanceSize": 348,
+			"allocType": 1,
+			"name": "Arrow_Light"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 269,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 270,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 271,
+			"overlaySize": 2256,
+			"instanceSize": 336,
+			"allocType": 0,
+			"name": "Item_Etcetera"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 272,
+			"overlaySize": 3328,
+			"instanceSize": 396,
+			"allocType": 0,
+			"name": "Obj_Kibako"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 273,
+			"overlaySize": 4080,
+			"instanceSize": 400,
+			"allocType": 0,
+			"name": "Obj_Tsubo"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 274,
+			"overlaySize": 3376,
+			"instanceSize": 448,
+			"allocType": 0,
+			"name": "En_Wonder_Item"
+		}
+	},
+	{
+		"N-1.0": {
+			"actorId": 275,
+			"overlaySize": 17984,
+			"instanceSize": 1228,
+			"allocType": 0,
+			"name": "En_Ik"
+		},
+		"N-1.1": {
+			"actorId": 275,
+			"overlaySize": 17984,
+			"instanceSize": 1228,
+			"allocType": 0,
+			"name": "En_Ik"
+		},
+		"P-1.0": {
+			"actorId": 275,
+			"overlaySize": 17968,
+			"instanceSize": 1228,
+			"allocType": 0,
+			"name": "En_Ik"
+		},
+		"N-1.2": {
+			"actorId": 275,
+			"overlaySize": 17984,
+			"instanceSize": 1228,
+			"allocType": 0,
+			"name": "En_Ik"
+		},
+		"P-1.1": {
+			"actorId": 275,
+			"overlaySize": 17968,
+			"instanceSize": 1228,
+			"allocType": 0,
+			"name": "En_Ik"
+		},
+		"J-GC-MQDisc": {
+			"actorId": 275,
+			"overlaySize": 18016,
+			"instanceSize": 1228,
+			"allocType": 0,
+			"name": "En_Ik"
+		},
+		"J-MQ": {
+			"actorId": 275,
+			"overlaySize": 18016,
+			"instanceSize": 1228,
+			"allocType": 0,
+			"name": "En_Ik"
+		},
+		"U-GC": {
+			"actorId": 275,
+			"overlaySize": 18016,
+			"instanceSize": 1228,
+			"allocType": 0,
+			"name": "En_Ik"
+		},
+		"U-MQ": {
+			"actorId": 275,
+			"overlaySize": 18016,
+			"instanceSize": 1228,
+			"allocType": 0,
+			"name": "En_Ik"
+		},
+		"P-GC": {
+			"actorId": 275,
+			"overlaySize": 18016,
+			"instanceSize": 1228,
+			"allocType": 0,
+			"name": "En_Ik"
+		},
+		"P-MQ": {
+			"actorId": 275,
+			"overlaySize": 18016,
+			"instanceSize": 1228,
+			"allocType": 0,
+			"name": "En_Ik"
+		},
+		"J-GC-CEDisc": {
+			"actorId": 275,
+			"overlaySize": 18016,
+			"instanceSize": 1228,
+			"allocType": 0,
+			"name": "En_Ik"
+		},
+		"iQue": {
+			"actorId": 275,
+			"overlaySize": 18016,
+			"instanceSize": 1228,
+			"allocType": 0,
+			"name": "En_Ik"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 276,
+			"overlaySize": 5392,
+			"instanceSize": 420,
+			"allocType": 0,
+			"name": "Demo_Ik"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 277,
+			"overlaySize": 14656,
+			"instanceSize": 752,
+			"allocType": 0,
+			"name": "En_Skj"
+		},
+		"GC": {
+			"actorId": 277,
+			"overlaySize": 14672,
+			"instanceSize": 752,
+			"allocType": 0,
+			"name": "En_Skj"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 278,
+			"overlaySize": 784,
+			"instanceSize": 472,
+			"allocType": 0,
+			"name": "En_Skjneedle"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 279,
+			"overlaySize": 6192,
+			"instanceSize": 4840,
+			"allocType": 0,
+			"name": "En_G_Switch"
+		},
+		"GC": {
+			"actorId": 279,
+			"overlaySize": 6176,
+			"instanceSize": 4840,
+			"allocType": 0,
+			"name": "En_G_Switch"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 280,
+			"overlaySize": 2368,
+			"instanceSize": 372,
+			"allocType": 0,
+			"name": "Demo_Ext"
+		},
+		"GC": {
+			"actorId": 280,
+			"overlaySize": 2384,
+			"instanceSize": 372,
+			"allocType": 0,
+			"name": "Demo_Ext"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 281,
+			"overlaySize": 9232,
+			"instanceSize": 324,
+			"allocType": 0,
+			"name": "Demo_Shd"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 282,
+			"overlaySize": 5008,
+			"instanceSize": 696,
+			"allocType": 0,
+			"name": "En_Dns"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 283,
+			"overlaySize": 1520,
+			"instanceSize": 320,
+			"allocType": 0,
+			"name": "Elf_Msg"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 284,
+			"overlaySize": 5456,
+			"instanceSize": 564,
+			"allocType": 0,
+			"name": "En_Honotrap"
+		},
+		"GC": {
+			"actorId": 284,
+			"overlaySize": 5472,
+			"instanceSize": 564,
+			"allocType": 0,
+			"name": "En_Honotrap"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 285,
+			"overlaySize": 3232,
+			"instanceSize": 412,
+			"allocType": 0,
+			"name": "En_Tubo_Trap"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 286,
+			"overlaySize": 2480,
+			"instanceSize": 476,
+			"allocType": 0,
+			"name": "Obj_Ice_Poly"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 287,
+			"overlaySize": 2288,
+			"instanceSize": 360,
+			"allocType": 0,
+			"name": "Bg_Spot03_Taki"
+		},
+		"GC": {
+			"actorId": 287,
+			"overlaySize": 2336,
+			"instanceSize": 360,
+			"allocType": 0,
+			"name": "Bg_Spot03_Taki"
+		}
+	},
+	{
+		"N-1.0": {
+			"actorId": 288,
+			"overlaySize": 1472,
+			"instanceSize": 344,
+			"allocType": 0,
+			"name": "Bg_Spot07_Taki"
+		},
+		"N-1.1": {
+			"actorId": 288,
+			"overlaySize": 1472,
+			"instanceSize": 344,
+			"allocType": 0,
+			"name": "Bg_Spot07_Taki"
+		},
+		"P-1.0": {
+			"actorId": 288,
+			"overlaySize": 1488,
+			"instanceSize": 344,
+			"allocType": 0,
+			"name": "Bg_Spot07_Taki"
+		},
+		"N-1.2": {
+			"actorId": 288,
+			"overlaySize": 1472,
+			"instanceSize": 344,
+			"allocType": 0,
+			"name": "Bg_Spot07_Taki"
+		},
+		"P-1.1": {
+			"actorId": 288,
+			"overlaySize": 1488,
+			"instanceSize": 344,
+			"allocType": 0,
+			"name": "Bg_Spot07_Taki"
+		},
+		"J-GC-MQDisc": {
+			"actorId": 288,
+			"overlaySize": 1520,
+			"instanceSize": 344,
+			"allocType": 0,
+			"name": "Bg_Spot07_Taki"
+		},
+		"J-MQ": {
+			"actorId": 288,
+			"overlaySize": 1520,
+			"instanceSize": 344,
+			"allocType": 0,
+			"name": "Bg_Spot07_Taki"
+		},
+		"U-GC": {
+			"actorId": 288,
+			"overlaySize": 1520,
+			"instanceSize": 344,
+			"allocType": 0,
+			"name": "Bg_Spot07_Taki"
+		},
+		"U-MQ": {
+			"actorId": 288,
+			"overlaySize": 1520,
+			"instanceSize": 344,
+			"allocType": 0,
+			"name": "Bg_Spot07_Taki"
+		},
+		"P-GC": {
+			"actorId": 288,
+			"overlaySize": 1520,
+			"instanceSize": 344,
+			"allocType": 0,
+			"name": "Bg_Spot07_Taki"
+		},
+		"P-MQ": {
+			"actorId": 288,
+			"overlaySize": 1520,
+			"instanceSize": 344,
+			"allocType": 0,
+			"name": "Bg_Spot07_Taki"
+		},
+		"J-GC-CEDisc": {
+			"actorId": 288,
+			"overlaySize": 1520,
+			"instanceSize": 344,
+			"allocType": 0,
+			"name": "Bg_Spot07_Taki"
+		},
+		"iQue": {
+			"actorId": 288,
+			"overlaySize": 1520,
+			"instanceSize": 344,
+			"allocType": 0,
+			"name": "Bg_Spot07_Taki"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 289,
+			"overlaySize": 8208,
+			"instanceSize": 3012,
+			"allocType": 0,
+			"name": "En_Fz"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 290,
+			"overlaySize": 5904,
+			"instanceSize": 716,
+			"allocType": 0,
+			"name": "En_Po_Relay"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 291,
+			"overlaySize": 1968,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Bg_Relay_Objects"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 292,
+			"overlaySize": 6576,
+			"instanceSize": 904,
+			"allocType": 0,
+			"name": "En_Diving_Game"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 293,
+			"overlaySize": 5344,
+			"instanceSize": 400,
+			"allocType": 0,
+			"name": "En_Kusa"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 294,
+			"overlaySize": 10128,
+			"instanceSize": 488,
+			"allocType": 0,
+			"name": "Obj_Bean"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 295,
+			"overlaySize": 1392,
+			"instanceSize": 392,
+			"allocType": 0,
+			"name": "Obj_Bombiwa"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 296,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 297,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 298,
+			"overlaySize": 7616,
+			"instanceSize": 584,
+			"allocType": 0,
+			"name": "Obj_Switch"
+		},
+		"GC": {
+			"actorId": 298,
+			"overlaySize": 7648,
+			"instanceSize": 584,
+			"allocType": 0,
+			"name": "Obj_Switch"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 299,
+			"overlaySize": 960,
+			"instanceSize": 356,
+			"allocType": 0,
+			"name": "Obj_Elevator"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 300,
+			"overlaySize": 2592,
+			"instanceSize": 352,
+			"allocType": 0,
+			"name": "Obj_Lift"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 301,
+			"overlaySize": 1488,
+			"instanceSize": 344,
+			"allocType": 0,
+			"name": "Obj_Hsblock"
+		}
+	},
+	{
+		"N-1.0": {
+			"actorId": 302,
+			"overlaySize": 5344,
+			"instanceSize": 336,
+			"allocType": 0,
+			"name": "En_Okarina_Tag"
+		},
+		"N-1.1": {
+			"actorId": 302,
+			"overlaySize": 5376,
+			"instanceSize": 336,
+			"allocType": 0,
+			"name": "En_Okarina_Tag"
+		},
+		"P-1.0": {
+			"actorId": 302,
+			"overlaySize": 5376,
+			"instanceSize": 336,
+			"allocType": 0,
+			"name": "En_Okarina_Tag"
+		},
+		"N-1.2": {
+			"actorId": 302,
+			"overlaySize": 5376,
+			"instanceSize": 336,
+			"allocType": 0,
+			"name": "En_Okarina_Tag"
+		},
+		"P-1.1": {
+			"actorId": 302,
+			"overlaySize": 5376,
+			"instanceSize": 336,
+			"allocType": 0,
+			"name": "En_Okarina_Tag"
+		},
+		"J-GC-MQDisc": {
+			"actorId": 302,
+			"overlaySize": 5376,
+			"instanceSize": 336,
+			"allocType": 0,
+			"name": "En_Okarina_Tag"
+		},
+		"J-MQ": {
+			"actorId": 302,
+			"overlaySize": 5376,
+			"instanceSize": 336,
+			"allocType": 0,
+			"name": "En_Okarina_Tag"
+		},
+		"U-GC": {
+			"actorId": 302,
+			"overlaySize": 5376,
+			"instanceSize": 336,
+			"allocType": 0,
+			"name": "En_Okarina_Tag"
+		},
+		"U-MQ": {
+			"actorId": 302,
+			"overlaySize": 5376,
+			"instanceSize": 336,
+			"allocType": 0,
+			"name": "En_Okarina_Tag"
+		},
+		"P-GC": {
+			"actorId": 302,
+			"overlaySize": 5376,
+			"instanceSize": 336,
+			"allocType": 0,
+			"name": "En_Okarina_Tag"
+		},
+		"P-MQ": {
+			"actorId": 302,
+			"overlaySize": 5376,
+			"instanceSize": 336,
+			"allocType": 0,
+			"name": "En_Okarina_Tag"
+		},
+		"J-GC-CEDisc": {
+			"actorId": 302,
+			"overlaySize": 5376,
+			"instanceSize": 336,
+			"allocType": 0,
+			"name": "En_Okarina_Tag"
+		},
+		"iQue": {
+			"actorId": 302,
+			"overlaySize": 5376,
+			"instanceSize": 336,
+			"allocType": 0,
+			"name": "En_Okarina_Tag"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 303,
+			"overlaySize": 1744,
+			"instanceSize": 512,
+			"allocType": 0,
+			"name": "En_Yabusame_Mark"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 304,
+			"overlaySize": 9152,
+			"instanceSize": 452,
+			"allocType": 0,
+			"name": "En_Goroiwa"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 305,
+			"overlaySize": 4288,
+			"instanceSize": 340,
+			"allocType": 0,
+			"name": "En_Ex_Ruppy"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 306,
+			"overlaySize": 3216,
+			"instanceSize": 720,
+			"allocType": 0,
+			"name": "En_Toryo"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 307,
+			"overlaySize": 5952,
+			"instanceSize": 828,
+			"allocType": 0,
+			"name": "En_Daiku"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 308,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 309,
+			"overlaySize": 2624,
+			"instanceSize": 1828,
+			"allocType": 0,
+			"name": "En_Nwc"
+		},
+		"GC": {
+			"actorId": 309,
+			"overlaySize": 2592,
+			"instanceSize": 1828,
+			"allocType": 0,
+			"name": "En_Nwc"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 310,
+			"overlaySize": 1376,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "En_Blkobj"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 311,
+			"overlaySize": 352,
+			"instanceSize": 320,
+			"allocType": 0,
+			"name": "Item_Inbox"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 312,
+			"overlaySize": 8240,
+			"instanceSize": 684,
+			"allocType": 0,
+			"name": "En_Ge1"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 313,
+			"overlaySize": 416,
+			"instanceSize": 316,
+			"allocType": 0,
+			"name": "Obj_Blockstop"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 314,
+			"overlaySize": 5888,
+			"instanceSize": 316,
+			"allocType": 0,
+			"name": "En_Sda"
+		},
+		"GC": {
+			"actorId": 314,
+			"overlaySize": 5872,
+			"instanceSize": 316,
+			"allocType": 0,
+			"name": "En_Sda"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 315,
+			"overlaySize": 46496,
+			"instanceSize": 500,
+			"allocType": 0,
+			"name": "En_Clear_Tag"
+		}
+	},
+	{
+		"N-1.0": {
+			"actorId": 316,
+			"overlaySize": 6368,
+			"instanceSize": 748,
+			"allocType": 0,
+			"name": "En_Niw_Lady"
+		},
+		"N-1.1": {
+			"actorId": 316,
+			"overlaySize": 6400,
+			"instanceSize": 748,
+			"allocType": 0,
+			"name": "En_Niw_Lady"
+		},
+		"P-1.0": {
+			"actorId": 316,
+			"overlaySize": 6400,
+			"instanceSize": 748,
+			"allocType": 0,
+			"name": "En_Niw_Lady"
+		},
+		"N-1.2": {
+			"actorId": 316,
+			"overlaySize": 6400,
+			"instanceSize": 748,
+			"allocType": 0,
+			"name": "En_Niw_Lady"
+		},
+		"P-1.1": {
+			"actorId": 316,
+			"overlaySize": 6400,
+			"instanceSize": 748,
+			"allocType": 0,
+			"name": "En_Niw_Lady"
+		},
+		"J-GC-MQDisc": {
+			"actorId": 316,
+			"overlaySize": 6400,
+			"instanceSize": 748,
+			"allocType": 0,
+			"name": "En_Niw_Lady"
+		},
+		"J-MQ": {
+			"actorId": 316,
+			"overlaySize": 6400,
+			"instanceSize": 748,
+			"allocType": 0,
+			"name": "En_Niw_Lady"
+		},
+		"U-GC": {
+			"actorId": 316,
+			"overlaySize": 6400,
+			"instanceSize": 748,
+			"allocType": 0,
+			"name": "En_Niw_Lady"
+		},
+		"U-MQ": {
+			"actorId": 316,
+			"overlaySize": 6400,
+			"instanceSize": 748,
+			"allocType": 0,
+			"name": "En_Niw_Lady"
+		},
+		"P-GC": {
+			"actorId": 316,
+			"overlaySize": 6400,
+			"instanceSize": 748,
+			"allocType": 0,
+			"name": "En_Niw_Lady"
+		},
+		"P-MQ": {
+			"actorId": 316,
+			"overlaySize": 6400,
+			"instanceSize": 748,
+			"allocType": 0,
+			"name": "En_Niw_Lady"
+		},
+		"J-GC-CEDisc": {
+			"actorId": 316,
+			"overlaySize": 6400,
+			"instanceSize": 748,
+			"allocType": 0,
+			"name": "En_Niw_Lady"
+		},
+		"iQue": {
+			"actorId": 316,
+			"overlaySize": 6400,
+			"instanceSize": 748,
+			"allocType": 0,
+			"name": "En_Niw_Lady"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 317,
+			"overlaySize": 3376,
+			"instanceSize": 704,
+			"allocType": 0,
+			"name": "En_Gm"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 318,
+			"overlaySize": 1776,
+			"instanceSize": 576,
+			"allocType": 0,
+			"name": "En_Ms"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 319,
+			"overlaySize": 2976,
+			"instanceSize": 672,
+			"allocType": 0,
+			"name": "En_Hs"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 320,
+			"overlaySize": 912,
+			"instanceSize": 344,
+			"allocType": 0,
+			"name": "Bg_Ingate"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 321,
+			"overlaySize": 12624,
+			"instanceSize": 476,
+			"allocType": 0,
+			"name": "En_Kanban"
+		}
+	},
+	{
+		"N-1.0": {
+			"actorId": 322,
+			"overlaySize": 2512,
+			"instanceSize": 696,
+			"allocType": 0,
+			"name": "En_Heishi3"
+		},
+		"N-1.1": {
+			"actorId": 322,
+			"overlaySize": 2512,
+			"instanceSize": 696,
+			"allocType": 0,
+			"name": "En_Heishi3"
+		},
+		"P-1.0": {
+			"actorId": 322,
+			"overlaySize": 2544,
+			"instanceSize": 696,
+			"allocType": 0,
+			"name": "En_Heishi3"
+		},
+		"N-1.2": {
+			"actorId": 322,
+			"overlaySize": 2512,
+			"instanceSize": 696,
+			"allocType": 0,
+			"name": "En_Heishi3"
+		},
+		"P-1.1": {
+			"actorId": 322,
+			"overlaySize": 2544,
+			"instanceSize": 696,
+			"allocType": 0,
+			"name": "En_Heishi3"
+		},
+		"J-GC-MQDisc": {
+			"actorId": 322,
+			"overlaySize": 2512,
+			"instanceSize": 696,
+			"allocType": 0,
+			"name": "En_Heishi3"
+		},
+		"J-MQ": {
+			"actorId": 322,
+			"overlaySize": 2512,
+			"instanceSize": 696,
+			"allocType": 0,
+			"name": "En_Heishi3"
+		},
+		"U-GC": {
+			"actorId": 322,
+			"overlaySize": 2512,
+			"instanceSize": 696,
+			"allocType": 0,
+			"name": "En_Heishi3"
+		},
+		"U-MQ": {
+			"actorId": 322,
+			"overlaySize": 2512,
+			"instanceSize": 696,
+			"allocType": 0,
+			"name": "En_Heishi3"
+		},
+		"P-GC": {
+			"actorId": 322,
+			"overlaySize": 2512,
+			"instanceSize": 696,
+			"allocType": 0,
+			"name": "En_Heishi3"
+		},
+		"P-MQ": {
+			"actorId": 322,
+			"overlaySize": 2512,
+			"instanceSize": 696,
+			"allocType": 0,
+			"name": "En_Heishi3"
+		},
+		"J-GC-CEDisc": {
+			"actorId": 322,
+			"overlaySize": 2512,
+			"instanceSize": 696,
+			"allocType": 0,
+			"name": "En_Heishi3"
+		},
+		"iQue": {
+			"actorId": 322,
+			"overlaySize": 2512,
+			"instanceSize": 696,
+			"allocType": 0,
+			"name": "En_Heishi3"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 323,
+			"overlaySize": 8336,
+			"instanceSize": 1104,
+			"allocType": 0,
+			"name": "En_Syateki_Niw"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 324,
+			"overlaySize": 4704,
+			"instanceSize": 728,
+			"allocType": 0,
+			"name": "En_Attack_Niw"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 325,
+			"overlaySize": 528,
+			"instanceSize": 344,
+			"allocType": 0,
+			"name": "Bg_Spot01_Idosoko"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 326,
+			"overlaySize": 8816,
+			"instanceSize": 732,
+			"allocType": 0,
+			"name": "En_Sa"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 327,
+			"overlaySize": 1680,
+			"instanceSize": 344,
+			"allocType": 0,
+			"name": "En_Wonder_Talk"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 328,
+			"overlaySize": 1280,
+			"instanceSize": 344,
+			"allocType": 0,
+			"name": "Bg_Gjyo_Bridge"
+		},
+		"GC": {
+			"actorId": 328,
+			"overlaySize": 1264,
+			"instanceSize": 344,
+			"allocType": 0,
+			"name": "Bg_Gjyo_Bridge"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 329,
+			"overlaySize": 3104,
+			"instanceSize": 480,
+			"allocType": 0,
+			"name": "En_Ds"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 330,
+			"overlaySize": 3728,
+			"instanceSize": 632,
+			"allocType": 0,
+			"name": "En_Mk"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 331,
+			"overlaySize": 5440,
+			"instanceSize": 596,
+			"allocType": 0,
+			"name": "En_Bom_Bowl_Man"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 332,
+			"overlaySize": 2416,
+			"instanceSize": 14068,
+			"allocType": 0,
+			"name": "En_Bom_Bowl_Pit"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 333,
+			"overlaySize": 15264,
+			"instanceSize": 1028,
+			"allocType": 0,
+			"name": "En_Owl"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 334,
+			"overlaySize": 37200,
+			"instanceSize": 396,
+			"allocType": 0,
+			"name": "En_Ishi"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 335,
+			"overlaySize": 784,
+			"instanceSize": 392,
+			"allocType": 0,
+			"name": "Obj_Hana"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 336,
+			"overlaySize": 5168,
+			"instanceSize": 436,
+			"allocType": 0,
+			"name": "Obj_Lightswitch"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 337,
+			"overlaySize": 2592,
+			"instanceSize": 376,
+			"allocType": 0,
+			"name": "Obj_Mure2"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 338,
+			"overlaySize": 17984,
+			"instanceSize": 1720,
+			"allocType": 0,
+			"name": "En_Go"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 339,
+			"overlaySize": 3408,
+			"instanceSize": 672,
+			"allocType": 0,
+			"name": "En_Fu"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 340,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 341,
+			"overlaySize": 2528,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "En_Changer"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 342,
+			"overlaySize": 4576,
+			"instanceSize": 812,
+			"allocType": 0,
+			"name": "Bg_Jya_Megami"
+		},
+		"GC": {
+			"actorId": 342,
+			"overlaySize": 4592,
+			"instanceSize": 812,
+			"allocType": 0,
+			"name": "Bg_Jya_Megami"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 343,
+			"overlaySize": 1360,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Bg_Jya_Lift"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 344,
+			"overlaySize": 2112,
+			"instanceSize": 356,
+			"allocType": 0,
+			"name": "Bg_Jya_Bigmirror"
+		},
+		"GC": {
+			"actorId": 344,
+			"overlaySize": 2128,
+			"instanceSize": 356,
+			"allocType": 0,
+			"name": "Bg_Jya_Bigmirror"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 345,
+			"overlaySize": 2864,
+			"instanceSize": 424,
+			"allocType": 0,
+			"name": "Bg_Jya_Bombchuiwa"
+		},
+		"GC": {
+			"actorId": 345,
+			"overlaySize": 2880,
+			"instanceSize": 424,
+			"allocType": 0,
+			"name": "Bg_Jya_Bombchuiwa"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 346,
+			"overlaySize": 912,
+			"instanceSize": 344,
+			"allocType": 0,
+			"name": "Bg_Jya_Amishutter"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 347,
+			"overlaySize": 1472,
+			"instanceSize": 440,
+			"allocType": 0,
+			"name": "Bg_Jya_Bombiwa"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 348,
+			"overlaySize": 4080,
+			"instanceSize": 524,
+			"allocType": 0,
+			"name": "Bg_Spot18_Basket"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 349,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 350,
+			"overlaySize": 28672,
+			"instanceSize": 320,
+			"allocType": 0,
+			"name": "En_Ganon_Organ"
+		},
+		"GC": {
+			"actorId": 350,
+			"overlaySize": 28736,
+			"instanceSize": 320,
+			"allocType": 0,
+			"name": "En_Ganon_Organ"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 351,
+			"overlaySize": 3504,
+			"instanceSize": 400,
+			"allocType": 0,
+			"name": "En_Siofuki"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 352,
+			"overlaySize": 1424,
+			"instanceSize": 328,
+			"allocType": 0,
+			"name": "En_Stream"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 353,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 354,
+			"overlaySize": 5664,
+			"instanceSize": 784,
+			"allocType": 0,
+			"name": "En_Mm"
+		},
+		"GC": {
+			"actorId": 354,
+			"overlaySize": 5728,
+			"instanceSize": 784,
+			"allocType": 0,
+			"name": "En_Mm"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 355,
+			"overlaySize": 16704,
+			"instanceSize": 788,
+			"allocType": 0,
+			"name": "En_Ko"
+		}
+	},
+	{
+		"N-1.0": {
+			"actorId": 356,
+			"overlaySize": 5392,
+			"instanceSize": 712,
+			"allocType": 0,
+			"name": "En_Kz"
+		},
+		"N-1.1": {
+			"actorId": 356,
+			"overlaySize": 5392,
+			"instanceSize": 712,
+			"allocType": 0,
+			"name": "En_Kz"
+		},
+		"P-1.0": {
+			"actorId": 356,
+			"overlaySize": 5536,
+			"instanceSize": 712,
+			"allocType": 0,
+			"name": "En_Kz"
+		},
+		"N-1.2": {
+			"actorId": 356,
+			"overlaySize": 5536,
+			"instanceSize": 712,
+			"allocType": 0,
+			"name": "En_Kz"
+		},
+		"P-1.1": {
+			"actorId": 356,
+			"overlaySize": 5536,
+			"instanceSize": 712,
+			"allocType": 0,
+			"name": "En_Kz"
+		},
+		"J-GC-MQDisc": {
+			"actorId": 356,
+			"overlaySize": 5536,
+			"instanceSize": 712,
+			"allocType": 0,
+			"name": "En_Kz"
+		},
+		"J-MQ": {
+			"actorId": 356,
+			"overlaySize": 5536,
+			"instanceSize": 712,
+			"allocType": 0,
+			"name": "En_Kz"
+		},
+		"U-GC": {
+			"actorId": 356,
+			"overlaySize": 5536,
+			"instanceSize": 712,
+			"allocType": 0,
+			"name": "En_Kz"
+		},
+		"U-MQ": {
+			"actorId": 356,
+			"overlaySize": 5536,
+			"instanceSize": 712,
+			"allocType": 0,
+			"name": "En_Kz"
+		},
+		"P-GC": {
+			"actorId": 356,
+			"overlaySize": 5536,
+			"instanceSize": 712,
+			"allocType": 0,
+			"name": "En_Kz"
+		},
+		"P-MQ": {
+			"actorId": 356,
+			"overlaySize": 5536,
+			"instanceSize": 712,
+			"allocType": 0,
+			"name": "En_Kz"
+		},
+		"J-GC-CEDisc": {
+			"actorId": 356,
+			"overlaySize": 5536,
+			"instanceSize": 712,
+			"allocType": 0,
+			"name": "En_Kz"
+		},
+		"iQue": {
+			"actorId": 356,
+			"overlaySize": 5536,
+			"instanceSize": 712,
+			"allocType": 0,
+			"name": "En_Kz"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 357,
+			"overlaySize": 3824,
+			"instanceSize": 324,
+			"allocType": 0,
+			"name": "En_Weather_Tag"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 358,
+			"overlaySize": 1376,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Bg_Sst_Floor"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 359,
+			"overlaySize": 3440,
+			"instanceSize": 676,
+			"allocType": 0,
+			"name": "En_Ani"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 360,
+			"overlaySize": 4464,
+			"instanceSize": 372,
+			"allocType": 0,
+			"name": "En_Ex_Item"
+		},
+		"GC": {
+			"actorId": 360,
+			"overlaySize": 4480,
+			"instanceSize": 372,
+			"allocType": 0,
+			"name": "En_Ex_Item"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 361,
+			"overlaySize": 3504,
+			"instanceSize": 420,
+			"allocType": 0,
+			"name": "Bg_Jya_Ironobj"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 362,
+			"overlaySize": 2512,
+			"instanceSize": 640,
+			"allocType": 0,
+			"name": "En_Js"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 363,
+			"overlaySize": 22816,
+			"instanceSize": 360,
+			"allocType": 0,
+			"name": "En_Jsjutan"
+		},
+		"GC": {
+			"actorId": 363,
+			"overlaySize": 22832,
+			"instanceSize": 360,
+			"allocType": 0,
+			"name": "En_Jsjutan"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 364,
+			"overlaySize": 4656,
+			"instanceSize": 820,
+			"allocType": 0,
+			"name": "En_Cs"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 365,
+			"overlaySize": 9840,
+			"instanceSize": 788,
+			"allocType": 0,
+			"name": "En_Md"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 366,
+			"overlaySize": 14656,
+			"instanceSize": 804,
+			"allocType": 0,
+			"name": "En_Hy"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 367,
+			"overlaySize": 16928,
+			"instanceSize": 5880,
+			"allocType": 0,
+			"name": "En_Ganon_Mant"
+		},
+		"GC": {
+			"actorId": 367,
+			"overlaySize": 16944,
+			"instanceSize": 5880,
+			"allocType": 0,
+			"name": "En_Ganon_Mant"
+		}
+	},
+	{
+		"N-1.0": {
+			"actorId": 368,
+			"overlaySize": 944,
+			"instanceSize": 324,
+			"allocType": 0,
+			"name": "En_Okarina_Effect"
+		},
+		"N-1.1": {
+			"actorId": 368,
+			"overlaySize": 944,
+			"instanceSize": 324,
+			"allocType": 0,
+			"name": "En_Okarina_Effect"
+		},
+		"P-1.0": {
+			"actorId": 368,
+			"overlaySize": 960,
+			"instanceSize": 324,
+			"allocType": 0,
+			"name": "En_Okarina_Effect"
+		},
+		"N-1.2": {
+			"actorId": 368,
+			"overlaySize": 960,
+			"instanceSize": 324,
+			"allocType": 0,
+			"name": "En_Okarina_Effect"
+		},
+		"P-1.1": {
+			"actorId": 368,
+			"overlaySize": 960,
+			"instanceSize": 324,
+			"allocType": 0,
+			"name": "En_Okarina_Effect"
+		},
+		"J-GC-MQDisc": {
+			"actorId": 368,
+			"overlaySize": 960,
+			"instanceSize": 324,
+			"allocType": 0,
+			"name": "En_Okarina_Effect"
+		},
+		"J-MQ": {
+			"actorId": 368,
+			"overlaySize": 960,
+			"instanceSize": 324,
+			"allocType": 0,
+			"name": "En_Okarina_Effect"
+		},
+		"U-GC": {
+			"actorId": 368,
+			"overlaySize": 960,
+			"instanceSize": 324,
+			"allocType": 0,
+			"name": "En_Okarina_Effect"
+		},
+		"U-MQ": {
+			"actorId": 368,
+			"overlaySize": 960,
+			"instanceSize": 324,
+			"allocType": 0,
+			"name": "En_Okarina_Effect"
+		},
+		"P-GC": {
+			"actorId": 368,
+			"overlaySize": 960,
+			"instanceSize": 324,
+			"allocType": 0,
+			"name": "En_Okarina_Effect"
+		},
+		"P-MQ": {
+			"actorId": 368,
+			"overlaySize": 960,
+			"instanceSize": 324,
+			"allocType": 0,
+			"name": "En_Okarina_Effect"
+		},
+		"J-GC-CEDisc": {
+			"actorId": 368,
+			"overlaySize": 960,
+			"instanceSize": 324,
+			"allocType": 0,
+			"name": "En_Okarina_Effect"
+		},
+		"iQue": {
+			"actorId": 368,
+			"overlaySize": 960,
+			"instanceSize": 324,
+			"allocType": 0,
+			"name": "En_Okarina_Effect"
+		}
+	},
+	{
+		"N-1.0": {
+			"actorId": 369,
+			"overlaySize": 20240,
+			"instanceSize": 58136,
+			"allocType": 0,
+			"name": "En_Mag"
+		},
+		"N-1.1": {
+			"actorId": 369,
+			"overlaySize": 20240,
+			"instanceSize": 58136,
+			"allocType": 0,
+			"name": "En_Mag"
+		},
+		"P-1.0": {
+			"actorId": 369,
+			"overlaySize": 19296,
+			"instanceSize": 58136,
+			"allocType": 0,
+			"name": "En_Mag"
+		},
+		"N-1.2": {
+			"actorId": 369,
+			"overlaySize": 20240,
+			"instanceSize": 58136,
+			"allocType": 0,
+			"name": "En_Mag"
+		},
+		"P-1.1": {
+			"actorId": 369,
+			"overlaySize": 19296,
+			"instanceSize": 58136,
+			"allocType": 0,
+			"name": "En_Mag"
+		},
+		"J-GC-MQDisc": {
+			"actorId": 369,
+			"overlaySize": 19376,
+			"instanceSize": 58136,
+			"allocType": 0,
+			"name": "En_Mag"
+		},
+		"J-MQ": {
+			"actorId": 369,
+			"overlaySize": 19600,
+			"instanceSize": 58136,
+			"allocType": 0,
+			"name": "En_Mag"
+		},
+		"U-GC": {
+			"actorId": 369,
+			"overlaySize": 10544,
+			"instanceSize": 58136,
+			"allocType": 0,
+			"name": "En_Mag"
+		},
+		"U-MQ": {
+			"actorId": 369,
+			"overlaySize": 10832,
+			"instanceSize": 58136,
+			"allocType": 0,
+			"name": "En_Mag"
+		},
+		"P-GC": {
+			"actorId": 369,
+			"overlaySize": 9376,
+			"instanceSize": 58136,
+			"allocType": 0,
+			"name": "En_Mag"
+		},
+		"P-MQ": {
+			"actorId": 369,
+			"overlaySize": 9504,
+			"instanceSize": 58136,
+			"allocType": 0,
+			"name": "En_Mag"
+		},
+		"J-GC-CEDisc": {
+			"actorId": 369,
+			"overlaySize": 10544,
+			"instanceSize": 58136,
+			"allocType": 0,
+			"name": "En_Mag"
+		},
+		"iQue": {
+			"actorId": 369,
+			"overlaySize": 20544,
+			"instanceSize": 58136,
+			"allocType": 0,
+			"name": "En_Mag"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 370,
+			"overlaySize": 1520,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Door_Gerudo"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 371,
+			"overlaySize": 1136,
+			"instanceSize": 320,
+			"allocType": 0,
+			"name": "Elf_Msg2"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 372,
+			"overlaySize": 22016,
+			"instanceSize": 408,
+			"allocType": 0,
+			"name": "Demo_Gt"
+		},
+		"GC": {
+			"actorId": 372,
+			"overlaySize": 22032,
+			"instanceSize": 408,
+			"allocType": 0,
+			"name": "Demo_Gt"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 373,
+			"overlaySize": 14960,
+			"instanceSize": 716,
+			"allocType": 0,
+			"name": "En_Po_Field"
+		},
+		"GC": {
+			"actorId": 373,
+			"overlaySize": 14992,
+			"instanceSize": 716,
+			"allocType": 0,
+			"name": "En_Po_Field"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 374,
+			"overlaySize": 2784,
+			"instanceSize": 6332,
+			"allocType": 0,
+			"name": "Efc_Erupc"
+		},
+		"GC": {
+			"actorId": 374,
+			"overlaySize": 2800,
+			"instanceSize": 6332,
+			"allocType": 0,
+			"name": "Efc_Erupc"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 375,
+			"overlaySize": 1136,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Bg_Zg"
+		},
+		"GC": {
+			"actorId": 375,
+			"overlaySize": 1104,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Bg_Zg"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 376,
+			"overlaySize": 3840,
+			"instanceSize": 760,
+			"allocType": 0,
+			"name": "En_Heishi4"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 377,
+			"overlaySize": 32336,
+			"instanceSize": 1040,
+			"allocType": 0,
+			"name": "En_Zl3"
+		}
+	},
+	{
+		"N-1.0": {
+			"actorId": 378,
+			"overlaySize": 77328,
+			"instanceSize": 2260,
+			"allocType": 0,
+			"name": "Boss_Ganon2"
+		},
+		"N-1.1": {
+			"actorId": 378,
+			"overlaySize": 77328,
+			"instanceSize": 2260,
+			"allocType": 0,
+			"name": "Boss_Ganon2"
+		},
+		"P-1.0": {
+			"actorId": 378,
+			"overlaySize": 77344,
+			"instanceSize": 2260,
+			"allocType": 0,
+			"name": "Boss_Ganon2"
+		},
+		"N-1.2": {
+			"actorId": 378,
+			"overlaySize": 77344,
+			"instanceSize": 2260,
+			"allocType": 0,
+			"name": "Boss_Ganon2"
+		},
+		"P-1.1": {
+			"actorId": 378,
+			"overlaySize": 77344,
+			"instanceSize": 2260,
+			"allocType": 0,
+			"name": "Boss_Ganon2"
+		},
+		"J-GC-MQDisc": {
+			"actorId": 378,
+			"overlaySize": 77424,
+			"instanceSize": 2260,
+			"allocType": 0,
+			"name": "Boss_Ganon2"
+		},
+		"J-MQ": {
+			"actorId": 378,
+			"overlaySize": 77424,
+			"instanceSize": 2260,
+			"allocType": 0,
+			"name": "Boss_Ganon2"
+		},
+		"U-GC": {
+			"actorId": 378,
+			"overlaySize": 77424,
+			"instanceSize": 2260,
+			"allocType": 0,
+			"name": "Boss_Ganon2"
+		},
+		"U-MQ": {
+			"actorId": 378,
+			"overlaySize": 77424,
+			"instanceSize": 2260,
+			"allocType": 0,
+			"name": "Boss_Ganon2"
+		},
+		"P-GC": {
+			"actorId": 378,
+			"overlaySize": 77424,
+			"instanceSize": 2260,
+			"allocType": 0,
+			"name": "Boss_Ganon2"
+		},
+		"P-MQ": {
+			"actorId": 378,
+			"overlaySize": 77424,
+			"instanceSize": 2260,
+			"allocType": 0,
+			"name": "Boss_Ganon2"
+		},
+		"J-GC-CEDisc": {
+			"actorId": 378,
+			"overlaySize": 77424,
+			"instanceSize": 2260,
+			"allocType": 0,
+			"name": "Boss_Ganon2"
+		},
+		"iQue": {
+			"actorId": 378,
+			"overlaySize": 77424,
+			"instanceSize": 2260,
+			"allocType": 0,
+			"name": "Boss_Ganon2"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 379,
+			"overlaySize": 3392,
+			"instanceSize": 508,
+			"allocType": 0,
+			"name": "En_Kakasi"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 380,
+			"overlaySize": 2240,
+			"instanceSize": 552,
+			"allocType": 0,
+			"name": "En_Takara_Man"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 381,
+			"overlaySize": 1168,
+			"instanceSize": 316,
+			"allocType": 0,
+			"name": "Obj_Makeoshihiki"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 382,
+			"overlaySize": 3888,
+			"instanceSize": 368,
+			"allocType": 1,
+			"name": "Oceff_Spot"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 383,
+			"overlaySize": 16688,
+			"instanceSize": 320,
+			"allocType": 0,
+			"name": "End_Title"
+		},
+		"GC": {
+			"actorId": 383,
+			"overlaySize": 16672,
+			"instanceSize": 320,
+			"allocType": 0,
+			"name": "End_Title"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 384,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 385,
+			"overlaySize": 240,
+			"instanceSize": 316,
+			"allocType": 0,
+			"name": "En_Torch"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 386,
+			"overlaySize": 14432,
+			"instanceSize": 408,
+			"allocType": 0,
+			"name": "Demo_Ec"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 387,
+			"overlaySize": 1728,
+			"instanceSize": 408,
+			"allocType": 0,
+			"name": "Shot_Sun"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 388,
+			"overlaySize": 1408,
+			"instanceSize": 356,
+			"allocType": 0,
+			"name": "En_Dy_Extra"
+		},
+		"GC": {
+			"actorId": 388,
+			"overlaySize": 1440,
+			"instanceSize": 356,
+			"allocType": 0,
+			"name": "En_Dy_Extra"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 389,
+			"overlaySize": 1696,
+			"instanceSize": 352,
+			"allocType": 0,
+			"name": "En_Wonder_Talk2"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 390,
+			"overlaySize": 6560,
+			"instanceSize": 764,
+			"allocType": 0,
+			"name": "En_Ge2"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 391,
+			"overlaySize": 592,
+			"instanceSize": 324,
+			"allocType": 0,
+			"name": "Obj_Roomtimer"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 392,
+			"overlaySize": 9712,
+			"instanceSize": 1476,
+			"allocType": 0,
+			"name": "En_Ssh"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 393,
+			"overlaySize": 16560,
+			"instanceSize": 684,
+			"allocType": 0,
+			"name": "En_Sth"
+		},
+		"GC": {
+			"actorId": 393,
+			"overlaySize": 16576,
+			"instanceSize": 684,
+			"allocType": 0,
+			"name": "En_Sth"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 394,
+			"overlaySize": 3408,
+			"instanceSize": 320,
+			"allocType": 1,
+			"name": "Oceff_Wipe"
+		},
+		"GC": {
+			"actorId": 394,
+			"overlaySize": 3456,
+			"instanceSize": 320,
+			"allocType": 1,
+			"name": "Oceff_Wipe"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 395,
+			"overlaySize": 7072,
+			"instanceSize": 328,
+			"allocType": 1,
+			"name": "Oceff_Storm"
+		},
+		"GC": {
+			"actorId": 395,
+			"overlaySize": 7088,
+			"instanceSize": 328,
+			"allocType": 1,
+			"name": "Oceff_Storm"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 396,
+			"overlaySize": 6656,
+			"instanceSize": 704,
+			"allocType": 0,
+			"name": "En_Weiyer"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 397,
+			"overlaySize": 800,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Bg_Spot05_Soko"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 398,
+			"overlaySize": 1680,
+			"instanceSize": 428,
+			"allocType": 0,
+			"name": "Bg_Jya_1flift"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 399,
+			"overlaySize": 2032,
+			"instanceSize": 420,
+			"allocType": 0,
+			"name": "Bg_Jya_Haheniron"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 400,
+			"overlaySize": 1040,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Bg_Spot12_Gate"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 401,
+			"overlaySize": 1216,
+			"instanceSize": 348,
+			"allocType": 0,
+			"name": "Bg_Spot12_Saku"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 402,
+			"overlaySize": 6704,
+			"instanceSize": 592,
+			"allocType": 0,
+			"name": "En_Hintnuts"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 403,
+			"overlaySize": 1568,
+			"instanceSize": 400,
+			"allocType": 0,
+			"name": "En_Nutsball"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 404,
+			"overlaySize": 416,
+			"instanceSize": 340,
+			"allocType": 0,
+			"name": "Bg_Spot00_Break"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 405,
+			"overlaySize": 3856,
+			"instanceSize": 684,
+			"allocType": 0,
+			"name": "En_Shopnuts"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 406,
+			"overlaySize": 400,
+			"instanceSize": 396,
+			"allocType": 0,
+			"name": "En_It"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 407,
+			"overlaySize": 21424,
+			"instanceSize": 1236,
+			"allocType": 0,
+			"name": "En_GeldB"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 408,
+			"overlaySize": 6000,
+			"instanceSize": 320,
+			"allocType": 1,
+			"name": "Oceff_Wipe2"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 409,
+			"overlaySize": 5968,
+			"instanceSize": 320,
+			"allocType": 1,
+			"name": "Oceff_Wipe3"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 410,
+			"overlaySize": 2768,
+			"instanceSize": 748,
+			"allocType": 0,
+			"name": "En_Niw_Girl"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 411,
+			"overlaySize": 4528,
+			"instanceSize": 640,
+			"allocType": 0,
+			"name": "En_Dog"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 412,
+			"overlaySize": 1280,
+			"instanceSize": 400,
+			"allocType": 0,
+			"name": "En_Si"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 413,
+			"overlaySize": 1216,
+			"instanceSize": 368,
+			"allocType": 0,
+			"name": "Bg_Spot01_Objects2"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 414,
+			"overlaySize": 2144,
+			"instanceSize": 420,
+			"allocType": 0,
+			"name": "Obj_Comb"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 415,
+			"overlaySize": 1600,
+			"instanceSize": 416,
+			"allocType": 0,
+			"name": "Bg_Spot11_Bakudankabe"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 416,
+			"overlaySize": 1728,
+			"instanceSize": 424,
+			"allocType": 0,
+			"name": "Obj_Kibako2"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 417,
+			"overlaySize": 3360,
+			"instanceSize": 496,
+			"allocType": 0,
+			"name": "En_Dnt_Demo"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 418,
+			"overlaySize": 5392,
+			"instanceSize": 664,
+			"allocType": 0,
+			"name": "En_Dnt_Jiji"
+		},
+		"GC": {
+			"actorId": 418,
+			"overlaySize": 5408,
+			"instanceSize": 664,
+			"allocType": 0,
+			"name": "En_Dnt_Jiji"
+		}
+	},
+	{
+		"N-1.0": {
+			"actorId": 419,
+			"overlaySize": 11776,
+			"instanceSize": 848,
+			"allocType": 0,
+			"name": "En_Dnt_Nomal"
+		},
+		"N-1.1": {
+			"actorId": 419,
+			"overlaySize": 11776,
+			"instanceSize": 848,
+			"allocType": 0,
+			"name": "En_Dnt_Nomal"
+		},
+		"P-1.0": {
+			"actorId": 419,
+			"overlaySize": 11840,
+			"instanceSize": 848,
+			"allocType": 0,
+			"name": "En_Dnt_Nomal"
+		},
+		"N-1.2": {
+			"actorId": 419,
+			"overlaySize": 11792,
+			"instanceSize": 848,
+			"allocType": 0,
+			"name": "En_Dnt_Nomal"
+		},
+		"P-1.1": {
+			"actorId": 419,
+			"overlaySize": 11840,
+			"instanceSize": 848,
+			"allocType": 0,
+			"name": "En_Dnt_Nomal"
+		},
+		"J-GC-MQDisc": {
+			"actorId": 419,
+			"overlaySize": 11776,
+			"instanceSize": 848,
+			"allocType": 0,
+			"name": "En_Dnt_Nomal"
+		},
+		"J-MQ": {
+			"actorId": 419,
+			"overlaySize": 11776,
+			"instanceSize": 848,
+			"allocType": 0,
+			"name": "En_Dnt_Nomal"
+		},
+		"U-GC": {
+			"actorId": 419,
+			"overlaySize": 11776,
+			"instanceSize": 848,
+			"allocType": 0,
+			"name": "En_Dnt_Nomal"
+		},
+		"U-MQ": {
+			"actorId": 419,
+			"overlaySize": 11776,
+			"instanceSize": 848,
+			"allocType": 0,
+			"name": "En_Dnt_Nomal"
+		},
+		"P-GC": {
+			"actorId": 419,
+			"overlaySize": 11776,
+			"instanceSize": 848,
+			"allocType": 0,
+			"name": "En_Dnt_Nomal"
+		},
+		"P-MQ": {
+			"actorId": 419,
+			"overlaySize": 11776,
+			"instanceSize": 848,
+			"allocType": 0,
+			"name": "En_Dnt_Nomal"
+		},
+		"J-GC-CEDisc": {
+			"actorId": 419,
+			"overlaySize": 11776,
+			"instanceSize": 848,
+			"allocType": 0,
+			"name": "En_Dnt_Nomal"
+		},
+		"iQue": {
+			"actorId": 419,
+			"overlaySize": 11776,
+			"instanceSize": 848,
+			"allocType": 0,
+			"name": "En_Dnt_Nomal"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 420,
+			"overlaySize": 2464,
+			"instanceSize": 768,
+			"allocType": 0,
+			"name": "En_Guest"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 421,
+			"overlaySize": 544,
+			"instanceSize": 360,
+			"allocType": 0,
+			"name": "Bg_Bom_Guard"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 422,
+			"overlaySize": 1504,
+			"instanceSize": 672,
+			"allocType": 0,
+			"name": "En_Hs2"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 423,
+			"overlaySize": 4832,
+			"instanceSize": 492,
+			"allocType": 0,
+			"name": "Demo_Kekkai"
+		},
+		"GC": {
+			"actorId": 423,
+			"overlaySize": 4848,
+			"instanceSize": 492,
+			"allocType": 0,
+			"name": "Demo_Kekkai"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 424,
+			"overlaySize": 1696,
+			"instanceSize": 564,
+			"allocType": 0,
+			"name": "Bg_Spot08_Bakudankabe"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 425,
+			"overlaySize": 1760,
+			"instanceSize": 340,
+			"allocType": 0,
+			"name": "Bg_Spot17_Bakudankabe"
+		},
+		"GC": {
+			"actorId": 425,
+			"overlaySize": 1776,
+			"instanceSize": 340,
+			"allocType": 0,
+			"name": "Bg_Spot17_Bakudankabe"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 426,
+			"overlaySize": 0,
+			"instanceSize": null,
+			"allocType": 0,
+			"name": "[Removed]"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 427,
+			"overlaySize": 2000,
+			"instanceSize": 352,
+			"allocType": 0,
+			"name": "Obj_Mure3"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 428,
+			"overlaySize": 1744,
+			"instanceSize": 508,
+			"allocType": 0,
+			"name": "En_Tg"
+		},
+		"GC": {
+			"actorId": 428,
+			"overlaySize": 1760,
+			"instanceSize": 508,
+			"allocType": 0,
+			"name": "En_Tg"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 429,
+			"overlaySize": 2336,
+			"instanceSize": 572,
+			"allocType": 0,
+			"name": "En_Mu"
+		}
+	},
+	{
+		"N-1.0": {
+			"actorId": 430,
+			"overlaySize": 24608,
+			"instanceSize": 1424,
+			"allocType": 0,
+			"name": "En_Go2"
+		},
+		"N-1.1": {
+			"actorId": 430,
+			"overlaySize": 24608,
+			"instanceSize": 1424,
+			"allocType": 0,
+			"name": "En_Go2"
+		},
+		"P-1.0": {
+			"actorId": 430,
+			"overlaySize": 24608,
+			"instanceSize": 1424,
+			"allocType": 0,
+			"name": "En_Go2"
+		},
+		"N-1.2": {
+			"actorId": 430,
+			"overlaySize": 24608,
+			"instanceSize": 1424,
+			"allocType": 0,
+			"name": "En_Go2"
+		},
+		"P-1.1": {
+			"actorId": 430,
+			"overlaySize": 24640,
+			"instanceSize": 1424,
+			"allocType": 0,
+			"name": "En_Go2"
+		},
+		"J-GC-MQDisc": {
+			"actorId": 430,
+			"overlaySize": 24640,
+			"instanceSize": 1424,
+			"allocType": 0,
+			"name": "En_Go2"
+		},
+		"J-MQ": {
+			"actorId": 430,
+			"overlaySize": 24640,
+			"instanceSize": 1424,
+			"allocType": 0,
+			"name": "En_Go2"
+		},
+		"U-GC": {
+			"actorId": 430,
+			"overlaySize": 24640,
+			"instanceSize": 1424,
+			"allocType": 0,
+			"name": "En_Go2"
+		},
+		"U-MQ": {
+			"actorId": 430,
+			"overlaySize": 24640,
+			"instanceSize": 1424,
+			"allocType": 0,
+			"name": "En_Go2"
+		},
+		"P-GC": {
+			"actorId": 430,
+			"overlaySize": 24640,
+			"instanceSize": 1424,
+			"allocType": 0,
+			"name": "En_Go2"
+		},
+		"P-MQ": {
+			"actorId": 430,
+			"overlaySize": 24640,
+			"instanceSize": 1424,
+			"allocType": 0,
+			"name": "En_Go2"
+		},
+		"J-GC-CEDisc": {
+			"actorId": 430,
+			"overlaySize": 24640,
+			"instanceSize": 1424,
+			"allocType": 0,
+			"name": "En_Go2"
+		},
+		"iQue": {
+			"actorId": 430,
+			"overlaySize": 24640,
+			"instanceSize": 1424,
+			"allocType": 0,
+			"name": "En_Go2"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 431,
+			"overlaySize": 17168,
+			"instanceSize": 1228,
+			"allocType": 0,
+			"name": "En_Wf"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 432,
+			"overlaySize": 6384,
+			"instanceSize": 820,
+			"allocType": 0,
+			"name": "En_Skb"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 433,
+			"overlaySize": 15536,
+			"instanceSize": 616,
+			"allocType": 0,
+			"name": "Demo_Gj"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 434,
+			"overlaySize": 2080,
+			"instanceSize": 344,
+			"allocType": 0,
+			"name": "Demo_Geff"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 435,
+			"overlaySize": 1344,
+			"instanceSize": 360,
+			"allocType": 0,
+			"name": "Bg_Gnd_Firemeiro"
+		},
+		"GC": {
+			"actorId": 435,
+			"overlaySize": 1360,
+			"instanceSize": 360,
+			"allocType": 0,
+			"name": "Bg_Gnd_Firemeiro"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 436,
+			"overlaySize": 1984,
+			"instanceSize": 352,
+			"allocType": 0,
+			"name": "Bg_Gnd_Darkmeiro"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 437,
+			"overlaySize": 2144,
+			"instanceSize": 400,
+			"allocType": 0,
+			"name": "Bg_Gnd_Soulmeiro"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 438,
+			"overlaySize": 368,
+			"instanceSize": 316,
+			"allocType": 0,
+			"name": "Bg_Gnd_Nisekabe"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 439,
+			"overlaySize": 4352,
+			"instanceSize": 356,
+			"allocType": 0,
+			"name": "Bg_Gnd_Iceblock"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 440,
+			"overlaySize": 5936,
+			"instanceSize": 1064,
+			"allocType": 0,
+			"name": "En_Gb"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 441,
+			"overlaySize": 7840,
+			"instanceSize": 504,
+			"allocType": 0,
+			"name": "En_Gs"
+		},
+		"GC": {
+			"actorId": 441,
+			"overlaySize": 7792,
+			"instanceSize": 504,
+			"allocType": 0,
+			"name": "En_Gs"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 442,
+			"overlaySize": 5328,
+			"instanceSize": 684,
+			"allocType": 0,
+			"name": "Bg_Mizu_Bwall"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 443,
+			"overlaySize": 2048,
+			"instanceSize": 384,
+			"allocType": 0,
+			"name": "Bg_Mizu_Shutter"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 444,
+			"overlaySize": 5056,
+			"instanceSize": 760,
+			"allocType": 0,
+			"name": "En_Daiku_Kakariko"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 445,
+			"overlaySize": 2432,
+			"instanceSize": 376,
+			"allocType": 0,
+			"name": "Bg_Bowl_Wall"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 446,
+			"overlaySize": 1264,
+			"instanceSize": 352,
+			"allocType": 0,
+			"name": "En_Wall_Tubo"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 447,
+			"overlaySize": 3520,
+			"instanceSize": 628,
+			"allocType": 0,
+			"name": "En_Po_Desert"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 448,
+			"overlaySize": 5792,
+			"instanceSize": 648,
+			"allocType": 0,
+			"name": "En_Crow"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 449,
+			"overlaySize": 5488,
+			"instanceSize": 628,
+			"allocType": 0,
+			"name": "Door_Killer"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 450,
+			"overlaySize": 1840,
+			"instanceSize": 324,
+			"allocType": 0,
+			"name": "Bg_Spot11_Oasis"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 451,
+			"overlaySize": 416,
+			"instanceSize": 340,
+			"allocType": 0,
+			"name": "Bg_Spot18_Futa"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 452,
+			"overlaySize": 1360,
+			"instanceSize": 344,
+			"allocType": 0,
+			"name": "Bg_Spot18_Shutter"
+		}
+	},
+	{
+		"N-1.0": {
+			"actorId": 453,
+			"overlaySize": 3952,
+			"instanceSize": 628,
+			"allocType": 0,
+			"name": "En_Ma3"
+		},
+		"N-1.1": {
+			"actorId": 453,
+			"overlaySize": 3952,
+			"instanceSize": 628,
+			"allocType": 0,
+			"name": "En_Ma3"
+		},
+		"P-1.0": {
+			"actorId": 453,
+			"overlaySize": 4304,
+			"instanceSize": 628,
+			"allocType": 0,
+			"name": "En_Ma3"
+		},
+		"N-1.2": {
+			"actorId": 453,
+			"overlaySize": 4016,
+			"instanceSize": 628,
+			"allocType": 0,
+			"name": "En_Ma3"
+		},
+		"P-1.1": {
+			"actorId": 453,
+			"overlaySize": 4304,
+			"instanceSize": 628,
+			"allocType": 0,
+			"name": "En_Ma3"
+		},
+		"J-GC-MQDisc": {
+			"actorId": 453,
+			"overlaySize": 4016,
+			"instanceSize": 628,
+			"allocType": 0,
+			"name": "En_Ma3"
+		},
+		"J-MQ": {
+			"actorId": 453,
+			"overlaySize": 4016,
+			"instanceSize": 628,
+			"allocType": 0,
+			"name": "En_Ma3"
+		},
+		"U-GC": {
+			"actorId": 453,
+			"overlaySize": 4016,
+			"instanceSize": 628,
+			"allocType": 0,
+			"name": "En_Ma3"
+		},
+		"U-MQ": {
+			"actorId": 453,
+			"overlaySize": 4016,
+			"instanceSize": 628,
+			"allocType": 0,
+			"name": "En_Ma3"
+		},
+		"P-GC": {
+			"actorId": 453,
+			"overlaySize": 4016,
+			"instanceSize": 628,
+			"allocType": 0,
+			"name": "En_Ma3"
+		},
+		"P-MQ": {
+			"actorId": 453,
+			"overlaySize": 4016,
+			"instanceSize": 628,
+			"allocType": 0,
+			"name": "En_Ma3"
+		},
+		"J-GC-CEDisc": {
+			"actorId": 453,
+			"overlaySize": 4016,
+			"instanceSize": 628,
+			"allocType": 0,
+			"name": "En_Ma3"
+		},
+		"iQue": {
+			"actorId": 453,
+			"overlaySize": 4016,
+			"instanceSize": 628,
+			"allocType": 0,
+			"name": "En_Ma3"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 454,
+			"overlaySize": 5216,
+			"instanceSize": 624,
+			"allocType": 0,
+			"name": "En_Cow"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 455,
+			"overlaySize": 2096,
+			"instanceSize": 424,
+			"allocType": 0,
+			"name": "Bg_Ice_Turara"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 456,
+			"overlaySize": 1136,
+			"instanceSize": 344,
+			"allocType": 0,
+			"name": "Bg_Ice_Shutter"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 457,
+			"overlaySize": 1824,
+			"instanceSize": 488,
+			"allocType": 0,
+			"name": "En_Kakasi2"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 458,
+			"overlaySize": 4320,
+			"instanceSize": 508,
+			"allocType": 0,
+			"name": "En_Kakasi3"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 459,
+			"overlaySize": 4064,
+			"instanceSize": 320,
+			"allocType": 1,
+			"name": "Oceff_Wipe4"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 460,
+			"overlaySize": 432,
+			"instanceSize": 320,
+			"allocType": 0,
+			"name": "En_Eg"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 461,
+			"overlaySize": 336,
+			"instanceSize": 316,
+			"allocType": 0,
+			"name": "Bg_Menkuri_Nisekabe"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 462,
+			"overlaySize": 9648,
+			"instanceSize": 1688,
+			"allocType": 0,
+			"name": "En_Zo"
+		},
+		"GC": {
+			"actorId": 462,
+			"overlaySize": 9664,
+			"instanceSize": 1688,
+			"allocType": 0,
+			"name": "En_Zo"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 463,
+			"overlaySize": 336,
+			"instanceSize": 324,
+			"allocType": 0,
+			"name": "Obj_Makekinsuta"
+		}
+	},
+	{
+		"N-1.0": {
+			"actorId": 464,
+			"overlaySize": 2896,
+			"instanceSize": 772,
+			"allocType": 0,
+			"name": "En_Ge3"
+		},
+		"N-1.1": {
+			"actorId": 464,
+			"overlaySize": 2896,
+			"instanceSize": 772,
+			"allocType": 0,
+			"name": "En_Ge3"
+		},
+		"P-1.0": {
+			"actorId": 464,
+			"overlaySize": 2896,
+			"instanceSize": 772,
+			"allocType": 0,
+			"name": "En_Ge3"
+		},
+		"N-1.2": {
+			"actorId": 464,
+			"overlaySize": 2896,
+			"instanceSize": 772,
+			"allocType": 0,
+			"name": "En_Ge3"
+		},
+		"P-1.1": {
+			"actorId": 464,
+			"overlaySize": 3136,
+			"instanceSize": 772,
+			"allocType": 0,
+			"name": "En_Ge3"
+		},
+		"J-GC-MQDisc": {
+			"actorId": 464,
+			"overlaySize": 3136,
+			"instanceSize": 772,
+			"allocType": 0,
+			"name": "En_Ge3"
+		},
+		"J-MQ": {
+			"actorId": 464,
+			"overlaySize": 3136,
+			"instanceSize": 772,
+			"allocType": 0,
+			"name": "En_Ge3"
+		},
+		"U-GC": {
+			"actorId": 464,
+			"overlaySize": 3136,
+			"instanceSize": 772,
+			"allocType": 0,
+			"name": "En_Ge3"
+		},
+		"U-MQ": {
+			"actorId": 464,
+			"overlaySize": 3136,
+			"instanceSize": 772,
+			"allocType": 0,
+			"name": "En_Ge3"
+		},
+		"P-GC": {
+			"actorId": 464,
+			"overlaySize": 3136,
+			"instanceSize": 772,
+			"allocType": 0,
+			"name": "En_Ge3"
+		},
+		"P-MQ": {
+			"actorId": 464,
+			"overlaySize": 3136,
+			"instanceSize": 772,
+			"allocType": 0,
+			"name": "En_Ge3"
+		},
+		"J-GC-CEDisc": {
+			"actorId": 464,
+			"overlaySize": 3136,
+			"instanceSize": 772,
+			"allocType": 0,
+			"name": "En_Ge3"
+		},
+		"iQue": {
+			"actorId": 464,
+			"overlaySize": 3136,
+			"instanceSize": 772,
+			"allocType": 0,
+			"name": "En_Ge3"
+		}
+	},
+	{
+		"N64": {
+			"actorId": 465,
+			"overlaySize": 3136,
+			"instanceSize": 364,
+			"allocType": 0,
+			"name": "Obj_Timeblock"
+		},
+		"GC": {
+			"actorId": 465,
+			"overlaySize": 3152,
+			"instanceSize": 364,
+			"allocType": 0,
+			"name": "Obj_Timeblock"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 466,
+			"overlaySize": 2128,
+			"instanceSize": 408,
+			"allocType": 0,
+			"name": "Obj_Hamishi"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 467,
+			"overlaySize": 18992,
+			"instanceSize": 736,
+			"allocType": 0,
+			"name": "En_Zl4"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 468,
+			"overlaySize": 3520,
+			"instanceSize": 684,
+			"allocType": 0,
+			"name": "En_Mm2"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 469,
+			"overlaySize": 624,
+			"instanceSize": 340,
+			"allocType": 0,
+			"name": "Bg_Jya_Block"
+		}
+	},
+	{
+		"ALL": {
+			"actorId": 470,
+			"overlaySize": 2864,
+			"instanceSize": 360,
+			"allocType": 0,
+			"name": "Obj_Warp2block"
+		}
+	}
+]
