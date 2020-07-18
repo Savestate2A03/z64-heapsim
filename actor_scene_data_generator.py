@@ -178,7 +178,7 @@ for v in versions:
                                         actorId, _, _, _, spawnTimeHi, _, spawnTimeLo, actorParams = struct.unpack('>HHHHHHHH',rom[actorListStart+0x10*actorNum:actorListStart+0x10*(actorNum+1)])
                                         actorId &= 0xFFF
                                         spawnTimeBits = ((spawnTimeHi & 0x7) << 7) | spawnTimeLo & 0x7F
-                                        spawnTime = [(spawnTimeBits>>x) & 1 for x in range(10)]
+                                        spawnTime = [(spawnTimeBits>>x) & 1 for x in reversed(range(10))]
                                         roomData['actors'].append({'actorId':actorId,'actorParams':actorParams,'spawnTime':spawnTime})
                                     else:
                                         actorId, _, _, _, _, _, _, actorParams = struct.unpack('>HHHHHHHH',rom[actorListStart+0x10*actorNum:actorListStart+0x10*(actorNum+1)])
