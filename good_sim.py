@@ -27,7 +27,8 @@ En_Insect = 0x0020
 En_Fish = 0x0021
 
 class GameState:
-    def __init__(self, version, startFlags):
+    def __init__(self, game, version, startFlags):
+        self.game = game
         self.version = version
         self.heapStart = versionInfo[version]['heapStart']
         self.console = versionInfo[version]['console']
@@ -36,21 +37,21 @@ class GameState:
         self.flags = startFlags
 
     def loadScene(self, sceneId, setupId, roomId):
-        if 'ALL' in sceneInfo[sceneId]:
-            self.setupData = sceneInfo[sceneId]['ALL'][setupId]
-        elif self.game in sceneInfo[sceneId]:
-            self.setupData = sceneInfo[sceneId][self.game][setupId]
+        if 'ALL' in sceneInfo[self.game][sceneId]:
+            self.setupData = sceneInfo[self.game][sceneId]['ALL'][setupId]
+        elif self.game in sceneInfo[self.game][sceneId]:
+            self.setupData = sceneInfo[self.game][sceneId][self.game][setupId]
         else:
-            self.setupData = sceneInfo[sceneId][self.version][setupId]
+            self.setupData = sceneInfo[self.game][sceneId][self.version][setupId]
 
         self.actors = {}
-        for actorId in range(len(actorInfo)):
-            if 'ALL' in actorInfo[actorId]:
-                actor = actorInfo[actorId]['ALL']
-            elif self.console in actorInfo[actorId]:
-                actor = actorInfo[actorId][self.console]
+        for actorId in range(len(actorInfo[self.game])):
+            if 'ALL' in actorInfo[self.game][actorId]:
+                actor = actorInfo[self.game][actorId]['ALL']
+            elif self.console in actorInfo[self.game][actorId]:
+                actor = actorInfo[self.game][actorId][self.console]
             else:
-                actor = actorInfo[actorId][self.version]
+                actor = actorInfo[self.game][actorId][self.version]
             actor['numLoaded'] = 0
             self.actors[actorId] = actor
 
@@ -273,7 +274,7 @@ def checkFishAddress(gameState):
     return gameState.actors[En_Fish]['loadedOverlay'] == 0x801F9F30
 
 
-gameState = GameState('N-1.2', {'lullaby':True, 'saria':True, 'bombchu':True, 'bomb':True, 'bottle':True})
+gameState = GameState('OoT', 'OoT-N-1.2', {'lullaby':True, 'saria':True, 'bombchu':True, 'bomb':True, 'bottle':True})
 gameState.loadScene(sceneId=0x5B, setupId=0, roomId=0)
 
 #print(gameState.search(5, checkFishAddress))
