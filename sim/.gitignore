@@ -1,3 +1,4 @@
 *.z64
 *.dec
 roms/*/
+__pycache__/

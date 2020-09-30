@@ -1,30 +1,20 @@
 import json
 import copy
+import os
+from . import actors
 
-f=open('actors.json')
+dirname = os.path.dirname(__file__) + '/'
+f=open(dirname+'/actors.json')
 actorInfo = json.load(f)
 f.close()
 
-f=open('scenes.json')
+f=open(dirname+'/scenes.json')
 sceneInfo = json.load(f)
 f.close()
 
-f=open('versions.json')
+f=open(dirname+'/versions.json')
 versionInfo = json.load(f)
 f.close()
-
-player_actor = 0x0000
-En_Elf= 0x0018
-En_Bom_Chu = 0x00DA
-En_Fish = 0x0021
-En_River_Sound = 0x003B
-Object_Kankyo = 0x0097
-En_Bom = 0x0010
-En_Holl = 0x0023
-En_Wonder_Item = 0x0112
-En_Kusa = 0x125
-En_Insect = 0x0020
-En_Fish = 0x0021
 
 class GameState:
     def __init__(self, game, version, startFlags):
@@ -58,9 +48,9 @@ class GameState:
         self.ram = {}
         self.ram[self.heapStart] = HeapNode(self.heapStart, self.headerSize, 0x100000000-self.headerSize)
         
-        self.allocActor(player_actor, 'ALL') # Link
+        self.allocActor(actors.Player, 'ALL') # Link
         self.alloc(0x2010, 'Get Item Object')
-        self.allocActor(En_Elf, 'ALL') # Navi
+        self.allocActor(actors.En_Elf, 'ALL') # Navi
 
         self.loadedRooms = set()
         
@@ -162,11 +152,11 @@ class GameState:
 
     def initFunction(self, node): ### Incomplete -- need to add all behaviour here that matters for heap manip.
 
-        if node.actorId == En_River_Sound and node.actorParams==0x000C and (not self.flags['lullaby'] or self.flags['saria']): # Proximity Saria's Song
+        if node.actorId == actors.En_River_Sound and node.actorParams==0x000C and (not self.flags['lullaby'] or self.flags['saria']): # Proximity Saria's Song
             self.dealloc(node.addr)
             return None
 
-        if node.actorId == Object_Kankyo:
+        if node.actorId == actors.Object_Kankyo:
             node.rooms = 'ALL'
             if self.actors[node.actorId]['numLoaded'] > 1:
                 self.dealloc(node.addr)
@@ -182,15 +172,15 @@ class GameState:
             for room in self.loadedRooms:
                 availableActions.append(['unloadRoomsExcept', room])
         
-        if self.flags['bombchu'] and self.actors[En_Bom]['numLoaded'] + self.actors[En_Bom_Chu]['numLoaded'] < 3:
-            availableActions.append(['allocActor', En_Bom_Chu])
+        if self.flags['bombchu'] and self.actors[actors.En_Bom]['numLoaded'] + self.actors[actors.En_Bom_Chu]['numLoaded'] < 3:
+            availableActions.append(['allocActor', actors.En_Bom_Chu])
         
-        if self.flags['bomb'] and self.actors[En_Bom]['numLoaded'] + self.actors[En_Bom_Chu]['numLoaded'] < 3:
-            availableActions.append(['allocActor', En_Bom])
+        if self.flags['bomb'] and self.actors[actors.En_Bom]['numLoaded'] + self.actors[actors.En_Bom_Chu]['numLoaded'] < 3:
+            availableActions.append(['allocActor', actors.En_Bom])
 
         if self.flags['bottle']:
-            availableActions.append(['allocActor', En_Insect])
-            availableActions.append(['allocActor', En_Fish])
+            availableActions.append(['allocActor', actors.En_Insect])
+            availableActions.append(['allocActor', actors.En_Fish])
 
         for node in self.heap():
             if not node.free and node.nodeType=='INSTANCE':
@@ -200,10 +190,10 @@ class GameState:
                         if room not in self.loadedRooms:
                             availableActions.append(['loadRoom', room])
 
-                if node.actorId in [En_Bom, En_Bom_Chu, En_Insect, En_Fish]:
+                if node.actorId in [actors.En_Bom, actors.En_Bom_Chu, actors.En_Insect, actors.En_Fish]:
                     availableActions.append(['dealloc', node.addr])
 
-                if len(self.loadedRooms) == 1 and node.actorId in [En_Wonder_Item, En_Kusa]:
+                if len(self.loadedRooms) == 1 and node.actorId in [actors.En_Wonder_Item, actors.En_Kusa]:
                     availableActions.append(['dealloc', node.addr])
             
 
@@ -265,26 +255,3 @@ class HeapNode:
 
 
 
-fishAddresses = set()
-def checkFishAddress(gameState):
-    if 'loadedOverlay' not in gameState.actors[En_Fish]:
-        gameState = copy.deepcopy(gameState)
-        gameState.allocActor(En_Fish)
-    fishAddresses.add(gameState.actors[En_Fish]['loadedOverlay'])
-    return gameState.actors[En_Fish]['loadedOverlay'] == 0x801F9F30
-
-
-gameState = GameState('OoT', 'OoT-N-1.2', {'lullaby':True, 'saria':True, 'bombchu':True, 'bomb':True, 'bottle':True})
-gameState.loadScene(sceneId=0x5B, setupId=0, roomId=0)
-
-#print(gameState.search(5, checkFishAddress))
-#print([hex(x) for x in sorted(fishAddresses)])
-
-bombchu = gameState.allocActor(En_Bom_Chu)
-gameState.loadRoom(1)
-print(gameState)
-gameState.unloadRoomsExcept(1)
-gameState.dealloc(bombchu.addr)
-gameState.loadRoom(2)
-gameState.allocActor(En_Fish)
-print(gameState)
