@@ -38,16 +38,16 @@ actor_count = {
     "MM": 0x02B2
 }
 
-hardcoded_instance_sizes = {
+hardcoded_init_vars = {
     "OoT": {
-        0x0: 0xA90, # Player
-        0x15: 0x1A0, # En_Item00
-        0x39: 0x1C0 # En_A_Obj
+        0x0: b'\x00\x00\x02\x00\x06\x00\x00\x35\x00\x14\x00\x00\x00\x00\x0A\x84', # Player
+        0x15: b'\x00\x15\x08\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x01\x9C', # En_Item00
+        0x39: b'\x00\x39\x06\x00\x00\x00\x00\x10\x00\x01\x00\x00\x00\x00\x01\xB8' # En_A_Obj
     },
     "MM": {
-        0x0: 0xD80, # Player
-        0xE: 0x1B0, # En_Item00
-        0x26: 0x1A0 # En_A_Obj
+        0x0: b'\x00\x00\x02\x00\x86\x20\x00\x39\x00\x01\x00\x00\x00\x00\x0D\x78', # Player
+        0xE: b'\x00\x0E\x08\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x01\xA8', # En_Item00
+        0x26: b'\x00\x26\x06\x00\x00\x00\x00\x09\x00\x01\x00\x00\x00\x00\x01\x94' # En_A_Obj
     }
 }
 
@@ -66,12 +66,17 @@ for v in versions:
         overlaySize = ramEnd-ramStart
         romInitVars = romStart+ramInitVars-ramStart
         if 0 < romInitVars < 0x80000000:
-            _,_,_,instanceSize = struct.unpack('>IIII',rom[romInitVars:romInitVars+0x10])
+            initVars = rom[romInitVars:romInitVars+0x10]
         elif ramInitVars > 0:
-            instanceSize = hardcoded_instance_sizes[v['game']][actorId]
+            initVars = hardcoded_init_vars[v['game']][actorId]
         else:
-            instanceSize = None
-        actorInfo = {'actorId':actorId,'overlaySize':overlaySize, 'instanceSize':instanceSize, 'allocType':allocType, 'name':actor_names[v['game']][actorId]}
+            initVars = None
+            
+        if initVars:
+            _,actorType,_,_,objectId,_,instanceSize = struct.unpack('>HBBIHHI',initVars)
+            actorInfo = {'actorId':actorId,'actorType':actorType,'overlaySize':overlaySize, 'instanceSize':instanceSize, 'allocType':allocType, 'name':actor_names[v['game']][actorId], 'objectId':objectId}
+        else:
+            actorInfo = {}
         actors[v['game']][actorId][v['name']] = actorInfo
 
 #for i in range(actor_count):
@@ -130,11 +135,11 @@ for v in versions:
 
             #print('setup', hex(setupId))
             if setupId == 0:
-                scenes[v['game']][sceneId][v['name']][setupId] = {'rooms':[],'transitionActors':[]}
+                scenes[v['game']][sceneId][v['name']][setupId] = {'rooms':[],'transitionActors':[],'specialObject':0}
                 sceneHeaderStart = sceneRomStart
             else:
                 if sceneAltHeaders and sceneAltHeaders[setupId-1]:
-                    scenes[v['game']][sceneId][v['name']][setupId] = {'rooms':[],'transitionActors':[]}
+                    scenes[v['game']][sceneId][v['name']][setupId] = {'rooms':[],'transitionActors':[],'specialObject':0}
                     sceneHeaderStart = sceneRomStart + (sceneAltHeaders[setupId-1]&0x00FFFFFF)
                 else:
                     scenes[v['game']][sceneId][v['name']][setupId] = None
@@ -155,7 +160,7 @@ for v in versions:
                         roomListStart = sceneRomStart + (sceneParam2&0x00FFFFFF)
                         roomRomStart, roomRomEnd = struct.unpack('>II',rom[roomListStart+8*roomId:roomListStart+8*(roomId+1)])
 
-                        roomData = {'actors':[]}
+                        roomData = {'actors':[],'objects':[]}
 
                         if setupId == 0:
                             roomHeaderStart = roomRomStart
@@ -171,18 +176,23 @@ for v in versions:
                             if roomHeaderCommand == 0x18: # Alternate Headers
                                 roomSetupListStart = roomRomStart + (roomParam2&0x00FFFFFF)
                                 roomAltHeaders[roomId] = struct.unpack('>III', rom[roomSetupListStart:roomSetupListStart+0xC]) # we only care about setups 0-3
+                            elif roomHeaderCommand == 0x0B: #Object List
+                                for objectNum in range(roomParam1):
+                                    objectListStart = roomRomStart + (roomParam2&0x00FFFFFF)
+                                    obj = struct.unpack('>H',rom[objectListStart+0x2*objectNum:objectListStart+0x2*(objectNum+1)])[0]
+                                    roomData['objects'].append(obj)
                             elif roomHeaderCommand == 0x01: #Actor List
                                 for actorNum in range(roomParam1):
                                     actorListStart = roomRomStart + (roomParam2&0x00FFFFFF)
                                     if v['game'] == 'MM':
-                                        actorId, _, _, _, spawnTimeHi, _, spawnTimeLo, actorParams = struct.unpack('>HHHHHHHH',rom[actorListStart+0x10*actorNum:actorListStart+0x10*(actorNum+1)])
+                                        actorId, posX, posY, posZ, spawnTimeHi, _, spawnTimeLo, actorParams = struct.unpack('>HhhhHHHH',rom[actorListStart+0x10*actorNum:actorListStart+0x10*(actorNum+1)])
                                         actorId &= 0xFFF
                                         spawnTimeBits = ((spawnTimeHi & 0x7) << 7) | spawnTimeLo & 0x7F
                                         spawnTime = [(spawnTimeBits>>x) & 1 for x in reversed(range(10))]
-                                        roomData['actors'].append({'actorId':actorId,'actorParams':actorParams,'spawnTime':spawnTime})
+                                        roomData['actors'].append({'actorId':actorId,'actorParams':actorParams,'position':(posX,posY,posZ),'spawnTime':spawnTime})
                                     else:
-                                        actorId, _, _, _, _, _, _, actorParams = struct.unpack('>HHHHHHHH',rom[actorListStart+0x10*actorNum:actorListStart+0x10*(actorNum+1)])
-                                        roomData['actors'].append({'actorId':actorId,'actorParams':actorParams})
+                                        actorId, posX, posY, posZ, _, _, _, actorParams = struct.unpack('>HhhhHHHH',rom[actorListStart+0x10*actorNum:actorListStart+0x10*(actorNum+1)])
+                                        roomData['actors'].append({'actorId':actorId,'actorParams':actorParams,'position':(posX,posY,posZ)})
                             roomHeaderNum += 1
                             
                         scenes[v['game']][sceneId][v['name']][setupId]['rooms'].append(roomData)
@@ -192,6 +202,10 @@ for v in versions:
                         transitionActorListStart = sceneRomStart + (sceneParam2&0x00FFFFFF)
                         frontRoom, _, backRoom, _, actorId, _, _, _, _, actorParams = struct.unpack('>BBBBHHHHHH',rom[transitionActorListStart+0x10*transitionActorNum:transitionActorListStart+0x10*(transitionActorNum+1)])
                         scenes[v['game']][sceneId][v['name']][setupId]['transitionActors'].append({'frontRoom':frontRoom,'backRoom':backRoom,'actorId':actorId,'actorParams':actorParams})
+
+                elif sceneHeaderCommand == 0x07: # Special Objects
+                    assert sceneParam2 in [0,2,3]
+                    scenes[v['game']][sceneId][v['name']][setupId]['specialObject'] = sceneParam2
                 
                 sceneHeaderNum += 1
                 

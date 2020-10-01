@@ -16,6 +16,8 @@ f=open(dirname+'/versions.json')
 versionInfo = json.load(f)
 f.close()
 
+ACTORTYPE_ENEMY = 5
+
 class GameState:
     def __init__(self, game, version, startFlags):
         self.game = game
@@ -25,6 +27,7 @@ class GameState:
         self.game = versionInfo[version]['game']
         self.headerSize = 0x30 if self.console=='N64' else 0x10
         self.flags = startFlags
+        self.loadedObjects = set([0x0001])
 
     def loadScene(self, sceneId, setupId, roomId):
         if 'ALL' in sceneInfo[self.game][sceneId]:
@@ -33,6 +36,16 @@ class GameState:
             self.setupData = sceneInfo[self.game][sceneId][self.game][setupId]
         else:
             self.setupData = sceneInfo[self.game][sceneId][self.version][setupId]
+        self.sceneId = sceneId
+        self.setupId = setupId
+        
+        if setupId not in [2,3]:
+            self.loadedObjects.add(0x0015) # object_link_child
+        if setupId not in [0,1]:
+            self.loadedObjects.add(0x0014) # object_link_boy
+        specialObject = self.setupData['specialObject']
+        if specialObject != 0:
+            self.loadedObjects.add(specialObject)
 
         self.actors = {}
         for actorId in range(len(actorInfo[self.game])):
@@ -68,35 +81,57 @@ class GameState:
             if (transitionActor['frontRoom'] == roomId or transitionActor['backRoom'] == roomId) and transitionActor['frontRoom'] not in self.loadedRooms and transitionActor['backRoom'] not in self.loadedRooms:
                 self.allocActor(transitionActor['actorId'], [transitionActor['frontRoom'],transitionActor['backRoom']])
 
+        currentRoomClear = False
+        for clearedRoom in self.flags['clearedRooms']:
+            if clearedRoom['scene'] == self.sceneId and clearedRoom['room'] == roomId:
+                currentRoomClear = True
+                break
+
+        for obj in self.setupData['rooms'][roomId]['objects']:
+            self.loadedObjects.add(obj)
+
         loadedActors = []
             
         for actor in self.setupData['rooms'][roomId]['actors']:
-            loadedActors.append(self.allocActor(actor['actorId'], [roomId], actor['actorParams']))
+            actorId = actor['actorId']
+            if self.actors[actorId]['actorType'] == ACTORTYPE_ENEMY and currentRoomClear:
+                continue
+            elif self.actors[actorId]['objectId'] not in self.loadedObjects:
+                continue
+            else:
+                loadedActors.append(self.allocActor(actor['actorId'], [roomId], actor['actorParams'], actor['position']))
 
         for loadedActor in loadedActors:
             self.initFunction(loadedActor)
 
         self.loadedRooms.add(roomId)
 
-    def unloadRoomsExcept(self, roomId):
+    def unloadRoomsExcept(self, roomId, forceToStayLoaded=[]):
 
         assert roomId in self.loadedRooms
         self.loadedRooms = set([roomId])
             
         for node in self.heap():
             if not node.free and node.rooms != 'ALL':
+                if node.addr in forceToStayLoaded:
+                    node.rooms = 'FORCE_STAY_LOADED'
+                    continue
                 for actorRoomId in node.rooms:
                     if actorRoomId in self.loadedRooms:
                         break
                 else:
                     self.dealloc(node.addr)
 
-    def allocActor(self, actorId, rooms='ALL', actorParams=0x0000):
+    def changeRoom(self, roomId, forceToStayLoaded=[]):
+        self.loadRoom(roomId)
+        self.unloadRoomsExcept(roomId, forceToStayLoaded)
+
+    def allocActor(self, actorId, rooms='ALL', actorParams=0x0000, position=(0,0,0)):
 
         actor = self.actors[actorId]
 
         if actor['numLoaded'] == 0 and actor['overlaySize'] and actor['allocType']==0:
-            overlayNode = self.alloc(actor['overlaySize'], 'Code %04X %s'%(actorId,actor['name']))
+            overlayNode = self.alloc(actor['overlaySize'], 'Overlay %04X %s'%(actorId,actor['name']))
             actor['loadedOverlay'] = overlayNode.addr
 
         instanceNode = self.alloc(actor['instanceSize'], 'Actor %04X %s (%04X)'%(actorId,actor['name'],actorParams))
@@ -104,6 +139,7 @@ class GameState:
         instanceNode.nodeType = 'INSTANCE'
         instanceNode.actorId = actorId
         instanceNode.actorParams = actorParams
+        instanceNode.position = position
 
         actor['numLoaded'] += 1
 
@@ -158,9 +194,21 @@ class GameState:
 
         if node.actorId == actors.Object_Kankyo:
             node.rooms = 'ALL'
-            if self.actors[node.actorId]['numLoaded'] > 1:
+            if self.actors[node.actorId]['numLoaded'] > 1 and node.actorParams != 0x0004:
                 self.dealloc(node.addr)
                 return None
+
+        if node.actorId == actors.Door_Warp1 and node.actorParams == 0x0006:
+            self.dealloc(node.addr)
+
+        if node.actorId == actors.Obj_Bean and self.setupId in [2,3] and not self.flags['beanPlanted']:
+            self.dealloc(node.addr)
+
+        if node.actorId == actors.Bg_Spot02_Objects and self.setupId in [2,3] and node.actorParams == 0x0001:
+            self.dealloc(node.addr)
+
+        if node.actorId == actors.En_Weather_Tag and node.actorParams == 0x1405:
+            self.dealloc(node.addr)
 
         return node
 
