@@ -3,9 +3,9 @@ from sim import GameState, actors
 state = GameState('OoT', 'OoT-N-1.2', {'lullaby':True, 'saria':True, 'bombchu':True, 'bomb':True, 'bottle':True, 'clearedRooms':[], 'beanPlanted':False})
 state.loadScene(sceneId=0x53, setupId=0, roomId=1)
 
-print(state)
+#print(state)
 
-for i in range(20):
+for i in range(18):
 
     print(list(state.heap())[-1])
 
@@ -19,7 +19,9 @@ for i in range(20):
 
     state.changeRoom(0,forceToStayLoaded)
     #print(list(state.heap())[-1])
+    #chu = state.allocActor(actors.En_Bom_Chu)
     state.changeRoom(1)
+    #state.dealloc(chu.addr)
 
 #print(state)
 

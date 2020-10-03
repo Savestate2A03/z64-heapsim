@@ -17,7 +17,13 @@ for _ in range(6):
 for fish in fishes:
     state.dealloc(fish.addr)
 
+bombchu = state.allocActor(actors.En_Bom_Chu)
+
 for _ in range(5):
     fishes.append(state.allocActor(actors.En_Fish))
+
+state.dealloc(bombchu.addr)
+for kanban in kanbans:
+    state.dealloc(kanban.addr)
 
 print(state)

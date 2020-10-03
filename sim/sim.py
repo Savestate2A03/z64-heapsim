@@ -27,7 +27,6 @@ class GameState:
         self.game = versionInfo[version]['game']
         self.headerSize = 0x30 if self.console=='N64' else 0x10
         self.flags = startFlags
-        self.loadedObjects = set([0x0001])
 
     def loadScene(self, sceneId, setupId, roomId):
         if 'ALL' in sceneInfo[self.game][sceneId]:
@@ -39,6 +38,7 @@ class GameState:
         self.sceneId = sceneId
         self.setupId = setupId
         
+        self.loadedObjects = set([0x0001])
         if setupId not in [2,3]:
             self.loadedObjects.add(0x0015) # object_link_child
         if setupId not in [0,1]:
@@ -75,7 +75,7 @@ class GameState:
             yield self.ram[nodeAddr]
             nodeAddr = self.ram[nodeAddr].nextNodeAddr
 
-    def loadRoom(self, roomId):
+    def loadRoom(self, roomId, unloadOthersImmediately=False, forceToStayLoaded=[]):
 
         for transitionActor in self.setupData['transitionActors']:
             if (transitionActor['frontRoom'] == roomId or transitionActor['backRoom'] == roomId) and transitionActor['frontRoom'] not in self.loadedRooms and transitionActor['backRoom'] not in self.loadedRooms:
@@ -90,21 +90,34 @@ class GameState:
         for obj in self.setupData['rooms'][roomId]['objects']:
             self.loadedObjects.add(obj)
 
-        loadedActors = []
+        actorsToInit = []
+        actorsToUpdate = [[],[],[],[],[],[],[],[],[],[],[],[]] # separate by actor type
             
         for actor in self.setupData['rooms'][roomId]['actors']:
             actorId = actor['actorId']
-            if self.actors[actorId]['actorType'] == ACTORTYPE_ENEMY and currentRoomClear:
+            actorType = self.actors[actorId]['actorType']
+            if actorType == ACTORTYPE_ENEMY and currentRoomClear:
                 continue
             elif self.actors[actorId]['objectId'] not in self.loadedObjects:
                 continue
             else:
-                loadedActors.append(self.allocActor(actor['actorId'], [roomId], actor['actorParams'], actor['position']))
+                loadedActor = self.allocActor(actor['actorId'], [roomId], actor['actorParams'], actor['position'])
+                actorsToInit.append(loadedActor)
+                actorsToUpdate[actorType].append(loadedActor)
 
-        for loadedActor in loadedActors:
-            self.initFunction(loadedActor)
+        for actorType in range(12):
+            for loadedActor in actorsToInit:
+                self.initFunction(loadedActor)
 
         self.loadedRooms.add(roomId)
+
+        if unloadOthersImmediately:
+            self.unloadRoomsExcept(roomId, forceToStayLoaded=forceToStayLoaded)
+
+        for actorType in range(12):
+            for loadedActor in actorsToUpdate[actorType]:
+                if not loadedActor.free:
+                    self.updateFunction(loadedActor)
 
     def unloadRoomsExcept(self, roomId, forceToStayLoaded=[]):
 
@@ -123,8 +136,7 @@ class GameState:
                     self.dealloc(node.addr)
 
     def changeRoom(self, roomId, forceToStayLoaded=[]):
-        self.loadRoom(roomId)
-        self.unloadRoomsExcept(roomId, forceToStayLoaded)
+        self.loadRoom(roomId, unloadOthersImmediately=True, forceToStayLoaded=forceToStayLoaded)
 
     def allocActor(self, actorId, rooms='ALL', actorParams=0x0000, position=(0,0,0)):
 
@@ -190,27 +202,33 @@ class GameState:
 
         if node.actorId == actors.En_River_Sound and node.actorParams==0x000C and (not self.flags['lullaby'] or self.flags['saria']): # Proximity Saria's Song
             self.dealloc(node.addr)
-            return None
 
-        if node.actorId == actors.Object_Kankyo:
+        elif node.actorId == actors.Object_Kankyo:
             node.rooms = 'ALL'
             if self.actors[node.actorId]['numLoaded'] > 1 and node.actorParams != 0x0004:
                 self.dealloc(node.addr)
-                return None
 
-        if node.actorId == actors.Door_Warp1 and node.actorParams == 0x0006:
+        elif node.actorId == actors.Door_Warp1 and node.actorParams == 0x0006:
             self.dealloc(node.addr)
 
-        if node.actorId == actors.Obj_Bean and self.setupId in [2,3] and not self.flags['beanPlanted']:
+        elif node.actorId == actors.Obj_Bean and self.setupId in [2,3] and not self.flags['beanPlanted']:
             self.dealloc(node.addr)
 
-        if node.actorId == actors.Bg_Spot02_Objects and self.setupId in [2,3] and node.actorParams == 0x0001:
+        elif node.actorId == actors.Bg_Spot02_Objects and self.setupId in [2,3] and node.actorParams == 0x0001:
             self.dealloc(node.addr)
 
-        if node.actorId == actors.En_Weather_Tag and node.actorParams == 0x1405:
+        elif node.actorId == actors.En_Weather_Tag and node.actorParams == 0x1405:
             self.dealloc(node.addr)
 
-        return node
+        elif node.actorId == actors.En_Wonder_Item:
+            wonderItemType = node.actorParams >> 0xB
+            if wonderItemType == 1 or wonderItemType == 6 or wonderItemType > 9:
+                self.dealloc(node.addr)
+
+    def updateFunction(self, node): ### Also incomplete -- This sim runs update on all actors just once after loading.
+
+        if node.actorId in [actors.En_Ko, actors.En_Md, actors.En_Sa]:
+            self.allocActor(actors.En_Elf, rooms=node.rooms)
 
     def getAvailableActions(self): ### Also incomplete.
 
