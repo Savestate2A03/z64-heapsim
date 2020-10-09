@@ -225,28 +225,33 @@ class GameState:
             if wonderItemType == 1 or wonderItemType == 6 or wonderItemType > 9:
                 self.dealloc(node.addr)
 
+        elif node.actorId == actors.En_Owl and self.sceneId == 0x5B and (not self.flags['lullaby']):
+            self.dealloc(node.addr)
+
     def updateFunction(self, node): ### Also incomplete -- This sim runs update on all actors just once after loading.
 
         if node.actorId in [actors.En_Ko, actors.En_Md, actors.En_Sa]:
             self.allocActor(actors.En_Elf, rooms=node.rooms)
 
-    def getAvailableActions(self): ### Also incomplete.
+    def getAvailableActions(self, carryingActor): ### Also incomplete.
 
         availableActions = []
 
         if len(self.loadedRooms) > 1:
             for room in self.loadedRooms:
                 availableActions.append(['unloadRoomsExcept', room])
-        
-        if self.flags['bombchu'] and self.actors[actors.En_Bom]['numLoaded'] + self.actors[actors.En_Bom_Chu]['numLoaded'] < 3:
-            availableActions.append(['allocActor', actors.En_Bom_Chu])
-        
-        if self.flags['bomb'] and self.actors[actors.En_Bom]['numLoaded'] + self.actors[actors.En_Bom_Chu]['numLoaded'] < 3:
-            availableActions.append(['allocActor', actors.En_Bom])
 
-        if self.flags['bottle']:
-            availableActions.append(['allocActor', actors.En_Insect])
-            availableActions.append(['allocActor', actors.En_Fish])
+        if not carryingActor:
+        
+            if self.flags['bombchu'] and self.actors[actors.En_Bom]['numLoaded'] + self.actors[actors.En_Bom_Chu]['numLoaded'] < 3:
+                availableActions.append(['allocActor', actors.En_Bom_Chu])
+            
+            if self.flags['bomb'] and self.actors[actors.En_Bom]['numLoaded'] + self.actors[actors.En_Bom_Chu]['numLoaded'] < 3:
+                availableActions.append(['allocActor', actors.En_Bom])
+
+            if self.flags['bottle']:
+                availableActions.append(['allocActor', actors.En_Insect])
+                availableActions.append(['allocActor', actors.En_Fish])
 
         for node in self.heap():
             if not node.free and node.nodeType=='INSTANCE':
@@ -259,13 +264,16 @@ class GameState:
                 if node.actorId in [actors.En_Bom, actors.En_Bom_Chu, actors.En_Insect, actors.En_Fish]:
                     availableActions.append(['dealloc', node.addr])
 
-                if len(self.loadedRooms) == 1 and node.actorId in [actors.En_Wonder_Item, actors.En_Kusa]:
+                if len(self.loadedRooms) == 1 and node.actorId in [actors.En_Wonder_Item]:
+                    availableActions.append(['dealloc', node.addr])
+
+                if len(self.loadedRooms) == 1 and node.actorId in [actors.En_Kusa] and not carryingActor:
                     availableActions.append(['dealloc', node.addr])
             
 
         return availableActions
 
-    def search(self, maxActionCount, successFunction, actionsAlreadyTaken=(), alreadySeenHeaps = {}):
+    def search(self, maxActionCount, successFunction, actionsAlreadyTaken=(), alreadySeenHeaps = {}, carryingActor=False):
 
         # Currently depth-first. TODO make breadth-first.
 
@@ -279,16 +287,16 @@ class GameState:
         if successFunction(self):
             return self, actionsAlreadyTaken
 
-        print(actionsAlreadyTaken)
+        #print(actionsAlreadyTaken)
 
         if maxActionCount < 1:
             return None
         
-        for action in self.getAvailableActions():
+        for action in self.getAvailableActions(carryingActor):
             selfCopy = copy.deepcopy(self)
             func = getattr(selfCopy, action[0])
             func(*action[1:])
-            searchResult = selfCopy.search(maxActionCount-1, successFunction, actionsAlreadyTaken+(action,), alreadySeenHeaps)
+            searchResult = selfCopy.search(maxActionCount-1, successFunction, actionsAlreadyTaken+(action,), alreadySeenHeaps, carryingActor=carryingActor)
             if searchResult:
                 return searchResult
 
