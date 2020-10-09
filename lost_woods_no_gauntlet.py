@@ -31,7 +31,7 @@ for i in range(0,100):
 
     print(i)
 
-    state = GameState('OoT', 'OoT-N-1.2', {'lullaby':False, 'saria':False, 'bombchu':False, 'bomb':False, 'bottle':False, 'clearedRooms':[], 'beanPlanted':False})
+    state = GameState('OoT', 'OoT-N-1.2', {'lullaby':False, 'saria':False, 'bombchu':False, 'bomb':False, 'bottle':False, 'clearedRooms':[], 'beanPlanted':False, 'switchFlags':[0x11,0x1E,0x1F]})
     state.loadScene(sceneId=0x5B, setupId=0, roomId=0)
 
     state.changeRoom(1)

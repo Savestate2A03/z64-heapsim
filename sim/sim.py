@@ -82,10 +82,8 @@ class GameState:
                 self.allocActor(transitionActor['actorId'], [transitionActor['frontRoom'],transitionActor['backRoom']])
 
         currentRoomClear = False
-        for clearedRoom in self.flags['clearedRooms']:
-            if clearedRoom['scene'] == self.sceneId and clearedRoom['room'] == roomId:
-                currentRoomClear = True
-                break
+        if roomId in self.flags['clearedRooms']:
+            currentRoomClear = True
 
         for obj in self.setupData['rooms'][roomId]['objects']:
             self.loadedObjects.add(obj)
@@ -227,6 +225,11 @@ class GameState:
 
         elif node.actorId == actors.En_Owl and self.sceneId == 0x5B and (not self.flags['lullaby']):
             self.dealloc(node.addr)
+
+        elif node.actorId == actors.Obj_Bombiwa:
+            switchFlag = node.actorParams & 0x003F
+            if switchFlag in self.flags['switchFlags']:
+                self.dealloc(node.addr)
 
     def updateFunction(self, node): ### Also incomplete -- This sim runs update on all actors just once after loading.
 
