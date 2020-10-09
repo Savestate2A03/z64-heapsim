@@ -231,6 +231,11 @@ class GameState:
             if switchFlag in self.flags['switchFlags']:
                 self.dealloc(node.addr)
 
+        elif node.actorId == actors.En_Item00:
+            collectibleFlag = (node.actorParams & 0x3F00) // 0x100
+            if collectibleFlag in self.flags['collectibleFlags']:
+                self.dealloc(node.addr)
+
     def updateFunction(self, node): ### Also incomplete -- This sim runs update on all actors just once after loading.
 
         if node.actorId in [actors.En_Ko, actors.En_Md, actors.En_Sa]:
