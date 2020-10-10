@@ -220,13 +220,16 @@ class GameState:
 
         elif node.actorId == actors.En_Wonder_Item:
             wonderItemType = node.actorParams >> 0xB
+            switchFlag = node.actorParams & 0x003F
             if wonderItemType == 1 or wonderItemType == 6 or wonderItemType > 9:
+                self.dealloc(node.addr)
+            elif switchFlag in self.flags['switchFlags']:
                 self.dealloc(node.addr)
 
         elif node.actorId == actors.En_Owl and self.sceneId == 0x5B and (not self.flags['lullaby']):
             self.dealloc(node.addr)
 
-        elif node.actorId == actors.Obj_Bombiwa:
+        elif node.actorId in [actors.Obj_Bombiwa, actors.En_Wonder_Talk2]:
             switchFlag = node.actorParams & 0x003F
             if switchFlag in self.flags['switchFlags']:
                 self.dealloc(node.addr)
