@@ -10,21 +10,15 @@ def checkFishAddress(gameState):
     if addr not in fishAddresses:
         print(hex(addr))
         fishAddresses.add(addr)
-    return False#return addr == 0x801F8F30
+    return addr == 0x801F8F30 #1.2
+    #return addr == 0x801F8880 #1.0
 
 
-gameState = GameState('OoT', 'OoT-N-1.2', {'lullaby':True, 'saria':True, 'bombchu':True, 'bomb':True, 'bottle':True, 'clearedRooms':[], 'beanPlanted':False})
+gameState = GameState('OoT', 'OoT-N-1.2', {'lullaby':True, 'saria':True, 'bombchu':True, 'bomb':False, 'bottle':True, 'clearedRooms':[], 'beanPlanted':False, 'switchFlags':[], 'collectibleFlags':[]})
 gameState.loadScene(sceneId=0x5B, setupId=0, roomId=0)
 
-print(gameState.search(6, checkFishAddress))
+ret = gameState.search(20, checkFishAddress)
+print(ret)
 print([hex(x) for x in sorted(fishAddresses)])
 
-#bombchu = gameState.allocActor(actors.En_Bom_Chu)
-#gameState.loadRoom(1)
-#print(gameState)
-#print()
-#gameState.unloadRoomsExcept(1)
-#gameState.dealloc(bombchu.addr)
-#gameState.loadRoom(2)
-#gameState.allocActor(actors.En_Fish)
-#print(gameState)
+
