@@ -1,7 +1,7 @@
 import json
 import copy
 import os
-from queue import Queue
+import queue
 from . import actors
 
 dirname = os.path.dirname(__file__) + '/'
@@ -287,9 +287,38 @@ class GameState:
 
         return availableActions
 
-    def search(self, maxActionCount, successFunction, actionsAlreadyTaken=(), alreadySeenHeaps = None, carryingActor=False, searchQueue=None):
+    def search(self, successFunction, carryingActor=False):
 
-        if alreadySeenHeaps is None and searchQueue is None:
+        actionsQueue = queue.Queue()
+        actionsQueue.put(())
+
+        seenStates = set()
+
+        maxActionCount = -1
+        while not actionsQueue.empty():
+            stateCopy = copy.deepcopy(self)
+            actionList = actionsQueue.get()
+            if len(actionList) > maxActionCount:
+                maxActionCount = len(actionList)
+                print(maxActionCount)
+            for action in actionList:
+                func = getattr(stateCopy, action[0])
+                func(*action[1:])
+
+            stateHash = hash(str(stateCopy))
+            if stateHash in seenStates:
+                continue
+            else:
+                seenStates.add(stateHash)
+                
+            if successFunction(stateCopy):
+                return stateCopy, actionList
+            else:
+                for action in stateCopy.getAvailableActions(carryingActor):
+                    actionsQueue.put(actionList + (action,))
+                
+
+        '''if alreadySeenHeaps is None and searchQueue is None:
             alreadySeenHeaps = {}
             searchQueue = Queue()
             isTopLevelSearch = True
@@ -330,7 +359,7 @@ class GameState:
                 if searchResult:
                     return searchResult
             
-        return None
+        return None'''
 
     def __str__(self):
         return "\n".join((str(node) for node in self.heap()))
