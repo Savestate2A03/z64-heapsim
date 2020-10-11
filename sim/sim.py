@@ -2,6 +2,8 @@ import json
 import copy
 import os
 import queue
+import threading
+import multiprocessing
 from . import actors
 
 dirname = os.path.dirname(__file__) + '/'
@@ -48,7 +50,8 @@ class GameState:
         if specialObject != 0:
             self.loadedObjects.add(specialObject)
 
-        self.actors = {}
+        self.actorDefs = {}
+        self.actorStates = {}
         for actorId in range(len(actorInfo[self.game])):
             if 'ALL' in actorInfo[self.game][actorId]:
                 actor = actorInfo[self.game][actorId]['ALL']
@@ -56,8 +59,7 @@ class GameState:
                 actor = actorInfo[self.game][actorId][self.console]
             else:
                 actor = actorInfo[self.game][actorId][self.version]
-            actor['numLoaded'] = 0
-            self.actors[actorId] = actor
+            self.actorDefs[actorId] = actor
 
         self.ram = {}
         self.ram[self.heapStart] = HeapNode(self.heapStart, self.headerSize, 0x100000000-self.headerSize)
@@ -94,10 +96,10 @@ class GameState:
             
         for actor in self.setupData['rooms'][roomId]['actors']:
             actorId = actor['actorId']
-            actorType = self.actors[actorId]['actorType']
+            actorType = self.actorDefs[actorId]['actorType']
             if actorType == ACTORTYPE_ENEMY and currentRoomClear:
                 continue
-            elif self.actors[actorId]['objectId'] not in self.loadedObjects:
+            elif self.actorDefs[actorId]['objectId'] not in self.loadedObjects:
                 continue
             else:
                 loadedActor = self.allocActor(actor['actorId'], [roomId], actor['actorParams'], actor['position'])
@@ -139,20 +141,23 @@ class GameState:
 
     def allocActor(self, actorId, rooms='ALL', actorParams=0x0000, position=(0,0,0)):
 
-        actor = self.actors[actorId]
+        if actorId not in self.actorStates:
+            self.actorStates[actorId] = {'numLoaded':0}
+        actorState = self.actorStates[actorId]
+        actorDef = self.actorDefs[actorId]
 
-        if actor['numLoaded'] == 0 and actor['overlaySize'] and actor['allocType']==0:
-            overlayNode = self.alloc(actor['overlaySize'], 'Overlay %04X %s'%(actorId,actor['name']))
-            actor['loadedOverlay'] = overlayNode.addr
+        if actorState['numLoaded'] == 0 and actorDef['overlaySize'] and actorDef['allocType']==0:
+            overlayNode = self.alloc(actorDef['overlaySize'], 'Overlay %04X %s'%(actorId,actorDef['name']))
+            actorState['loadedOverlay'] = overlayNode.addr
 
-        instanceNode = self.alloc(actor['instanceSize'], 'Actor %04X %s (%04X)'%(actorId,actor['name'],actorParams))
+        instanceNode = self.alloc(actorDef['instanceSize'], 'Actor %04X %s (%04X)'%(actorId,actorDef['name'],actorParams))
         instanceNode.rooms = rooms
         instanceNode.nodeType = 'INSTANCE'
         instanceNode.actorId = actorId
         instanceNode.actorParams = actorParams
         instanceNode.position = position
 
-        actor['numLoaded'] += 1
+        actorState['numLoaded'] += 1
 
         return instanceNode
 
@@ -179,10 +184,11 @@ class GameState:
         assert not node.free
 
         if node.nodeType == 'INSTANCE':
-            actor = self.actors[node.actorId]
-            actor['numLoaded'] -= 1
-            if actor['numLoaded'] == 0 and actor['overlaySize'] and actor['allocType']==0:
-                self.dealloc(actor['loadedOverlay'])
+            actorDef = self.actorDefs[node.actorId]
+            actorState = self.actorStates[node.actorId]
+            actorState['numLoaded'] -= 1
+            if actorState['numLoaded'] == 0 and actorDef['overlaySize'] and actorDef['allocType']==0:
+                self.dealloc(actorState['loadedOverlay'])
         
         if self.ram[node.nextNodeAddr].free:
             node.blockSize += self.headerSize + self.ram[node.nextNodeAddr].blockSize
@@ -204,7 +210,7 @@ class GameState:
 
         elif node.actorId == actors.Object_Kankyo:
             node.rooms = 'ALL'
-            if self.actors[node.actorId]['numLoaded'] > 1 and node.actorParams != 0x0004:
+            if self.actorStates[node.actorId]['numLoaded'] > 1 and node.actorParams != 0x0004:
                 self.dealloc(node.addr)
 
         elif node.actorId == actors.Door_Warp1 and node.actorParams == 0x0006:
@@ -253,12 +259,16 @@ class GameState:
             for room in self.loadedRooms:
                 availableActions.append(['unloadRoomsExcept', room])
 
-        if not carryingActor and self.actors[actors.En_M_Thunder]['numLoaded'] < 1:
+        for actorId in (actors.En_M_Thunder,actors.En_Bom,actors.En_Bom_Chu):
+            if actorId not in self.actorStates:
+                self.actorStates[actorId] = {'numLoaded':0}
+
+        if not carryingActor and self.actorStates[actors.En_M_Thunder]['numLoaded'] < 1:
         
-            if self.flags['bombchu'] and self.actors[actors.En_Bom]['numLoaded'] + self.actors[actors.En_Bom_Chu]['numLoaded'] < 3:
+            if self.flags['bombchu'] and self.actorStates[actors.En_Bom]['numLoaded'] + self.actorStates[actors.En_Bom_Chu]['numLoaded'] < 3:
                 availableActions.append(['allocActor', actors.En_Bom_Chu])
             
-            if self.flags['bomb'] and self.actors[actors.En_Bom]['numLoaded'] + self.actors[actors.En_Bom_Chu]['numLoaded'] < 3:
+            if self.flags['bomb'] and self.actorStates[actors.En_Bom]['numLoaded'] + self.actorStates[actors.En_Bom_Chu]['numLoaded'] < 3:
                 availableActions.append(['allocActor', actors.En_Bom])
 
             if self.flags['bottle']:
@@ -278,7 +288,7 @@ class GameState:
                 if node.actorId in [actors.En_Bom, actors.En_Bom_Chu, actors.En_Insect, actors.En_Fish, actors.En_M_Thunder]:
                     availableActions.append(['dealloc', node.addr])
 
-                if len(self.loadedRooms) == 1 and node.actorId in [actors.En_Wonder_Item]:
+                if len(self.loadedRooms) == 1 and node.actorId in [actors.En_Wonder_Item] and self.actorStates[actors.En_M_Thunder]['numLoaded'] < 1:
                     availableActions.append(['dealloc', node.addr])
 
                 if len(self.loadedRooms) == 1 and node.actorId in [actors.En_Kusa] and not carryingActor:
@@ -289,80 +299,79 @@ class GameState:
 
     def search(self, successFunction, carryingActor=False):
 
-        actionsQueue = queue.Queue()
-        actionsQueue.put(())
+        num_worker_threads = multiprocessing.cpu_count()
+        num_worker_threads = 12
 
         seenStates = set()
-
         maxActionCount = -1
-        while not actionsQueue.empty():
-            stateCopy = copy.deepcopy(self)
-            actionList = actionsQueue.get()
-            if len(actionList) > maxActionCount:
-                maxActionCount = len(actionList)
-                print(maxActionCount)
-            for action in actionList:
-                func = getattr(stateCopy, action[0])
-                func(*action[1:])
+        ret = None
 
-            stateHash = hash(str(stateCopy))
-            if stateHash in seenStates:
-                continue
-            else:
-                seenStates.add(stateHash)
-                
-            if successFunction(stateCopy):
-                return stateCopy, actionList
-            else:
-                for action in stateCopy.getAvailableActions(carryingActor):
-                    actionsQueue.put(actionList + (action,))
-                
+        def worker():
+            nonlocal ret
+            while ret is None:
+                actionList = actionsQueue.get()
+                if actionList is None:
+                    return
 
-        '''if alreadySeenHeaps is None and searchQueue is None:
-            alreadySeenHeaps = {}
-            searchQueue = Queue()
-            isTopLevelSearch = True
-        else:
-            isTopLevelSearch = False
+                nonlocal maxActionCount
+                if len(actionList) > maxActionCount:
+                    maxActionCount = len(actionList)
+                    print('%d\n'%maxActionCount,end='')
+                    
+                stateCopy = copy.deepcopy(self)
+                for action in actionList:
+                    func = getattr(stateCopy, action[0])
+                    func(*action[1:])
 
-        selfHash = hash(str(self))
+                stateHash = hash(stateCopy)
+                if stateHash not in seenStates:
+                    seenStates.add(stateHash)
 
-        if selfHash in alreadySeenHeaps:
-            return None
+                    if successFunction(stateCopy):
+                        print('Solved!!!\nSolved!!!\nSolved!!!')
+                        print('Solved!!!\nSolved!!!\nSolved!!!')
+                        print('Solved!!!\nSolved!!!\nSolved!!!')
+                        ret = (stateCopy, actionList)
+                    else:
+                        for action in stateCopy.getAvailableActions(carryingActor):
+                            newActionList = actionList + (action,)
+                            actionsQueue.put(TupleWrapper(newActionList))
 
-        alreadySeenHeaps[selfHash] = maxActionCount
+                actionsQueue.task_done()
 
-        if successFunction(self):
-            return self, actionsAlreadyTaken
-
-        #print(actionsAlreadyTaken)
-
-        if maxActionCount < 1:
-            return None
+        actionsQueue = queue.PriorityQueue()
         
-        for action in self.getAvailableActions(carryingActor):
-            selfCopy = copy.deepcopy(self)
-            func = getattr(selfCopy, action[0])
-            func(*action[1:])
-            if hash(str(selfCopy)) not in alreadySeenHeaps:
-                searchQueue.put((selfCopy, maxActionCount-1, actionsAlreadyTaken+(action,)))
-
-        maxSearchDistance = 0
-        if isTopLevelSearch:
-            while not searchQueue.empty():
-                nextStateObj, nextMaxActionCount, nextActionsAlreadyTaken = searchQueue.get()
-                searchDistance = maxActionCount-nextMaxActionCount
-                if searchDistance > maxSearchDistance:
-                    print(searchDistance)
-                    maxSearchDistance = searchDistance
-                searchResult = nextStateObj.search(nextMaxActionCount, successFunction, nextActionsAlreadyTaken, alreadySeenHeaps, carryingActor, searchQueue)
-                if searchResult:
-                    return searchResult
+        threads = []
+        for i in range(num_worker_threads):
+            t = threading.Thread(target=worker)
+            t.start()
+            threads.append(t)
             
-        return None'''
+        actionsQueue.put(TupleWrapper(()))
+
+        for t in threads:
+            t.join()
+
+        return ret
 
     def __str__(self):
         return "\n".join((str(node) for node in self.heap()))
+
+    def __hash__(self):
+        stateHash = 0
+        for node in self.heap():
+            stateHash = hash((stateHash, node.addr, node.description))
+        return stateHash
+
+    def __deepcopy__(self, memo):
+        selfCopy = copy.copy(self)
+        selfCopy.loadedObjects = copy.copy(self.loadedObjects)
+        selfCopy.loadedRooms = copy.copy(self.loadedRooms)
+        selfCopy.actorStates = copy.deepcopy(self.actorStates) # why is this necessary?
+        selfCopy.ram = {}
+        for node in self.heap():
+            selfCopy.ram[node.addr] = copy.copy(node)
+        return selfCopy
 
 class HeapNode:
     def __init__(self, addr, headerSize, blockSize):
@@ -385,6 +394,18 @@ class HeapNode:
         return "header:%08X data:%08X free:%d blocksize:%X next_addr:%X prev_addr:%X - %s"%(self.addr,self.addr+self.headerSize,self.free,self.blockSize, self.nextNodeAddr, self.prevNodeAddr, self.description)
 
 
-
+class TupleWrapper(tuple):
+    def __lt__(self, other):
+        return len(self) < len(other)
+    def __le__(self, other):
+        return len(self) <= len(other)
+    def __eq__(self, other):
+        return len(self) == len(other)
+    def __ne__(self, other):
+        return len(self) != len(other)
+    def __gt__(self, other):
+        return len(self) > len(other)
+    def __ge__(self, other):
+        return len(self) >= len(other)
 
 
