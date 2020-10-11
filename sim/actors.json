@@ -133,19 +133,45 @@
 			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_En_Skeleton_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_En_Skeleton_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_En_Skeleton_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_En_Skeleton_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_En_Skeleton_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_En_Skeleton_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_En_Skeleton_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_En_Skeleton_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_En_Skeleton_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_En_Skeleton_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_En_Skeleton_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_En_Skeleton_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_En_Skeleton_filler_"
+			}
 		},
 		{
 			"OoT-N-1.0": {
@@ -280,19 +306,45 @@
 			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_En_Iron_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_En_Iron_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_En_Iron_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_En_Iron_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_En_Iron_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_En_Iron_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_En_Iron_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_En_Iron_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_En_Iron_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_En_Iron_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_En_Iron_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_En_Iron_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_En_Iron_filler_"
+			}
 		},
 		{
 			"OoT-N-1.0": {
@@ -427,34 +479,86 @@
 			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_En_Slim_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_En_Slim_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_En_Slim_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_En_Slim_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_En_Slim_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_En_Slim_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_En_Slim_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_En_Slim_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_En_Slim_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_En_Slim_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_En_Slim_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_En_Slim_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_En_Slim_filler_"
+			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_En_Bskel_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_En_Bskel_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_En_Bskel_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_En_Bskel_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_En_Bskel_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_En_Bskel_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_En_Bskel_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_En_Bskel_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_En_Bskel_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_En_Bskel_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_En_Bskel_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_En_Bskel_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_En_Bskel_filler_"
+			}
 		},
 		{
 			"OoT-N-1.0": {
@@ -2569,19 +2673,45 @@
 			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_Dummy_player_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_Dummy_player_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_Dummy_player_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_Dummy_player_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_Dummy_player_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_Dummy_player_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_Dummy_player_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_Dummy_player_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_Dummy_player_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_Dummy_player_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_Dummy_player_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_Dummy_player_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_Dummy_player_filler_"
+			}
 		},
 		{
 			"OoT-N-1.0": {
@@ -2848,19 +2978,45 @@
 			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_En_Bee_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_En_Bee_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_En_Bee_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_En_Bee_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_En_Bee_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_En_Bee_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_En_Bee_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_En_Bee_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_En_Bee_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_En_Bee_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_En_Bee_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_En_Bee_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_En_Bee_filler_"
+			}
 		},
 		{
 			"OoT-N-1.0": {
@@ -3391,19 +3547,45 @@
 			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_En_F_Obj_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_En_F_Obj_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_En_F_Obj_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_En_F_Obj_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_En_F_Obj_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_En_F_Obj_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_En_F_Obj_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_En_F_Obj_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_En_F_Obj_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_En_F_Obj_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_En_F_Obj_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_En_F_Obj_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_En_F_Obj_filler_"
+			}
 		},
 		{
 			"OoT-N-1.0": {
@@ -3670,19 +3852,45 @@
 			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_En_D_Obj_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_En_D_Obj_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_En_D_Obj_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_En_D_Obj_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_En_D_Obj_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_En_D_Obj_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_En_D_Obj_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_En_D_Obj_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_En_D_Obj_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_En_D_Obj_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_En_D_Obj_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_En_D_Obj_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_En_D_Obj_filler_"
+			}
 		},
 		{
 			"OoT-N-1.0": {
@@ -5533,19 +5741,45 @@
 			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_Magic_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_Magic_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_Magic_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_Magic_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_Magic_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_Magic_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_Magic_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_Magic_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_Magic_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_Magic_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_Magic_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_Magic_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_Magic_filler_"
+			}
 		},
 		{
 			"OoT-N-1.0": {
@@ -6076,19 +6310,45 @@
 			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_En_OA1_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_En_OA1_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_En_OA1_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_En_OA1_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_En_OA1_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_En_OA1_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_En_OA1_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_En_OA1_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_En_OA1_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_En_OA1_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_En_OA1_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_En_OA1_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_En_OA1_filler_"
+			}
 		},
 		{
 			"OoT-N-1.0": {
@@ -9787,19 +10047,45 @@
 			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_En_Npc_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_En_Npc_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_En_Npc_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_En_Npc_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_En_Npc_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_En_Npc_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_En_Npc_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_En_Npc_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_En_Npc_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_En_Npc_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_En_Npc_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_En_Npc_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_En_Npc_filler_"
+			}
 		},
 		{
 			"OoT-N-1.0": {
@@ -13894,64 +14180,168 @@
 			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_En_Stree_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_En_Stree_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_En_Stree_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_En_Stree_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_En_Stree_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_En_Stree_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_En_Stree_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_En_Stree_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_En_Stree_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_En_Stree_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_En_Stree_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_En_Stree_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_En_Stree_filler_"
+			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_En_Kui_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_En_Kui_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_En_Kui_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_En_Kui_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_En_Kui_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_En_Kui_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_En_Kui_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_En_Kui_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_En_Kui_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_En_Kui_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_En_Kui_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_En_Kui_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_En_Kui_filler_"
+			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_En_Maruta_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_En_Maruta_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_En_Maruta_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_En_Maruta_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_En_Maruta_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_En_Maruta_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_En_Maruta_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_En_Maruta_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_En_Maruta_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_En_Maruta_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_En_Maruta_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_En_Maruta_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_En_Maruta_filler_"
+			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_En_Saku_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_En_Saku_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_En_Saku_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_En_Saku_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_En_Saku_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_En_Saku_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_En_Saku_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_En_Saku_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_En_Saku_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_En_Saku_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_En_Saku_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_En_Saku_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_En_Saku_filler_"
+			}
 		},
 		{
 			"OoT-N-1.0": {
@@ -14086,64 +14476,168 @@
 			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_En_Twood01_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_En_Twood01_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_En_Twood01_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_En_Twood01_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_En_Twood01_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_En_Twood01_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_En_Twood01_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_En_Twood01_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_En_Twood01_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_En_Twood01_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_En_Twood01_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_En_Twood01_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_En_Twood01_filler_"
+			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_En_Kabu02_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_En_Kabu02_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_En_Kabu02_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_En_Kabu02_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_En_Kabu02_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_En_Kabu02_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_En_Kabu02_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_En_Kabu02_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_En_Kabu02_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_En_Kabu02_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_En_Kabu02_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_En_Kabu02_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_En_Kabu02_filler_"
+			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_En_Board_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_En_Board_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_En_Board_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_En_Board_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_En_Board_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_En_Board_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_En_Board_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_En_Board_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_En_Board_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_En_Board_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_En_Board_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_En_Board_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_En_Board_filler_"
+			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_En_Floater_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_En_Floater_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_En_Floater_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_En_Floater_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_En_Floater_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_En_Floater_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_En_Floater_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_En_Floater_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_En_Floater_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_En_Floater_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_En_Floater_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_En_Floater_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_En_Floater_filler_"
+			}
 		},
 		{
 			"OoT-N-1.0": {
@@ -14410,34 +14904,86 @@
 			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_En_Spia_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_En_Spia_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_En_Spia_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_En_Spia_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_En_Spia_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_En_Spia_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_En_Spia_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_En_Spia_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_En_Spia_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_En_Spia_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_En_Spia_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_En_Spia_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_En_Spia_filler_"
+			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_En_Stoneb_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_En_Stoneb_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_En_Stoneb_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_En_Stoneb_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_En_Stoneb_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_En_Stoneb_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_En_Stoneb_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_En_Stoneb_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_En_Stoneb_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_En_Stoneb_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_En_Stoneb_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_En_Stoneb_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_En_Stoneb_filler_"
+			}
 		},
 		{
 			"OoT-N-1.0": {
@@ -14836,19 +15382,45 @@
 			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_Bg_Hidan_Pompfly_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_Bg_Hidan_Pompfly_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_Bg_Hidan_Pompfly_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_Bg_Hidan_Pompfly_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_Bg_Hidan_Pompfly_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_Bg_Hidan_Pompfly_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_Bg_Hidan_Pompfly_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_Bg_Hidan_Pompfly_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_Bg_Hidan_Pompfly_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_Bg_Hidan_Pompfly_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_Bg_Hidan_Pompfly_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_Bg_Hidan_Pompfly_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_Bg_Hidan_Pompfly_filler_"
+			}
 		},
 		{
 			"OoT-N-1.0": {
@@ -18547,19 +19119,45 @@
 			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_Magic_Ice_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_Magic_Ice_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_Magic_Ice_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_Magic_Ice_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_Magic_Ice_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_Magic_Ice_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_Magic_Ice_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_Magic_Ice_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_Magic_Ice_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_Magic_Ice_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_Magic_Ice_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_Magic_Ice_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_Magic_Ice_filler_"
+			}
 		},
 		{
 			"OoT-N-1.0": {
@@ -20806,19 +21404,45 @@
 			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_Bg_Haka_Kumo_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_Bg_Haka_Kumo_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_Bg_Haka_Kumo_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_Bg_Haka_Kumo_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_Bg_Haka_Kumo_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_Bg_Haka_Kumo_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_Bg_Haka_Kumo_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_Bg_Haka_Kumo_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_Bg_Haka_Kumo_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_Bg_Haka_Kumo_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_Bg_Haka_Kumo_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_Bg_Haka_Kumo_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_Bg_Haka_Kumo_filler_"
+			}
 		},
 		{
 			"OoT-N-1.0": {
@@ -24385,19 +25009,45 @@
 			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_En_Npc2_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_En_Npc2_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_En_Npc2_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_En_Npc2_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_En_Npc2_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_En_Npc2_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_En_Npc2_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_En_Npc2_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_En_Npc2_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_En_Npc2_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_En_Npc2_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_En_Npc2_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_En_Npc2_filler_"
+			}
 		},
 		{
 			"OoT-N-1.0": {
@@ -25588,19 +26238,45 @@
 			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_En_Npc3_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_En_Npc3_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_En_Npc3_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_En_Npc3_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_En_Npc3_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_En_Npc3_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_En_Npc3_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_En_Npc3_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_En_Npc3_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_En_Npc3_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_En_Npc3_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_En_Npc3_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_En_Npc3_filler_"
+			}
 		},
 		{
 			"OoT-N-1.0": {
@@ -27847,34 +28523,86 @@
 			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_Boss_Goma2_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_Boss_Goma2_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_Boss_Goma2_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_Boss_Goma2_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_Boss_Goma2_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_Boss_Goma2_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_Boss_Goma2_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_Boss_Goma2_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_Boss_Goma2_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_Boss_Goma2_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_Boss_Goma2_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_Boss_Goma2_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_Boss_Goma2_filler_"
+			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_En_Stk_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_En_Stk_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_En_Stk_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_En_Stk_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_En_Stk_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_En_Stk_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_En_Stk_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_En_Stk_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_En_Stk_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_En_Stk_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_En_Stk_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_En_Stk_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_En_Stk_filler_"
+			}
 		},
 		{
 			"OoT-N-1.0": {
@@ -28669,34 +29397,86 @@
 			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_Magic_Light_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_Magic_Light_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_Magic_Light_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_Magic_Light_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_Magic_Light_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_Magic_Light_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_Magic_Light_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_Magic_Light_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_Magic_Light_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_Magic_Light_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_Magic_Light_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_Magic_Light_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_Magic_Light_filler_"
+			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_Magic_Soul_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_Magic_Soul_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_Magic_Soul_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_Magic_Soul_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_Magic_Soul_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_Magic_Soul_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_Magic_Soul_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_Magic_Soul_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_Magic_Soul_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_Magic_Soul_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_Magic_Soul_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_Magic_Soul_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_Magic_Soul_filler_"
+			}
 		},
 		{
 			"OoT-N-1.0": {
@@ -29623,19 +30403,45 @@
 			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_Bg_Jya_Sutarukage_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_Bg_Jya_Sutarukage_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_Bg_Jya_Sutarukage_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_Bg_Jya_Sutarukage_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_Bg_Jya_Sutarukage_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_Bg_Jya_Sutarukage_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_Bg_Jya_Sutarukage_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_Bg_Jya_Sutarukage_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_Bg_Jya_Sutarukage_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_Bg_Jya_Sutarukage_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_Bg_Jya_Sutarukage_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_Bg_Jya_Sutarukage_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_Bg_Jya_Sutarukage_filler_"
+			}
 		},
 		{
 			"OoT-N-1.0": {
@@ -31354,19 +32160,45 @@
 			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_Arrow_Dark_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_Arrow_Dark_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_Arrow_Dark_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_Arrow_Dark_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_Arrow_Dark_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_Arrow_Dark_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_Arrow_Dark_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_Arrow_Dark_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_Arrow_Dark_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_Arrow_Dark_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_Arrow_Dark_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_Arrow_Dark_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_Arrow_Dark_filler_"
+			}
 		},
 		{
 			"OoT-N-1.0": {
@@ -31765,34 +32597,86 @@
 			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_Arrow_Soul_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_Arrow_Soul_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_Arrow_Soul_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_Arrow_Soul_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_Arrow_Soul_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_Arrow_Soul_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_Arrow_Soul_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_Arrow_Soul_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_Arrow_Soul_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_Arrow_Soul_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_Arrow_Soul_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_Arrow_Soul_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_Arrow_Soul_filler_"
+			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_Arrow_Wind_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_Arrow_Wind_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_Arrow_Wind_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_Arrow_Wind_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_Arrow_Wind_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_Arrow_Wind_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_Arrow_Wind_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_Arrow_Wind_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_Arrow_Wind_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_Arrow_Wind_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_Arrow_Wind_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_Arrow_Wind_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_Arrow_Wind_filler_"
+			}
 		},
 		{
 			"OoT-N-1.0": {
@@ -35095,34 +35979,86 @@
 			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_Obj_Breakbox_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_Obj_Breakbox_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_Obj_Breakbox_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_Obj_Breakbox_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_Obj_Breakbox_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_Obj_Breakbox_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_Obj_Breakbox_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_Obj_Breakbox_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_Obj_Breakbox_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_Obj_Breakbox_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_Obj_Breakbox_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_Obj_Breakbox_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_Obj_Breakbox_filler_"
+			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_Obj_Hahen_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_Obj_Hahen_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_Obj_Hahen_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_Obj_Hahen_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_Obj_Hahen_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_Obj_Hahen_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_Obj_Hahen_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_Obj_Hahen_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_Obj_Hahen_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_Obj_Hahen_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_Obj_Hahen_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_Obj_Hahen_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_Obj_Hahen_filler_"
+			}
 		},
 		{
 			"OoT-N-1.0": {
@@ -36445,19 +37381,45 @@
 			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_En_Stopge_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_En_Stopge_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_En_Stopge_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_En_Stopge_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_En_Stopge_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_En_Stopge_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_En_Stopge_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_En_Stopge_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_En_Stopge_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_En_Stopge_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_En_Stopge_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_En_Stopge_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_En_Stopge_filler_"
+			}
 		},
 		{
 			"OoT-N-1.0": {
@@ -40552,19 +41514,45 @@
 			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_En_Nc_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_En_Nc_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_En_Nc_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_En_Nc_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_En_Nc_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_En_Nc_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_En_Nc_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_En_Nc_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_En_Nc_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_En_Nc_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_En_Nc_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_En_Nc_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_En_Nc_filler_"
+			}
 		},
 		{
 			"OoT-N-1.0": {
@@ -41623,19 +42611,45 @@
 			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_En_Warp_Box_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_En_Warp_Box_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_En_Warp_Box_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_En_Warp_Box_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_En_Warp_Box_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_En_Warp_Box_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_En_Warp_Box_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_En_Warp_Box_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_En_Warp_Box_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_En_Warp_Box_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_En_Warp_Box_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_En_Warp_Box_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_En_Warp_Box_filler_"
+			}
 		},
 		{
 			"OoT-N-1.0": {
@@ -42034,19 +43048,45 @@
 			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_En_Zl22_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_En_Zl22_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_En_Zl22_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_En_Zl22_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_En_Zl22_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_En_Zl22_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_En_Zl22_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_En_Zl22_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_En_Zl22_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_En_Zl22_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_En_Zl22_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_En_Zl22_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_En_Zl22_filler_"
+			}
 		},
 		{
 			"OoT-N-1.0": {
@@ -46009,19 +47049,45 @@
 			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_En_Mother_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_En_Mother_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_En_Mother_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_En_Mother_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_En_Mother_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_En_Mother_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_En_Mother_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_En_Mother_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_En_Mother_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_En_Mother_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_En_Mother_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_En_Mother_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_En_Mother_filler_"
+			}
 		},
 		{
 			"OoT-N-1.0": {
@@ -51436,19 +52502,45 @@
 			}
 		},
 		{
-			"OoT-N-1.0": {},
-			"OoT-N-1.1": {},
-			"OoT-P-1.0": {},
-			"OoT-N-1.2": {},
-			"OoT-P-1.1": {},
-			"OoT-J-GC-MQDisc": {},
-			"OoT-J-MQ": {},
-			"OoT-U-GC": {},
-			"OoT-U-MQ": {},
-			"OoT-P-GC": {},
-			"OoT-P-MQ": {},
-			"OoT-J-GC-CEDisc": {},
-			"OoT-iQue": {}
+			"OoT-N-1.0": {
+				"name": "_filler_Bg_Mizu_Switch_filler_"
+			},
+			"OoT-N-1.1": {
+				"name": "_filler_Bg_Mizu_Switch_filler_"
+			},
+			"OoT-P-1.0": {
+				"name": "_filler_Bg_Mizu_Switch_filler_"
+			},
+			"OoT-N-1.2": {
+				"name": "_filler_Bg_Mizu_Switch_filler_"
+			},
+			"OoT-P-1.1": {
+				"name": "_filler_Bg_Mizu_Switch_filler_"
+			},
+			"OoT-J-GC-MQDisc": {
+				"name": "_filler_Bg_Mizu_Switch_filler_"
+			},
+			"OoT-J-MQ": {
+				"name": "_filler_Bg_Mizu_Switch_filler_"
+			},
+			"OoT-U-GC": {
+				"name": "_filler_Bg_Mizu_Switch_filler_"
+			},
+			"OoT-U-MQ": {
+				"name": "_filler_Bg_Mizu_Switch_filler_"
+			},
+			"OoT-P-GC": {
+				"name": "_filler_Bg_Mizu_Switch_filler_"
+			},
+			"OoT-P-MQ": {
+				"name": "_filler_Bg_Mizu_Switch_filler_"
+			},
+			"OoT-J-GC-CEDisc": {
+				"name": "_filler_Bg_Mizu_Switch_filler_"
+			},
+			"OoT-iQue": {
+				"name": "_filler_Bg_Mizu_Switch_filler_"
+			}
 		},
 		{
 			"OoT-N-1.0": {
@@ -57267,7 +58359,7 @@
 				"overlaySize": 0,
 				"instanceSize": 3448,
 				"allocType": 0,
-				"name": "unset / Player",
+				"name": "Player",
 				"objectId": 1,
 				"drawPtr": 2148928448
 			}
@@ -57279,7 +58371,7 @@
 				"overlaySize": 3328,
 				"instanceSize": 1724,
 				"allocType": 0,
-				"name": "En_Test / ?",
+				"name": "En_Test",
 				"objectId": 1,
 				"drawPtr": 2156279464
 			}
@@ -57291,7 +58383,7 @@
 				"overlaySize": 6912,
 				"instanceSize": 460,
 				"allocType": 0,
-				"name": "En_GirlA / ?",
+				"name": "En_GirlA",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -57303,7 +58395,7 @@
 				"overlaySize": 1568,
 				"instanceSize": 340,
 				"allocType": 0,
-				"name": "En_Part / ?",
+				"name": "En_Part",
 				"objectId": 1,
 				"drawPtr": 2156287976
 			}
@@ -57315,7 +58407,7 @@
 				"overlaySize": 3696,
 				"instanceSize": 348,
 				"allocType": 0,
-				"name": "En_Light / Deku Shrine - Flames of Varying Colours",
+				"name": "En_Light",
 				"objectId": 1,
 				"drawPtr": 2156290968
 			}
@@ -57327,7 +58419,7 @@
 				"overlaySize": 5072,
 				"instanceSize": 460,
 				"allocType": 2,
-				"name": "En_Door / Wooden Door",
+				"name": "En_Door",
 				"objectId": 1,
 				"drawPtr": 2156295344
 			}
@@ -57339,7 +58431,7 @@
 				"overlaySize": 8640,
 				"instanceSize": 548,
 				"allocType": 0,
-				"name": "En_Box / Treasure Chest",
+				"name": "En_Box",
 				"objectId": 12,
 				"drawPtr": 2156304628
 			}
@@ -57351,7 +58443,7 @@
 				"overlaySize": 16528,
 				"instanceSize": 1060,
 				"allocType": 0,
-				"name": "En_Pametfrog / Gekko & Snapper Miniboss - Gekko",
+				"name": "En_Pametfrog",
 				"objectId": 296,
 				"drawPtr": 2156320920
 			}
@@ -57363,7 +58455,7 @@
 				"overlaySize": 12176,
 				"instanceSize": 820,
 				"allocType": 0,
-				"name": "En_Okuta / Octorok",
+				"name": "En_Okuta",
 				"objectId": 5,
 				"drawPtr": 2156332768
 			}
@@ -57375,7 +58467,7 @@
 				"overlaySize": 14944,
 				"instanceSize": 516,
 				"allocType": 2,
-				"name": "En_Bom / Bomb",
+				"name": "En_Bom",
 				"objectId": 1,
 				"drawPtr": 2156339956
 			}
@@ -57387,7 +58479,7 @@
 				"overlaySize": 7776,
 				"instanceSize": 932,
 				"allocType": 0,
-				"name": "En_Wallmas / Wallmaster",
+				"name": "En_Wallmas",
 				"objectId": 9,
 				"drawPtr": 2156356200
 			}
@@ -57399,7 +58491,7 @@
 				"overlaySize": 12416,
 				"instanceSize": 2068,
 				"allocType": 0,
-				"name": "En_Dodongo / Dodongo",
+				"name": "En_Dodongo",
 				"objectId": 10,
 				"drawPtr": 2156367880
 			}
@@ -57411,7 +58503,7 @@
 				"overlaySize": 8256,
 				"instanceSize": 884,
 				"allocType": 0,
-				"name": "En_Firefly / Keese",
+				"name": "En_Firefly",
 				"objectId": 11,
 				"drawPtr": 2156376864
 			}
@@ -57423,7 +58515,7 @@
 				"overlaySize": 60176,
 				"instanceSize": 1428,
 				"allocType": 0,
-				"name": "En_Horse / ?",
+				"name": "En_Horse",
 				"objectId": 1,
 				"drawPtr": 2156432760
 			}
@@ -57435,7 +58527,7 @@
 				"overlaySize": 0,
 				"instanceSize": 424,
 				"allocType": 0,
-				"name": "En_Item00 / Collectable Items",
+				"name": "En_Item00",
 				"objectId": 1,
 				"drawPtr": 2148167976
 			}
@@ -57447,7 +58539,7 @@
 				"overlaySize": 8912,
 				"instanceSize": 632,
 				"allocType": 2,
-				"name": "En_Arrow / Small Orange Flame That Fades Away",
+				"name": "En_Arrow",
 				"objectId": 1,
 				"drawPtr": 2156444212
 			}
@@ -57459,7 +58551,7 @@
 				"overlaySize": 19280,
 				"instanceSize": 628,
 				"allocType": 0,
-				"name": "En_Elf / Tatl",
+				"name": "En_Elf",
 				"objectId": 1,
 				"drawPtr": 2156463544
 			}
@@ -57471,7 +58563,7 @@
 				"overlaySize": 10128,
 				"instanceSize": 1980,
 				"allocType": 0,
-				"name": "En_Niw / Cucco",
+				"name": "En_Niw",
 				"objectId": 15,
 				"drawPtr": 2156474272
 			}
@@ -57483,13 +58575,15 @@
 				"overlaySize": 14144,
 				"instanceSize": 1028,
 				"allocType": 0,
-				"name": "En_Tite / Tektite",
+				"name": "En_Tite",
 				"objectId": 18,
 				"drawPtr": 2156489052
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Reeba_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -57498,7 +58592,7 @@
 				"overlaySize": 10800,
 				"instanceSize": 1344,
 				"allocType": 0,
-				"name": "En_Peehat / Peahat",
+				"name": "En_Peehat",
 				"objectId": 20,
 				"drawPtr": 2156499480
 			}
@@ -57510,7 +58604,7 @@
 				"overlaySize": 5520,
 				"instanceSize": 608,
 				"allocType": 0,
-				"name": "En_Butte / ?",
+				"name": "En_Butte",
 				"objectId": 2,
 				"drawPtr": 2157040192
 			}
@@ -57522,7 +58616,7 @@
 				"overlaySize": 6144,
 				"instanceSize": 792,
 				"allocType": 0,
-				"name": "En_Insect / Bug",
+				"name": "En_Insect",
 				"objectId": 1,
 				"drawPtr": 2157034756
 			}
@@ -57534,7 +58628,7 @@
 				"overlaySize": 10432,
 				"instanceSize": 636,
 				"allocType": 0,
-				"name": "En_Fish / Fish",
+				"name": "En_Fish",
 				"objectId": 1,
 				"drawPtr": 2157050276
 			}
@@ -57546,7 +58640,7 @@
 				"overlaySize": 3456,
 				"instanceSize": 332,
 				"allocType": 2,
-				"name": "En_Holl / Black Room Transition Plane",
+				"name": "En_Holl",
 				"objectId": 1,
 				"drawPtr": 2156504060
 			}
@@ -57558,7 +58652,7 @@
 				"overlaySize": 16896,
 				"instanceSize": 1604,
 				"allocType": 0,
-				"name": "En_Dinofos / Dinolfos",
+				"name": "En_Dinofos",
 				"objectId": 23,
 				"drawPtr": 2156519252
 			}
@@ -57570,7 +58664,7 @@
 				"overlaySize": 1200,
 				"instanceSize": 688,
 				"allocType": 0,
-				"name": "En_Hata / Red Flag on Post",
+				"name": "En_Hata",
 				"objectId": 95,
 				"drawPtr": 2156522684
 			}
@@ -57582,7 +58676,7 @@
 				"overlaySize": 144,
 				"instanceSize": 516,
 				"allocType": 0,
-				"name": "En_Zl1 / Child Zelda",
+				"name": "En_Zl1",
 				"objectId": 25,
 				"drawPtr": 2156522944
 			}
@@ -57594,7 +58688,7 @@
 				"overlaySize": 1728,
 				"instanceSize": 344,
 				"allocType": 0,
-				"name": "En_Viewer / ?",
+				"name": "En_Viewer",
 				"objectId": 1,
 				"drawPtr": 2156524488
 			}
@@ -57606,7 +58700,7 @@
 				"overlaySize": 5136,
 				"instanceSize": 600,
 				"allocType": 0,
-				"name": "En_Bubble / Shabom",
+				"name": "En_Bubble",
 				"objectId": 14,
 				"drawPtr": 2156528852
 			}
@@ -57618,13 +58712,15 @@
 				"overlaySize": 7136,
 				"instanceSize": 368,
 				"allocType": 2,
-				"name": "Door_Shutter / Studded Lifting Door",
+				"name": "Door_Shutter",
 				"objectId": 1,
 				"drawPtr": 0
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Dodojr_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -57633,7 +58729,7 @@
 				"overlaySize": 3296,
 				"instanceSize": 500,
 				"allocType": 2,
-				"name": "En_Boom / Zora Fin Returning",
+				"name": "En_Boom",
 				"objectId": 1,
 				"drawPtr": 2156539500
 			}
@@ -57645,7 +58741,7 @@
 				"overlaySize": 1216,
 				"instanceSize": 404,
 				"allocType": 0,
-				"name": "En_Torch2 / ?",
+				"name": "En_Torch2",
 				"objectId": 1,
 				"drawPtr": 2156541112
 			}
@@ -57657,13 +58753,15 @@
 				"overlaySize": 6624,
 				"instanceSize": 772,
 				"allocType": 0,
-				"name": "En_Minifrog / Frog",
+				"name": "En_Minifrog",
 				"objectId": 188,
 				"drawPtr": 2156547092
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Tp_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -57672,13 +58770,15 @@
 				"overlaySize": 10464,
 				"instanceSize": 1360,
 				"allocType": 0,
-				"name": "En_St / Skulltula",
+				"name": "En_St",
 				"objectId": 32,
 				"drawPtr": 0
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Bw_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -57687,7 +58787,7 @@
 				"overlaySize": 0,
 				"instanceSize": 404,
 				"allocType": 0,
-				"name": "En_A_Obj / ?",
+				"name": "En_A_Obj",
 				"objectId": 1,
 				"drawPtr": 2148162744
 			}
@@ -57699,7 +58799,7 @@
 				"overlaySize": 1280,
 				"instanceSize": 332,
 				"allocType": 0,
-				"name": "Obj_Wturn / ?",
+				"name": "Obj_Wturn",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -57711,13 +58811,15 @@
 				"overlaySize": 624,
 				"instanceSize": 332,
 				"allocType": 0,
-				"name": "En_River_Sound / ?",
+				"name": "En_River_Sound",
 				"objectId": 1,
 				"drawPtr": 2156560336
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Horse_Normal_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -57726,16 +58828,20 @@
 				"overlaySize": 18560,
 				"instanceSize": 1036,
 				"allocType": 0,
-				"name": "En_Ossan / ?",
+				"name": "En_Ossan",
 				"objectId": 1,
 				"drawPtr": 0
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Horse_Ganon_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Xc_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -57744,13 +58850,15 @@
 				"overlaySize": 8096,
 				"instanceSize": 1556,
 				"allocType": 0,
-				"name": "En_Famos / Death Armos",
+				"name": "En_Famos",
 				"objectId": 29,
 				"drawPtr": 2156586288
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Mb_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -57759,16 +58867,20 @@
 				"overlaySize": 5136,
 				"instanceSize": 520,
 				"allocType": 0,
-				"name": "En_Bombf / Bombflower",
+				"name": "En_Bombf",
 				"objectId": 42,
 				"drawPtr": 2156591352
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Zl2_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_OE2_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -57777,7 +58889,7 @@
 				"overlaySize": 5728,
 				"instanceSize": 896,
 				"allocType": 0,
-				"name": "En_Am / Armos",
+				"name": "En_Am",
 				"objectId": 48,
 				"drawPtr": 2156597144
 			}
@@ -57789,7 +58901,7 @@
 				"overlaySize": 16128,
 				"instanceSize": 1052,
 				"allocType": 0,
-				"name": "En_Dekubaba / Deku Baba",
+				"name": "En_Dekubaba",
 				"objectId": 49,
 				"drawPtr": 2156612344
 			}
@@ -57801,7 +58913,7 @@
 				"overlaySize": 400,
 				"instanceSize": 404,
 				"allocType": 2,
-				"name": "En_M_Fire1 / ?",
+				"name": "En_M_Fire1",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -57813,7 +58925,7 @@
 				"overlaySize": 8096,
 				"instanceSize": 452,
 				"allocType": 2,
-				"name": "En_M_Thunder / ?",
+				"name": "En_M_Thunder",
 				"objectId": 1,
 				"drawPtr": 2156619644
 			}
@@ -57825,13 +58937,15 @@
 				"overlaySize": 4400,
 				"instanceSize": 356,
 				"allocType": 0,
-				"name": "Bg_Breakwall / ?",
+				"name": "Bg_Breakwall",
 				"objectId": 1,
 				"drawPtr": 0
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Horse_Zelda_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -57840,7 +58954,7 @@
 				"overlaySize": 15232,
 				"instanceSize": 524,
 				"allocType": 0,
-				"name": "Door_Warp1 / Blue Warp",
+				"name": "Door_Warp1",
 				"objectId": 62,
 				"drawPtr": 2156640332
 			}
@@ -57852,7 +58966,7 @@
 				"overlaySize": 3552,
 				"instanceSize": 500,
 				"allocType": 0,
-				"name": "Obj_Syokudai / Golden Torch Stand",
+				"name": "Obj_Syokudai",
 				"objectId": 128,
 				"drawPtr": 2156644820
 			}
@@ -57864,7 +58978,7 @@
 				"overlaySize": 1008,
 				"instanceSize": 364,
 				"allocType": 0,
-				"name": "Item_B_Heart / Heart Container",
+				"name": "Item_B_Heart",
 				"objectId": 150,
 				"drawPtr": 2156646340
 			}
@@ -57876,7 +58990,7 @@
 				"overlaySize": 8256,
 				"instanceSize": 712,
 				"allocType": 0,
-				"name": "En_Dekunuts / Mad Scrub",
+				"name": "En_Dekunuts",
 				"objectId": 64,
 				"drawPtr": 2156654136
 			}
@@ -57888,7 +59002,7 @@
 				"overlaySize": 7696,
 				"instanceSize": 1124,
 				"allocType": 0,
-				"name": "En_Bbfall / Red Bubble",
+				"name": "En_Bbfall",
 				"objectId": 81,
 				"drawPtr": 2156661252
 			}
@@ -57900,7 +59014,7 @@
 				"overlaySize": 3344,
 				"instanceSize": 528,
 				"allocType": 2,
-				"name": "Arms_Hook / Hookshot",
+				"name": "Arms_Hook",
 				"objectId": 1,
 				"drawPtr": 2156665112
 			}
@@ -57912,7 +59026,7 @@
 				"overlaySize": 7440,
 				"instanceSize": 844,
 				"allocType": 0,
-				"name": "En_Bb / Blue Bubble",
+				"name": "En_Bb",
 				"objectId": 81,
 				"drawPtr": 2156672284
 			}
@@ -57924,13 +59038,15 @@
 				"overlaySize": 432,
 				"instanceSize": 324,
 				"allocType": 0,
-				"name": "Bg_Keikoku_Spr / Fountain",
+				"name": "Bg_Keikoku_Spr",
 				"objectId": 382,
 				"drawPtr": 2156673688
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_Bg_Mjin_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -57939,13 +59055,15 @@
 				"overlaySize": 4992,
 				"instanceSize": 416,
 				"allocType": 0,
-				"name": "En_Wood02 / Termina Field Tree",
+				"name": "En_Wood02",
 				"objectId": 97,
 				"drawPtr": 2156677692
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Lightbox_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -57954,7 +59072,7 @@
 				"overlaySize": 20784,
 				"instanceSize": 2360,
 				"allocType": 0,
-				"name": "En_Death / Gomess",
+				"name": "En_Death",
 				"objectId": 82,
 				"drawPtr": 2156697288
 			}
@@ -57966,16 +59084,20 @@
 				"overlaySize": 8624,
 				"instanceSize": 684,
 				"allocType": 0,
-				"name": "En_Minideath / Bats Surrounding Gomess?",
+				"name": "En_Minideath",
 				"objectId": 82,
 				"drawPtr": 0
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Ta_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Tk_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -57984,7 +59106,7 @@
 				"overlaySize": 5344,
 				"instanceSize": 860,
 				"allocType": 0,
-				"name": "En_Vm / Beamos",
+				"name": "En_Vm",
 				"objectId": 106,
 				"drawPtr": 2156712504
 			}
@@ -57996,7 +59118,7 @@
 				"overlaySize": 3344,
 				"instanceSize": 380,
 				"allocType": 0,
-				"name": "Demo_Effect / ?",
+				"name": "Demo_Effect",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -58008,7 +59130,7 @@
 				"overlaySize": 8752,
 				"instanceSize": 5712,
 				"allocType": 0,
-				"name": "Demo_Kankyo / ?",
+				"name": "Demo_Kankyo",
 				"objectId": 1,
 				"drawPtr": 2156725084
 			}
@@ -58020,13 +59142,15 @@
 				"overlaySize": 14240,
 				"instanceSize": 928,
 				"allocType": 0,
-				"name": "En_Floormas / Floormaster",
+				"name": "En_Floormas",
 				"objectId": 9,
 				"drawPtr": 2156738096
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Heishi1_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -58035,7 +59159,7 @@
 				"overlaySize": 14128,
 				"instanceSize": 1012,
 				"allocType": 0,
-				"name": "En_Rd / Gibdo",
+				"name": "En_Rd",
 				"objectId": 117,
 				"drawPtr": 2156752600
 			}
@@ -58047,13 +59171,15 @@
 				"overlaySize": 896,
 				"instanceSize": 356,
 				"allocType": 0,
-				"name": "Bg_F40_Flift / Stone Tower Temple - Grey Square Stone Elevator",
+				"name": "Bg_F40_Flift",
 				"objectId": 92,
 				"drawPtr": 2156754908
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_Bg_Heavy_Block_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -58062,7 +59188,7 @@
 				"overlaySize": 4208,
 				"instanceSize": 420,
 				"allocType": 0,
-				"name": "Obj_Mure / ?",
+				"name": "Obj_Mure",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -58074,7 +59200,7 @@
 				"overlaySize": 13632,
 				"instanceSize": 1188,
 				"allocType": 0,
-				"name": "En_Sw / Skullwalltula",
+				"name": "En_Sw",
 				"objectId": 32,
 				"drawPtr": 2156771548
 			}
@@ -58086,16 +59212,20 @@
 				"overlaySize": 10048,
 				"instanceSize": 4436,
 				"allocType": 0,
-				"name": "Object_Kankyo / ?",
+				"name": "Object_Kankyo",
 				"objectId": 1,
 				"drawPtr": 2156778340
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Du_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Fd_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -58104,7 +59234,7 @@
 				"overlaySize": 7136,
 				"instanceSize": 668,
 				"allocType": 0,
-				"name": "En_Horse_Link_Child / Child Epona",
+				"name": "En_Horse_Link_Child",
 				"objectId": 125,
 				"drawPtr": 2156789308
 			}
@@ -58116,25 +59246,35 @@
 				"overlaySize": 1680,
 				"instanceSize": 404,
 				"allocType": 0,
-				"name": "Door_Ana / Hole in Ground Exit",
+				"name": "Door_Ana",
 				"objectId": 2,
 				"drawPtr": 2156791556
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_Magic_Wind_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_Magic_Fire_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Fd_Fire_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Dh_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Dha_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -58143,7 +59283,7 @@
 				"overlaySize": 1552,
 				"instanceSize": 356,
 				"allocType": 0,
-				"name": "En_Encount1 / ?",
+				"name": "En_Encount1",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -58155,16 +59295,20 @@
 				"overlaySize": 1824,
 				"instanceSize": 376,
 				"allocType": 0,
-				"name": "Demo_Tre_Lgt / Light Radiating From Treasure Chest",
+				"name": "Demo_Tre_Lgt",
 				"objectId": 12,
 				"drawPtr": 2156794876
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Fw_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Heishi2_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -58173,7 +59317,7 @@
 				"overlaySize": 2688,
 				"instanceSize": 10864,
 				"allocType": 0,
-				"name": "En_Encount2 / Astral Observatory - Majora's Mask Balloon",
+				"name": "En_Encount2",
 				"objectId": 640,
 				"drawPtr": 2156796356
 			}
@@ -58185,7 +59329,7 @@
 				"overlaySize": 144,
 				"instanceSize": 472,
 				"allocType": 0,
-				"name": "En_Fire_Rock / Rock With Beam of Light",
+				"name": "En_Fire_Rock",
 				"objectId": 112,
 				"drawPtr": 2156797968
 			}
@@ -58197,7 +59341,7 @@
 				"overlaySize": 1424,
 				"instanceSize": 360,
 				"allocType": 0,
-				"name": "Bg_Ctower_Rot / Twisting Path to Clocktower",
+				"name": "Bg_Ctower_Rot",
 				"objectId": 136,
 				"drawPtr": 2156799192
 			}
@@ -58209,13 +59353,15 @@
 				"overlaySize": 6384,
 				"instanceSize": 680,
 				"allocType": 0,
-				"name": "Mir_Ray / Mirror Shield Face & Light Ray",
+				"name": "Mir_Ray",
 				"objectId": 135,
 				"drawPtr": 2156803748
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Tana_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -58224,7 +59370,7 @@
 				"overlaySize": 4304,
 				"instanceSize": 596,
 				"allocType": 0,
-				"name": "En_Sb / Shellblade",
+				"name": "En_Sb",
 				"objectId": 142,
 				"drawPtr": 2156809392
 			}
@@ -58236,7 +59382,7 @@
 				"overlaySize": 49728,
 				"instanceSize": 13876,
 				"allocType": 0,
-				"name": "En_Bigslime / Mad Jelly",
+				"name": "En_Bigslime",
 				"objectId": 296,
 				"drawPtr": 2156843320
 			}
@@ -58248,7 +59394,7 @@
 				"overlaySize": 7856,
 				"instanceSize": 712,
 				"allocType": 0,
-				"name": "En_Karebaba / Wilted Deku Baba",
+				"name": "En_Karebaba",
 				"objectId": 49,
 				"drawPtr": 2156865784
 			}
@@ -58260,13 +59406,15 @@
 				"overlaySize": 17408,
 				"instanceSize": 1228,
 				"allocType": 0,
-				"name": "En_In / Gorman Bros.",
+				"name": "En_In",
 				"objectId": 153,
 				"drawPtr": 2156882356
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Tr_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -58275,7 +59423,7 @@
 				"overlaySize": 3344,
 				"instanceSize": 1108,
 				"allocType": 0,
-				"name": "En_Ru / Ruto",
+				"name": "En_Ru",
 				"objectId": 162,
 				"drawPtr": 2158203396
 			}
@@ -58287,7 +59435,7 @@
 				"overlaySize": 5616,
 				"instanceSize": 480,
 				"allocType": 2,
-				"name": "En_Bom_Chu / Bombchu",
+				"name": "En_Bom_Chu",
 				"objectId": 1,
 				"drawPtr": 2156889876
 			}
@@ -58299,7 +59447,7 @@
 				"overlaySize": 4960,
 				"instanceSize": 440,
 				"allocType": 0,
-				"name": "En_Horse_Game_Check / Arrow, Posts, & Splatter",
+				"name": "En_Horse_Game_Check",
 				"objectId": 401,
 				"drawPtr": 2156894916
 			}
@@ -58311,28 +59459,40 @@
 				"overlaySize": 10064,
 				"instanceSize": 964,
 				"allocType": 0,
-				"name": "En_Rr / Like Like",
+				"name": "En_Rr",
 				"objectId": 171,
 				"drawPtr": 2156903764
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Ba_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Bx_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Anubice_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Anubice_Fire_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Ma_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Ny_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -58341,25 +59501,35 @@
 				"overlaySize": 368,
 				"instanceSize": 324,
 				"allocType": 0,
-				"name": "En_Fr / ?",
+				"name": "En_Fr",
 				"objectId": 1,
 				"drawPtr": 0
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_Item_Shield_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Ice_Hono_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_Item_Ocarina_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_Magic_Dark_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Anubice_Tag_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -58368,7 +59538,7 @@
 				"overlaySize": 109520,
 				"instanceSize": 1352,
 				"allocType": 0,
-				"name": " / Fishing Pond Owner (JP 1.0 Only)",
+				"name": "_filler_Fishing_filler_",
 				"objectId": 292,
 				"drawPtr": 2156955508
 			}
@@ -58380,7 +59550,7 @@
 				"overlaySize": 6320,
 				"instanceSize": 460,
 				"allocType": 0,
-				"name": "Obj_Oshihiki / Pushable Block",
+				"name": "Obj_Oshihiki",
 				"objectId": 3,
 				"drawPtr": 2157020928
 			}
@@ -58392,7 +59562,7 @@
 				"overlaySize": 5104,
 				"instanceSize": 1376,
 				"allocType": 0,
-				"name": "Eff_Dust / ?",
+				"name": "Eff_Dust",
 				"objectId": 1,
 				"drawPtr": 2157026664
 			}
@@ -58404,7 +59574,7 @@
 				"overlaySize": 2416,
 				"instanceSize": 364,
 				"allocType": 0,
-				"name": "Bg_Umajump / ?",
+				"name": "Bg_Umajump",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -58416,7 +59586,7 @@
 				"overlaySize": 8432,
 				"instanceSize": 612,
 				"allocType": 1,
-				"name": "Arrow_Fire / Fire Arrow",
+				"name": "Arrow_Fire",
 				"objectId": 1,
 				"drawPtr": 2157054500
 			}
@@ -58428,7 +59598,7 @@
 				"overlaySize": 7888,
 				"instanceSize": 356,
 				"allocType": 1,
-				"name": "Arrow_Ice / Ice Arrow",
+				"name": "Arrow_Ice",
 				"objectId": 1,
 				"drawPtr": 2157062556
 			}
@@ -58440,7 +59610,7 @@
 				"overlaySize": 7856,
 				"instanceSize": 356,
 				"allocType": 1,
-				"name": "Arrow_Light / Light Arrow",
+				"name": "Arrow_Light",
 				"objectId": 1,
 				"drawPtr": 2157070444
 			}
@@ -58452,7 +59622,7 @@
 				"overlaySize": 1104,
 				"instanceSize": 344,
 				"allocType": 0,
-				"name": "Item_Etcetera / ?",
+				"name": "Item_Etcetera",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -58464,7 +59634,7 @@
 				"overlaySize": 5136,
 				"instanceSize": 412,
 				"allocType": 0,
-				"name": "Obj_Kibako / Small Wooden Crate",
+				"name": "Obj_Kibako",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -58476,13 +59646,15 @@
 				"overlaySize": 9040,
 				"instanceSize": 412,
 				"allocType": 0,
-				"name": "Obj_Tsubo / Pot",
+				"name": "Obj_Tsubo",
 				"objectId": 1,
 				"drawPtr": 0
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Wonder_Item_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -58491,22 +59663,30 @@
 				"overlaySize": 11296,
 				"instanceSize": 1640,
 				"allocType": 0,
-				"name": "En_Ik / Iron Knuckle",
+				"name": "En_Ik",
 				"objectId": 216,
 				"drawPtr": 2157100564
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Skj_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Skjneedle_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_G_Switch_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_Demo_Ext_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -58515,7 +59695,7 @@
 				"overlaySize": 144,
 				"instanceSize": 4816,
 				"allocType": 0,
-				"name": "Demo_Shd / ?",
+				"name": "Demo_Shd",
 				"objectId": 339,
 				"drawPtr": 2157102432
 			}
@@ -58527,7 +59707,7 @@
 				"overlaySize": 6608,
 				"instanceSize": 768,
 				"allocType": 0,
-				"name": "En_Dns / Deku Palace - King's Chamber Deku Guard",
+				"name": "En_Dns",
 				"objectId": 308,
 				"drawPtr": 2157108192
 			}
@@ -58539,7 +59719,7 @@
 				"overlaySize": 1408,
 				"instanceSize": 328,
 				"allocType": 0,
-				"name": "Elf_Msg / ?",
+				"name": "Elf_Msg",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -58551,7 +59731,7 @@
 				"overlaySize": 8912,
 				"instanceSize": 708,
 				"allocType": 0,
-				"name": "En_Honotrap / ?",
+				"name": "En_Honotrap",
 				"objectId": 3,
 				"drawPtr": 2157117296
 			}
@@ -58563,7 +59743,7 @@
 				"overlaySize": 3456,
 				"instanceSize": 420,
 				"allocType": 0,
-				"name": "En_Tubo_Trap / ?",
+				"name": "En_Tubo_Trap",
 				"objectId": 3,
 				"drawPtr": 2157122520
 			}
@@ -58575,7 +59755,7 @@
 				"overlaySize": 3888,
 				"instanceSize": 636,
 				"allocType": 0,
-				"name": "Obj_Ice_Poly / ?",
+				"name": "Obj_Ice_Poly",
 				"objectId": 1,
 				"drawPtr": 2157126076
 			}
@@ -58587,7 +59767,7 @@
 				"overlaySize": 9552,
 				"instanceSize": 3036,
 				"allocType": 0,
-				"name": "En_Fz / Freezard",
+				"name": "En_Fz",
 				"objectId": 228,
 				"drawPtr": 2157133208
 			}
@@ -58599,7 +59779,7 @@
 				"overlaySize": 8976,
 				"instanceSize": 412,
 				"allocType": 0,
-				"name": "En_Kusa / ?",
+				"name": "En_Kusa",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -58611,7 +59791,7 @@
 				"overlaySize": 9920,
 				"instanceSize": 516,
 				"allocType": 0,
-				"name": "Obj_Bean / Floating Bean Plant",
+				"name": "Obj_Bean",
 				"objectId": 238,
 				"drawPtr": 0
 			}
@@ -58623,7 +59803,7 @@
 				"overlaySize": 6176,
 				"instanceSize": 520,
 				"allocType": 0,
-				"name": "Obj_Bombiwa / Bombable Rock",
+				"name": "Obj_Bombiwa",
 				"objectId": 298,
 				"drawPtr": 0
 			}
@@ -58635,13 +59815,15 @@
 				"overlaySize": 10224,
 				"instanceSize": 600,
 				"allocType": 0,
-				"name": "Obj_Switch / ?",
+				"name": "Obj_Switch",
 				"objectId": 3,
 				"drawPtr": 2157169700
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_Obj_Elevator_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -58650,7 +59832,7 @@
 				"overlaySize": 2784,
 				"instanceSize": 380,
 				"allocType": 0,
-				"name": "Obj_Lift / Dampe's Grave - Brown Elevator",
+				"name": "Obj_Lift",
 				"objectId": 237,
 				"drawPtr": 2157173856
 			}
@@ -58662,7 +59844,7 @@
 				"overlaySize": 1408,
 				"instanceSize": 352,
 				"allocType": 0,
-				"name": "Obj_Hsblock / Stone Hookshot Target Pillar",
+				"name": "Obj_Hsblock",
 				"objectId": 236,
 				"drawPtr": 2157175296
 			}
@@ -58674,13 +59856,15 @@
 				"overlaySize": 1152,
 				"instanceSize": 348,
 				"allocType": 0,
-				"name": "En_Okarina_Tag / ?",
+				"name": "En_Okarina_Tag",
 				"objectId": 1,
 				"drawPtr": 0
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Yabusame_Mark_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -58689,16 +59873,20 @@
 				"overlaySize": 19472,
 				"instanceSize": 588,
 				"allocType": 0,
-				"name": "En_Goroiwa / Grey Boulder That Rolls Around",
+				"name": "En_Goroiwa",
 				"objectId": 239,
 				"drawPtr": 2157194548
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Ex_Ruppy_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Toryo_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -58707,7 +59895,7 @@
 				"overlaySize": 3376,
 				"instanceSize": 744,
 				"allocType": 0,
-				"name": "En_Daiku / Carpenter",
+				"name": "En_Daiku",
 				"objectId": 241,
 				"drawPtr": 2157199076
 			}
@@ -58719,7 +59907,7 @@
 				"overlaySize": 4880,
 				"instanceSize": 616,
 				"allocType": 0,
-				"name": "En_Nwc / Cucco Chick",
+				"name": "En_Nwc",
 				"objectId": 242,
 				"drawPtr": 2157203928
 			}
@@ -58731,7 +59919,7 @@
 				"overlaySize": 352,
 				"instanceSize": 328,
 				"allocType": 0,
-				"name": "Item_Inbox / ?",
+				"name": "Item_Inbox",
 				"objectId": 1,
 				"drawPtr": 2157204896
 			}
@@ -58743,7 +59931,7 @@
 				"overlaySize": 4176,
 				"instanceSize": 716,
 				"allocType": 0,
-				"name": "En_Ge1 / Gerudo Lieutenant",
+				"name": "En_Ge1",
 				"objectId": 230,
 				"drawPtr": 2157208576
 			}
@@ -58755,7 +59943,7 @@
 				"overlaySize": 560,
 				"instanceSize": 328,
 				"allocType": 0,
-				"name": "Obj_Blockstop / ?",
+				"name": "Obj_Blockstop",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -58767,7 +59955,7 @@
 				"overlaySize": 5776,
 				"instanceSize": 324,
 				"allocType": 0,
-				"name": "En_Sda / ?",
+				"name": "En_Sda",
 				"objectId": 1,
 				"drawPtr": 2157209900
 			}
@@ -58779,13 +59967,15 @@
 				"overlaySize": 24448,
 				"instanceSize": 11908,
 				"allocType": 0,
-				"name": "En_Clear_Tag / Dissipating Cloud of Black Smoke Following Explosion",
+				"name": "En_Clear_Tag",
 				"objectId": 1,
 				"drawPtr": 2157221336
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Niw_Lady_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -58794,7 +59984,7 @@
 				"overlaySize": 18240,
 				"instanceSize": 1028,
 				"allocType": 0,
-				"name": "En_Gm / Gorman",
+				"name": "En_Gm",
 				"objectId": 584,
 				"drawPtr": 2157254472
 			}
@@ -58806,7 +59996,7 @@
 				"overlaySize": 1584,
 				"instanceSize": 580,
 				"allocType": 0,
-				"name": "En_Ms / Bean Seller",
+				"name": "En_Ms",
 				"objectId": 244,
 				"drawPtr": 2157259556
 			}
@@ -58818,7 +60008,7 @@
 				"overlaySize": 3648,
 				"instanceSize": 920,
 				"allocType": 0,
-				"name": "En_Hs / Grog",
+				"name": "En_Hs",
 				"objectId": 245,
 				"drawPtr": 2157262984
 			}
@@ -58830,7 +60020,7 @@
 				"overlaySize": 3792,
 				"instanceSize": 400,
 				"allocType": 0,
-				"name": "Bg_Ingate / Swamp - Tour Boat",
+				"name": "Bg_Ingate",
 				"objectId": 383,
 				"drawPtr": 2157266952
 			}
@@ -58842,13 +60032,15 @@
 				"overlaySize": 14176,
 				"instanceSize": 496,
 				"allocType": 0,
-				"name": "En_Kanban / Square Signpost",
+				"name": "En_Kanban",
 				"objectId": 252,
 				"drawPtr": 2157275476
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Heishi3_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -58857,19 +60049,25 @@
 				"overlaySize": 4640,
 				"instanceSize": 736,
 				"allocType": 0,
-				"name": "En_Attack_Niw / Attacking Cucco",
+				"name": "En_Attack_Niw",
 				"objectId": 15,
 				"drawPtr": 2157285532
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Sa_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Wonder_Talk_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Ds_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -58878,7 +60076,7 @@
 				"overlaySize": 4656,
 				"instanceSize": 644,
 				"allocType": 0,
-				"name": "En_Mk / Marine Researcher",
+				"name": "En_Mk",
 				"objectId": 254,
 				"drawPtr": 2157289944
 			}
@@ -58890,7 +60088,7 @@
 				"overlaySize": 12752,
 				"instanceSize": 1048,
 				"allocType": 0,
-				"name": "En_Owl / Kaepora Gaebora",
+				"name": "En_Owl",
 				"objectId": 253,
 				"drawPtr": 2157301704
 			}
@@ -58902,7 +60100,7 @@
 				"overlaySize": 9264,
 				"instanceSize": 408,
 				"allocType": 0,
-				"name": "En_Ishi / ?",
+				"name": "En_Ishi",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -58914,7 +60112,7 @@
 				"overlaySize": 224,
 				"instanceSize": 324,
 				"allocType": 0,
-				"name": "Obj_Hana / Flower With Glitched Textures",
+				"name": "Obj_Hana",
 				"objectId": 442,
 				"drawPtr": 2157312856
 			}
@@ -58926,7 +60124,7 @@
 				"overlaySize": 4352,
 				"instanceSize": 448,
 				"allocType": 0,
-				"name": "Obj_Lightswitch / Sun Switch",
+				"name": "Obj_Lightswitch",
 				"objectId": 247,
 				"drawPtr": 2157316876
 			}
@@ -58938,13 +60136,15 @@
 				"overlaySize": 2544,
 				"instanceSize": 384,
 				"allocType": 0,
-				"name": "Obj_Mure2 / ?",
+				"name": "Obj_Mure2",
 				"objectId": 1,
 				"drawPtr": 0
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Dnc_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -58953,16 +60153,20 @@
 				"overlaySize": 16240,
 				"instanceSize": 1364,
 				"allocType": 0,
-				"name": "En_Fu / Honey & Darling",
+				"name": "En_Fu",
 				"objectId": 320,
 				"drawPtr": 2157331824
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Changer_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Siofuki_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -58971,7 +60175,7 @@
 				"overlaySize": 1376,
 				"instanceSize": 336,
 				"allocType": 0,
-				"name": "En_Stream / Water Spout",
+				"name": "En_Stream",
 				"objectId": 262,
 				"drawPtr": 2157337092
 			}
@@ -58983,16 +60187,20 @@
 				"overlaySize": 2144,
 				"instanceSize": 408,
 				"allocType": 0,
-				"name": "En_Mm / ?",
+				"name": "En_Mm",
 				"objectId": 1,
 				"drawPtr": 2157339192
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Ko_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Kz_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -59001,7 +60209,7 @@
 				"overlaySize": 5568,
 				"instanceSize": 348,
 				"allocType": 0,
-				"name": "En_Weather_Tag / ?",
+				"name": "En_Weather_Tag",
 				"objectId": 1,
 				"drawPtr": 2157344644
 			}
@@ -59013,13 +60221,15 @@
 				"overlaySize": 3552,
 				"instanceSize": 768,
 				"allocType": 0,
-				"name": "En_Ani / Part-Timer",
+				"name": "En_Ani",
 				"objectId": 194,
 				"drawPtr": 2157348236
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Ex_Item_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -59028,22 +60238,30 @@
 				"overlaySize": 10480,
 				"instanceSize": 712,
 				"allocType": 0,
-				"name": "En_Js / Moon Child",
+				"name": "En_Js",
 				"objectId": 625,
 				"drawPtr": 2157357856
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Jsjutan_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Cs_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Md_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Hy_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -59052,7 +60270,7 @@
 				"overlaySize": 624,
 				"instanceSize": 332,
 				"allocType": 0,
-				"name": "En_Okarina_Effect / ?",
+				"name": "En_Okarina_Effect",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -59064,7 +60282,7 @@
 				"overlaySize": 14640,
 				"instanceSize": 73592,
 				"allocType": 0,
-				"name": "En_Mag / Title Logo",
+				"name": "En_Mag",
 				"objectId": 277,
 				"drawPtr": 2157373544
 			}
@@ -59076,7 +60294,7 @@
 				"overlaySize": 1312,
 				"instanceSize": 328,
 				"allocType": 0,
-				"name": "Elf_Msg2 / ?",
+				"name": "Elf_Msg2",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -59088,16 +60306,20 @@
 				"overlaySize": 1152,
 				"instanceSize": 352,
 				"allocType": 0,
-				"name": "Bg_F40_Swlift / Stone Tower Temple - Floating Stone Platform",
+				"name": "Bg_F40_Swlift",
 				"objectId": 92,
 				"drawPtr": 2157376732
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_Bg_Zg_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Heishi4_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -59106,7 +60328,7 @@
 				"overlaySize": 11632,
 				"instanceSize": 672,
 				"allocType": 0,
-				"name": "En_Kakasi / Scarecrow",
+				"name": "En_Kakasi",
 				"objectId": 285,
 				"drawPtr": 2157387040
 			}
@@ -59118,7 +60340,7 @@
 				"overlaySize": 816,
 				"instanceSize": 332,
 				"allocType": 0,
-				"name": "Obj_Makeoshihiki / ?",
+				"name": "Obj_Makeoshihiki",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -59130,13 +60352,15 @@
 				"overlaySize": 3792,
 				"instanceSize": 376,
 				"allocType": 1,
-				"name": "Oceff_Spot / ?",
+				"name": "Oceff_Spot",
 				"objectId": 1,
 				"drawPtr": 2157390932
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_End_Title_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -59145,13 +60369,15 @@
 				"overlaySize": 240,
 				"instanceSize": 324,
 				"allocType": 0,
-				"name": "En_Torch / ?",
+				"name": "En_Torch",
 				"objectId": 1,
 				"drawPtr": 0
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_Demo_Ec_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -59160,16 +60386,20 @@
 				"overlaySize": 1552,
 				"instanceSize": 416,
 				"allocType": 0,
-				"name": "Shot_Sun / ?",
+				"name": "Shot_Sun",
 				"objectId": 1,
 				"drawPtr": 0
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Wonder_Talk2_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Ge2_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -59178,7 +60408,7 @@
 				"overlaySize": 672,
 				"instanceSize": 332,
 				"allocType": 0,
-				"name": "Obj_Roomtimer / ?",
+				"name": "Obj_Roomtimer",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -59190,13 +60420,15 @@
 				"overlaySize": 9664,
 				"instanceSize": 1484,
 				"allocType": 0,
-				"name": "En_Ssh / Cursed Man",
+				"name": "En_Ssh",
 				"objectId": 295,
 				"drawPtr": 2157403960
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Sth_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -59205,7 +60437,7 @@
 				"overlaySize": 3424,
 				"instanceSize": 328,
 				"allocType": 1,
-				"name": "Oceff_Wipe / ?",
+				"name": "Oceff_Wipe",
 				"objectId": 1,
 				"drawPtr": 2157405600
 			}
@@ -59217,7 +60449,7 @@
 				"overlaySize": 7616,
 				"instanceSize": 336,
 				"allocType": 1,
-				"name": "Oceff_Storm / ?",
+				"name": "Oceff_Storm",
 				"objectId": 1,
 				"drawPtr": 2157452648
 			}
@@ -59229,7 +60461,7 @@
 				"overlaySize": 976,
 				"instanceSize": 340,
 				"allocType": 0,
-				"name": "Obj_Demo / ?",
+				"name": "Obj_Demo",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -59241,7 +60473,7 @@
 				"overlaySize": 9040,
 				"instanceSize": 428,
 				"allocType": 0,
-				"name": "En_Minislime / Mad Jelly - Jelly Droplets?",
+				"name": "En_Minislime",
 				"objectId": 296,
 				"drawPtr": 0
 			}
@@ -59253,22 +60485,30 @@
 				"overlaySize": 1584,
 				"instanceSize": 404,
 				"allocType": 0,
-				"name": "En_Nutsball / Deku Nut Projectile",
+				"name": "En_Nutsball",
 				"objectId": 1,
 				"drawPtr": 2157469984
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_Bg_Spot00_Break_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Shopnuts_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_It_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_GeldB_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -59277,7 +60517,7 @@
 				"overlaySize": 6000,
 				"instanceSize": 328,
 				"allocType": 1,
-				"name": "Oceff_Wipe2 / ?",
+				"name": "Oceff_Wipe2",
 				"objectId": 1,
 				"drawPtr": 2157470560
 			}
@@ -59289,13 +60529,15 @@
 				"overlaySize": 5984,
 				"instanceSize": 328,
 				"allocType": 1,
-				"name": "Oceff_Wipe3 / ?",
+				"name": "Oceff_Wipe3",
 				"objectId": 1,
 				"drawPtr": 2157476560
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Niw_Girl_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -59304,7 +60546,7 @@
 				"overlaySize": 14560,
 				"instanceSize": 672,
 				"allocType": 0,
-				"name": "En_Dg / Dog",
+				"name": "En_Dg",
 				"objectId": 306,
 				"drawPtr": 2157494380
 			}
@@ -59316,7 +60558,7 @@
 				"overlaySize": 1056,
 				"instanceSize": 416,
 				"allocType": 0,
-				"name": "En_Si / Gold Skulltula Token",
+				"name": "En_Si",
 				"objectId": 32,
 				"drawPtr": 2157497612
 			}
@@ -59328,7 +60570,7 @@
 				"overlaySize": 6016,
 				"instanceSize": 444,
 				"allocType": 0,
-				"name": "Obj_Comb / Honeycomb",
+				"name": "Obj_Comb",
 				"objectId": 441,
 				"drawPtr": 2157503224
 			}
@@ -59340,13 +60582,15 @@
 				"overlaySize": 2464,
 				"instanceSize": 432,
 				"allocType": 0,
-				"name": "Obj_Kibako2 / Normal Wooden Crate",
+				"name": "Obj_Kibako2",
 				"objectId": 307,
 				"drawPtr": 2157506060
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Guest_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -59355,7 +60599,7 @@
 				"overlaySize": 224,
 				"instanceSize": 920,
 				"allocType": 0,
-				"name": "En_Hs2 / Blue Target Spot",
+				"name": "En_Hs2",
 				"objectId": 1,
 				"drawPtr": 2157506528
 			}
@@ -59367,7 +60611,7 @@
 				"overlaySize": 1984,
 				"instanceSize": 360,
 				"allocType": 0,
-				"name": "Obj_Mure3 / ?",
+				"name": "Obj_Mure3",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -59379,16 +60623,20 @@
 				"overlaySize": 2832,
 				"instanceSize": 1352,
 				"allocType": 0,
-				"name": "En_Tg / Honey & Darling",
+				"name": "En_Tg",
 				"objectId": 320,
 				"drawPtr": 2157509676
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Mu_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Go2_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -59397,7 +60645,7 @@
 				"overlaySize": 17568,
 				"instanceSize": 1256,
 				"allocType": 0,
-				"name": "En_Wf / Wolfos",
+				"name": "En_Wf",
 				"objectId": 321,
 				"drawPtr": 2157526888
 			}
@@ -59409,13 +60657,15 @@
 				"overlaySize": 13024,
 				"instanceSize": 1000,
 				"allocType": 0,
-				"name": "En_Skb / Stalchild",
+				"name": "En_Skb",
 				"objectId": 322,
 				"drawPtr": 2157539960
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Gb_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -59424,7 +60674,7 @@
 				"overlaySize": 11920,
 				"instanceSize": 544,
 				"allocType": 0,
-				"name": "En_Gs / Gossip Stone",
+				"name": "En_Gs",
 				"objectId": 323,
 				"drawPtr": 2157551764
 			}
@@ -59436,7 +60686,7 @@
 				"overlaySize": 528,
 				"instanceSize": 328,
 				"allocType": 0,
-				"name": "Obj_Sound / Termina Field - Fountain Sound Effects",
+				"name": "Obj_Sound",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -59448,13 +60698,15 @@
 				"overlaySize": 5984,
 				"instanceSize": 668,
 				"allocType": 0,
-				"name": "En_Crow / Guay",
+				"name": "En_Crow",
 				"objectId": 6,
 				"drawPtr": 2157559716
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Ma3_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -59463,16 +60715,20 @@
 				"overlaySize": 5360,
 				"instanceSize": 632,
 				"allocType": 0,
-				"name": "En_Cow / Cow",
+				"name": "En_Cow",
 				"objectId": 326,
 				"drawPtr": 2157565244
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Kakasi2_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Kakasi3_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -59481,13 +60737,15 @@
 				"overlaySize": 4112,
 				"instanceSize": 328,
 				"allocType": 1,
-				"name": "Oceff_Wipe4 / ?",
+				"name": "Oceff_Wipe4",
 				"objectId": 1,
 				"drawPtr": 2157566064
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Eg_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -59496,7 +60754,7 @@
 				"overlaySize": 4000,
 				"instanceSize": 1060,
 				"allocType": 0,
-				"name": "En_Zo / Zora",
+				"name": "En_Zo",
 				"objectId": 208,
 				"drawPtr": 2157572712
 			}
@@ -59508,7 +60766,7 @@
 				"overlaySize": 1136,
 				"instanceSize": 328,
 				"allocType": 0,
-				"name": "Obj_Makekinsuta / ?",
+				"name": "Obj_Makekinsuta",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -59520,13 +60778,15 @@
 				"overlaySize": 4208,
 				"instanceSize": 800,
 				"allocType": 0,
-				"name": "En_Ge3 / Aveil",
+				"name": "En_Ge3",
 				"objectId": 304,
 				"drawPtr": 2157579452
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_Obj_Timeblock_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -59535,7 +60795,7 @@
 				"overlaySize": 3216,
 				"instanceSize": 420,
 				"allocType": 0,
-				"name": "Obj_Hamishi / ?",
+				"name": "Obj_Hamishi",
 				"objectId": 2,
 				"drawPtr": 2157582268
 			}
@@ -59547,7 +60807,7 @@
 				"overlaySize": 1152,
 				"instanceSize": 756,
 				"allocType": 0,
-				"name": "En_Zl4 / Skullkid With Flute, OoT, Link Mask, Majora's Mask",
+				"name": "En_Zl4",
 				"objectId": 402,
 				"drawPtr": 2157583968
 			}
@@ -59559,13 +60819,15 @@
 				"overlaySize": 2864,
 				"instanceSize": 692,
 				"allocType": 0,
-				"name": "En_Mm2 / Postman's Letter to Himself",
+				"name": "En_Mm2",
 				"objectId": 1,
 				"drawPtr": 2157584824
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_Obj_Warp2block_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -59574,13 +60836,15 @@
 				"overlaySize": 2176,
 				"instanceSize": 336,
 				"allocType": 2,
-				"name": "Door_Spiral / ?",
+				"name": "Door_Spiral",
 				"objectId": 1,
 				"drawPtr": 2157588788
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_Obj_Fence_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -59589,7 +60853,7 @@
 				"overlaySize": 3552,
 				"instanceSize": 380,
 				"allocType": 0,
-				"name": "Obj_Pzlblock / ?",
+				"name": "Obj_Pzlblock",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -59601,13 +60865,15 @@
 				"overlaySize": 3136,
 				"instanceSize": 464,
 				"allocType": 0,
-				"name": "Obj_Toge / Blade Trap",
+				"name": "Obj_Toge",
 				"objectId": 100,
 				"drawPtr": 2157595728
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_Obj_Hampost_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -59616,7 +60882,7 @@
 				"overlaySize": 3856,
 				"instanceSize": 628,
 				"allocType": 0,
-				"name": "Obj_Armos / Armos Statue",
+				"name": "Obj_Armos",
 				"objectId": 48,
 				"drawPtr": 2157599568
 			}
@@ -59628,16 +60894,20 @@
 				"overlaySize": 1392,
 				"instanceSize": 432,
 				"allocType": 0,
-				"name": "Obj_Boyo / Green Bumper",
+				"name": "Obj_Boyo",
 				"objectId": 335,
 				"drawPtr": 2157601036
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_Boss_Dodongo_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_Boss_Goma_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -59646,13 +60916,15 @@
 				"overlaySize": 11920,
 				"instanceSize": 6256,
 				"allocType": 0,
-				"name": "En_Grasshopper / Dragonfly",
+				"name": "En_Grasshopper",
 				"objectId": 334,
 				"drawPtr": 2157610560
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_Obj_Swfl_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -59661,7 +60933,7 @@
 				"overlaySize": 7504,
 				"instanceSize": 12960,
 				"allocType": 0,
-				"name": "Obj_Grass / ?",
+				"name": "Obj_Grass",
 				"objectId": 2,
 				"drawPtr": 2157619624
 			}
@@ -59673,7 +60945,7 @@
 				"overlaySize": 3968,
 				"instanceSize": 416,
 				"allocType": 0,
-				"name": "Obj_Grass_Carry / ?",
+				"name": "Obj_Grass_Carry",
 				"objectId": 2,
 				"drawPtr": 0
 			}
@@ -59685,16 +60957,20 @@
 				"overlaySize": 1744,
 				"instanceSize": 324,
 				"allocType": 0,
-				"name": "Obj_Grass_Unit / ?",
+				"name": "Obj_Grass_Unit",
 				"objectId": 2,
 				"drawPtr": 0
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Gl1_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Gl2_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -59703,7 +60979,7 @@
 				"overlaySize": 2272,
 				"instanceSize": 432,
 				"allocType": 0,
-				"name": "Bg_Fire_Wall / Proximity-Activated Firewall",
+				"name": "Bg_Fire_Wall",
 				"objectId": 339,
 				"drawPtr": 0
 			}
@@ -59715,7 +60991,7 @@
 				"overlaySize": 432,
 				"instanceSize": 400,
 				"allocType": 0,
-				"name": "En_Bu / ?",
+				"name": "En_Bu",
 				"objectId": 1,
 				"drawPtr": 2157628928
 			}
@@ -59727,7 +61003,7 @@
 				"overlaySize": 2464,
 				"instanceSize": 460,
 				"allocType": 0,
-				"name": "En_Encount3 / Circle of Light",
+				"name": "En_Encount3",
 				"objectId": 571,
 				"drawPtr": 2157630996
 			}
@@ -59739,7 +61015,7 @@
 				"overlaySize": 15472,
 				"instanceSize": 4076,
 				"allocType": 0,
-				"name": "En_Jso / Garo Master",
+				"name": "En_Jso",
 				"objectId": 341,
 				"drawPtr": 0
 			}
@@ -59751,7 +61027,7 @@
 				"overlaySize": 2976,
 				"instanceSize": 2472,
 				"allocType": 0,
-				"name": "Obj_Chikuwa / Row of Blocks That Collapse on Approach",
+				"name": "Obj_Chikuwa",
 				"objectId": 237,
 				"drawPtr": 2157649296
 			}
@@ -59763,7 +61039,7 @@
 				"overlaySize": 58992,
 				"instanceSize": 1748,
 				"allocType": 0,
-				"name": "En_Knight / Igos du Ikana",
+				"name": "En_Knight",
 				"objectId": 342,
 				"drawPtr": 2157693996
 			}
@@ -59775,7 +61051,7 @@
 				"overlaySize": 2384,
 				"instanceSize": 356,
 				"allocType": 0,
-				"name": "En_Warp_tag / ?",
+				"name": "En_Warp_tag",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -59787,7 +61063,7 @@
 				"overlaySize": 11472,
 				"instanceSize": 1092,
 				"allocType": 0,
-				"name": "En_Aob_01 / Mamamu Yan",
+				"name": "En_Aob_01",
 				"objectId": 215,
 				"drawPtr": 2157721096
 			}
@@ -59799,7 +61075,7 @@
 				"overlaySize": 144,
 				"instanceSize": 788,
 				"allocType": 0,
-				"name": "En_Boj_01 / ?",
+				"name": "En_Boj_01",
 				"objectId": 1,
 				"drawPtr": 2157723056
 			}
@@ -59811,7 +61087,7 @@
 				"overlaySize": 144,
 				"instanceSize": 1564,
 				"allocType": 0,
-				"name": "En_Boj_02 / ?",
+				"name": "En_Boj_02",
 				"objectId": 1,
 				"drawPtr": 2157723200
 			}
@@ -59823,7 +61099,7 @@
 				"overlaySize": 144,
 				"instanceSize": 1564,
 				"allocType": 0,
-				"name": "En_Boj_03 / ?",
+				"name": "En_Boj_03",
 				"objectId": 1,
 				"drawPtr": 2157723344
 			}
@@ -59835,7 +61111,7 @@
 				"overlaySize": 2144,
 				"instanceSize": 344,
 				"allocType": 0,
-				"name": "En_Encount4 / ?",
+				"name": "En_Encount4",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -59847,7 +61123,7 @@
 				"overlaySize": 7472,
 				"instanceSize": 764,
 				"allocType": 0,
-				"name": "En_Bom_Bowl_Man / Bomber",
+				"name": "En_Bom_Bowl_Man",
 				"objectId": 272,
 				"drawPtr": 2157731780
 			}
@@ -59859,13 +61135,15 @@
 				"overlaySize": 13728,
 				"instanceSize": 648,
 				"allocType": 0,
-				"name": "En_Syateki_Man / Swamp Shooting Gallery Manager",
+				"name": "En_Syateki_Man",
 				"objectId": 428,
 				"drawPtr": 2157744136
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Takara_Man_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -59874,7 +61152,7 @@
 				"overlaySize": 2448,
 				"instanceSize": 432,
 				"allocType": 0,
-				"name": "Bg_Icicle / Blue Icicle",
+				"name": "Bg_Icicle",
 				"objectId": 343,
 				"drawPtr": 2157748860
 			}
@@ -59886,7 +61164,7 @@
 				"overlaySize": 3600,
 				"instanceSize": 668,
 				"allocType": 0,
-				"name": "En_Syateki_Crow / Shooting Gallery - Guay",
+				"name": "En_Syateki_Crow",
 				"objectId": 6,
 				"drawPtr": 2157752300
 			}
@@ -59898,7 +61176,7 @@
 				"overlaySize": 144,
 				"instanceSize": 1564,
 				"allocType": 0,
-				"name": "En_Boj_04 / ?",
+				"name": "En_Boj_04",
 				"objectId": 1,
 				"drawPtr": 2157752880
 			}
@@ -59910,7 +61188,7 @@
 				"overlaySize": 3536,
 				"instanceSize": 1564,
 				"allocType": 0,
-				"name": "En_Cne_01 / ?",
+				"name": "En_Cne_01",
 				"objectId": 1,
 				"drawPtr": 2157755572
 			}
@@ -59922,7 +61200,7 @@
 				"overlaySize": 3456,
 				"instanceSize": 1564,
 				"allocType": 0,
-				"name": "En_Bba_01 / ?",
+				"name": "En_Bba_01",
 				"objectId": 1,
 				"drawPtr": 2157759088
 			}
@@ -59934,7 +61212,7 @@
 				"overlaySize": 4320,
 				"instanceSize": 692,
 				"allocType": 0,
-				"name": "En_Bji_01 / Shikashi",
+				"name": "En_Bji_01",
 				"objectId": 222,
 				"drawPtr": 2157763464
 			}
@@ -59946,16 +61224,20 @@
 				"overlaySize": 5264,
 				"instanceSize": 764,
 				"allocType": 0,
-				"name": "Bg_Spdweb / Spiderweb",
+				"name": "Bg_Spdweb",
 				"objectId": 344,
 				"drawPtr": 2157768496
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Yh_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Mt_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -59964,7 +61246,7 @@
 				"overlaySize": 4576,
 				"instanceSize": 360,
 				"allocType": 0,
-				"name": "En_Mt_tag / ?",
+				"name": "En_Mt_tag",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -59976,7 +61258,7 @@
 				"overlaySize": 40096,
 				"instanceSize": 2780,
 				"allocType": 0,
-				"name": "Boss_01 / Odolwa",
+				"name": "Boss_01",
 				"objectId": 346,
 				"drawPtr": 2157795720
 			}
@@ -59988,7 +61270,7 @@
 				"overlaySize": 34192,
 				"instanceSize": 7552,
 				"allocType": 0,
-				"name": "Boss_02 / Twinmold",
+				"name": "Boss_02",
 				"objectId": 347,
 				"drawPtr": 2157824512
 			}
@@ -60000,7 +61282,7 @@
 				"overlaySize": 39136,
 				"instanceSize": 1404,
 				"allocType": 0,
-				"name": "Boss_03 / Gyorg",
+				"name": "Boss_03",
 				"objectId": 348,
 				"drawPtr": 2157870092
 			}
@@ -60012,7 +61294,7 @@
 				"overlaySize": 9376,
 				"instanceSize": 1868,
 				"allocType": 0,
-				"name": "Boss_04 / Wart",
+				"name": "Boss_04",
 				"objectId": 349,
 				"drawPtr": 2157895512
 			}
@@ -60024,7 +61306,7 @@
 				"overlaySize": 15424,
 				"instanceSize": 1288,
 				"allocType": 0,
-				"name": "Boss_05 / Bio Deku Baba",
+				"name": "Boss_05",
 				"objectId": 350,
 				"drawPtr": 2157909404
 			}
@@ -60036,7 +61318,7 @@
 				"overlaySize": 10336,
 				"instanceSize": 2608,
 				"allocType": 0,
-				"name": "Boss_06 / ?",
+				"name": "Boss_06",
 				"objectId": 342,
 				"drawPtr": 2157917004
 			}
@@ -60048,7 +61330,7 @@
 				"overlaySize": 89888,
 				"instanceSize": 44064,
 				"allocType": 0,
-				"name": "Boss_07 / Majora",
+				"name": "Boss_07",
 				"objectId": 352,
 				"drawPtr": 2157953480
 			}
@@ -60060,13 +61342,15 @@
 				"overlaySize": 7904,
 				"instanceSize": 13572,
 				"allocType": 0,
-				"name": "Bg_Dy_Yoseizo / Great Fairy",
+				"name": "Bg_Dy_Yoseizo",
 				"objectId": 8,
 				"drawPtr": 0
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Stay_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -60075,16 +61359,20 @@
 				"overlaySize": 144,
 				"instanceSize": 1564,
 				"allocType": 0,
-				"name": "En_Boj_05 / ?",
+				"name": "En_Boj_05",
 				"objectId": 1,
 				"drawPtr": 2158020528
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Of1_01_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Gskb_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -60093,16 +61381,20 @@
 				"overlaySize": 18368,
 				"instanceSize": 976,
 				"allocType": 0,
-				"name": "En_Sob1 / ?",
+				"name": "En_Sob1",
 				"objectId": 1,
 				"drawPtr": 0
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Of1_02_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Of1_03_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -60111,13 +61403,15 @@
 				"overlaySize": 23920,
 				"instanceSize": 2936,
 				"allocType": 0,
-				"name": "En_Go / Goron",
+				"name": "En_Go",
 				"objectId": 161,
 				"drawPtr": 0
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Of1_05_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -60126,7 +61420,7 @@
 				"overlaySize": 10752,
 				"instanceSize": 2788,
 				"allocType": 0,
-				"name": "En_Raf / Carnivorous Lilypad",
+				"name": "En_Raf",
 				"objectId": 353,
 				"drawPtr": 2158070280
 			}
@@ -60138,7 +61432,7 @@
 				"overlaySize": 464,
 				"instanceSize": 324,
 				"allocType": 0,
-				"name": "Obj_Funen / Plume of Smoke Rising High Into the Sky",
+				"name": "Obj_Funen",
 				"objectId": 354,
 				"drawPtr": 2158073720
 			}
@@ -60150,7 +61444,7 @@
 				"overlaySize": 3056,
 				"instanceSize": 396,
 				"allocType": 0,
-				"name": "Obj_Raillift / Various Elevators (1, 2, 3, 4, 5)",
+				"name": "Obj_Raillift",
 				"objectId": 355,
 				"drawPtr": 2158076448
 			}
@@ -60162,7 +61456,7 @@
 				"overlaySize": 3792,
 				"instanceSize": 832,
 				"allocType": 0,
-				"name": "Bg_Numa_Hana / Woodfall Temple - Wooden Flower",
+				"name": "Bg_Numa_Hana",
 				"objectId": 356,
 				"drawPtr": 2158079848
 			}
@@ -60174,7 +61468,7 @@
 				"overlaySize": 9856,
 				"instanceSize": 496,
 				"allocType": 0,
-				"name": "Obj_Flowerpot / Breakable Pot With Grass",
+				"name": "Obj_Flowerpot",
 				"objectId": 357,
 				"drawPtr": 2158088652
 			}
@@ -60186,7 +61480,7 @@
 				"overlaySize": 6592,
 				"instanceSize": 1252,
 				"allocType": 0,
-				"name": "Obj_Spinyroll / Spike-Covered Log",
+				"name": "Obj_Spinyroll",
 				"objectId": 358,
 				"drawPtr": 2158095900
 			}
@@ -60198,7 +61492,7 @@
 				"overlaySize": 2624,
 				"instanceSize": 388,
 				"allocType": 0,
-				"name": "Dm_Hina / Cutscene - Boss Remains",
+				"name": "Dm_Hina",
 				"objectId": 460,
 				"drawPtr": 2158099536
 			}
@@ -60210,7 +61504,7 @@
 				"overlaySize": 4864,
 				"instanceSize": 972,
 				"allocType": 0,
-				"name": "En_Syateki_Wf / Shooting Gallery - Wolfos",
+				"name": "En_Syateki_Wf",
 				"objectId": 321,
 				"drawPtr": 2158103972
 			}
@@ -60222,7 +61516,7 @@
 				"overlaySize": 7152,
 				"instanceSize": 452,
 				"allocType": 0,
-				"name": "Obj_Skateblock / ?",
+				"name": "Obj_Skateblock",
 				"objectId": 3,
 				"drawPtr": 2158110936
 			}
@@ -60234,7 +61528,7 @@
 				"overlaySize": 17552,
 				"instanceSize": 696,
 				"allocType": 0,
-				"name": "Obj_Iceblock / Ice Block That Appears After Freezing Enemy",
+				"name": "Obj_Iceblock",
 				"objectId": 359,
 				"drawPtr": 2158128600
 			}
@@ -60246,7 +61540,7 @@
 				"overlaySize": 9568,
 				"instanceSize": 1484,
 				"allocType": 0,
-				"name": "En_Bigpamet / Gekko & Snapper Miniboss - Snapper",
+				"name": "En_Bigpamet",
 				"objectId": 422,
 				"drawPtr": 2158138584
 			}
@@ -60258,7 +61552,7 @@
 				"overlaySize": 4368,
 				"instanceSize": 624,
 				"allocType": 0,
-				"name": "En_Syateki_Dekunuts / Shooting Gallery - Deku Scrub",
+				"name": "En_Syateki_Dekunuts",
 				"objectId": 64,
 				"drawPtr": 2158151912
 			}
@@ -60270,7 +61564,7 @@
 				"overlaySize": 1392,
 				"instanceSize": 328,
 				"allocType": 0,
-				"name": "Elf_Msg3 / ?",
+				"name": "Elf_Msg3",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -60282,7 +61576,7 @@
 				"overlaySize": 5408,
 				"instanceSize": 1364,
 				"allocType": 0,
-				"name": "En_Fg / Frog",
+				"name": "En_Fg",
 				"objectId": 188,
 				"drawPtr": 2158157364
 			}
@@ -60294,7 +61588,7 @@
 				"overlaySize": 448,
 				"instanceSize": 332,
 				"allocType": 0,
-				"name": "Dm_Ravine / Link Riding Through Lost Woods Cutscene - Tree Trunk",
+				"name": "Dm_Ravine",
 				"objectId": 361,
 				"drawPtr": 2158160116
 			}
@@ -60306,7 +61600,7 @@
 				"overlaySize": 1088,
 				"instanceSize": 756,
 				"allocType": 0,
-				"name": "Dm_Sa / Skullkid With Flute, OoT, Link Mask, Majora's Mask",
+				"name": "Dm_Sa",
 				"objectId": 402,
 				"drawPtr": 2158160872
 			}
@@ -60318,7 +61612,7 @@
 				"overlaySize": 13424,
 				"instanceSize": 520,
 				"allocType": 0,
-				"name": "En_Slime / Chuchu",
+				"name": "En_Slime",
 				"objectId": 362,
 				"drawPtr": 2158171276
 			}
@@ -60330,7 +61624,7 @@
 				"overlaySize": 6384,
 				"instanceSize": 840,
 				"allocType": 0,
-				"name": "En_Pr / Desbreko",
+				"name": "En_Pr",
 				"objectId": 363,
 				"drawPtr": 2158180032
 			}
@@ -60342,7 +61636,7 @@
 				"overlaySize": 3072,
 				"instanceSize": 576,
 				"allocType": 0,
-				"name": "Obj_Toudai / Clock Tower Spotlight",
+				"name": "Obj_Toudai",
 				"objectId": 365,
 				"drawPtr": 2158183736
 			}
@@ -60354,7 +61648,7 @@
 				"overlaySize": 3600,
 				"instanceSize": 456,
 				"allocType": 0,
-				"name": "Obj_Entotu / Chimney Expelling Smoke",
+				"name": "Obj_Entotu",
 				"objectId": 365,
 				"drawPtr": 2158187436
 			}
@@ -60366,7 +61660,7 @@
 				"overlaySize": 2784,
 				"instanceSize": 552,
 				"allocType": 0,
-				"name": "Obj_Bell / Stock Pot Inn Bell",
+				"name": "Obj_Bell",
 				"objectId": 364,
 				"drawPtr": 2158190044
 			}
@@ -60378,13 +61672,15 @@
 				"overlaySize": 7904,
 				"instanceSize": 684,
 				"allocType": 0,
-				"name": "En_Syateki_Okuta / Shooting Gallery - Octorok",
+				"name": "En_Syateki_Okuta",
 				"objectId": 5,
 				"drawPtr": 2158195548
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Colociam_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -60393,7 +61689,7 @@
 				"overlaySize": 704,
 				"instanceSize": 332,
 				"allocType": 0,
-				"name": "Obj_Shutter / ?",
+				"name": "Obj_Shutter",
 				"objectId": 365,
 				"drawPtr": 2158198844
 			}
@@ -60405,7 +61701,7 @@
 				"overlaySize": 2064,
 				"instanceSize": 724,
 				"allocType": 0,
-				"name": "Dm_Zl / Song of Time Cutscene - Child Zelda",
+				"name": "Dm_Zl",
 				"objectId": 331,
 				"drawPtr": 2158200476
 			}
@@ -60417,7 +61713,7 @@
 				"overlaySize": 5552,
 				"instanceSize": 336,
 				"allocType": 0,
-				"name": "En_Elfgrp / ?",
+				"name": "En_Elfgrp",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -60429,7 +61725,7 @@
 				"overlaySize": 1056,
 				"instanceSize": 2336,
 				"allocType": 0,
-				"name": "Dm_Tsg / Tatl Left Behind Cutscene - Deku Door/Spotlights",
+				"name": "Dm_Tsg",
 				"objectId": 415,
 				"drawPtr": 2158210760
 			}
@@ -60441,7 +61737,7 @@
 				"overlaySize": 5216,
 				"instanceSize": 2252,
 				"allocType": 0,
-				"name": "En_Baguo / Nejiron",
+				"name": "En_Baguo",
 				"objectId": 369,
 				"drawPtr": 0
 			}
@@ -60453,7 +61749,7 @@
 				"overlaySize": 4512,
 				"instanceSize": 972,
 				"allocType": 0,
-				"name": "Obj_Vspinyroll / Vertically-Oriented Rotating Spiked Log",
+				"name": "Obj_Vspinyroll",
 				"objectId": 358,
 				"drawPtr": 2158219792
 			}
@@ -60465,7 +61761,7 @@
 				"overlaySize": 3344,
 				"instanceSize": 456,
 				"allocType": 0,
-				"name": "Obj_Smork / Romani Ranch - Chimney Smoke Plume",
+				"name": "Obj_Smork",
 				"objectId": 365,
 				"drawPtr": 2158223944
 			}
@@ -60477,7 +61773,7 @@
 				"overlaySize": 1104,
 				"instanceSize": 328,
 				"allocType": 0,
-				"name": "En_Test2 / ?",
+				"name": "En_Test2",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -60489,7 +61785,7 @@
 				"overlaySize": 13712,
 				"instanceSize": 3512,
 				"allocType": 0,
-				"name": "En_Test3 / Kafei",
+				"name": "En_Test3",
 				"objectId": 28,
 				"drawPtr": 0
 			}
@@ -60501,7 +61797,7 @@
 				"overlaySize": 6000,
 				"instanceSize": 340,
 				"allocType": 0,
-				"name": "En_Test4 / Three-Day Timer",
+				"name": "En_Test4",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -60513,7 +61809,7 @@
 				"overlaySize": 6048,
 				"instanceSize": 476,
 				"allocType": 0,
-				"name": "En_Bat / Bad Bat",
+				"name": "En_Bat",
 				"objectId": 370,
 				"drawPtr": 2158250008
 			}
@@ -60525,7 +61821,7 @@
 				"overlaySize": 1760,
 				"instanceSize": 364,
 				"allocType": 0,
-				"name": "En_Sekihi / ?",
+				"name": "En_Sekihi",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -60537,7 +61833,7 @@
 				"overlaySize": 15488,
 				"instanceSize": 3456,
 				"allocType": 0,
-				"name": "En_Wiz / Wizzrobe",
+				"name": "En_Wiz",
 				"objectId": 376,
 				"drawPtr": 2158265268
 			}
@@ -60549,7 +61845,7 @@
 				"overlaySize": 1728,
 				"instanceSize": 432,
 				"allocType": 0,
-				"name": "En_Wiz_Brock / Wizzrobe - Warp Platform",
+				"name": "En_Wiz_Brock",
 				"objectId": 376,
 				"drawPtr": 2158269192
 			}
@@ -60561,7 +61857,7 @@
 				"overlaySize": 11760,
 				"instanceSize": 10996,
 				"allocType": 0,
-				"name": "En_Wiz_Fire / Wizzrobe - Fire Attack",
+				"name": "En_Wiz_Fire",
 				"objectId": 376,
 				"drawPtr": 2158278660
 			}
@@ -60573,7 +61869,7 @@
 				"overlaySize": 1312,
 				"instanceSize": 460,
 				"allocType": 0,
-				"name": "Eff_Change / Camera Focuses on Link",
+				"name": "Eff_Change",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -60585,7 +61881,7 @@
 				"overlaySize": 224,
 				"instanceSize": 404,
 				"allocType": 0,
-				"name": "Dm_Statue / Elegy of Emptiness - Beam of Light When Creating Statue",
+				"name": "Dm_Statue",
 				"objectId": 620,
 				"drawPtr": 2158283252
 			}
@@ -60597,7 +61893,7 @@
 				"overlaySize": 3936,
 				"instanceSize": 428,
 				"allocType": 0,
-				"name": "Obj_Fireshield / Switch-Deactivated Circle of Flames Surrounding Platforms",
+				"name": "Obj_Fireshield",
 				"objectId": 1,
 				"drawPtr": 2158286500
 			}
@@ -60609,7 +61905,7 @@
 				"overlaySize": 1248,
 				"instanceSize": 356,
 				"allocType": 0,
-				"name": "Bg_Ladder / Ladder",
+				"name": "Bg_Ladder",
 				"objectId": 377,
 				"drawPtr": 2158288128
 			}
@@ -60621,7 +61917,7 @@
 				"overlaySize": 7024,
 				"instanceSize": 468,
 				"allocType": 0,
-				"name": "En_Mkk / Black Boe",
+				"name": "En_Mkk",
 				"objectId": 378,
 				"drawPtr": 2158293392
 			}
@@ -60633,13 +61929,15 @@
 				"overlaySize": 912,
 				"instanceSize": 336,
 				"allocType": 0,
-				"name": "Demo_Getitem / ?",
+				"name": "Demo_Getitem",
 				"objectId": 1,
 				"drawPtr": 0
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_Obj_Stain_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -60648,7 +61946,7 @@
 				"overlaySize": 3952,
 				"instanceSize": 13624,
 				"allocType": 0,
-				"name": "En_Dnb / Deku Nut Projectile",
+				"name": "En_Dnb",
 				"objectId": 393,
 				"drawPtr": 2158298984
 			}
@@ -60660,7 +61958,7 @@
 				"overlaySize": 1968,
 				"instanceSize": 444,
 				"allocType": 0,
-				"name": "En_Dnh / Blue Target Spot Saying Koume's Boat Cruise Is Closed",
+				"name": "En_Dnh",
 				"objectId": 548,
 				"drawPtr": 2158301620
 			}
@@ -60672,7 +61970,7 @@
 				"overlaySize": 4160,
 				"instanceSize": 676,
 				"allocType": 0,
-				"name": "En_Dnk / ?",
+				"name": "En_Dnk",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -60684,13 +61982,15 @@
 				"overlaySize": 4768,
 				"instanceSize": 936,
 				"allocType": 0,
-				"name": "En_Dnq / Deku King",
+				"name": "En_Dnq",
 				"objectId": 395,
 				"drawPtr": 2158310308
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Dnc_Tag_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -60699,7 +61999,7 @@
 				"overlaySize": 1040,
 				"instanceSize": 356,
 				"allocType": 0,
-				"name": "Bg_Keikoku_Saku / Tall Spiked Iron Fence",
+				"name": "Bg_Keikoku_Saku",
 				"objectId": 382,
 				"drawPtr": 2158312124
 			}
@@ -60711,7 +62011,7 @@
 				"overlaySize": 9440,
 				"instanceSize": 1208,
 				"allocType": 0,
-				"name": "Obj_Hugebombiwa / Boulder Blocking Goron Racetrack",
+				"name": "Obj_Hugebombiwa",
 				"objectId": 298,
 				"drawPtr": 2158319648
 			}
@@ -60723,7 +62023,7 @@
 				"overlaySize": 144,
 				"instanceSize": 876,
 				"allocType": 0,
-				"name": "En_Firefly2 / Yellow Target Spot (object_En_Firefly)",
+				"name": "En_Firefly2",
 				"objectId": 11,
 				"drawPtr": 2158321904
 			}
@@ -60735,7 +62035,7 @@
 				"overlaySize": 9808,
 				"instanceSize": 704,
 				"allocType": 0,
-				"name": "En_Rat / Real Bombchu",
+				"name": "En_Rat",
 				"objectId": 385,
 				"drawPtr": 2158330708
 			}
@@ -60747,7 +62047,7 @@
 				"overlaySize": 10688,
 				"instanceSize": 3644,
 				"allocType": 0,
-				"name": "En_Water_Effect / Water Dripping on Ground",
+				"name": "En_Water_Effect",
 				"objectId": 386,
 				"drawPtr": 2158335008
 			}
@@ -60759,7 +62059,7 @@
 				"overlaySize": 22976,
 				"instanceSize": 468,
 				"allocType": 0,
-				"name": "En_Kusa2 / ?",
+				"name": "En_Kusa2",
 				"objectId": 2,
 				"drawPtr": 2158356672
 			}
@@ -60771,13 +62071,15 @@
 				"overlaySize": 1936,
 				"instanceSize": 408,
 				"allocType": 0,
-				"name": "Bg_Spout_Fire / Proximity-Activated Firewall",
+				"name": "Bg_Spout_Fire",
 				"objectId": 339,
 				"drawPtr": 0
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_TimeTime_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -60786,7 +62088,7 @@
 				"overlaySize": 8576,
 				"instanceSize": 880,
 				"allocType": 0,
-				"name": "Bg_Dblue_Movebg / Great Bay Temple Gears",
+				"name": "Bg_Dblue_Movebg",
 				"objectId": 388,
 				"drawPtr": 2158146448
 			}
@@ -60798,7 +62100,7 @@
 				"overlaySize": 1376,
 				"instanceSize": 364,
 				"allocType": 0,
-				"name": "En_Dy_Extra / Fairy Grants Power Cutscenes - Spiral Beam of Light",
+				"name": "En_Dy_Extra",
 				"objectId": 8,
 				"drawPtr": 2158367940
 			}
@@ -60810,7 +62112,7 @@
 				"overlaySize": 11408,
 				"instanceSize": 948,
 				"allocType": 0,
-				"name": "En_Bal / Tingle With Balloon",
+				"name": "En_Bal",
 				"objectId": 389,
 				"drawPtr": 2158377964
 			}
@@ -60822,7 +62124,7 @@
 				"overlaySize": 7392,
 				"instanceSize": 616,
 				"allocType": 0,
-				"name": "En_Ginko_Man / Bank Teller, Sakon, Twin Jugglers",
+				"name": "En_Ginko_Man",
 				"objectId": 227,
 				"drawPtr": 2158386224
 			}
@@ -60834,7 +62136,7 @@
 				"overlaySize": 1008,
 				"instanceSize": 404,
 				"allocType": 0,
-				"name": "En_Warp_Uzu / Pirates' Fortress - Telescope on Tripod",
+				"name": "En_Warp_Uzu",
 				"objectId": 390,
 				"drawPtr": 2158388328
 			}
@@ -60846,7 +62148,7 @@
 				"overlaySize": 4928,
 				"instanceSize": 592,
 				"allocType": 0,
-				"name": "Obj_Driftice / Ice Platform That Floats in Water",
+				"name": "Obj_Driftice",
 				"objectId": 391,
 				"drawPtr": 2158392772
 			}
@@ -60858,7 +62160,7 @@
 				"overlaySize": 3824,
 				"instanceSize": 656,
 				"allocType": 0,
-				"name": "En_Look_Nuts / Deku Palace - Patrolling Deku Guard",
+				"name": "En_Look_Nuts",
 				"objectId": 309,
 				"drawPtr": 2158396736
 			}
@@ -60870,7 +62172,7 @@
 				"overlaySize": 14320,
 				"instanceSize": 884,
 				"allocType": 0,
-				"name": "En_Mushi2 / ?",
+				"name": "En_Mushi2",
 				"objectId": 1,
 				"drawPtr": 2158409936
 			}
@@ -60882,7 +62184,7 @@
 				"overlaySize": 12560,
 				"instanceSize": 356,
 				"allocType": 0,
-				"name": "En_Fall / ?",
+				"name": "En_Fall",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -60894,7 +62196,7 @@
 				"overlaySize": 5712,
 				"instanceSize": 696,
 				"allocType": 0,
-				"name": "En_Mm3 / Counting Game Postman",
+				"name": "En_Mm3",
 				"objectId": 263,
 				"drawPtr": 2158428912
 			}
@@ -60906,7 +62208,7 @@
 				"overlaySize": 2784,
 				"instanceSize": 404,
 				"allocType": 0,
-				"name": "Bg_Crace_Movebg / Strange Wooden/Metal Texture",
+				"name": "Bg_Crace_Movebg",
 				"objectId": 394,
 				"drawPtr": 2158432336
 			}
@@ -60918,7 +62220,7 @@
 				"overlaySize": 11728,
 				"instanceSize": 1132,
 				"allocType": 0,
-				"name": "En_Dno / Deku Butler",
+				"name": "En_Dno",
 				"objectId": 499,
 				"drawPtr": 2158441928
 			}
@@ -60930,7 +62232,7 @@
 				"overlaySize": 7712,
 				"instanceSize": 712,
 				"allocType": 0,
-				"name": "En_Pr2 / ?",
+				"name": "En_Pr2",
 				"objectId": 363,
 				"drawPtr": 2158451264
 			}
@@ -60942,7 +62244,7 @@
 				"overlaySize": 5632,
 				"instanceSize": 624,
 				"allocType": 0,
-				"name": "En_Prz / Skullfish - Defeated",
+				"name": "En_Prz",
 				"objectId": 363,
 				"drawPtr": 2158456896
 			}
@@ -60954,7 +62256,7 @@
 				"overlaySize": 18608,
 				"instanceSize": 4240,
 				"allocType": 0,
-				"name": "En_Jso2 / Link Turns & Walks Away on Approach",
+				"name": "En_Jso2",
 				"objectId": 341,
 				"drawPtr": 2158473128
 			}
@@ -60966,7 +62268,7 @@
 				"overlaySize": 3360,
 				"instanceSize": 644,
 				"allocType": 0,
-				"name": "Obj_Etcetera / Pink & Green Deku Flower",
+				"name": "Obj_Etcetera",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -60978,7 +62280,7 @@
 				"overlaySize": 18496,
 				"instanceSize": 7792,
 				"allocType": 0,
-				"name": "En_Egol / Eyegore",
+				"name": "En_Egol",
 				"objectId": 397,
 				"drawPtr": 2158493624
 			}
@@ -60990,7 +62292,7 @@
 				"overlaySize": 15104,
 				"instanceSize": 5044,
 				"allocType": 0,
-				"name": "Obj_Mine / Exploding Metal Spike Trap",
+				"name": "Obj_Mine",
 				"objectId": 187,
 				"drawPtr": 2158509728
 			}
@@ -61002,7 +62304,7 @@
 				"overlaySize": 2384,
 				"instanceSize": 368,
 				"allocType": 0,
-				"name": "Obj_Purify / ?",
+				"name": "Obj_Purify",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -61014,7 +62316,7 @@
 				"overlaySize": 24912,
 				"instanceSize": 2356,
 				"allocType": 0,
-				"name": "En_Tru / Koume on Broom",
+				"name": "En_Tru",
 				"objectId": 398,
 				"drawPtr": 2158528484
 			}
@@ -61026,16 +62328,20 @@
 				"overlaySize": 19520,
 				"instanceSize": 1072,
 				"allocType": 0,
-				"name": "En_Trt / Kotake",
+				"name": "En_Trt",
 				"objectId": 399,
 				"drawPtr": 2158558432
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Egrock_filler_"
+			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Sd_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -61044,7 +62350,7 @@
 				"overlaySize": 896,
 				"instanceSize": 348,
 				"allocType": 0,
-				"name": "En_Test5 / ?",
+				"name": "En_Test5",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -61056,7 +62362,7 @@
 				"overlaySize": 17152,
 				"instanceSize": 648,
 				"allocType": 0,
-				"name": "En_Test6 / ?",
+				"name": "En_Test6",
 				"objectId": 1,
 				"drawPtr": 2158575080
 			}
@@ -61068,7 +62374,7 @@
 				"overlaySize": 21616,
 				"instanceSize": 984,
 				"allocType": 0,
-				"name": "En_Az / Beaver Bros. Big Brother",
+				"name": "En_Az",
 				"objectId": 408,
 				"drawPtr": 2158593844
 			}
@@ -61080,7 +62386,7 @@
 				"overlaySize": 3632,
 				"instanceSize": 11636,
 				"allocType": 0,
-				"name": "En_Estone / Rubble Blasted by Eyegore",
+				"name": "En_Estone",
 				"objectId": 397,
 				"drawPtr": 2158601728
 			}
@@ -61092,7 +62398,7 @@
 				"overlaySize": 19584,
 				"instanceSize": 392,
 				"allocType": 0,
-				"name": "Bg_Hakugin_Post / Snowhead Temple - Central Pillar",
+				"name": "Bg_Hakugin_Post",
 				"objectId": 400,
 				"drawPtr": 0
 			}
@@ -61104,7 +62410,7 @@
 				"overlaySize": 1120,
 				"instanceSize": 432,
 				"allocType": 0,
-				"name": "Dm_Opstage / Opening Cutscene - Grass in Lost Woods",
+				"name": "Dm_Opstage",
 				"objectId": 361,
 				"drawPtr": 2158623672
 			}
@@ -61116,7 +62422,7 @@
 				"overlaySize": 22480,
 				"instanceSize": 828,
 				"allocType": 0,
-				"name": "Dm_Stk / Skullkid With Flute, OoT, Link Mask, Majora's Mask",
+				"name": "Dm_Stk",
 				"objectId": 402,
 				"drawPtr": 2158638028
 			}
@@ -61128,7 +62434,7 @@
 				"overlaySize": 11360,
 				"instanceSize": 612,
 				"allocType": 0,
-				"name": "Dm_Char00 / No Textures, No Display Lists to Render",
+				"name": "Dm_Char00",
 				"objectId": 456,
 				"drawPtr": 2158652212
 			}
@@ -61140,7 +62446,7 @@
 				"overlaySize": 11344,
 				"instanceSize": 848,
 				"allocType": 0,
-				"name": "Dm_Char01 / Cutscene - Woodfall Temple Rises From the Mire",
+				"name": "Dm_Char01",
 				"objectId": 418,
 				"drawPtr": 2158662188
 			}
@@ -61152,7 +62458,7 @@
 				"overlaySize": 1648,
 				"instanceSize": 756,
 				"allocType": 0,
-				"name": "Dm_Char02 / Clock Tower Roof Cutscene - OoT & Majora's Mask",
+				"name": "Dm_Char02",
 				"objectId": 446,
 				"drawPtr": 2158670468
 			}
@@ -61164,7 +62470,7 @@
 				"overlaySize": 1952,
 				"instanceSize": 412,
 				"allocType": 0,
-				"name": "Dm_Char03 / Cutscene - Happy Mask Salesman",
+				"name": "Dm_Char03",
 				"objectId": 419,
 				"drawPtr": 2158672316
 			}
@@ -61176,7 +62482,7 @@
 				"overlaySize": 2400,
 				"instanceSize": 612,
 				"allocType": 0,
-				"name": "Dm_Char04 / ?",
+				"name": "Dm_Char04",
 				"objectId": 1,
 				"drawPtr": 2158673980
 			}
@@ -61188,7 +62494,7 @@
 				"overlaySize": 8416,
 				"instanceSize": 440,
 				"allocType": 0,
-				"name": "Dm_Char05 / Healing Pamela's Father Cutscene - Gibdo Mask",
+				"name": "Dm_Char05",
 				"objectId": 531,
 				"drawPtr": 2158681320
 			}
@@ -61200,7 +62506,7 @@
 				"overlaySize": 832,
 				"instanceSize": 676,
 				"allocType": 0,
-				"name": "Dm_Char06 / Mountain Village Unfreezes Cutscene - Mountain",
+				"name": "Dm_Char06",
 				"objectId": 486,
 				"drawPtr": 2158684280
 			}
@@ -61212,7 +62518,7 @@
 				"overlaySize": 1680,
 				"instanceSize": 700,
 				"allocType": 0,
-				"name": "Dm_Char07 / Ending Cutscene - Indigo-Go's Milk Bar Stage",
+				"name": "Dm_Char07",
 				"objectId": 530,
 				"drawPtr": 2158684912
 			}
@@ -61224,7 +62530,7 @@
 				"overlaySize": 11712,
 				"instanceSize": 524,
 				"allocType": 0,
-				"name": "Dm_Char08 / Turtle Island Cutscene - Turtle",
+				"name": "Dm_Char08",
 				"objectId": 553,
 				"drawPtr": 2158694692
 			}
@@ -61236,7 +62542,7 @@
 				"overlaySize": 2432,
 				"instanceSize": 560,
 				"allocType": 0,
-				"name": "Dm_Char09 / Beehive Cutscene - Giant Bee",
+				"name": "Dm_Char09",
 				"objectId": 491,
 				"drawPtr": 2158700060
 			}
@@ -61248,13 +62554,15 @@
 				"overlaySize": 9600,
 				"instanceSize": 376,
 				"allocType": 0,
-				"name": "Obj_Tokeidai / Clock Tower & Light Beam",
+				"name": "Obj_Tokeidai",
 				"objectId": 396,
 				"drawPtr": 2158707356
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Goron_game_check_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -61263,7 +62571,7 @@
 				"overlaySize": 23184,
 				"instanceSize": 1004,
 				"allocType": 0,
-				"name": "En_Mnk / Monkey",
+				"name": "En_Mnk",
 				"objectId": 405,
 				"drawPtr": 2158730056
 			}
@@ -61275,7 +62583,7 @@
 				"overlaySize": 2368,
 				"instanceSize": 3508,
 				"allocType": 0,
-				"name": "En_Egblock / Grey Rectangular Stone Block",
+				"name": "En_Egblock",
 				"objectId": 397,
 				"drawPtr": 2158733844
 			}
@@ -61287,7 +62595,7 @@
 				"overlaySize": 3808,
 				"instanceSize": 656,
 				"allocType": 0,
-				"name": "En_Guard_Nuts / Deku Palace - Entrance Guard",
+				"name": "En_Guard_Nuts",
 				"objectId": 309,
 				"drawPtr": 2158738616
 			}
@@ -61299,7 +62607,7 @@
 				"overlaySize": 4624,
 				"instanceSize": 432,
 				"allocType": 0,
-				"name": "Bg_Hakugin_Bombwall / Snowhead Temple - Bombable Wall",
+				"name": "Bg_Hakugin_Bombwall",
 				"objectId": 400,
 				"drawPtr": 2158743308
 			}
@@ -61311,7 +62619,7 @@
 				"overlaySize": 1632,
 				"instanceSize": 368,
 				"allocType": 0,
-				"name": "Obj_Tokei_Tobira / Clock Tower - Swinging Doors",
+				"name": "Obj_Tokei_Tobira",
 				"objectId": 407,
 				"drawPtr": 2158745328
 			}
@@ -61323,7 +62631,7 @@
 				"overlaySize": 1136,
 				"instanceSize": 360,
 				"allocType": 0,
-				"name": "Bg_Hakugin_Elvpole / Snowhead Temple - Punchable Central Pole Inserts",
+				"name": "Bg_Hakugin_Elvpole",
 				"objectId": 400,
 				"drawPtr": 2158746556
 			}
@@ -61335,7 +62643,7 @@
 				"overlaySize": 11152,
 				"instanceSize": 832,
 				"allocType": 0,
-				"name": "En_Ma4 / Romani",
+				"name": "En_Ma4",
 				"objectId": 183,
 				"drawPtr": 2158755572
 			}
@@ -61347,7 +62655,7 @@
 				"overlaySize": 2624,
 				"instanceSize": 396,
 				"allocType": 0,
-				"name": "En_Twig / Beaver Dam Twig Texture & Lifesaver Ring",
+				"name": "En_Twig",
 				"objectId": 409,
 				"drawPtr": 2158759984
 			}
@@ -61359,7 +62667,7 @@
 				"overlaySize": 3168,
 				"instanceSize": 628,
 				"allocType": 0,
-				"name": "En_Po_Fusen / Romani Ranch - Poe Balloon",
+				"name": "En_Po_Fusen",
 				"objectId": 411,
 				"drawPtr": 2158763284
 			}
@@ -61371,7 +62679,7 @@
 				"overlaySize": 2080,
 				"instanceSize": 508,
 				"allocType": 0,
-				"name": "En_Door_Etc / ?",
+				"name": "En_Door_Etc",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -61383,7 +62691,7 @@
 				"overlaySize": 8704,
 				"instanceSize": 1016,
 				"allocType": 0,
-				"name": "En_Bigokuta / Big Octo",
+				"name": "En_Bigokuta",
 				"objectId": 414,
 				"drawPtr": 2158772984
 			}
@@ -61395,7 +62703,7 @@
 				"overlaySize": 1920,
 				"instanceSize": 356,
 				"allocType": 0,
-				"name": "Bg_Icefloe / Ice Platform Created by Ice Arrow",
+				"name": "Bg_Icefloe",
 				"objectId": 487,
 				"drawPtr": 2158776024
 			}
@@ -61407,7 +62715,7 @@
 				"overlaySize": 2528,
 				"instanceSize": 376,
 				"allocType": 0,
-				"name": "Obj_Ocarinalift / Elevator With Triforce Texture",
+				"name": "Obj_Ocarinalift",
 				"objectId": 355,
 				"drawPtr": 2158796048
 			}
@@ -61419,7 +62727,7 @@
 				"overlaySize": 3184,
 				"instanceSize": 328,
 				"allocType": 0,
-				"name": "En_Time_Tag / ?",
+				"name": "En_Time_Tag",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -61431,7 +62739,7 @@
 				"overlaySize": 1744,
 				"instanceSize": 360,
 				"allocType": 0,
-				"name": "Bg_Open_Shutter / Tatl Left Behind Cutscene - Wooden Deku Door",
+				"name": "Bg_Open_Shutter",
 				"objectId": 415,
 				"drawPtr": 2158801128
 			}
@@ -61443,7 +62751,7 @@
 				"overlaySize": 544,
 				"instanceSize": 328,
 				"allocType": 0,
-				"name": "Bg_Open_Spot / Taunted by Skullkid Cutscene - Spotlights",
+				"name": "Bg_Open_Spot",
 				"objectId": 415,
 				"drawPtr": 0
 			}
@@ -61455,7 +62763,7 @@
 				"overlaySize": 672,
 				"instanceSize": 368,
 				"allocType": 0,
-				"name": "Bg_Fu_Kaiten / Honey & Darling's Shop - Rotating Platform",
+				"name": "Bg_Fu_Kaiten",
 				"objectId": 416,
 				"drawPtr": 2158802336
 			}
@@ -61467,7 +62775,7 @@
 				"overlaySize": 3536,
 				"instanceSize": 412,
 				"allocType": 0,
-				"name": "Obj_Aqua / Water Poured Out of Bottle",
+				"name": "Obj_Aqua",
 				"objectId": 1,
 				"drawPtr": 2158805064
 			}
@@ -61479,7 +62787,7 @@
 				"overlaySize": 6240,
 				"instanceSize": 560,
 				"allocType": 0,
-				"name": "En_Elforg / Stray Fairy",
+				"name": "En_Elforg",
 				"objectId": 1,
 				"drawPtr": 2158811328
 			}
@@ -61491,13 +62799,15 @@
 				"overlaySize": 1632,
 				"instanceSize": 420,
 				"allocType": 0,
-				"name": "En_Elfbub / Stray Fairy in Bubble",
+				"name": "En_Elfbub",
 				"objectId": 14,
 				"drawPtr": 2158813488
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Ton_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -61506,7 +62816,7 @@
 				"overlaySize": 5200,
 				"instanceSize": 780,
 				"allocType": 0,
-				"name": "En_Fu_Mato / Honey & Darling's Shop - Target",
+				"name": "En_Fu_Mato",
 				"objectId": 417,
 				"drawPtr": 2158818564
 			}
@@ -61518,7 +62828,7 @@
 				"overlaySize": 4272,
 				"instanceSize": 832,
 				"allocType": 0,
-				"name": "En_Fu_Kago / Honey & Darling's Shop - Basket",
+				"name": "En_Fu_Kago",
 				"objectId": 417,
 				"drawPtr": 2158822564
 			}
@@ -61530,7 +62840,7 @@
 				"overlaySize": 9024,
 				"instanceSize": 512,
 				"allocType": 0,
-				"name": "En_Osn / Happy Mask Salesman",
+				"name": "En_Osn",
 				"objectId": 419,
 				"drawPtr": 2158829448
 			}
@@ -61542,7 +62852,7 @@
 				"overlaySize": 2064,
 				"instanceSize": 348,
 				"allocType": 0,
-				"name": "Bg_Ctower_Gear / Clock Tower - Rotating Wooden Cog",
+				"name": "Bg_Ctower_Gear",
 				"objectId": 136,
 				"drawPtr": 2158833956
 			}
@@ -61554,7 +62864,7 @@
 				"overlaySize": 10288,
 				"instanceSize": 988,
 				"allocType": 0,
-				"name": "En_Trt2 / Kotake on Broom",
+				"name": "En_Trt2",
 				"objectId": 399,
 				"drawPtr": 0
 			}
@@ -61566,7 +62876,7 @@
 				"overlaySize": 2992,
 				"instanceSize": 492,
 				"allocType": 0,
-				"name": "Obj_Tokei_Step / Door to Top of Clock Tower",
+				"name": "Obj_Tokei_Step",
 				"objectId": 420,
 				"drawPtr": 2158847192
 			}
@@ -61578,7 +62888,7 @@
 				"overlaySize": 1648,
 				"instanceSize": 364,
 				"allocType": 0,
-				"name": "Bg_Lotus / Lilypad",
+				"name": "Bg_Lotus",
 				"objectId": 421,
 				"drawPtr": 2158849212
 			}
@@ -61590,7 +62900,7 @@
 				"overlaySize": 9328,
 				"instanceSize": 908,
 				"allocType": 0,
-				"name": "En_Kame / Snapper",
+				"name": "En_Kame",
 				"objectId": 422,
 				"drawPtr": 2158857152
 			}
@@ -61602,7 +62912,7 @@
 				"overlaySize": 6320,
 				"instanceSize": 480,
 				"allocType": 0,
-				"name": "Obj_Takaraya_Wall / Treasure Chest Game - Proximity-Activated White Wall",
+				"name": "Obj_Takaraya_Wall",
 				"objectId": 436,
 				"drawPtr": 2158862328
 			}
@@ -61614,7 +62924,7 @@
 				"overlaySize": 736,
 				"instanceSize": 356,
 				"allocType": 0,
-				"name": "Bg_Fu_Mizu / Circle of Water Surrounding Honey & Darling Platform",
+				"name": "Bg_Fu_Mizu",
 				"objectId": 416,
 				"drawPtr": 2158865628
 			}
@@ -61626,7 +62936,7 @@
 				"overlaySize": 13408,
 				"instanceSize": 888,
 				"allocType": 0,
-				"name": "En_Sellnuts / Business Scrub Carrying Bags",
+				"name": "En_Sellnuts",
 				"objectId": 485,
 				"drawPtr": 2158876836
 			}
@@ -61638,13 +62948,15 @@
 				"overlaySize": 2112,
 				"instanceSize": 432,
 				"allocType": 0,
-				"name": "Bg_Dkjail_Ivy / Ivy in Deku Jail",
+				"name": "Bg_Dkjail_Ivy",
 				"objectId": 423,
 				"drawPtr": 2158880884
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Ton2_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -61653,7 +62965,7 @@
 				"overlaySize": 288,
 				"instanceSize": 352,
 				"allocType": 0,
-				"name": "Obj_Visiblock / Invisible Blue Platforms Seen With Lens of Truth",
+				"name": "Obj_Visiblock",
 				"objectId": 424,
 				"drawPtr": 2158881524
 			}
@@ -61665,7 +62977,7 @@
 				"overlaySize": 4368,
 				"instanceSize": 700,
 				"allocType": 0,
-				"name": "En_Takaraya / Treasure Chest Game - Employee",
+				"name": "En_Takaraya",
 				"objectId": 297,
 				"drawPtr": 2158885344
 			}
@@ -61677,7 +62989,7 @@
 				"overlaySize": 6576,
 				"instanceSize": 564,
 				"allocType": 0,
-				"name": "En_Tsn / Great Bay - Fisherman",
+				"name": "En_Tsn",
 				"objectId": 425,
 				"drawPtr": 2158891136
 			}
@@ -61689,7 +63001,7 @@
 				"overlaySize": 1312,
 				"instanceSize": 564,
 				"allocType": 0,
-				"name": "En_Ds2n / Ocarina of Time - Potion Shop Owner",
+				"name": "En_Ds2n",
 				"objectId": 426,
 				"drawPtr": 2158893496
 			}
@@ -61701,7 +63013,7 @@
 				"overlaySize": 17856,
 				"instanceSize": 1104,
 				"allocType": 0,
-				"name": "En_Fsn / Curiosity Shop - Owner",
+				"name": "En_Fsn",
 				"objectId": 427,
 				"drawPtr": 2158909840
 			}
@@ -61713,13 +63025,15 @@
 				"overlaySize": 4720,
 				"instanceSize": 752,
 				"allocType": 0,
-				"name": "En_Shn / Swamp Tourist Center - Guide",
+				"name": "En_Shn",
 				"objectId": 428,
 				"drawPtr": 2158915212
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Ton_bal_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -61728,7 +63042,7 @@
 				"overlaySize": 6096,
 				"instanceSize": 744,
 				"allocType": 0,
-				"name": "En_Stop_heishi / Clock Town - Gate-Blocking Soldier",
+				"name": "En_Stop_heishi",
 				"objectId": 438,
 				"drawPtr": 2158921772
 			}
@@ -61740,7 +63054,7 @@
 				"overlaySize": 3760,
 				"instanceSize": 484,
 				"allocType": 0,
-				"name": "Obj_Bigicicle / Ice Block",
+				"name": "Obj_Bigicicle",
 				"objectId": 429,
 				"drawPtr": 2158925696
 			}
@@ -61752,7 +63066,7 @@
 				"overlaySize": 10816,
 				"instanceSize": 856,
 				"allocType": 0,
-				"name": "En_Lift_Nuts / Deku Scrub Playground - Employee",
+				"name": "En_Lift_Nuts",
 				"objectId": 485,
 				"drawPtr": 2158935248
 			}
@@ -61764,13 +63078,15 @@
 				"overlaySize": 15360,
 				"instanceSize": 1012,
 				"allocType": 0,
-				"name": "En_Tk / Dampe",
+				"name": "En_Tk",
 				"objectId": 431,
 				"drawPtr": 2158950196
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Ton3_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -61779,7 +63095,7 @@
 				"overlaySize": 272,
 				"instanceSize": 324,
 				"allocType": 0,
-				"name": "Bg_Market_Step / West Clocktown - Stairs",
+				"name": "Bg_Market_Step",
 				"objectId": 432,
 				"drawPtr": 2158952584
 			}
@@ -61791,7 +63107,7 @@
 				"overlaySize": 1712,
 				"instanceSize": 372,
 				"allocType": 0,
-				"name": "Obj_Lupygamelift / Deku Scrub Playground - Rupee Elevator",
+				"name": "Obj_Lupygamelift",
 				"objectId": 355,
 				"drawPtr": 2158954224
 			}
@@ -61803,7 +63119,7 @@
 				"overlaySize": 12528,
 				"instanceSize": 7836,
 				"allocType": 0,
-				"name": "En_Test7 / ?",
+				"name": "En_Test7",
 				"objectId": 1,
 				"drawPtr": 2158965320
 			}
@@ -61815,7 +63131,7 @@
 				"overlaySize": 1632,
 				"instanceSize": 432,
 				"allocType": 0,
-				"name": "Obj_Lightblock / Block That Dissolves in Sunlight",
+				"name": "Obj_Lightblock",
 				"objectId": 435,
 				"drawPtr": 2158968036
 			}
@@ -61827,7 +63143,7 @@
 				"overlaySize": 1152,
 				"instanceSize": 448,
 				"allocType": 0,
-				"name": "Mir_Ray2 / Mirror Shield Face & Light Ray",
+				"name": "Mir_Ray2",
 				"objectId": 135,
 				"drawPtr": 2158969632
 			}
@@ -61839,7 +63155,7 @@
 				"overlaySize": 9072,
 				"instanceSize": 1108,
 				"allocType": 0,
-				"name": "En_Wdhand / Dexihand",
+				"name": "En_Wdhand",
 				"objectId": 437,
 				"drawPtr": 2158977172
 			}
@@ -61851,7 +63167,7 @@
 				"overlaySize": 1664,
 				"instanceSize": 420,
 				"allocType": 0,
-				"name": "En_Gamelupy / Deku Scrub Playground - Large Green Rupee",
+				"name": "En_Gamelupy",
 				"objectId": 1,
 				"drawPtr": 2158980088
 			}
@@ -61863,7 +63179,7 @@
 				"overlaySize": 2144,
 				"instanceSize": 472,
 				"allocType": 0,
-				"name": "Bg_Danpei_Movebg / ?",
+				"name": "Bg_Danpei_Movebg",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -61875,7 +63191,7 @@
 				"overlaySize": 1280,
 				"instanceSize": 408,
 				"allocType": 0,
-				"name": "En_Snowwd / Snow-Covered Tree",
+				"name": "En_Snowwd",
 				"objectId": 439,
 				"drawPtr": 2158983600
 			}
@@ -61887,7 +63203,7 @@
 				"overlaySize": 20000,
 				"instanceSize": 928,
 				"allocType": 0,
-				"name": "En_Pm / Postman Delivering Letters",
+				"name": "En_Pm",
 				"objectId": 263,
 				"drawPtr": 2158996652
 			}
@@ -61899,7 +63215,7 @@
 				"overlaySize": 2592,
 				"instanceSize": 340,
 				"allocType": 0,
-				"name": "En_Gakufu / Termina Field - 2D Song Buttons Appearing on Wall",
+				"name": "En_Gakufu",
 				"objectId": 1,
 				"drawPtr": 2159005332
 			}
@@ -61911,7 +63227,7 @@
 				"overlaySize": 1552,
 				"instanceSize": 332,
 				"allocType": 0,
-				"name": "Elf_Msg4 / ?",
+				"name": "Elf_Msg4",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -61923,7 +63239,7 @@
 				"overlaySize": 688,
 				"instanceSize": 328,
 				"allocType": 0,
-				"name": "Elf_Msg5 / ?",
+				"name": "Elf_Msg5",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -61935,7 +63251,7 @@
 				"overlaySize": 3168,
 				"instanceSize": 416,
 				"allocType": 0,
-				"name": "En_Col_Man / ?",
+				"name": "En_Col_Man",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -61947,7 +63263,7 @@
 				"overlaySize": 12528,
 				"instanceSize": 1016,
 				"allocType": 0,
-				"name": "En_Talk_Gibud / Gibdo Requesting Blue Potion",
+				"name": "En_Talk_Gibud",
 				"objectId": 117,
 				"drawPtr": 2159022144
 			}
@@ -61959,7 +63275,7 @@
 				"overlaySize": 4928,
 				"instanceSize": 668,
 				"allocType": 0,
-				"name": "En_Giant / Giant",
+				"name": "En_Giant",
 				"objectId": 440,
 				"drawPtr": 2159027964
 			}
@@ -61971,7 +63287,7 @@
 				"overlaySize": 9664,
 				"instanceSize": 532,
 				"allocType": 0,
-				"name": "Obj_Snowball / Large Snowball",
+				"name": "Obj_Snowball",
 				"objectId": 239,
 				"drawPtr": 2159037700
 			}
@@ -61983,7 +63299,7 @@
 				"overlaySize": 41808,
 				"instanceSize": 14352,
 				"allocType": 0,
-				"name": "Boss_Hakugin / Goht",
+				"name": "Boss_Hakugin",
 				"objectId": 443,
 				"drawPtr": 2159071444
 			}
@@ -61995,7 +63311,7 @@
 				"overlaySize": 10368,
 				"instanceSize": 660,
 				"allocType": 0,
-				"name": "En_Gb2 / Spirit House - Owner",
+				"name": "En_Gb2",
 				"objectId": 324,
 				"drawPtr": 2159089752
 			}
@@ -62007,7 +63323,7 @@
 				"overlaySize": 1488,
 				"instanceSize": 684,
 				"allocType": 0,
-				"name": "En_Onpuman / ?",
+				"name": "En_Onpuman",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -62019,7 +63335,7 @@
 				"overlaySize": 1088,
 				"instanceSize": 368,
 				"allocType": 0,
-				"name": "Bg_Tobira01 / Gate to Goron Shrine",
+				"name": "Bg_Tobira01",
 				"objectId": 447,
 				"drawPtr": 2159093608
 			}
@@ -62031,7 +63347,7 @@
 				"overlaySize": 272,
 				"instanceSize": 408,
 				"allocType": 0,
-				"name": "En_Tag_Obj / ?",
+				"name": "En_Tag_Obj",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -62043,7 +63359,7 @@
 				"overlaySize": 6144,
 				"instanceSize": 4980,
 				"allocType": 0,
-				"name": "Obj_Dhouse / Dampe's House Facade",
+				"name": "Obj_Dhouse",
 				"objectId": 449,
 				"drawPtr": 2159098840
 			}
@@ -62055,7 +63371,7 @@
 				"overlaySize": 5648,
 				"instanceSize": 416,
 				"allocType": 0,
-				"name": "Obj_Hakaisi / Gravestone",
+				"name": "Obj_Hakaisi",
 				"objectId": 450,
 				"drawPtr": 2159104096
 			}
@@ -62067,13 +63383,15 @@
 				"overlaySize": 4976,
 				"instanceSize": 460,
 				"allocType": 0,
-				"name": "Bg_Hakugin_Switch / Goron Link Switch",
+				"name": "Bg_Hakugin_Switch",
 				"objectId": 455,
 				"drawPtr": 2159110152
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Btlpoh_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -62082,7 +63400,7 @@
 				"overlaySize": 13408,
 				"instanceSize": 888,
 				"allocType": 0,
-				"name": "En_Snowman / Eeno",
+				"name": "En_Snowman",
 				"objectId": 452,
 				"drawPtr": 2159122608
 			}
@@ -62094,7 +63412,7 @@
 				"overlaySize": 1104,
 				"instanceSize": 328,
 				"allocType": 0,
-				"name": "TG_Sw / ?",
+				"name": "TG_Sw",
 				"objectId": 1,
 				"drawPtr": 2159124912
 			}
@@ -62106,7 +63424,7 @@
 				"overlaySize": 15104,
 				"instanceSize": 920,
 				"allocType": 0,
-				"name": "En_Po_Sisters / Poe Sisters",
+				"name": "En_Po_Sisters",
 				"objectId": 453,
 				"drawPtr": 2159137924
 			}
@@ -62118,7 +63436,7 @@
 				"overlaySize": 15440,
 				"instanceSize": 1516,
 				"allocType": 0,
-				"name": "En_Pp / Hiploop",
+				"name": "En_Pp",
 				"objectId": 454,
 				"drawPtr": 2159153988
 			}
@@ -62130,7 +63448,7 @@
 				"overlaySize": 4352,
 				"instanceSize": 408,
 				"allocType": 0,
-				"name": "En_Hakurock / Rocks Kicked Up by Goht",
+				"name": "En_Hakurock",
 				"objectId": 443,
 				"drawPtr": 0
 			}
@@ -62142,7 +63460,7 @@
 				"overlaySize": 4432,
 				"instanceSize": 18008,
 				"allocType": 0,
-				"name": "En_Hanabi / ?",
+				"name": "En_Hanabi",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -62154,7 +63472,7 @@
 				"overlaySize": 384,
 				"instanceSize": 324,
 				"allocType": 0,
-				"name": "Obj_Dowsing / ?",
+				"name": "Obj_Dowsing",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -62166,7 +63484,7 @@
 				"overlaySize": 1888,
 				"instanceSize": 328,
 				"allocType": 0,
-				"name": "Obj_Wind / ?",
+				"name": "Obj_Wind",
 				"objectId": 1,
 				"drawPtr": 2159166400
 			}
@@ -62178,7 +63496,7 @@
 				"overlaySize": 7280,
 				"instanceSize": 712,
 				"allocType": 0,
-				"name": "En_Racedog / Racetrack Dog (Arrow Over Head)",
+				"name": "En_Racedog",
 				"objectId": 306,
 				"drawPtr": 2159172372
 			}
@@ -62190,7 +63508,7 @@
 				"overlaySize": 7648,
 				"instanceSize": 660,
 				"allocType": 0,
-				"name": "En_Kendo_Js / Swordsman",
+				"name": "En_Kendo_Js",
 				"objectId": 271,
 				"drawPtr": 2159180708
 			}
@@ -62202,7 +63520,7 @@
 				"overlaySize": 752,
 				"instanceSize": 428,
 				"allocType": 0,
-				"name": "Bg_Botihasira / Captain Keeta Race - Gatepost",
+				"name": "Bg_Botihasira",
 				"objectId": 457,
 				"drawPtr": 2159182400
 			}
@@ -62214,7 +63532,7 @@
 				"overlaySize": 13504,
 				"instanceSize": 8216,
 				"allocType": 0,
-				"name": "En_Fish2 / Marine Research Lab Fish",
+				"name": "En_Fish2",
 				"objectId": 471,
 				"drawPtr": 2159193396
 			}
@@ -62226,7 +63544,7 @@
 				"overlaySize": 3776,
 				"instanceSize": 544,
 				"allocType": 0,
-				"name": "En_Pst / Postbox",
+				"name": "En_Pst",
 				"objectId": 459,
 				"drawPtr": 2159198604
 			}
@@ -62238,7 +63556,7 @@
 				"overlaySize": 13344,
 				"instanceSize": 1048,
 				"allocType": 0,
-				"name": "En_Poh / Poe",
+				"name": "En_Poh",
 				"objectId": 451,
 				"drawPtr": 2159210660
 			}
@@ -62250,7 +63568,7 @@
 				"overlaySize": 6784,
 				"instanceSize": 972,
 				"allocType": 0,
-				"name": "Obj_Spidertent / Tent-Shaped Spider Web",
+				"name": "Obj_Spidertent",
 				"objectId": 461,
 				"drawPtr": 2159218424
 			}
@@ -62262,7 +63580,7 @@
 				"overlaySize": 10144,
 				"instanceSize": 508,
 				"allocType": 0,
-				"name": "En_Zoraegg / Zora Egg",
+				"name": "En_Zoraegg",
 				"objectId": 462,
 				"drawPtr": 2159229120
 			}
@@ -62274,7 +63592,7 @@
 				"overlaySize": 4672,
 				"instanceSize": 652,
 				"allocType": 0,
-				"name": "En_Kbt / Zubora",
+				"name": "En_Kbt",
 				"objectId": 463,
 				"drawPtr": 2159233600
 			}
@@ -62286,7 +63604,7 @@
 				"overlaySize": 8464,
 				"instanceSize": 912,
 				"allocType": 0,
-				"name": "En_Gg / Darmani's Ghost",
+				"name": "En_Gg",
 				"objectId": 464,
 				"drawPtr": 2159241780
 			}
@@ -62298,7 +63616,7 @@
 				"overlaySize": 7584,
 				"instanceSize": 548,
 				"allocType": 0,
-				"name": "En_Maruta / Swordsman's School - Practice Log",
+				"name": "En_Maruta",
 				"objectId": 465,
 				"drawPtr": 2159248536
 			}
@@ -62310,7 +63628,7 @@
 				"overlaySize": 7728,
 				"instanceSize": 436,
 				"allocType": 0,
-				"name": "Obj_Snowball2 / Small Snowball",
+				"name": "Obj_Snowball2",
 				"objectId": 239,
 				"drawPtr": 2159257736
 			}
@@ -62322,7 +63640,7 @@
 				"overlaySize": 5648,
 				"instanceSize": 784,
 				"allocType": 0,
-				"name": "En_Gg2 / Darmani's Ghost",
+				"name": "En_Gg2",
 				"objectId": 464,
 				"drawPtr": 2159263232
 			}
@@ -62334,7 +63652,7 @@
 				"overlaySize": 1984,
 				"instanceSize": 364,
 				"allocType": 0,
-				"name": "Obj_Ghaka / Darmani's Gravestone",
+				"name": "Obj_Ghaka",
 				"objectId": 466,
 				"drawPtr": 2159265880
 			}
@@ -62346,7 +63664,7 @@
 				"overlaySize": 5584,
 				"instanceSize": 836,
 				"allocType": 0,
-				"name": "En_Dnp / Deku Princess",
+				"name": "En_Dnp",
 				"objectId": 468,
 				"drawPtr": 2159270808
 			}
@@ -62358,7 +63676,7 @@
 				"overlaySize": 8336,
 				"instanceSize": 2676,
 				"allocType": 0,
-				"name": "En_Dai / Biggoron",
+				"name": "En_Dai",
 				"objectId": 469,
 				"drawPtr": 2159278980
 			}
@@ -62370,7 +63688,7 @@
 				"overlaySize": 1920,
 				"instanceSize": 384,
 				"allocType": 0,
-				"name": "Bg_Goron_Oyu / Goron Hot Spring Water",
+				"name": "Bg_Goron_Oyu",
 				"objectId": 467,
 				"drawPtr": 2159281816
 			}
@@ -62382,7 +63700,7 @@
 				"overlaySize": 12720,
 				"instanceSize": 776,
 				"allocType": 0,
-				"name": "En_Kgy / Gabora",
+				"name": "En_Kgy",
 				"objectId": 470,
 				"drawPtr": 2159292880
 			}
@@ -62394,7 +63712,7 @@
 				"overlaySize": 51808,
 				"instanceSize": 960,
 				"allocType": 0,
-				"name": "En_Invadepoh / ?",
+				"name": "En_Invadepoh",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -62406,7 +63724,7 @@
 				"overlaySize": 13360,
 				"instanceSize": 856,
 				"allocType": 0,
-				"name": "En_Gk / Goron Elder's Son",
+				"name": "En_Gk",
 				"objectId": 479,
 				"drawPtr": 2159357812
 			}
@@ -62418,13 +63736,15 @@
 				"overlaySize": 28384,
 				"instanceSize": 968,
 				"allocType": 0,
-				"name": "En_An / Anju",
+				"name": "En_An",
 				"objectId": 226,
 				"drawPtr": 0
 			}
 		},
 		{
-			"MM-U": {}
+			"MM-U": {
+				"name": "_filler_En_Sellnuts2_filler_"
+			}
 		},
 		{
 			"MM-U": {
@@ -62433,7 +63753,7 @@
 				"overlaySize": 3008,
 				"instanceSize": 648,
 				"allocType": 0,
-				"name": "En_Bee / Giant Bee",
+				"name": "En_Bee",
 				"objectId": 491,
 				"drawPtr": 2159391124
 			}
@@ -62445,7 +63765,7 @@
 				"overlaySize": 13744,
 				"instanceSize": 1880,
 				"allocType": 0,
-				"name": "En_Ot / Seahorse",
+				"name": "En_Ot",
 				"objectId": 492,
 				"drawPtr": 2159402272
 			}
@@ -62457,7 +63777,7 @@
 				"overlaySize": 8768,
 				"instanceSize": 1276,
 				"allocType": 0,
-				"name": "En_Dragon / Deep Python",
+				"name": "En_Dragon",
 				"objectId": 493,
 				"drawPtr": 2159412580
 			}
@@ -62469,7 +63789,7 @@
 				"overlaySize": 2832,
 				"instanceSize": 940,
 				"allocType": 0,
-				"name": "Obj_Dora / Swordsman's School - Gong",
+				"name": "Obj_Dora",
 				"objectId": 494,
 				"drawPtr": 2159415480
 			}
@@ -62481,7 +63801,7 @@
 				"overlaySize": 16096,
 				"instanceSize": 920,
 				"allocType": 0,
-				"name": "En_Bigpo / Big Poe",
+				"name": "En_Bigpo",
 				"objectId": 497,
 				"drawPtr": 0
 			}
@@ -62493,7 +63813,7 @@
 				"overlaySize": 5472,
 				"instanceSize": 784,
 				"allocType": 0,
-				"name": "Obj_Kendo_Kanban / Swordsman's School - Cuttable Board",
+				"name": "Obj_Kendo_Kanban",
 				"objectId": 494,
 				"drawPtr": 2159436884
 			}
@@ -62505,7 +63825,7 @@
 				"overlaySize": 784,
 				"instanceSize": 344,
 				"allocType": 0,
-				"name": "Obj_Hariko / Little Cow Statue Head",
+				"name": "Obj_Hariko",
 				"objectId": 498,
 				"drawPtr": 2159438812
 			}
@@ -62517,7 +63837,7 @@
 				"overlaySize": 26928,
 				"instanceSize": 676,
 				"allocType": 0,
-				"name": "En_Sth / ?",
+				"name": "En_Sth",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -62529,7 +63849,7 @@
 				"overlaySize": 1408,
 				"instanceSize": 368,
 				"allocType": 0,
-				"name": "Bg_Sinkai_Kabe / No Textures, No Display Lists to Render",
+				"name": "Bg_Sinkai_Kabe",
 				"objectId": 500,
 				"drawPtr": 0
 			}
@@ -62541,7 +63861,7 @@
 				"overlaySize": 1088,
 				"instanceSize": 352,
 				"allocType": 0,
-				"name": "Bg_Haka_Curtain / Curtain That Lifts to Reveal Flat's Tomb",
+				"name": "Bg_Haka_Curtain",
 				"objectId": 480,
 				"drawPtr": 2159468356
 			}
@@ -62553,7 +63873,7 @@
 				"overlaySize": 2048,
 				"instanceSize": 432,
 				"allocType": 0,
-				"name": "Bg_Kin2_Bombwall / Ocean Spider House - Bombable Wall",
+				"name": "Bg_Kin2_Bombwall",
 				"objectId": 501,
 				"drawPtr": 2159470216
 			}
@@ -62565,7 +63885,7 @@
 				"overlaySize": 1920,
 				"instanceSize": 644,
 				"allocType": 0,
-				"name": "Bg_Kin2_Fence / Ocean Spider House - Fireplace Grate",
+				"name": "Bg_Kin2_Fence",
 				"objectId": 501,
 				"drawPtr": 2159472012
 			}
@@ -62577,7 +63897,7 @@
 				"overlaySize": 2960,
 				"instanceSize": 580,
 				"allocType": 0,
-				"name": "Bg_Kin2_Picture / Ocean Spider House - Skullkid Painting",
+				"name": "Bg_Kin2_Picture",
 				"objectId": 501,
 				"drawPtr": 2159475008
 			}
@@ -62589,7 +63909,7 @@
 				"overlaySize": 3472,
 				"instanceSize": 360,
 				"allocType": 0,
-				"name": "Bg_Kin2_Shelf / Ocean Spider House - Drawers",
+				"name": "Bg_Kin2_Shelf",
 				"objectId": 501,
 				"drawPtr": 2159478504
 			}
@@ -62601,7 +63921,7 @@
 				"overlaySize": 12752,
 				"instanceSize": 1028,
 				"allocType": 0,
-				"name": "En_Rail_Skb / Ikana Graveyard - Circle of Stalchildren",
+				"name": "En_Rail_Skb",
 				"objectId": 322,
 				"drawPtr": 2159489516
 			}
@@ -62613,7 +63933,7 @@
 				"overlaySize": 9632,
 				"instanceSize": 980,
 				"allocType": 0,
-				"name": "En_Jg / Goron Elder",
+				"name": "En_Jg",
 				"objectId": 504,
 				"drawPtr": 2159499180
 			}
@@ -62625,7 +63945,7 @@
 				"overlaySize": 5952,
 				"instanceSize": 936,
 				"allocType": 0,
-				"name": "En_Tru_Mt / Koume's Target Game - Koume on Broom",
+				"name": "En_Tru_Mt",
 				"objectId": 398,
 				"drawPtr": 2159506384
 			}
@@ -62637,7 +63957,7 @@
 				"overlaySize": 20768,
 				"instanceSize": 1252,
 				"allocType": 0,
-				"name": "Obj_Um / Cremia's Cart",
+				"name": "Obj_Um",
 				"objectId": 508,
 				"drawPtr": 2159525948
 			}
@@ -62649,7 +63969,7 @@
 				"overlaySize": 8352,
 				"instanceSize": 788,
 				"allocType": 0,
-				"name": "En_Neo_Reeba / Leever",
+				"name": "En_Neo_Reeba",
 				"objectId": 513,
 				"drawPtr": 2159535140
 			}
@@ -62661,7 +63981,7 @@
 				"overlaySize": 304,
 				"instanceSize": 348,
 				"allocType": 0,
-				"name": "Bg_Mbar_Chair / Milk Bar - Chair",
+				"name": "Bg_Mbar_Chair",
 				"objectId": 514,
 				"drawPtr": 2159536580
 			}
@@ -62673,7 +63993,7 @@
 				"overlaySize": 3280,
 				"instanceSize": 384,
 				"allocType": 0,
-				"name": "Bg_Ikana_Block / Stone Tower Temple - Rotating Room Pushblock",
+				"name": "Bg_Ikana_Block",
 				"objectId": 3,
 				"drawPtr": 0
 			}
@@ -62685,7 +64005,7 @@
 				"overlaySize": 2992,
 				"instanceSize": 1484,
 				"allocType": 0,
-				"name": "Bg_Ikana_Mirror / Stone Tower Temple - Mirror",
+				"name": "Bg_Ikana_Mirror",
 				"objectId": 515,
 				"drawPtr": 2159541468
 			}
@@ -62697,7 +64017,7 @@
 				"overlaySize": 8400,
 				"instanceSize": 1416,
 				"allocType": 0,
-				"name": "Bg_Ikana_Rotaryroom / Stone Tower Temple - Rotating Room",
+				"name": "Bg_Ikana_Rotaryroom",
 				"objectId": 515,
 				"drawPtr": 2159550512
 			}
@@ -62709,7 +64029,7 @@
 				"overlaySize": 6352,
 				"instanceSize": 556,
 				"allocType": 0,
-				"name": "Bg_Dblue_Balance / Great Bay Temple - See-Saw",
+				"name": "Bg_Dblue_Balance",
 				"objectId": 388,
 				"drawPtr": 2159556068
 			}
@@ -62721,7 +64041,7 @@
 				"overlaySize": 6416,
 				"instanceSize": 428,
 				"allocType": 0,
-				"name": "Bg_Dblue_Waterfall / Great Bay Temple - Freezable Geyser",
+				"name": "Bg_Dblue_Waterfall",
 				"objectId": 388,
 				"drawPtr": 2159562828
 			}
@@ -62733,7 +64053,7 @@
 				"overlaySize": 23872,
 				"instanceSize": 1520,
 				"allocType": 0,
-				"name": "En_Kaizoku / Gerudo Pirate",
+				"name": "En_Kaizoku",
 				"objectId": 516,
 				"drawPtr": 0
 			}
@@ -62745,7 +64065,7 @@
 				"overlaySize": 7520,
 				"instanceSize": 780,
 				"allocType": 0,
-				"name": "En_Ge2 / Patrolling Pirate Guard",
+				"name": "En_Ge2",
 				"objectId": 302,
 				"drawPtr": 2159594812
 			}
@@ -62757,7 +64077,7 @@
 				"overlaySize": 5360,
 				"instanceSize": 828,
 				"allocType": 0,
-				"name": "En_Ma_Yts / Romani",
+				"name": "En_Ma_Yts",
 				"objectId": 183,
 				"drawPtr": 2159599516
 			}
@@ -62769,7 +64089,7 @@
 				"overlaySize": 14240,
 				"instanceSize": 804,
 				"allocType": 0,
-				"name": "En_Ma_Yto / Cremia",
+				"name": "En_Ma_Yto",
 				"objectId": 167,
 				"drawPtr": 2159612552
 			}
@@ -62781,7 +64101,7 @@
 				"overlaySize": 608,
 				"instanceSize": 348,
 				"allocType": 0,
-				"name": "Obj_Tokei_Turret / South Clock Town - Flags & Carnival Platform",
+				"name": "Obj_Tokei_Turret",
 				"objectId": 517,
 				"drawPtr": 2159615428
 			}
@@ -62793,7 +64113,7 @@
 				"overlaySize": 3056,
 				"instanceSize": 368,
 				"allocType": 0,
-				"name": "Bg_Dblue_Elevator / Great Bay Temple - Elevator",
+				"name": "Bg_Dblue_Elevator",
 				"objectId": 388,
 				"drawPtr": 2159618308
 			}
@@ -62805,7 +64125,7 @@
 				"overlaySize": 2048,
 				"instanceSize": 432,
 				"allocType": 0,
-				"name": "Obj_Warpstone / Owl Statue",
+				"name": "Obj_Warpstone",
 				"objectId": 368,
 				"drawPtr": 2159619904
 			}
@@ -62817,7 +64137,7 @@
 				"overlaySize": 11024,
 				"instanceSize": 812,
 				"allocType": 0,
-				"name": "En_Zog / Mikau",
+				"name": "En_Zog",
 				"objectId": 518,
 				"drawPtr": 2159629928
 			}
@@ -62829,7 +64149,7 @@
 				"overlaySize": 960,
 				"instanceSize": 356,
 				"allocType": 0,
-				"name": "Obj_Rotlift / Deku Moon Dungeon - Spiked Rotating Platforms",
+				"name": "Obj_Rotlift",
 				"objectId": 519,
 				"drawPtr": 2159632608
 			}
@@ -62841,7 +64161,7 @@
 				"overlaySize": 560,
 				"instanceSize": 468,
 				"allocType": 0,
-				"name": "Obj_Jg_Gakki / Goron Elder - Drum",
+				"name": "Obj_Jg_Gakki",
 				"objectId": 504,
 				"drawPtr": 2159633272
 			}
@@ -62853,7 +64173,7 @@
 				"overlaySize": 448,
 				"instanceSize": 360,
 				"allocType": 0,
-				"name": "Bg_Inibs_Movebg / Twinmold Arena",
+				"name": "Bg_Inibs_Movebg",
 				"objectId": 524,
 				"drawPtr": 2159633616
 			}
@@ -62865,7 +64185,7 @@
 				"overlaySize": 15072,
 				"instanceSize": 764,
 				"allocType": 0,
-				"name": "En_Zot / Great Bay - Zora With Directions to Zora Hall",
+				"name": "En_Zot",
 				"objectId": 208,
 				"drawPtr": 2159646616
 			}
@@ -62877,7 +64197,7 @@
 				"overlaySize": 1440,
 				"instanceSize": 440,
 				"allocType": 0,
-				"name": "Obj_Tree / North Clock Town - Tree",
+				"name": "Obj_Tree",
 				"objectId": 525,
 				"drawPtr": 2159649828
 			}
@@ -62889,7 +64209,7 @@
 				"overlaySize": 816,
 				"instanceSize": 352,
 				"allocType": 0,
-				"name": "Obj_Y2lift / Elevator?",
+				"name": "Obj_Y2lift",
 				"objectId": 526,
 				"drawPtr": 2159651048
 			}
@@ -62901,7 +64221,7 @@
 				"overlaySize": 1488,
 				"instanceSize": 352,
 				"allocType": 0,
-				"name": "Obj_Y2shutter / Pirate's Fortress - Interior Door",
+				"name": "Obj_Y2shutter",
 				"objectId": 526,
 				"drawPtr": 2159652352
 			}
@@ -62913,7 +64233,7 @@
 				"overlaySize": 1936,
 				"instanceSize": 360,
 				"allocType": 0,
-				"name": "Obj_Boat / Pirate Boat",
+				"name": "Obj_Boat",
 				"objectId": 526,
 				"drawPtr": 2159654440
 			}
@@ -62925,7 +64245,7 @@
 				"overlaySize": 3440,
 				"instanceSize": 432,
 				"allocType": 0,
-				"name": "Obj_Taru / Wooden Barrel",
+				"name": "Obj_Taru",
 				"objectId": 592,
 				"drawPtr": 2159657688
 			}
@@ -62937,7 +64257,7 @@
 				"overlaySize": 6800,
 				"instanceSize": 440,
 				"allocType": 0,
-				"name": "Obj_Hunsui / Switch-Activated Geyser",
+				"name": "Obj_Hunsui",
 				"objectId": 573,
 				"drawPtr": 2159663556
 			}
@@ -62949,7 +64269,7 @@
 				"overlaySize": 992,
 				"instanceSize": 432,
 				"allocType": 0,
-				"name": "En_Jc_Mato / Koume's Target Game - Target",
+				"name": "En_Jc_Mato",
 				"objectId": 398,
 				"drawPtr": 2159665484
 			}
@@ -62961,7 +64281,7 @@
 				"overlaySize": 4784,
 				"instanceSize": 612,
 				"allocType": 0,
-				"name": "Mir_Ray3 / Mirror Shield Face & Light Ray",
+				"name": "Mir_Ray3",
 				"objectId": 135,
 				"drawPtr": 2159669104
 			}
@@ -62973,7 +64293,7 @@
 				"overlaySize": 8240,
 				"instanceSize": 792,
 				"allocType": 0,
-				"name": "En_Zob / Japas",
+				"name": "En_Zob",
 				"objectId": 529,
 				"drawPtr": 2159677420
 			}
@@ -62985,7 +64305,7 @@
 				"overlaySize": 3712,
 				"instanceSize": 328,
 				"allocType": 0,
-				"name": "Elf_Msg6 / ?",
+				"name": "Elf_Msg6",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -62997,7 +64317,7 @@
 				"overlaySize": 4768,
 				"instanceSize": 356,
 				"allocType": 0,
-				"name": "Obj_Nozoki / ?",
+				"name": "Obj_Nozoki",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -63009,7 +64329,7 @@
 				"overlaySize": 7488,
 				"instanceSize": 716,
 				"allocType": 0,
-				"name": "En_Toto / Toto",
+				"name": "En_Toto",
 				"objectId": 570,
 				"drawPtr": 2159693564
 			}
@@ -63021,7 +64341,7 @@
 				"overlaySize": 13344,
 				"instanceSize": 1032,
 				"allocType": 0,
-				"name": "En_Railgibud / Music Box House - Patrolling Gibdos",
+				"name": "En_Railgibud",
 				"objectId": 117,
 				"drawPtr": 2159704532
 			}
@@ -63033,7 +64353,7 @@
 				"overlaySize": 7856,
 				"instanceSize": 1088,
 				"allocType": 0,
-				"name": "En_Baba / Bomb Shop Lady",
+				"name": "En_Baba",
 				"objectId": 223,
 				"drawPtr": 2159714848
 			}
@@ -63045,7 +64365,7 @@
 				"overlaySize": 18592,
 				"instanceSize": 1116,
 				"allocType": 0,
-				"name": "En_Suttari / ?",
+				"name": "En_Suttari",
 				"objectId": 227,
 				"drawPtr": 2159732024
 			}
@@ -63057,7 +64377,7 @@
 				"overlaySize": 6512,
 				"instanceSize": 672,
 				"allocType": 0,
-				"name": "En_Zod / Tijo",
+				"name": "En_Zod",
 				"objectId": 534,
 				"drawPtr": 2159739880
 			}
@@ -63069,7 +64389,7 @@
 				"overlaySize": 3568,
 				"instanceSize": 332,
 				"allocType": 0,
-				"name": "En_Kujiya / Clock Town - Lottery Shop",
+				"name": "En_Kujiya",
 				"objectId": 611,
 				"drawPtr": 2159743836
 			}
@@ -63081,7 +64401,7 @@
 				"overlaySize": 12336,
 				"instanceSize": 1264,
 				"allocType": 0,
-				"name": "En_Geg / Goron With Don Gero's Mask",
+				"name": "En_Geg",
 				"objectId": 161,
 				"drawPtr": 2159754764
 			}
@@ -63093,7 +64413,7 @@
 				"overlaySize": 1008,
 				"instanceSize": 324,
 				"allocType": 0,
-				"name": "Obj_Kinoko / ?",
+				"name": "Obj_Kinoko",
 				"objectId": 1,
 				"drawPtr": 2159757540
 			}
@@ -63105,7 +64425,7 @@
 				"overlaySize": 784,
 				"instanceSize": 348,
 				"allocType": 0,
-				"name": "Obj_Yasi / Palm Tree",
+				"name": "Obj_Yasi",
 				"objectId": 536,
 				"drawPtr": 2159758512
 			}
@@ -63117,7 +64437,7 @@
 				"overlaySize": 6608,
 				"instanceSize": 13164,
 				"allocType": 0,
-				"name": "En_Tanron1 / ?",
+				"name": "En_Tanron1",
 				"objectId": 1,
 				"drawPtr": 2159760120
 			}
@@ -63129,7 +64449,7 @@
 				"overlaySize": 7632,
 				"instanceSize": 508,
 				"allocType": 0,
-				"name": "En_Tanron2 / Bubbles Surrounding Wart?",
+				"name": "En_Tanron2",
 				"objectId": 349,
 				"drawPtr": 2159770644
 			}
@@ -63141,7 +64461,7 @@
 				"overlaySize": 4928,
 				"instanceSize": 764,
 				"allocType": 0,
-				"name": "En_Tanron3 / Fish Surrounding Gyorg?",
+				"name": "En_Tanron3",
 				"objectId": 348,
 				"drawPtr": 2159777392
 			}
@@ -63153,7 +64473,7 @@
 				"overlaySize": 5056,
 				"instanceSize": 484,
 				"allocType": 0,
-				"name": "Obj_Chan / Goron Village - Chandelier",
+				"name": "Obj_Chan",
 				"objectId": 542,
 				"drawPtr": 2159781772
 			}
@@ -63165,7 +64485,7 @@
 				"overlaySize": 7648,
 				"instanceSize": 708,
 				"allocType": 0,
-				"name": "En_Zos / Evan",
+				"name": "En_Zos",
 				"objectId": 544,
 				"drawPtr": 2159789376
 			}
@@ -63177,7 +64497,7 @@
 				"overlaySize": 13104,
 				"instanceSize": 784,
 				"allocType": 0,
-				"name": "En_S_Goro / Goron Complaining About Baby Crying",
+				"name": "En_S_Goro",
 				"objectId": 161,
 				"drawPtr": 2159802300
 			}
@@ -63189,7 +64509,7 @@
 				"overlaySize": 6992,
 				"instanceSize": 668,
 				"allocType": 0,
-				"name": "En_Nb / Anju's Grandma",
+				"name": "En_Nb",
 				"objectId": 4,
 				"drawPtr": 2159809396
 			}
@@ -63201,7 +64521,7 @@
 				"overlaySize": 8320,
 				"instanceSize": 888,
 				"allocType": 0,
-				"name": "En_Ja / Juggler",
+				"name": "En_Ja",
 				"objectId": 227,
 				"drawPtr": 2159815908
 			}
@@ -63213,7 +64533,7 @@
 				"overlaySize": 3632,
 				"instanceSize": 368,
 				"allocType": 0,
-				"name": "Bg_F40_Block / Stone Tower Temple - Movable Monkey-Faced Blocks",
+				"name": "Bg_F40_Block",
 				"objectId": 92,
 				"drawPtr": 2159822284
 			}
@@ -63225,7 +64545,7 @@
 				"overlaySize": 1920,
 				"instanceSize": 360,
 				"allocType": 0,
-				"name": "Bg_F40_Switch / Elegy of Emptiness Switch",
+				"name": "Bg_F40_Switch",
 				"objectId": 546,
 				"drawPtr": 2159824272
 			}
@@ -63237,7 +64557,7 @@
 				"overlaySize": 7360,
 				"instanceSize": 832,
 				"allocType": 0,
-				"name": "En_Po_Composer / Poe Composers",
+				"name": "En_Po_Composer",
 				"objectId": 93,
 				"drawPtr": 2159829456
 			}
@@ -63249,7 +64569,7 @@
 				"overlaySize": 3808,
 				"instanceSize": 708,
 				"allocType": 0,
-				"name": "En_Guruguru / Guru-Guru",
+				"name": "En_Guruguru",
 				"objectId": 255,
 				"drawPtr": 2159835188
 			}
@@ -63261,7 +64581,7 @@
 				"overlaySize": 6048,
 				"instanceSize": 328,
 				"allocType": 1,
-				"name": "Oceff_Wipe5 / ?",
+				"name": "Oceff_Wipe5",
 				"objectId": 1,
 				"drawPtr": 2159836092
 			}
@@ -63273,7 +64593,7 @@
 				"overlaySize": 4912,
 				"instanceSize": 708,
 				"allocType": 0,
-				"name": "En_Stone_heishi / Shiro",
+				"name": "En_Stone_heishi",
 				"objectId": 438,
 				"drawPtr": 2159846060
 			}
@@ -63285,7 +64605,7 @@
 				"overlaySize": 1616,
 				"instanceSize": 328,
 				"allocType": 1,
-				"name": "Oceff_Wipe6 / ?",
+				"name": "Oceff_Wipe6",
 				"objectId": 1,
 				"drawPtr": 2159847052
 			}
@@ -63297,7 +64617,7 @@
 				"overlaySize": 9232,
 				"instanceSize": 884,
 				"allocType": 0,
-				"name": "En_Scopenuts / Astral Observatory - Business Scrub in Telescope",
+				"name": "En_Scopenuts",
 				"objectId": 485,
 				"drawPtr": 2159856300
 			}
@@ -63309,7 +64629,7 @@
 				"overlaySize": 3248,
 				"instanceSize": 616,
 				"allocType": 0,
-				"name": "En_Scopecrow / Astral Observatory - Guay in Telescope",
+				"name": "En_Scopecrow",
 				"objectId": 6,
 				"drawPtr": 2159860480
 			}
@@ -63321,7 +64641,7 @@
 				"overlaySize": 3696,
 				"instanceSize": 328,
 				"allocType": 1,
-				"name": "Oceff_Wipe7 / ?",
+				"name": "Oceff_Wipe7",
 				"objectId": 1,
 				"drawPtr": 2159861148
 			}
@@ -63333,7 +64653,7 @@
 				"overlaySize": 1712,
 				"instanceSize": 336,
 				"allocType": 0,
-				"name": "Eff_Kamejima_Wave / Wave Created by Turtle Awakening",
+				"name": "Eff_Kamejima_Wave",
 				"objectId": 553,
 				"drawPtr": 0
 			}
@@ -63345,7 +64665,7 @@
 				"overlaySize": 4320,
 				"instanceSize": 792,
 				"allocType": 0,
-				"name": "En_Hg / Pamela's Father",
+				"name": "En_Hg",
 				"objectId": 554,
 				"drawPtr": 2159869636
 			}
@@ -63357,7 +64677,7 @@
 				"overlaySize": 3888,
 				"instanceSize": 792,
 				"allocType": 0,
-				"name": "En_Hgo / Pamela's Father As a Gibdo",
+				"name": "En_Hgo",
 				"objectId": 554,
 				"drawPtr": 2159873404
 			}
@@ -63369,7 +64689,7 @@
 				"overlaySize": 6224,
 				"instanceSize": 820,
 				"allocType": 0,
-				"name": "En_Zov / Lulu",
+				"name": "En_Zov",
 				"objectId": 555,
 				"drawPtr": 2159879348
 			}
@@ -63381,7 +64701,7 @@
 				"overlaySize": 5728,
 				"instanceSize": 772,
 				"allocType": 0,
-				"name": "En_Ah / Madame Dotour",
+				"name": "En_Ah",
 				"objectId": 7,
 				"drawPtr": 2159885484
 			}
@@ -63393,7 +64713,7 @@
 				"overlaySize": 1680,
 				"instanceSize": 360,
 				"allocType": 0,
-				"name": "Obj_Hgdoor / Music Box House - Closet Door",
+				"name": "Obj_Hgdoor",
 				"objectId": 556,
 				"drawPtr": 2159887728
 			}
@@ -63405,7 +64725,7 @@
 				"overlaySize": 3232,
 				"instanceSize": 432,
 				"allocType": 0,
-				"name": "Bg_Ikana_Bombwall / Stone Tower Temple - Bombable Tan Floor Tile",
+				"name": "Bg_Ikana_Bombwall",
 				"objectId": 515,
 				"drawPtr": 2159890944
 			}
@@ -63417,7 +64737,7 @@
 				"overlaySize": 720,
 				"instanceSize": 408,
 				"allocType": 0,
-				"name": "Bg_Ikana_Ray / Stone Tower Temple - Light Rays",
+				"name": "Bg_Ikana_Ray",
 				"objectId": 515,
 				"drawPtr": 2159891856
 			}
@@ -63429,7 +64749,7 @@
 				"overlaySize": 1904,
 				"instanceSize": 352,
 				"allocType": 0,
-				"name": "Bg_Ikana_Shutter / Stone Tower Temple - Door",
+				"name": "Bg_Ikana_Shutter",
 				"objectId": 515,
 				"drawPtr": 2159893696
 			}
@@ -63441,7 +64761,7 @@
 				"overlaySize": 1920,
 				"instanceSize": 432,
 				"allocType": 0,
-				"name": "Bg_Haka_Bombwall / Beneath the Grave - Bombable Wall",
+				"name": "Bg_Haka_Bombwall",
 				"objectId": 480,
 				"drawPtr": 2159895620
 			}
@@ -63453,7 +64773,7 @@
 				"overlaySize": 912,
 				"instanceSize": 356,
 				"allocType": 0,
-				"name": "Bg_Haka_Tomb / Flat's Tomb",
+				"name": "Bg_Haka_Tomb",
 				"objectId": 480,
 				"drawPtr": 2159896644
 			}
@@ -63465,7 +64785,7 @@
 				"overlaySize": 1536,
 				"instanceSize": 408,
 				"allocType": 0,
-				"name": "En_Sc_Ruppe / Large Rotating Green Rupee",
+				"name": "En_Sc_Ruppe",
 				"objectId": 1,
 				"drawPtr": 2159897880
 			}
@@ -63477,7 +64797,7 @@
 				"overlaySize": 2976,
 				"instanceSize": 360,
 				"allocType": 0,
-				"name": "Bg_Iknv_Doukutu / Sharp's Cave",
+				"name": "Bg_Iknv_Doukutu",
 				"objectId": 567,
 				"drawPtr": 2159899652
 			}
@@ -63489,7 +64809,7 @@
 				"overlaySize": 2048,
 				"instanceSize": 432,
 				"allocType": 0,
-				"name": "Bg_Iknv_Obj / Music Box House - Waterwheel",
+				"name": "Bg_Iknv_Obj",
 				"objectId": 567,
 				"drawPtr": 2159903040
 			}
@@ -63501,7 +64821,7 @@
 				"overlaySize": 10112,
 				"instanceSize": 808,
 				"allocType": 0,
-				"name": "En_Pamera / Pamela",
+				"name": "En_Pamera",
 				"objectId": 568,
 				"drawPtr": 2159908560
 			}
@@ -63513,7 +64833,7 @@
 				"overlaySize": 1552,
 				"instanceSize": 364,
 				"allocType": 0,
-				"name": "Obj_HsStump / Ikana Canyon - Hookshotable Tree",
+				"name": "Obj_HsStump",
 				"objectId": 569,
 				"drawPtr": 2159914788
 			}
@@ -63525,7 +64845,7 @@
 				"overlaySize": 4656,
 				"instanceSize": 640,
 				"allocType": 0,
-				"name": "En_Hidden_Nuts / Swamp Spider House - Sleeping Deku Scrub",
+				"name": "En_Hidden_Nuts",
 				"objectId": 299,
 				"drawPtr": 2159919204
 			}
@@ -63537,7 +64857,7 @@
 				"overlaySize": 7536,
 				"instanceSize": 1564,
 				"allocType": 0,
-				"name": "En_Zow / Great Bay - Zora Complaining About Water",
+				"name": "En_Zow",
 				"objectId": 208,
 				"drawPtr": 2159926020
 			}
@@ -63549,7 +64869,7 @@
 				"overlaySize": 448,
 				"instanceSize": 328,
 				"allocType": 0,
-				"name": "En_Talk / Green Target Spot (Indigo-Go's Poster)",
+				"name": "En_Talk",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -63561,7 +64881,7 @@
 				"overlaySize": 9024,
 				"instanceSize": 1280,
 				"allocType": 0,
-				"name": "En_Al / Madame Aroma",
+				"name": "En_Al",
 				"objectId": 13,
 				"drawPtr": 2159934256
 			}
@@ -63573,7 +64893,7 @@
 				"overlaySize": 6048,
 				"instanceSize": 828,
 				"allocType": 0,
-				"name": "En_Tab / Mr. Barten",
+				"name": "En_Tab",
 				"objectId": 19,
 				"drawPtr": 2159941648
 			}
@@ -63585,7 +64905,7 @@
 				"overlaySize": 944,
 				"instanceSize": 476,
 				"allocType": 0,
-				"name": "En_Nimotsu / Bomb Shop Bag Stolen by Sakon",
+				"name": "En_Nimotsu",
 				"objectId": 227,
 				"drawPtr": 2159943324
 			}
@@ -63597,7 +64917,7 @@
 				"overlaySize": 560,
 				"instanceSize": 404,
 				"allocType": 0,
-				"name": "En_Hit_Tag / ?",
+				"name": "En_Hit_Tag",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -63609,7 +64929,7 @@
 				"overlaySize": 6432,
 				"instanceSize": 772,
 				"allocType": 0,
-				"name": "En_Ruppecrow / Guay Circling Clock Town",
+				"name": "En_Ruppecrow",
 				"objectId": 6,
 				"drawPtr": 2159950140
 			}
@@ -63621,7 +64941,7 @@
 				"overlaySize": 3504,
 				"instanceSize": 560,
 				"allocType": 0,
-				"name": "En_Tanron4 / Flock of Seagulls",
+				"name": "En_Tanron4",
 				"objectId": 575,
 				"drawPtr": 2159953924
 			}
@@ -63633,7 +64953,7 @@
 				"overlaySize": 5904,
 				"instanceSize": 420,
 				"allocType": 0,
-				"name": "En_Tanron5 / ?",
+				"name": "En_Tanron5",
 				"objectId": 347,
 				"drawPtr": 2159958872
 			}
@@ -63645,7 +64965,7 @@
 				"overlaySize": 400,
 				"instanceSize": 516,
 				"allocType": 0,
-				"name": "En_Tanron6 / Flock of Giant Bees",
+				"name": "En_Tanron6",
 				"objectId": 576,
 				"drawPtr": 2159960384
 			}
@@ -63657,7 +64977,7 @@
 				"overlaySize": 6448,
 				"instanceSize": 3528,
 				"allocType": 0,
-				"name": "En_Daiku2 / Milk Road - Carpenter Hacking at Boulder",
+				"name": "En_Daiku2",
 				"objectId": 241,
 				"drawPtr": 2159965300
 			}
@@ -63669,7 +64989,7 @@
 				"overlaySize": 2544,
 				"instanceSize": 736,
 				"allocType": 0,
-				"name": "En_Muto / Mutoh",
+				"name": "En_Muto",
 				"objectId": 240,
 				"drawPtr": 2159969168
 			}
@@ -63681,7 +65001,7 @@
 				"overlaySize": 2608,
 				"instanceSize": 764,
 				"allocType": 0,
-				"name": "En_Baisen / Vissen",
+				"name": "En_Baisen",
 				"objectId": 583,
 				"drawPtr": 2159971732
 			}
@@ -63693,7 +65013,7 @@
 				"overlaySize": 1520,
 				"instanceSize": 720,
 				"allocType": 0,
-				"name": "En_Heishi / ?",
+				"name": "En_Heishi",
 				"objectId": 438,
 				"drawPtr": 2159973336
 			}
@@ -63705,7 +65025,7 @@
 				"overlaySize": 1552,
 				"instanceSize": 704,
 				"allocType": 0,
-				"name": "En_Demo_heishi / Title Sequence - Soldier",
+				"name": "En_Demo_heishi",
 				"objectId": 438,
 				"drawPtr": 2159974860
 			}
@@ -63717,7 +65037,7 @@
 				"overlaySize": 6656,
 				"instanceSize": 736,
 				"allocType": 0,
-				"name": "En_Dt / Mayor Dotour",
+				"name": "En_Dt",
 				"objectId": 577,
 				"drawPtr": 2159980712
 			}
@@ -63729,7 +65049,7 @@
 				"overlaySize": 1056,
 				"instanceSize": 404,
 				"allocType": 0,
-				"name": "En_Cha / Laundry Pool - Sign With Bell",
+				"name": "En_Cha",
 				"objectId": 579,
 				"drawPtr": 2159982580
 			}
@@ -63741,7 +65061,7 @@
 				"overlaySize": 384,
 				"instanceSize": 328,
 				"allocType": 0,
-				"name": "Obj_Dinner / Cremia & Romani's 6pm Dinner",
+				"name": "Obj_Dinner",
 				"objectId": 580,
 				"drawPtr": 2159983068
 			}
@@ -63753,7 +65073,7 @@
 				"overlaySize": 1920,
 				"instanceSize": 344,
 				"allocType": 0,
-				"name": "Eff_Lastday / Moon Crashing Into Clocktown Effects",
+				"name": "Eff_Lastday",
 				"objectId": 582,
 				"drawPtr": 2159984860
 			}
@@ -63765,7 +65085,7 @@
 				"overlaySize": 2464,
 				"instanceSize": 432,
 				"allocType": 0,
-				"name": "Bg_Ikana_Dharma / Ikana Castle - Punchable Pillar Segments",
+				"name": "Bg_Ikana_Dharma",
 				"objectId": 515,
 				"drawPtr": 2159987328
 			}
@@ -63777,7 +65097,7 @@
 				"overlaySize": 16816,
 				"instanceSize": 876,
 				"allocType": 0,
-				"name": "En_Akindonuts / Woodfall - Business Scrub",
+				"name": "En_Akindonuts",
 				"objectId": 485,
 				"drawPtr": 2160001624
 			}
@@ -63789,7 +65109,7 @@
 				"overlaySize": 960,
 				"instanceSize": 336,
 				"allocType": 0,
-				"name": "Eff_Stk / Skullkid Screams to Call Moon Down - Effects",
+				"name": "Eff_Stk",
 				"objectId": 446,
 				"drawPtr": 2160004880
 			}
@@ -63801,7 +65121,7 @@
 				"overlaySize": 10192,
 				"instanceSize": 1036,
 				"allocType": 0,
-				"name": "En_Ig / Link the Goron",
+				"name": "En_Ig",
 				"objectId": 469,
 				"drawPtr": 2160013612
 			}
@@ -63813,7 +65133,7 @@
 				"overlaySize": 8960,
 				"instanceSize": 2764,
 				"allocType": 0,
-				"name": "En_Rg / Medigoron",
+				"name": "En_Rg",
 				"objectId": 161,
 				"drawPtr": 2160023152
 			}
@@ -63825,7 +65145,7 @@
 				"overlaySize": 6336,
 				"instanceSize": 612,
 				"allocType": 0,
-				"name": "En_Osk / Captain Keeta",
+				"name": "En_Osk",
 				"objectId": 585,
 				"drawPtr": 2160028820
 			}
@@ -63837,7 +65157,7 @@
 				"overlaySize": 11296,
 				"instanceSize": 592,
 				"allocType": 0,
-				"name": "En_Sth2 / ?",
+				"name": "En_Sth2",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -63849,7 +65169,7 @@
 				"overlaySize": 4992,
 				"instanceSize": 1060,
 				"allocType": 0,
-				"name": "En_Yb / Kamaro",
+				"name": "En_Yb",
 				"objectId": 586,
 				"drawPtr": 2160046412
 			}
@@ -63861,7 +65181,7 @@
 				"overlaySize": 6944,
 				"instanceSize": 1076,
 				"allocType": 0,
-				"name": "En_Rz / Rosa Sister",
+				"name": "En_Rz",
 				"objectId": 587,
 				"drawPtr": 2160053052
 			}
@@ -63873,7 +65193,7 @@
 				"overlaySize": 832,
 				"instanceSize": 332,
 				"allocType": 0,
-				"name": "En_Scopecoin / ?",
+				"name": "En_Scopecoin",
 				"objectId": 1,
 				"drawPtr": 2160054652
 			}
@@ -63885,7 +65205,7 @@
 				"overlaySize": 3728,
 				"instanceSize": 604,
 				"allocType": 0,
-				"name": "En_Bjt / Hand in Toilet",
+				"name": "En_Bjt",
 				"objectId": 591,
 				"drawPtr": 2160057912
 			}
@@ -63897,7 +65217,7 @@
 				"overlaySize": 11568,
 				"instanceSize": 836,
 				"allocType": 0,
-				"name": "En_Bomjima / Bombers - Jim",
+				"name": "En_Bomjima",
 				"objectId": 272,
 				"drawPtr": 2160068788
 			}
@@ -63909,7 +65229,7 @@
 				"overlaySize": 9872,
 				"instanceSize": 820,
 				"allocType": 0,
-				"name": "En_Bomjimb / Bombers - Jim",
+				"name": "En_Bomjimb",
 				"objectId": 272,
 				"drawPtr": 2160078900
 			}
@@ -63921,7 +65241,7 @@
 				"overlaySize": 5120,
 				"instanceSize": 788,
 				"allocType": 0,
-				"name": "En_Bombers / Bombers - Blue-Hatted Bomber",
+				"name": "En_Bombers",
 				"objectId": 272,
 				"drawPtr": 2160084500
 			}
@@ -63933,7 +65253,7 @@
 				"overlaySize": 4416,
 				"instanceSize": 796,
 				"allocType": 0,
-				"name": "En_Bombers2 / Bombers - Hideout Guard",
+				"name": "En_Bombers2",
 				"objectId": 272,
 				"drawPtr": 2160088920
 			}
@@ -63945,7 +65265,7 @@
 				"overlaySize": 2720,
 				"instanceSize": 10820,
 				"allocType": 0,
-				"name": "En_Bombal / Bombers - Majora Balloon",
+				"name": "En_Bombal",
 				"objectId": 640,
 				"drawPtr": 2160090928
 			}
@@ -63957,7 +65277,7 @@
 				"overlaySize": 1424,
 				"instanceSize": 408,
 				"allocType": 0,
-				"name": "Obj_Moon_Stone / Moon's Tear",
+				"name": "Obj_Moon_Stone",
 				"objectId": 433,
 				"drawPtr": 2160093456
 			}
@@ -63969,7 +65289,7 @@
 				"overlaySize": 1648,
 				"instanceSize": 336,
 				"allocType": 0,
-				"name": "Obj_Mu_Pict / ?",
+				"name": "Obj_Mu_Pict",
 				"objectId": 1,
 				"drawPtr": 2160095184
 			}
@@ -63981,7 +65301,7 @@
 				"overlaySize": 1584,
 				"instanceSize": 432,
 				"allocType": 0,
-				"name": "Bg_Ikninside / Various Ikana Objects",
+				"name": "Bg_Ikninside",
 				"objectId": 566,
 				"drawPtr": 2160096744
 			}
@@ -63993,7 +65313,7 @@
 				"overlaySize": 992,
 				"instanceSize": 332,
 				"allocType": 0,
-				"name": "Eff_Zoraband / Blue Spotlight Effect",
+				"name": "Eff_Zoraband",
 				"objectId": 597,
 				"drawPtr": 2160097468
 			}
@@ -64005,7 +65325,7 @@
 				"overlaySize": 352,
 				"instanceSize": 352,
 				"allocType": 0,
-				"name": "Obj_Kepn_Koya / Gorman Bros. Buildings",
+				"name": "Obj_Kepn_Koya",
 				"objectId": 598,
 				"drawPtr": 2160098276
 			}
@@ -64017,7 +65337,7 @@
 				"overlaySize": 2784,
 				"instanceSize": 1864,
 				"allocType": 0,
-				"name": "Obj_Usiyane / Roof of Cow Barn",
+				"name": "Obj_Usiyane",
 				"objectId": 599,
 				"drawPtr": 2160100480
 			}
@@ -64029,7 +65349,7 @@
 				"overlaySize": 800,
 				"instanceSize": 404,
 				"allocType": 0,
-				"name": "En_Nnh / Twisted Corpse of Deku Butler's Son",
+				"name": "En_Nnh",
 				"objectId": 603,
 				"drawPtr": 2160101712
 			}
@@ -64041,7 +65361,7 @@
 				"overlaySize": 960,
 				"instanceSize": 364,
 				"allocType": 0,
-				"name": "Obj_Kzsaku / Huge Metal Portcullis",
+				"name": "Obj_Kzsaku",
 				"objectId": 608,
 				"drawPtr": 2160102724
 			}
@@ -64053,7 +65373,7 @@
 				"overlaySize": 656,
 				"instanceSize": 412,
 				"allocType": 0,
-				"name": "Obj_Milk_Bin / Cart Delivery Bottle of Chateau Romani",
+				"name": "Obj_Milk_Bin",
 				"objectId": 609,
 				"drawPtr": 2160103404
 			}
@@ -64065,7 +65385,7 @@
 				"overlaySize": 3584,
 				"instanceSize": 732,
 				"allocType": 0,
-				"name": "En_Kitan / Keaton",
+				"name": "En_Kitan",
 				"objectId": 612,
 				"drawPtr": 0
 			}
@@ -64077,7 +65397,7 @@
 				"overlaySize": 2160,
 				"instanceSize": 572,
 				"allocType": 0,
-				"name": "Bg_Astr_Bombwall / Astral Observatory - Bombable Wall",
+				"name": "Bg_Astr_Bombwall",
 				"objectId": 615,
 				"drawPtr": 2160108784
 			}
@@ -64089,7 +65409,7 @@
 				"overlaySize": 2896,
 				"instanceSize": 364,
 				"allocType": 0,
-				"name": "Bg_Iknin_Susceil / Stone Tower Temple - Hot Checkered Ceiling",
+				"name": "Bg_Iknin_Susceil",
 				"objectId": 566,
 				"drawPtr": 2160111744
 			}
@@ -64101,7 +65421,7 @@
 				"overlaySize": 19776,
 				"instanceSize": 4440,
 				"allocType": 0,
-				"name": "En_Bsb / Captain Keeta",
+				"name": "En_Bsb",
 				"objectId": 616,
 				"drawPtr": 2160128776
 			}
@@ -64113,7 +65433,7 @@
 				"overlaySize": 1952,
 				"instanceSize": 692,
 				"allocType": 0,
-				"name": "En_Recepgirl / Receptionist",
+				"name": "En_Recepgirl",
 				"objectId": 297,
 				"drawPtr": 2160133612
 			}
@@ -64125,7 +65445,7 @@
 				"overlaySize": 12736,
 				"instanceSize": 2448,
 				"allocType": 0,
-				"name": "En_Thiefbird / Takkuri",
+				"name": "En_Thiefbird",
 				"objectId": 34,
 				"drawPtr": 2160145616
 			}
@@ -64137,7 +65457,7 @@
 				"overlaySize": 6592,
 				"instanceSize": 772,
 				"allocType": 0,
-				"name": "En_Jgame_Tsn / Fisherman's Jumping Game - Fisherman",
+				"name": "En_Jgame_Tsn",
 				"objectId": 425,
 				"drawPtr": 2160152348
 			}
@@ -64149,7 +65469,7 @@
 				"overlaySize": 3824,
 				"instanceSize": 444,
 				"allocType": 0,
-				"name": "Obj_Jgame_Light / Fisherman's Jumping Game - Torch",
+				"name": "Obj_Jgame_Light",
 				"objectId": 128,
 				"drawPtr": 2160154664
 			}
@@ -64161,7 +65481,7 @@
 				"overlaySize": 672,
 				"instanceSize": 328,
 				"allocType": 0,
-				"name": "Obj_Yado / Stockpot Inn - 2nd Floor Window",
+				"name": "Obj_Yado",
 				"objectId": 622,
 				"drawPtr": 2160157276
 			}
@@ -64173,7 +65493,7 @@
 				"overlaySize": 5520,
 				"instanceSize": 1016,
 				"allocType": 0,
-				"name": "Demo_Syoten / Unknown",
+				"name": "Demo_Syoten",
 				"objectId": 623,
 				"drawPtr": 2160162088
 			}
@@ -64185,7 +65505,7 @@
 				"overlaySize": 1808,
 				"instanceSize": 740,
 				"allocType": 0,
-				"name": "Demo_Moonend / Ending Cutscene - Moon Gets Tossed Back Into Sky",
+				"name": "Demo_Moonend",
 				"objectId": 624,
 				"drawPtr": 2160164636
 			}
@@ -64197,7 +65517,7 @@
 				"overlaySize": 288,
 				"instanceSize": 352,
 				"allocType": 0,
-				"name": "Bg_Lbfshot / Colourful Hookshot Target Pillar",
+				"name": "Bg_Lbfshot",
 				"objectId": 639,
 				"drawPtr": 2160165296
 			}
@@ -64209,7 +65529,7 @@
 				"overlaySize": 2384,
 				"instanceSize": 572,
 				"allocType": 0,
-				"name": "Bg_Last_Bwall / Link Moon Dungeon - Bombable, Climbable Wall",
+				"name": "Bg_Last_Bwall",
 				"objectId": 564,
 				"drawPtr": 2160167260
 			}
@@ -64221,7 +65541,7 @@
 				"overlaySize": 1808,
 				"instanceSize": 788,
 				"allocType": 0,
-				"name": "En_And / Anju in Wedding Dress",
+				"name": "En_And",
 				"objectId": 21,
 				"drawPtr": 2160169092
 			}
@@ -64233,7 +65553,7 @@
 				"overlaySize": 6944,
 				"instanceSize": 712,
 				"allocType": 0,
-				"name": "En_Invadepoh_Demo / ?",
+				"name": "En_Invadepoh_Demo",
 				"objectId": 1,
 				"drawPtr": 2160175588
 			}
@@ -64245,7 +65565,7 @@
 				"overlaySize": 2176,
 				"instanceSize": 396,
 				"allocType": 0,
-				"name": "Obj_Danpeilift / Red & Brown Elevator",
+				"name": "Obj_Danpeilift",
 				"objectId": 627,
 				"drawPtr": 2160178404
 			}
@@ -64257,7 +65577,7 @@
 				"overlaySize": 1872,
 				"instanceSize": 748,
 				"allocType": 0,
-				"name": "En_Fall2 / Falling Moon",
+				"name": "En_Fall2",
 				"objectId": 617,
 				"drawPtr": 2160179948
 			}
@@ -64269,7 +65589,7 @@
 				"overlaySize": 1664,
 				"instanceSize": 1120,
 				"allocType": 0,
-				"name": "Dm_Al / Ending Cutscene - Madame Aroma at Wedding",
+				"name": "Dm_Al",
 				"objectId": 13,
 				"drawPtr": 2160181552
 			}
@@ -64281,7 +65601,7 @@
 				"overlaySize": 4096,
 				"instanceSize": 728,
 				"allocType": 0,
-				"name": "Dm_An / Blue Target Spot",
+				"name": "Dm_An",
 				"objectId": 226,
 				"drawPtr": 0
 			}
@@ -64293,7 +65613,7 @@
 				"overlaySize": 2752,
 				"instanceSize": 672,
 				"allocType": 0,
-				"name": "Dm_Ah / Ending Cutscene - Anju's Mother at Wedding",
+				"name": "Dm_Ah",
 				"objectId": 7,
 				"drawPtr": 2160188632
 			}
@@ -64305,7 +65625,7 @@
 				"overlaySize": 960,
 				"instanceSize": 508,
 				"allocType": 0,
-				"name": "Dm_Nb / Ending Cutscene - Anju's Grandmother at Wedding",
+				"name": "Dm_Nb",
 				"objectId": 4,
 				"drawPtr": 2160189820
 			}
@@ -64317,7 +65637,7 @@
 				"overlaySize": 1024,
 				"instanceSize": 524,
 				"allocType": 0,
-				"name": "En_Drs / Wedding Dress Mannequin",
+				"name": "En_Drs",
 				"objectId": 24,
 				"drawPtr": 0
 			}
@@ -64329,7 +65649,7 @@
 				"overlaySize": 848,
 				"instanceSize": 584,
 				"allocType": 0,
-				"name": "En_Ending_Hero / Ending Cutscene - Mayor Dotour at Wedding",
+				"name": "En_Ending_Hero",
 				"objectId": 577,
 				"drawPtr": 2160191564
 			}
@@ -64341,7 +65661,7 @@
 				"overlaySize": 2544,
 				"instanceSize": 828,
 				"allocType": 0,
-				"name": "Dm_Bal / Ending Cutscene - Tingle at Wedding",
+				"name": "Dm_Bal",
 				"objectId": 389,
 				"drawPtr": 2160193656
 			}
@@ -64353,7 +65673,7 @@
 				"overlaySize": 2336,
 				"instanceSize": 3464,
 				"allocType": 0,
-				"name": "En_Paper / Ending Cutscene - Confetti at Wedding",
+				"name": "En_Paper",
 				"objectId": 389,
 				"drawPtr": 2160196048
 			}
@@ -64365,7 +65685,7 @@
 				"overlaySize": 9824,
 				"instanceSize": 1004,
 				"allocType": 0,
-				"name": "En_Hint_Skb / Stalchild - Gives Hints",
+				"name": "En_Hint_Skb",
 				"objectId": 322,
 				"drawPtr": 2160204700
 			}
@@ -64377,7 +65697,7 @@
 				"overlaySize": 2544,
 				"instanceSize": 428,
 				"allocType": 0,
-				"name": "Dm_Tag / ?",
+				"name": "Dm_Tag",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -64389,7 +65709,7 @@
 				"overlaySize": 1264,
 				"instanceSize": 492,
 				"allocType": 0,
-				"name": "En_Bh / Moon - Brown Bird",
+				"name": "En_Bh",
 				"objectId": 634,
 				"drawPtr": 2160210260
 			}
@@ -64401,7 +65721,7 @@
 				"overlaySize": 560,
 				"instanceSize": 640,
 				"allocType": 0,
-				"name": "En_Ending_Hero2 / Ending Cutscene - Vissen at Wedding",
+				"name": "En_Ending_Hero2",
 				"objectId": 583,
 				"drawPtr": 2160210840
 			}
@@ -64413,7 +65733,7 @@
 				"overlaySize": 560,
 				"instanceSize": 604,
 				"allocType": 0,
-				"name": "En_Ending_Hero3 / Ending Cutscene - Mutoh at Wedding",
+				"name": "En_Ending_Hero3",
 				"objectId": 240,
 				"drawPtr": 2160211400
 			}
@@ -64425,7 +65745,7 @@
 				"overlaySize": 560,
 				"instanceSize": 604,
 				"allocType": 0,
-				"name": "En_Ending_Hero4 / Ending Cutscene - Soldier Cheering Guruguru",
+				"name": "En_Ending_Hero4",
 				"objectId": 438,
 				"drawPtr": 2160211960
 			}
@@ -64437,7 +65757,7 @@
 				"overlaySize": 976,
 				"instanceSize": 608,
 				"allocType": 0,
-				"name": "En_Ending_Hero5 / Ending Cutscene - Carpenter Watching Indigo-Go's",
+				"name": "En_Ending_Hero5",
 				"objectId": 241,
 				"drawPtr": 2160212604
 			}
@@ -64449,7 +65769,7 @@
 				"overlaySize": 1744,
 				"instanceSize": 660,
 				"allocType": 0,
-				"name": "En_Ending_Hero6 / ?",
+				"name": "En_Ending_Hero6",
 				"objectId": 1,
 				"drawPtr": 2160213868
 			}
@@ -64461,7 +65781,7 @@
 				"overlaySize": 4096,
 				"instanceSize": 728,
 				"allocType": 0,
-				"name": "Dm_Gm / Blue Target Spot",
+				"name": "Dm_Gm",
 				"objectId": 226,
 				"drawPtr": 0
 			}
@@ -64473,7 +65793,7 @@
 				"overlaySize": 1344,
 				"instanceSize": 332,
 				"allocType": 0,
-				"name": "Obj_Swprize / ?",
+				"name": "Obj_Swprize",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -64485,7 +65805,7 @@
 				"overlaySize": 800,
 				"instanceSize": 408,
 				"allocType": 0,
-				"name": "En_Invisible_Ruppe / ?",
+				"name": "En_Invisible_Ruppe",
 				"objectId": 1,
 				"drawPtr": 0
 			}
@@ -64497,7 +65817,7 @@
 				"overlaySize": 384,
 				"instanceSize": 332,
 				"allocType": 0,
-				"name": "Obj_Ending / Ending Cutscene - Stump With Skullkid's Doodle",
+				"name": "Obj_Ending",
 				"objectId": 641,
 				"drawPtr": 2160221252
 			}
@@ -64509,7 +65829,7 @@
 				"overlaySize": 864,
 				"instanceSize": 484,
 				"allocType": 0,
-				"name": "En_Rsn / Ending Cutscene - Bomb Shop Owner",
+				"name": "En_Rsn",
 				"objectId": 300,
 				"drawPtr": 2160222028
 			}
