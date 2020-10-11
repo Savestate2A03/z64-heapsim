@@ -161,6 +161,10 @@ class GameState:
 
         return instanceNode
 
+    def allocMultipleActors(self, actorId, count, rooms='ALL', actorParams=0x0000, position=(0,0,0)):
+        for i in range(count):
+            self.allocActor(actorId, rooms, actorParams, position)
+
     def alloc(self, allocSize, description):
         allocSize = allocSize + ((-allocSize)%0x10)
         for node in self.heap():
@@ -259,7 +263,7 @@ class GameState:
             for room in self.loadedRooms:
                 availableActions.append(['unloadRoomsExcept', room])
 
-        for actorId in (actors.En_M_Thunder,actors.En_Bom,actors.En_Bom_Chu):
+        for actorId in (actors.En_M_Thunder,actors.En_Bom,actors.En_Bom_Chu,actors.En_Insect,actors.En_Fish):
             if actorId not in self.actorStates:
                 self.actorStates[actorId] = {'numLoaded':0}
 
@@ -271,28 +275,31 @@ class GameState:
             if self.flags['bomb'] and self.actorStates[actors.En_Bom]['numLoaded'] + self.actorStates[actors.En_Bom_Chu]['numLoaded'] < 3:
                 availableActions.append(['allocActor', actors.En_Bom])
 
-            if self.flags['bottle']:
-                availableActions.append(['allocActor', actors.En_Insect])
+            if self.flags['bottle'] and self.actorStates[actors.En_Insect]['numLoaded'] < 1: # dropping more than 1 bugs is a mess
+                availableActions.append(['allocMultipleActors', actors.En_Insect, 3])
+
+            if self.flags['bottle'] and self.actorStates[actors.En_Fish]['numLoaded'] < 1: # to a lesser extent, true for fish also
                 availableActions.append(['allocActor', actors.En_Fish])
 
             availableActions.append(['allocActor', actors.En_M_Thunder])
 
-        for node in self.heap():
-            if not node.free and node.nodeType=='INSTANCE':
-                
-                if node.rooms != 'ALL' and len(node.rooms) > 1 and len(self.loadedRooms) == 1: # This is a transition actor
-                    for room in node.rooms:
-                        if room not in self.loadedRooms:
-                            availableActions.append(['loadRoom', room])
+        if len(self.loadedRooms) == 1: # assume without loss of generality that we only despawn actors when not in loading transitions
+              
+            for node in self.heap():
+                if not node.free and node.nodeType=='INSTANCE':
+                    
+                    if node.rooms != 'ALL' and len(node.rooms) > 1 and len(self.loadedRooms) == 1: # This is a transition actor
+                        for room in node.rooms:
+                            if room not in self.loadedRooms:
+                                availableActions.append(['loadRoom', room])
 
-                if node.actorId in [actors.En_Bom, actors.En_Bom_Chu, actors.En_Insect, actors.En_Fish, actors.En_M_Thunder]:
-                    availableActions.append(['dealloc', node.addr])
+                    if node.actorId in [actors.En_Bom, actors.En_Bom_Chu, actors.En_Insect, actors.En_Fish, actors.En_M_Thunder]:
+                        availableActions.append(['dealloc', node.addr])
 
-                if len(self.loadedRooms) == 1 and node.actorId in [actors.En_Wonder_Item] and self.actorStates[actors.En_M_Thunder]['numLoaded'] < 1:
-                    availableActions.append(['dealloc', node.addr])
-
-                if len(self.loadedRooms) == 1 and node.actorId in [actors.En_Kusa] and not carryingActor:
-                    availableActions.append(['dealloc', node.addr])
+                    if not carryingActor and self.actorStates[actors.En_M_Thunder]['numLoaded'] < 1: # less safe assumption, but go with it for now...
+              
+                        if node.actorId in [actors.En_Wonder_Item, actors.En_Kusa, actors.Obj_Bombiwa]:
+                            availableActions.append(['dealloc', node.addr])
             
 
         return availableActions
@@ -316,7 +323,7 @@ class GameState:
                 nonlocal maxActionCount
                 if len(actionList) > maxActionCount:
                     maxActionCount = len(actionList)
-                    print('%d\n'%maxActionCount,end='')
+                    print('--- %d ---\n'%maxActionCount,end='')
                     
                 stateCopy = copy.deepcopy(self)
                 for action in actionList:
@@ -328,9 +335,9 @@ class GameState:
                     seenStates.add(stateHash)
 
                     if successFunction(stateCopy):
-                        print('Solved!!!\nSolved!!!\nSolved!!!')
-                        print('Solved!!!\nSolved!!!\nSolved!!!')
-                        print('Solved!!!\nSolved!!!\nSolved!!!')
+                        print('Solved!!!\nSolved!!!\nSolved!!!\n',end='')
+                        print('Solved!!!\nSolved!!!\nSolved!!!\n',end='')
+                        print('Solved!!!\nSolved!!!\nSolved!!!\n',end='')
                         ret = (stateCopy, actionList)
                     else:
                         for action in stateCopy.getAvailableActions(carryingActor):
