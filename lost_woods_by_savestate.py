@@ -9,7 +9,7 @@ def checkFishAddress(gameState):
     return gameState.actors[En_Fish]['loadedOverlay'] == 0x801F8F30
  
  
-gameState = GameState('OoT', 'OoT-N-1.2', {'lullaby':True, 'saria':True, 'bombchu':True, 'bomb':True, 'bottle':True, 'clearedRooms':[], 'beanPlanted':False})
+gameState = GameState('OoT', 'OoT-N-1.2', {'lullaby':True, 'saria':True, 'bombchu':True, 'bomb':True, 'bottle':True, 'clearedRooms':[], 'switchFlags': [0x11], 'beanPlanted':False})
 gameState.loadScene(sceneId=0x5B, setupId=0, roomId=1)
  
 #print(gameState.search(5, checkFishAddress))

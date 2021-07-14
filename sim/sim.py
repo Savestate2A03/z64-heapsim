@@ -139,6 +139,9 @@ class GameState:
     def changeRoom(self, roomId, forceToStayLoaded=()):
         self.loadRoom(roomId, unloadOthersImmediately=True, forceToStayLoaded=forceToStayLoaded)
 
+    def allocActorWithRoom(self, actorId, room, actorParams=0x0000, position=(0,0,0)):
+        return self.allocActor(actorId, [room], actorParams, position)
+
     def allocActor(self, actorId, rooms='ALL', actorParams=0x0000, position=(0,0,0)):
 
         if actorId not in self.actorStates:
@@ -161,9 +164,17 @@ class GameState:
 
         return instanceNode
 
+    def allocPairedActors(self, actorIds, rooms='ALL', actorParams=0x0000, position=(0,0,0)):
+        for actorId in actorIds:
+            self.allocActor(actorId, rooms, actorParams, position)
+
     def allocMultipleActors(self, actorId, count, rooms='ALL', actorParams=0x0000, position=(0,0,0)):
         for i in range(count):
             self.allocActor(actorId, rooms, actorParams, position)
+
+    def allocMultipleActorsWithRoom(self, actorId, count, room, actorParams=0x0000, position=(0,0,0)):
+        for i in range(count):
+            self.allocActorWithRoom(actorId, room, actorParams, position)
 
     def alloc(self, allocSize, description):
         allocSize = allocSize + ((-allocSize)%0x10)
@@ -206,6 +217,10 @@ class GameState:
                 self.ram[node.nextNodeAddr].prevNodeAddr = node.prevNodeAddr
                 
         node.reset()
+
+    def deallocPairedActors(self, nodeAddrs):
+        for nodeAddr in nodeAddrs:
+            self.dealloc(nodeAddr)
 
     def initFunction(self, node): ### Incomplete -- need to add all behaviour here that matters for heap manip.
 
@@ -255,7 +270,7 @@ class GameState:
         if node.actorId in [actors.En_Ko, actors.En_Md, actors.En_Sa]:
             self.allocActor(actors.En_Elf, rooms=node.rooms)
 
-    def getAvailableActions(self, carryingActor): ### Also incomplete.
+    def getAvailableActions(self, carryingActor, blockedRooms, blockedActors, forceMagic): ### Also incomplete.
 
         availableActions = []
 
@@ -269,19 +284,24 @@ class GameState:
 
         if not carryingActor and self.actorStates[actors.En_M_Thunder]['numLoaded'] < 1:
         
-            if self.flags['bombchu'] and self.actorStates[actors.En_Bom]['numLoaded'] + self.actorStates[actors.En_Bom_Chu]['numLoaded'] < 3:
+            if actors.En_Bom_Chu not in blockedActors and self.flags['bombchu'] and self.actorStates[actors.En_Bom]['numLoaded'] + self.actorStates[actors.En_Bom_Chu]['numLoaded'] < 3:
                 availableActions.append(['allocActor', actors.En_Bom_Chu])
             
-            if self.flags['bomb'] and self.actorStates[actors.En_Bom]['numLoaded'] + self.actorStates[actors.En_Bom_Chu]['numLoaded'] < 3:
+            if actors.En_Bom not in blockedActors and self.flags['bomb'] and self.actorStates[actors.En_Bom]['numLoaded'] + self.actorStates[actors.En_Bom_Chu]['numLoaded'] < 3:
                 availableActions.append(['allocActor', actors.En_Bom])
 
-            if self.flags['bottle'] and self.actorStates[actors.En_Insect]['numLoaded'] < 1: # dropping more than 1 bugs is a mess
-                availableActions.append(['allocMultipleActors', actors.En_Insect, 3])
+            for room in self.loadedRooms:
+                if actors.En_Insect not in blockedActors and self.flags['bottle'] and self.actorStates[actors.En_Insect]['numLoaded'] < 1: # dropping more than 1 bugs is a mess
+                    availableActions.append(['allocMultipleActorsWithRoom', actors.En_Insect, 3, room])
 
-            if self.flags['bottle'] and self.actorStates[actors.En_Fish]['numLoaded'] < 1: # to a lesser extent, true for fish also
-                availableActions.append(['allocActor', actors.En_Fish])
+                if actors.En_Fish not in blockedActors and self.flags['bottle'] and self.actorStates[actors.En_Fish]['numLoaded'] < 1: # to a lesser extent, true for fish also
+                    availableActions.append(['allocActorWithRoom', actors.En_Fish, room])
 
-            availableActions.append(['allocActor', actors.En_M_Thunder])
+            if actors.En_M_Thunder not in blockedActors and not forceMagic:
+                availableActions.append(['allocActor', actors.En_M_Thunder])
+
+            if actors.En_M_Thunder not in blockedActors and actors.Eff_Dust not in blockedActors:
+                availableActions.append(['allocPairedActors', [actors.En_M_Thunder, actors.Eff_Dust]])
 
         if len(self.loadedRooms) == 1: # assume without loss of generality that we only despawn actors when not in loading transitions
               
@@ -290,11 +310,23 @@ class GameState:
                     
                     if node.rooms != 'ALL' and len(node.rooms) > 1 and len(self.loadedRooms) == 1: # This is a transition actor
                         for room in node.rooms:
-                            if room not in self.loadedRooms:
+                            if room not in self.loadedRooms and room not in blockedRooms:
                                 availableActions.append(['loadRoom', room])
 
-                    if node.actorId in [actors.En_Bom, actors.En_Bom_Chu, actors.En_Insect, actors.En_Fish, actors.En_M_Thunder]:
+                    if node.actorId in [actors.En_Bom, actors.En_Bom_Chu, actors.En_Insect, actors.En_Fish]:
                         availableActions.append(['dealloc', node.addr])
+
+                    if node.actorId in [actors.En_M_Thunder] and self.actorStates[actors.Eff_Dust]['numLoaded'] < 1:
+                        availableActions.append(['dealloc', node.addr])
+
+                    if node.actorId in [actors.En_M_Thunder] and self.actorStates[actors.Eff_Dust]['numLoaded'] >= 1:
+                        # find dust
+                        dust = None
+                        for _node in self.heap():
+                            if _node.actorId == actors.Eff_Dust:
+                                dust = _node.addr
+                                break
+                        availableActions.append(['deallocPairedActors', [node.addr, dust]])
 
                     if not carryingActor and self.actorStates[actors.En_M_Thunder]['numLoaded'] < 1: # less safe assumption, but go with it for now...
               
@@ -304,18 +336,18 @@ class GameState:
 
         return availableActions
 
-    def search(self, successFunction, carryingActor=False):
+    def search(self, successFunction, carryingActor=False, blockedRooms=[], blockedActors=[], forceMagic=False):
 
         num_worker_threads = multiprocessing.cpu_count()
-        num_worker_threads = 12
+        num_worker_threads = 4
 
         seenStates = set()
         maxActionCount = -1
-        ret = None
+        ret = []
 
         def worker():
             nonlocal ret
-            while ret is None:
+            while not ret:
                 actionList = actionsQueue.get()
                 if actionList is None:
                     return
@@ -335,12 +367,10 @@ class GameState:
                     seenStates.add(stateHash)
 
                     if successFunction(stateCopy):
-                        print('Solved!!!\nSolved!!!\nSolved!!!\n',end='')
-                        print('Solved!!!\nSolved!!!\nSolved!!!\n',end='')
-                        print('Solved!!!\nSolved!!!\nSolved!!!\n',end='')
-                        ret = (stateCopy, actionList)
+                        print('Solved!!!\n\n',end='')
+                        ret.append((stateCopy, actionList))
                     else:
-                        for action in stateCopy.getAvailableActions(carryingActor):
+                        for action in stateCopy.getAvailableActions(carryingActor, blockedRooms, blockedActors, forceMagic):
                             newActionList = actionList + (action,)
                             actionsQueue.put(TupleWrapper(newActionList))
 
