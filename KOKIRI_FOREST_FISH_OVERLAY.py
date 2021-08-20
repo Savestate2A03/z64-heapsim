@@ -172,10 +172,10 @@ state.loadScene(sceneId=0x5b, setupId=2, roomId=0)
 
 state.loadRoom(1)
 state.unloadRoomsExcept(1)
+[print(node) for node in state.heap()]
 state.loadRoom(2)
 state.unloadRoomsExcept(2)
 
-[print(node) for node in state.heap()]
 
 # (<sim.sim.GameState object at 0x04DB9D10>, 
 # (['allocActorWithRoom', 33, 2],

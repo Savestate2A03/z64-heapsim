@@ -102,7 +102,7 @@ class GameState:
             elif self.actorDefs[actorId]['objectId'] not in self.loadedObjects:
                 continue
             else:
-                loadedActor = self.allocActor(actor['actorId'], [roomId], actor['actorParams'], actor['position'])*
+                loadedActor = self.allocActor(actor['actorId'], [roomId], actor['actorParams'], actor['position'])
                 # en_elf seems to load immediately, unsure why. hacky fix
                 if loadedActor.actorId in [actors.En_Sa, actors.En_Md]:
                     self.initFunction(loadedActor)
