@@ -82,6 +82,9 @@ print(f'En_Kusa 0 (Back Left)  {hex(kusas[0].addr+kusas[0].headerSize)}, srm x r
  
 gameState.loadRoom(1)
 gameState.unloadRoomsExcept(1)
+
+needle1 = 
+
 gameState.loadRoom(2)
  
 kusas2 = [node for node in gameState.heap() if node.actorId == En_Kusa_ID]
