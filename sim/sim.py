@@ -137,6 +137,9 @@ class GameState:
         self.loadedRooms = set([roomId])
             
         for node in self.heap():
+            if node.actorId == actors.En_Bom or node.actorId == actors.En_M_Thunder or node.actorId == actors.Eff_Dust:
+                self.dealloc(node.addr)
+                
             if not node.free and node.rooms != 'ALL':
                 if node.addr in forceToStayLoaded:
                     node.rooms = 'FORCE_STAY_LOADED'
@@ -292,9 +295,10 @@ class GameState:
 
         # delete gorons from goron city except for rolling goron
         # NOTE: if you have fire medallion, this will be different. NOT IMPLEMENTED
-        if self.sceneId == 0x62 and self.setupId == 0x2:
-            if node.actorId in [actors.En_Go2] and node.actorParams != 0x1C01:
-                self.dealloc(node.addr)
+        
+        # if self.sceneId == 0x62 and self.setupId == 0x2:
+        #     if node.actorId in [actors.En_Go2] and node.actorParams != 0x1C01:
+        #         self.dealloc(node.addr)
 
         if node.actorId in [actors.Obj_Mure2]:
             spawnTypes = [
@@ -371,7 +375,10 @@ class GameState:
                                         if carryActorNode.actorId in [actors.En_Kusa] and not carryingActor and self.actorStates[actors.Arms_Hook]['numLoaded'] < 1:
                                             availableActions.append(['loadRoomWithActor', [room, carryActorNode.addr]])
                                 else:
-                                    availableActions.append(['loadRoomAndDropFish', room])
+                                    if not carryingActor and self.actorStates[actors.En_M_Thunder]['numLoaded'] < 1:
+                                        availableActions.append(['loadRoomAndDropFish', room])
+                                    if room in peekRooms:
+                                        availableActions.append(['loadRoom', room])
 
                     # dealloc on room load to prioritise going to diff rooms
 
@@ -408,7 +415,8 @@ class GameState:
                             availableActions.append(['dealloc', node.addr])
 
                         if node.actorId in [actors.En_Kusa, actors.Obj_Bombiwa] and self.actorStates[actors.Arms_Hook]['numLoaded'] < 1:
-                            availableActions.append(['dealloc', node.addr])
+                            if (0 not in self.loadedRooms) or self.sceneId != 0x62:
+                                availableActions.append(['dealloc', node.addr])
             
 
         return availableActions

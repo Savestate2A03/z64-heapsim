@@ -8,6 +8,7 @@ kusaAddresses = set()
 skullKidAddresses = set()
 potDrawAddrs = set()
 totalAttempts = 0
+
 def checkFishAddress(state):
     if actors.En_Fish not in state.actorStates or 'loadedOverlay' not in state.actorStates[actors.En_Fish]:
         state = copy.deepcopy(state)
@@ -18,7 +19,7 @@ def checkFishAddress(state):
     if addr not in fishAddresses:
         print('%08X (%d)\n'%(addr, totalAttempts), end='')
         fishAddresses.add(addr)
-    return addr == 0x801E8f30 or addr == 0x801f8f30 #1.2
+    return addr == 0x801fa2d0 or addr == 0x801f9470
     #return addr == 0x801F8880 #1.0
 
 def checkBushDrawpointer(state):
@@ -159,35 +160,22 @@ def checkPotDrawpointer(state):
 
 
 
-state = GameState('OoT', 'OoT-N-1.2', {'lullaby':True, 'saria':True, 'bombchu':False, 'bomb':True, 'bottle':True, 'hookshot':False, 'clearedRooms':[], 'beanPlanted':False, 'switchFlags':[0x7, 0x11], 'collectibleFlags':[]})
-state.loadScene(sceneId=0x5b, setupId=2, roomId=0)
+state = GameState('OoT', 'OoT-J-MQ', {'lullaby':True, 'saria':True, 'bombchu':False, 'bomb':True, 'bottle':True, 'hookshot': True, 'clearedRooms':[], 'beanPlanted':False, 'switchFlags':[0x0], 'collectibleFlags':[]}) # 'switchFlags':[0x1b, 0x8, 0xb, 0xc]
+state.loadScene(sceneId=0x62, setupId=2, roomId=3)
 
+# [print(node) for node in state.heap()]
 
 # ret = state.search(checkPotDrawpointer, indefinite=True, forceMagic=True, blockedRooms=[0x2], keepFishOverlay=True)
 # ret = state.search(checkFishAddress, indefinite=True, forceMagic=True, blockedRooms=[0x1], blockedActors=[], peekRooms=[0x1])
 
 #ret = state.search(checkBushDrawpointer, blockedRooms=[0x1], blockedActors=[actors.En_Insect])
+for node in state.heap():
+    print(node)
+#state.dealloc(0x801F78E0)
+#state.dealloc(0x801F7FE0)
+#state.dealloc(0x801F7E20)
 
-#ret = state.search(checkBushDrawpointer, blockedRooms=[0x1, 0x4], peekRooms=[0x1], blockedActors=[], forceMagic=True, indefinite=True)
-
-state.loadRoom(1)
-state.unloadRoomsExcept(1)
-[print(node) for node in state.heap()]
-state.loadRoom(2)
-state.unloadRoomsExcept(2)
-
-
-# (<sim.sim.GameState object at 0x04DB9D10>, 
-# (['allocActorWithRoom', 33, 2],
-# ['loadRoomWithActor', [3, 801EB330]], 
-# ['allocActor', 16], 
-# ['unloadRoomsExcept', 3], 
-# ['allocActorWithRoom', 33, 3],
-# ['loadRoom', 2], 
-# ['unloadRoomsExcept', 2], 
-# ['dealloc', 801ED630], 
-# ['dealloc', 801EC5A0]))
-
+ret = state.search(checkFishAddress, blockedRooms=[0x2, 0x1], peekRooms=[], blockedActors=[], forceMagic=True, indefinite=True)
 
 # print(ret)
 # print([hex(x) for x in sorted(fishAddresses)])
