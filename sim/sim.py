@@ -138,7 +138,7 @@ class GameState:
             
         for node in self.heap():
             if node.actorId == actors.En_Bom or node.actorId == actors.En_M_Thunder or node.actorId == actors.Eff_Dust:
-                self.dealloc(node.addr)
+                self.dealloc(node)
                 
             if not node.free and node.rooms != 'ALL':
                 if node.addr in forceToStayLoaded:
@@ -148,7 +148,7 @@ class GameState:
                     if actorRoomId in self.loadedRooms:
                         break
                 else:
-                    self.dealloc(node.addr)
+                    self.dealloc(node)
 
     def changeRoom(self, roomId, forceToStayLoaded=()):
         self.loadRoom(roomId, unloadOthersImmediately=True, forceToStayLoaded=forceToStayLoaded)
@@ -166,6 +166,7 @@ class GameState:
         if actorState['numLoaded'] == 0 and actorDef['overlaySize'] and actorDef['allocType']==0:
             overlayNode = self.alloc(actorDef['overlaySize'], 'Overlay %04X %s'%(actorId,actorDef['name']))
             actorState['loadedOverlay'] = overlayNode.addr
+            actorState['overlayNode'] = overlayNode
 
         instanceNode = self.alloc(actorDef['instanceSize'], 'Actor %04X %s (%04X)'%(actorId,actorDef['name'],actorParams))
         instanceNode.rooms = rooms
@@ -208,8 +209,8 @@ class GameState:
                 return node
         raise Exception('alloc should always succeed')
 
-    def dealloc(self, nodeAddr):
-        node = self.ram[nodeAddr]
+    def dealloc(self, node, overlay = False):
+        node = self.ram[node.addr]
         assert not node.free
 
         if node.nodeType == 'INSTANCE':
@@ -217,7 +218,7 @@ class GameState:
             actorState = self.actorStates[node.actorId]
             actorState['numLoaded'] -= 1
             if actorState['numLoaded'] == 0 and actorDef['overlaySize'] and actorDef['allocType']==0:
-                self.dealloc(actorState['loadedOverlay'])
+                self.dealloc(actorState['overlayNode'])
         
         if self.ram[node.nextNodeAddr].free:
             node.blockSize += self.headerSize + self.ram[node.nextNodeAddr].blockSize
@@ -235,54 +236,54 @@ class GameState:
     def deallocAll(self, actorId):
         for node in self.heap():
             if node.actorId == actorId:
-                self.dealloc(node.addr)
+                self.dealloc(node)
 
-    def deallocPairedActors(self, nodeAddrs):
-        for nodeAddr in nodeAddrs:
-            self.dealloc(nodeAddr)
+    def deallocPairedActors(self, nodes):
+        for node in nodes:
+            self.dealloc(node)
 
     def initFunction(self, node): ### Incomplete -- need to add all behaviour here that matters for heap manip.
 
         if node.actorId == actors.En_River_Sound and node.actorParams==0x000C and (not self.flags['lullaby'] or self.flags['saria']): # Proximity Saria's Song
-            self.dealloc(node.addr)
+            self.dealloc(node)
 
         elif node.actorId == actors.Object_Kankyo:
             node.rooms = 'ALL'
             if self.actorStates[node.actorId]['numLoaded'] > 1 and node.actorParams != 0x0004:
-                self.dealloc(node.addr)
+                self.dealloc(node)
 
         elif node.actorId == actors.Door_Warp1 and node.actorParams == 0x0006:
-            self.dealloc(node.addr)
+            self.dealloc(node)
 
         elif node.actorId == actors.Obj_Bean and self.setupId in [2,3] and not self.flags['beanPlanted']:
-            self.dealloc(node.addr)
+            self.dealloc(node)
 
         elif node.actorId == actors.Bg_Spot02_Objects and self.setupId in [2,3] and node.actorParams == 0x0001:
-            self.dealloc(node.addr)
+            self.dealloc(node)
 
         elif node.actorId == actors.En_Weather_Tag and node.actorParams == 0x1405:
-            self.dealloc(node.addr)
+            self.dealloc(node)
 
         elif node.actorId == actors.En_Wonder_Item:
             wonderItemType = node.actorParams >> 0xB
             switchFlag = node.actorParams & 0x003F
             if wonderItemType == 1 or wonderItemType == 6 or wonderItemType > 9:
-                self.dealloc(node.addr)
+                self.dealloc(node)
             elif switchFlag in self.flags['switchFlags']:
-                self.dealloc(node.addr)
+                self.dealloc(node)
 
         elif node.actorId == actors.En_Owl and self.sceneId == 0x5B and (not self.flags['lullaby']):
-            self.dealloc(node.addr)
+            self.dealloc(node)
 
         elif node.actorId in [actors.Obj_Bombiwa, actors.En_Wonder_Talk2]:
             switchFlag = node.actorParams & 0x003F
             if switchFlag in self.flags['switchFlags']:
-                self.dealloc(node.addr)
+                self.dealloc(node)
 
         elif node.actorId == actors.En_Item00:
             collectibleFlag = (node.actorParams & 0x3F00) // 0x100
             if collectibleFlag in self.flags['collectibleFlags']:
-                self.dealloc(node.addr)
+                self.dealloc(node)
 
         elif node.actorId in [actors.En_Sa, actors.En_Md]:
             self.allocActor(actors.En_Elf, rooms=node.rooms)
@@ -298,7 +299,7 @@ class GameState:
         
         # if self.sceneId == 0x62 and self.setupId == 0x2:
         #     if node.actorId in [actors.En_Go2] and node.actorParams != 0x1C01:
-        #         self.dealloc(node.addr)
+        #         self.dealloc(node)
 
         if node.actorId in [actors.Obj_Mure2]:
             spawnTypes = [
@@ -373,7 +374,7 @@ class GameState:
                                     availableActions.append(['loadRoom', room])
                                     for carryActorNode in self.heap():
                                         if carryActorNode.actorId in [actors.En_Kusa] and not carryingActor and self.actorStates[actors.Arms_Hook]['numLoaded'] < 1:
-                                            availableActions.append(['loadRoomWithActor', [room, carryActorNode.addr]])
+                                            availableActions.append(['loadRoomWithActor', [room, carryActorNode]])
                                 else:
                                     if not carryingActor and self.actorStates[actors.En_M_Thunder]['numLoaded'] < 1:
                                         availableActions.append(['loadRoomAndDropFish', room])
@@ -383,15 +384,15 @@ class GameState:
                     # dealloc on room load to prioritise going to diff rooms
 
                     if node.actorId in [actors.En_Bom, actors.En_Bom_Chu]: #, actors.En_Insect, actors.En_Fish]:
-                        availableActions.append(['dealloc', node.addr])
+                        availableActions.append(['dealloc', node])
 
                     if node.actorId in [actors.En_M_Thunder]:
                         # dealloc just thunder
                         if actors.Eff_Dust in self.actorStates:
                             if self.actorStates[actors.Eff_Dust]['numLoaded'] < 1:
-                                availableActions.append(['dealloc', node.addr])
+                                availableActions.append(['dealloc', node])
                         else:
-                            availableActions.append(['dealloc', node.addr])
+                            availableActions.append(['dealloc', node])
                         # dealloc dust as well
                         if actors.Eff_Dust in self.actorStates:
                             if self.actorStates[actors.Eff_Dust]['numLoaded'] >= 1:
@@ -399,9 +400,9 @@ class GameState:
                                 dust = None
                                 for _node in self.heap():
                                     if _node.actorId == actors.Eff_Dust:
-                                        dust = _node.addr
+                                        dust = _node
                                         break
-                                availableActions.append(['deallocPairedActors', [node.addr, dust]])
+                                availableActions.append(['deallocPairedActors', [node, dust]])
 
                     if not carryingActor and self.actorStates[actors.En_M_Thunder]['numLoaded'] < 1: # less safe assumption, but go with it for now...
 
@@ -412,11 +413,11 @@ class GameState:
                             availableActions.append(['deallocAll', node.actorId])
               
                         if node.actorId in [actors.En_Wonder_Item, actors.Obj_Tsubo, actors.Arms_Hook]:
-                            availableActions.append(['dealloc', node.addr])
+                            availableActions.append(['dealloc', node])
 
                         if node.actorId in [actors.En_Kusa, actors.Obj_Bombiwa] and self.actorStates[actors.Arms_Hook]['numLoaded'] < 1:
                             if (0 not in self.loadedRooms) or self.sceneId != 0x62:
-                                availableActions.append(['dealloc', node.addr])
+                                availableActions.append(['dealloc', node])
             
 
         return availableActions
@@ -453,7 +454,7 @@ class GameState:
 
                     if successFunction(stateCopy):
                         print('Solved!!!\n\n',end='')
-                        print((stateCopy, actionList))
+                        # print((stateCopy, actionList))
                         ret.append((stateCopy, actionList))
                     else:
                         for action in stateCopy.getAvailableActions(carryingActor, blockedRooms, peekRooms, blockedActors, forceMagic, keepFishOverlay):

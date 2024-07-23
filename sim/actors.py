@@ -956,6 +956,7 @@ class ActorList:
         return "INVALID ACTOR"
 
     def printSteps(self, steps):
+        print(f'note: Bombs and Spin Attack are automatically deallocated on unloadRoomsExcept')
         for step in steps:
             name = step[0]
             params = step[1]
@@ -966,8 +967,7 @@ class ActorList:
             elif name == 'unloadRoomsExcept':
                 print(f' :: Unload Rooms Except -> {params}')
             elif name == 'deallocPairedActors':
-                print(f' :: Deallocate Paired Actors -> {hex(params[0])}, {hex(params[1])}')
-                print(f'    ^^^ Likely magic spin!')
+                print(f' :: Deallocate Paired Actors -> {self.getActor(params[0].actorId)} @ {hex(params[0].addr)}, {self.getActor(params[1].actorId)} @ {hex(params[1].addr)}')
             elif name == 'allocActor':
                 print(f' :: Allocate Actor -> {self.getActor(params)}')
             elif name == 'allocMultipleActorsWithRoom':
@@ -975,14 +975,11 @@ class ActorList:
             elif name == 'allocActorWithRoom':
                 print(f' :: Allocate Actor w/ Room -> {self.getActor(step[1])}, Room {step[2]}')
             elif name == 'loadRoomWithActor':
-                print(f' :: Load Room w/ Actor -> Room {step[1]}, {hex(step[2])}')
-                print(f'    ^^^ Use GZ to check which actor to carry into the room!')
+                print(f' :: Load Room w/ Actor -> Room {params[0]}, {self.getActor(params[1].actorId)} @ {hex(params[1].addr)}')
             elif name == 'loadRoomAndDropFish':
                 print(f' :: Load Room and Drop Fish -> Room {params}')
             elif name == 'dealloc':
-                print(f' :: Dealloc Actor -> {hex(params)}')
-                print(f'    ^^^ Use GZ to check which actor to dealloc!')
-                print(f'    note: Bombs and Spin Attack are automatically deallocated after room transition')
+                print(f' :: Dealloc Actor -> {self.getActor(params.actorId)} @ {hex(params.addr)}')
             elif name == 'deallocAll':
                 print(f' :: Dealloc All Actors -> {self.getActor(params)}')
             else:

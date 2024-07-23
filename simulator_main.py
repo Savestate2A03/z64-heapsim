@@ -64,9 +64,11 @@ state.loadScene(sceneId=scenes["Lost Woods"], setupId=0x0, roomId=0x0)
 # addresses = [0x801f94b0, 0x801f9fa0, 0x801fa7f0]
 addresses = [0x801f9440] # Max Hearts, angle 0x9618
 check     = LostWoods(state, addresses)
-ret       = state.search(check.fish8011xxxxRotWrite, blockedRooms=[0x9], peekRooms=[0x9], blockedActors=[], forceMagic=False, indefinite=False)
+# ret       = state.search(check.fish8011xxxxRotWrite, blockedRooms=[0x9], peekRooms=[0x9], blockedActors=[], forceMagic=False, indefinite=False)
+ret       = state.search(check.bushDraw, blockedRooms=[0x9], peekRooms=[0x9], blockedActors=[], forceMagic=False, indefinite=False)
 
-print(state.heap())
+# for node in state.heap():
+#     print(node)
 
 actorList = ActorList()
 actorList.printSteps(ret[0][1])

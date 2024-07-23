@@ -43,7 +43,7 @@ class LostWoods:
         # In this case, we can't drop a fish while charging spin attack.
         for node in state.heap():
             if node.actorId in [actors.Eff_Dust, actors.En_M_Thunder]:
-                state.dealloc(node.addr)
+                state.dealloc(node)
 
         # If fish or its overlay is not currently in the heap, make a deep copy of the state and allocate it there.
         # (Deep copies of objects allow you to make a separate copy of it to modify without touching the original)
@@ -98,6 +98,7 @@ class LostWoods:
 
         # There are 4 implemented room transitions supported
         # --- Room 2 to 3
+        # --- Room 2 to 1
         # --- Room 7 to 4
         # --- Room 7 to 8
         # --- Room 8 to 7
@@ -110,6 +111,7 @@ class LostWoods:
 
         actionConfiguration = [
             {'s': 0x2, 'b1': 0x1, 'b2': 0x3, 'ss': 0x3, 'd': 0x2},
+            {'s': 0x2, 'b1': 0x1, 'b2': 0x3, 'ss': 0x1, 'd': 0x2},
             {'s': 0x7, 'b1': 0x4, 'b2': 0x8, 'ss': 0x4, 'd': 0x7},
             {'s': 0x7, 'b1': 0x4, 'b2': 0x8, 'ss': 0x8, 'd': 0x7},
             {'s': 0x8, 'b1': 0x7, 'b2': 0x7, 'ss': 0x7, 'd': 0x8},
@@ -121,7 +123,7 @@ class LostWoods:
             if not (a['s'] in state.loadedRooms and 
                     a['b1'] not in state.loadedRooms and
                     a['b2'] not in state.loadedRooms):
-                return False
+                continue
 
             # Assigning the actor ID to a variable helps a lot with readability.
             En_Kusa_ID = 0x0125
@@ -140,13 +142,13 @@ class LostWoods:
                 # this was modified to check 0, 1, and 2 kusas deallocated. Maybe in da future.
                 for remove_k in [remove_k for remove_k in state.heap() if remove_k.actorId == En_Kusa_ID]:
                     if remove_k.addr != k.addr:
-                        p_temp_state.dealloc(remove_k.addr)
+                        p_temp_state.dealloc(remove_k)
                 
                 # Deallocate all problem actors before simulating SRM.
                 for node in p_temp_state.heap():
                     if node.actorId in [actors.En_Bom, actors.Eff_Dust, actors.En_M_Thunder,
                                         actors.En_Insect, actors.Arms_Hook, actors.En_Bom_Chu]:
-                        p_temp_state.dealloc(node.addr)
+                        p_temp_state.dealloc(node)
 
                 # Create more deep copies, this time of our modified deep copy.
                 # We need to be able to check if the kusas' rotations in this loop
@@ -169,12 +171,13 @@ class LostWoods:
                 # screen but it's useful to see what kind of results you're getting sometimes.
                 kusa_draw_addr = temp_state.actorStates[actors.En_Kusa]['loadedOverlay']+temp_state.headerSize+0x11a0
                 if kusa_draw_addr not in self.kusaAddresses:
-                    print('%08X (%d)\n'%(kusa_draw_addr, self.totalAttempts), end='')
+                    print(f'drawptr: {hex(kusa_draw_addr)} ({self.totalAttempts}), superslide from {a["s"]} to {a["ss"]} then {a["d"]}')
+                    # print('%08X (%d)\n'%(kusa_draw_addr, self.totalAttempts), end='')
                     self.kusaAddresses.add(kusa_draw_addr)
 
                 # 0x801eXXXX allocated kusas will almost guaranteed get overwritten, not worth checking.
                 if kusa_draw_addr < 0x801f0000:
-                    return False
+                    continue
 
                 # kusas2 is the state from after the superslide, and kusas is from before.
                 kusas2 = [node for node in temp_state.heap() if node.actorId == En_Kusa_ID]
@@ -214,10 +217,10 @@ class LostWoods:
                 p_temp_state = copy.deepcopy(state)
                 for remove_k in [remove_k for remove_k in state.heap() if remove_k.actorId == En_Kusa_ID]:
                     if remove_k.addr != k.addr:
-                        p_temp_state.dealloc(remove_k.addr)
+                        p_temp_state.dealloc(remove_k)
                 for node in p_temp_state.heap():
                     if node.actorId in [actors.En_Bom, actors.Eff_Dust, actors.En_M_Thunder, actors.En_Insect]:
-                        p_temp_state.dealloc(node.addr)
+                        p_temp_state.dealloc(node)
                 # -------
                 temp_state = copy.deepcopy(p_temp_state)
                 kusas = [node for node in temp_state.heap() if node.actorId == En_Kusa_ID]
@@ -271,7 +274,7 @@ class LostWoods:
                     # The sim doesn't know that we can't realistically setup superslide with these loaded
                     if node.actorId in [actors.En_Bom, actors.Eff_Dust, actors.En_M_Thunder, actors.En_Insect, actors.Arms_Hook, actors.En_Bom_Chu]:
                         print(f"WE ARE KILLING ACTOR {node.actorId} AT ADDRESS {hex(node.addr)}")
-                        p_temp_state.dealloc(node.addr)
+                        p_temp_state.dealloc(node)
                 # -------
                 temp_state = copy.deepcopy(p_temp_state)
                 # These are the three kusas in Room 7 before we superslide that
@@ -327,10 +330,10 @@ class LostWoods:
                 p_temp_state = copy.deepcopy(state)
                 for remove_k in [remove_k for remove_k in state.heap() if remove_k.actorId == En_Kusa_ID]:
                     if remove_k.addr != k.addr:
-                        p_temp_state.dealloc(remove_k.addr)
+                        p_temp_state.dealloc(remove_k)
                 for node in p_temp_state.heap():
                     if node.actorId in [actors.En_Bom, actors.Eff_Dust, actors.En_M_Thunder, actors.En_Insect, actors.Arms_Hook, actors.En_Bom_Chu]:
-                        p_temp_state.dealloc(node.addr)
+                        p_temp_state.dealloc(node)
                 # -------
                 temp_state = copy.deepcopy(p_temp_state)
                 og_temp_state = copy.deepcopy(p_temp_state)            
@@ -401,7 +404,7 @@ class GoronCity:
                 p_temp_state = copy.deepcopy(state)
                 for node in p_temp_state.heap():
                     if node.actorId in [actors.En_Bom, actors.Eff_Dust, actors.En_M_Thunder, actors.En_Insect]:
-                        p_temp_state.dealloc(node.addr)
+                        p_temp_state.dealloc(node)
                 # -------
                 temp_state = copy.deepcopy(p_temp_state)
                 pots = [node for node in temp_state.heap() if node.actorId == Obj_Tsubo_Id and (node.actorParams == 0x7108 or node.actorParams == 0x7903)]
