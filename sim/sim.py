@@ -422,7 +422,7 @@ class GameState:
 
         return availableActions
 
-    def search(self, successFunction, keepFishOverlay=False, carryingActor=False, blockedRooms=[], peekRooms=[], blockedActors=[], forceMagic=False, indefinite=False):
+    def search(self, successFunction, actorList, keepFishOverlay=False, carryingActor=False, blockedRooms=[], peekRooms=[], blockedActors=[], forceMagic=False, indefinite=False):
 
         num_worker_threads = multiprocessing.cpu_count()
         num_worker_threads = 1
@@ -455,6 +455,7 @@ class GameState:
                     if successFunction(stateCopy):
                         print('Solved!!!\n\n',end='')
                         # print((stateCopy, actionList))
+                        actorList.printSteps(actionList)
                         ret.append((stateCopy, actionList))
                     else:
                         for action in stateCopy.getAvailableActions(carryingActor, blockedRooms, peekRooms, blockedActors, forceMagic, keepFishOverlay):
