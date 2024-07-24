@@ -13,6 +13,7 @@ There's a few key files in the simulator that you will want to be aware of---
 |`address_checks.py`| Contains success functions that the simulator checks against the current state of the heap
 |`sim/actors.py`|A list of actors and their ids, as well as `class ActorList` which can be used to return a string representing an actor given an actor id  |
 |`sim/sim.py`|Main simulator logic, also contains the list of possible actions and the logic behind them|
+
 All of these can be modified and tweaked according to your will if you so choose to do so.
 
 ## Usage
