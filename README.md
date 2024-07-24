@@ -46,7 +46,7 @@ The following options are available for OoT version
 `OoT-iQue`       | iQue
 
 **`startFlags`**
-A list of flags passed into the simulator as a `dict`. If you write your own code in `sim/sim.py`, you can control how these flags affect actors' init functions in `initFunction()` and available actions in `getAvailableActions()` as an example. `currentRoomClear` lets the simulator know to not load any enemies in the provided rooms. `switchFlags` and `collectibleFlags` are used to deallocate actors on room load that match the provided flag numbers. Some flags are required for the simulator to work however; the below python code is recommended as a starting point.
+A list of flags passed into the simulator as a `dict`. If you write your own code in `sim/sim.py`, you can control how these flags affect actors' init functions in `initFunction()` and available actions in `getAvailableActions()` as an example. `clearedRooms` lets the simulator know to not load any enemies in the provided rooms. `switchFlags` and `collectibleFlags` are used to deallocate actors on room load that match the provided flag numbers. Some flags are required for the simulator to work however; the below python code is recommended as a starting point.
 
 ```py
 state = GameState('OoT', 'OoT-J-GC-MQDisc',
