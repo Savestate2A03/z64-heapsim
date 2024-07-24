@@ -7,7 +7,7 @@ This simulator was created by [MrCheeze](https://github.com/MrCheeze/zelda64-hea
 
 ## Important Files
 
-There's a few key files in the simulator that you will want to be aware of---
+There's a few key files in the simulator that you will want to be aware of —
 | Filename       |Description                    |
 |----------------|-------------------------------|
 |`simulator_main.py`| Contains setup info for the simulator         |
