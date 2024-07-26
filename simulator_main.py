@@ -3,6 +3,7 @@ import copy
 import cProfile
 from address_checks import LostWoods
 from sim.actors import ActorList
+from gui import HeapSimGui
 
 scenes = {
     "Lost Woods": 0x5b,
